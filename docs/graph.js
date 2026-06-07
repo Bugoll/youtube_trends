@@ -26,7 +26,7 @@ window.GraphView = (function () {
   let nodes = [], edges = [], byId = {};
   let onSelectCb = () => {};
   let view = { scale: 0.12, x: 0, y: 0 };   // start zoomed out to see big-bang
-  let show = { semantic: true, tag: true, hub: true };
+  let show = { hub: true };
   let hover = null, focused = null, dragging = null, panning = null;
   let alpha = 1, raf = null, autoFitted = false;
 
@@ -189,8 +189,7 @@ window.GraphView = (function () {
   }
 
   function edgeVisible(e) {
-    if (e.type === "hub_theme" || e.type === "hub_author") return show.hub;
-    return e.type === "tag" ? show.tag : show.semantic;
+    return show.hub;
   }
 
   // -------------------------------------------------------------- rendering
@@ -504,16 +503,12 @@ window.GraphView = (function () {
   }
 
   function bindControls() {
-    const sem   = document.getElementById("toggle-semantic");
-    const tag   = document.getElementById("toggle-tag");
     const hub   = document.getElementById("toggle-hub");
     const reset = document.getElementById("graph-reset");
     const srch  = document.getElementById("graph-search");
-    if (sem)   sem.addEventListener("change",   () => { show.semantic = sem.checked;  alpha = 0.6; });
-    if (tag)   tag.addEventListener("change",   () => { show.tag = tag.checked;       alpha = 0.6; });
-    if (hub)   hub.addEventListener("change",   () => { show.hub = hub.checked;       alpha = 0.6; });
-    if (reset) reset.addEventListener("click",  () => { focused = null; onSelectCb(null); fitToScreen(true); alpha = 0.3; });
-    if (srch)  srch.addEventListener("input",   () => {
+    if (hub)   hub.addEventListener("change",  () => { show.hub = hub.checked; alpha = 0.6; });
+    if (reset) reset.addEventListener("click", () => { focused = null; onSelectCb(null); fitToScreen(true); alpha = 0.3; });
+    if (srch)  srch.addEventListener("input",  () => {
       const q = srch.value.trim().toLowerCase();
       if (!q) { focused = null; onSelectCb(null); return; }
       const n = nodes.find(x => x.label.toLowerCase().includes(q));

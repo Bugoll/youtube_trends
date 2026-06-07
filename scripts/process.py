@@ -27,7 +27,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from lib import embed, normalize  # noqa: E402
+from lib import normalize  # noqa: E402
 
 ENGAGEMENT_KEYS = ("likes", "comments", "shares")
 
@@ -328,23 +328,10 @@ def classify_macro_theme(entry: dict) -> str:
 # --------------------------------------------------------------------------- #
 def build_graph(history: dict[str, Any], dashboard: dict[str, Any]) -> dict[str, Any]:
     records = list(history.values())
-    edges, backend = embed.compute_edges(records)
-
-    tag_edges = _shared_tag_edges(records)
-    existing = {(e["source"], e["target"]) for e in edges}
-    for e in tag_edges:
-        if (e["source"], e["target"]) not in existing:
-            edges.append(e)
 
     # Classify every record into a macro-theme.
     for rec in records:
         rec["_macro_theme"] = classify_macro_theme(rec)
-
-    # Video-to-video degree (for sizing video nodes).
-    degree: dict[str, int] = {}
-    for e in edges:
-        degree[e["source"]] = degree.get(e["source"], 0) + 1
-        degree[e["target"]] = degree.get(e["target"], 0) + 1
 
     # --- Video nodes ---
     video_nodes = [{
@@ -357,7 +344,7 @@ def build_graph(history: dict[str, Any], dashboard: dict[str, Any]) -> dict[str,
         "url":         rec["url"],
         "views":       rec["snapshots"][-1].get("views", 0) if rec["snapshots"] else 0,
         "ideas":       rec.get("ideas", [])[:8],
-        "degree":      degree.get(rec["video_id"], 0),
+        "degree":      2,  # every video connects to 1 theme + 1 author hub
     } for rec in records]
 
     # --- Theme hub nodes ---
@@ -390,7 +377,7 @@ def build_graph(history: dict[str, Any], dashboard: dict[str, Any]) -> dict[str,
         "degree": c,
     } for a, c in sorted(author_counts.items(), key=lambda x: -x[1])]
 
-    # --- Hub edges: video → theme hub + video → author hub ---
+    # --- Edges: video → theme hub + video → author hub only ---
     hub_edges: list[dict] = []
     for rec in records:
         vid = rec["video_id"]
@@ -410,36 +397,16 @@ def build_graph(history: dict[str, Any], dashboard: dict[str, Any]) -> dict[str,
             })
 
     all_nodes = theme_nodes + author_nodes + video_nodes
-    all_edges = hub_edges + edges
 
     return {
         "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
-        "backend":      backend,
+        "backend":      "hub_only",
         "nodes":        all_nodes,
-        "edges":        all_edges,
+        "edges":        hub_edges,
         "macro_themes": [t["label"] for t in theme_nodes],
-        "stats":        {"nodes": len(all_nodes), "edges": len(all_edges)},
+        "stats":        {"nodes": len(all_nodes), "edges": len(hub_edges)},
     }
 
-
-def _shared_tag_edges(records: list[dict], min_shared: int = 2) -> list[dict]:
-    edges: list[dict] = []
-    seen: set[tuple[str, str]] = set()
-    norm = [(r["video_id"], {t.lower() for t in r.get("tags", [])}) for r in records]
-    for i in range(len(norm)):
-        for j in range(i + 1, len(norm)):
-            shared = norm[i][1] & norm[j][1]
-            if len(shared) >= min_shared:
-                key = tuple(sorted((norm[i][0], norm[j][0])))
-                if key in seen:
-                    continue
-                seen.add(key)
-                edges.append({
-                    "source": key[0], "target": key[1],
-                    "weight": round(min(1.0, len(shared) / 5), 3),
-                    "type": "tag", "shared": sorted(shared),
-                })
-    return edges
 
 
 def _bump_asset_version(docs: Path) -> None:
