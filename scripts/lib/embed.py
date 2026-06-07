@@ -1,3 +1,6 @@
+# NOTE: This module is no longer called by the main pipeline.
+# The graph was changed to hub-only connections (author↔video, theme↔video).
+# Kept for reference; safe to delete if semantic edges are never re-introduced.
 """Semantic similarity for the idea-connection (Obsidian-style) graph.
 
 We turn each video into a chunk of text (title + ideas + summary + tags) and

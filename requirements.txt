@@ -1,14 +1,3 @@
-# Параметры обработки. Пайплайн рассчитан на graceful-fallback: если тяжёлые
-# пакеты не установлены, используется встроенный TF-IDF на чистом Python.
-
-PyYAML>=6.0                 # парсинг YAML-frontmatter в .md-пакетах
-yt-dlp>=2024.1.0            # получение актуальных метрик и статуса видео с YouTube
-
-# Семантические эмбеддинги для карты связей идей (основной бэкенд).
-# Тянет torch — в CI это нормально, локально можно поставить опционально.
-sentence-transformers>=2.2.2
-
-# Запасной лексический бэкенд (быстрый, лёгкий) — используется, если
-# sentence-transformers недоступен.
-scikit-learn>=1.3
-numpy>=1.24
+PyYAML>=6.0              # YAML frontmatter in .md packages
+yt-dlp>=2024.1.0         # live YouTube metrics (no API key needed)
+anthropic>=0.50          # Claude API for LLM enrichment (optional — skipped if key not set)

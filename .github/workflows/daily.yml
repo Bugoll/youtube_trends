@@ -1,17 +1,13 @@
 name: Daily YouTube Trends
 
-# Ежедневно обходит папку youtube-daily в приватном репозитории MyCrabs,
-# копирует файлы daily_package в этот репозиторий, пересобирает датасеты
-# дашборда и графа связей, коммитит результат и публикует дашборд на Pages.
-
 on:
   schedule:
-    - cron: "30 5 * * *"      # каждый день в 05:30 UTC
-  workflow_dispatch: {}        # ручной запуск из вкладки Actions
+    - cron: "30 5 * * *"
+  workflow_dispatch: {}
 
 permissions:
-  contents: write              # коммит обновлённых данных в репозиторий
-  pages: write                 # публикация дашборда
+  contents: write
+  pages: write
   id-token: write
 
 concurrency:
@@ -34,36 +30,33 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch daily_package + final_intelligence_report files from source repo
+      - name: Fetch daily_package + final_intelligence_report from source repo
         env:
-          # Создайте секрет MYCRABS_TOKEN: Settings → Secrets and variables →
-          # Actions → New repository secret. Это PAT с правом чтения MyCrabs.
           MYCRABS_TOKEN: ${{ secrets.MYCRABS_TOKEN }}
           MYCRABS_REPO: ${{ vars.MYCRABS_REPO || 'bugoll/MyCrabs' }}
           SOURCE_DIR: ${{ vars.SOURCE_DIR || 'youtube-daily' }}
-          # Копирует все файлы по паттернам: daily_package + final_intelligence_report
-          # (default в fetch_packages.py). Переопределить через vars.PACKAGE_GLOB.
         run: python scripts/fetch_packages.py --dest data/raw
 
-      - name: Build dashboard + graph datasets (pass 1 — history)
-        env:
-          EMBED_BACKEND: ${{ vars.EMBED_BACKEND || 'auto' }}
+      - name: Build dashboard + graph (pass 1 — ingest new packages)
         run: python scripts/process.py --raw data/raw --out docs/data
 
+      - name: Enrich new video metadata via LLM (incremental)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/enrich.py \
+            --out docs/data \
+            --limit ${{ vars.ENRICH_LIMIT || 30 }} \
+            || echo "::warning::enrich.py finished with errors — continuing"
+
       - name: Refresh YouTube metrics via yt-dlp
-        # Fetches current views/likes/comments for every tracked video.
-        # Runs after pass-1 so new videos from today's package are already in history.json.
-        # --limit caps the batch size; remaining videos are picked up on subsequent days
-        # (refresh_metrics only re-checks videos whose metrics_checked_at < today).
         run: |
           python scripts/refresh_metrics.py \
             --out docs/data \
             --limit ${{ vars.REFRESH_LIMIT || 300 }} \
             || echo "::warning::refresh_metrics finished with errors — continuing"
 
-      - name: Rebuild dashboard + graph with fresh metrics (pass 2)
-        env:
-          EMBED_BACKEND: ${{ vars.EMBED_BACKEND || 'auto' }}
+      - name: Rebuild dashboard + graph (pass 2 — enriched + fresh metrics)
         run: python scripts/process.py --raw data/raw --out docs/data
 
       - name: Commit updated data
@@ -72,7 +65,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/raw docs/data
           if git diff --cached --quiet; then
-            echo "Нет изменений в данных."
+            echo "No data changes."
           else
             git commit -m "chore(data): daily refresh $(date -u +%Y-%m-%d)"
             git push

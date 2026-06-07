@@ -311,6 +311,10 @@ DEFAULT_MACRO_THEME = "Разное"
 
 
 def classify_macro_theme(entry: dict) -> str:
+    # Respect LLM-enriched classification stored in history by enrich.py
+    override = entry.get("_macro_theme", "")
+    if override and override in MACRO_THEMES:
+        return override
     text = " ".join([
         entry.get("title", ""),
         entry.get("topic", ""),
