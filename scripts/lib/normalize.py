@@ -42,14 +42,17 @@ _ALIASES: dict[str, tuple[str, ...]] = {
         "author", "channel", "channel_title", "channeltitle", "creator",
         "channel_name", "channelname", "uploader", "source",
     ),
-    "topic": ("topic", "theme", "category", "niche", "rubric", "section", "tema"),
+    "topic": (
+        "topic", "theme", "category", "niche", "rubric", "section", "tema",
+        "main_topic",
+    ),
     "published_at": (
         "published_at", "publishedat", "published", "upload_date",
         "uploaddate", "publish_date", "publishdate", "date_published",
     ),
     "summary": (
         "summary", "description", "summary_text", "abstract", "overview",
-        "desc", "annotation", "opisanie",
+        "desc", "annotation", "opisanie", "short_summary",
     ),
     "transcript": ("transcript", "captions", "subtitles", "full_text"),
 }
@@ -58,8 +61,11 @@ _TAG_ALIASES = ("tags", "keywords", "hashtags", "labels", "topics", "tegi")
 _IDEA_ALIASES = (
     "ideas", "key_ideas", "keyideas", "key_points", "keypoints", "takeaways",
     "insights", "highlights", "theses", "thesis", "points", "main_points",
-    "key_takeaways", "idei", "tezisy",
+    "key_takeaways", "idei", "tezisy", "novel_ideas", "speaker_claims",
 )
+_KEY_POINTS_ALIASES  = ("key_points", "keypoints", "main_points", "takeaways", "highlights")
+_NOVEL_IDEAS_ALIASES = ("novel_ideas", "ideas", "key_ideas", "insights")
+_SPEAKER_CLAIMS_ALIASES = ("speaker_claims", "claims", "theses", "thesis")
 
 # Metric aliases -> canonical metric name.
 _METRIC_ALIASES: dict[str, tuple[str, ...]] = {
@@ -116,12 +122,22 @@ def _as_int(value: Any) -> int | None:
         return None
 
 
+def _extract_text(v: Any) -> str:
+    """Extract plain text from a value that may be a dict with a text key."""
+    if isinstance(v, dict):
+        for key in ("claim", "text", "point", "idea", "content", "value"):
+            if key in v and isinstance(v[key], str):
+                return v[key].strip()
+        return " ".join(str(x) for x in v.values() if isinstance(x, str)).strip()
+    return str(v).strip().lstrip("#").strip()
+
+
 def _as_list(value: Any) -> list[str]:
     """Normalize tags/ideas which may be a list or a delimited string."""
     if value is None:
         return []
     if isinstance(value, (list, tuple)):
-        out = [str(v).strip().lstrip("#").strip() for v in value]
+        out = [_extract_text(v) for v in value]
         return [v for v in out if v]
     if isinstance(value, str):
         parts = re.split(r"[,;\n•|]+", value)
@@ -181,6 +197,9 @@ def _record_from_dict(raw: dict[str, Any], captured_at: str) -> dict[str, Any]:
         "tags": _as_list(_first(d, _TAG_ALIASES)),
         "ideas": _as_list(_first(d, _IDEA_ALIASES)),
         "summary": (str(_first(d, _ALIASES["summary"]) or "").strip()),
+        "key_points": _as_list(_first(d, _KEY_POINTS_ALIASES)),
+        "novel_ideas": _as_list(_first(d, _NOVEL_IDEAS_ALIASES)),
+        "speaker_claims": _as_list(_first(d, _SPEAKER_CLAIMS_ALIASES)),
         "published_at": _normalize_date(_first(d, _ALIASES["published_at"])),
         "captured_at": captured_at,
         "metrics": _extract_metrics(d),

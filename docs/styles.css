@@ -140,7 +140,13 @@ main { padding: 24px 32px 64px; }
   border: 1px solid var(--border);
   color: var(--text-dim);
 }
-.badge.theme { color: #fff; border: none; }
+.badge.theme            { color: #fff; border: none; }
+.badge.author           { color: var(--text); }
+.badge.date             { color: var(--text-dim); }
+.badge.status-deleted   { background: rgba(248,81,73,0.15);  border-color: var(--red);    color: var(--red); }
+.badge.status-available { background: rgba(63,185,80,0.12);  border-color: var(--green);  color: var(--green); }
+.badge.status-unsub     { background: rgba(139,152,165,0.15); border-color: var(--text-faint); color: var(--text-faint); }
+.badge.status-warn      { background: rgba(210,153,34,0.15); border-color: var(--amber);  color: var(--amber); }
 
 .metrics { display: flex; gap: 16px; margin-bottom: 12px; }
 .metric { display: flex; flex-direction: column; }
@@ -159,9 +165,23 @@ main { padding: 24px 32px 64px; }
 /* Tables */
 table { width: 100%; border-collapse: collapse; font-size: 13px; }
 th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--border); }
-th { color: var(--text-dim); font-weight: 600; font-size: 12px; text-transform: uppercase; cursor: pointer; }
+th { color: var(--text-dim); font-weight: 600; font-size: 12px; text-transform: uppercase; cursor: pointer; user-select: none; }
+th:hover { color: var(--text); }
+th[data-sort="asc"]::after  { content: " ▲"; color: var(--accent); }
+th[data-sort="desc"]::after { content: " ▼"; color: var(--accent); }
 tbody tr:hover { background: var(--bg-elev-2); }
 td .members { color: var(--text-faint); font-size: 11px; }
+.topic-cell   { max-width: 320px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; cursor: help; }
+#authors-detail-table td:nth-child(2) { max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.summary-cell { width: 45%; font-size: 13px; line-height: 1.5; }
+.detail-toggle { background: none; border: 1px solid var(--border); border-radius: 4px; color: var(--text-dim);
+  cursor: pointer; font-size: 10px; padding: 1px 5px; margin-right: 4px; vertical-align: middle; }
+.detail-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.detail-block { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); }
+.detail-section { margin-bottom: 10px; }
+.detail-section strong { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-dim); }
+.detail-section ul { margin: 6px 0 0; padding-left: 18px; }
+.detail-section li { font-size: 12.5px; color: var(--text-dim); margin-bottom: 4px; line-height: 1.45; }
 
 .chart-box { position: relative; height: 280px; }
 .chart-box.tall { height: 340px; }
@@ -218,3 +238,18 @@ td .members { color: var(--text-faint); font-size: 11px; }
 }
 .btn:hover { border-color: var(--accent); }
 .empty { color: var(--text-faint); text-align: center; padding: 40px; }
+
+/* Daily intelligence report panel */
+.report-panel { margin-top: 20px; }
+.report-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.report-header h2 { margin: 0; }
+.report-body { font-size: 14px; line-height: 1.7; max-height: 70vh; overflow-y: auto; padding-right: 8px; }
+.report-body h3 { font-size: 16px; margin: 20px 0 8px; color: var(--accent); border-bottom: 1px solid var(--border); padding-bottom: 4px; }
+.report-body h4 { font-size: 14px; margin: 14px 0 6px; color: var(--text); }
+.report-body h5 { font-size: 13px; margin: 10px 0 4px; color: var(--text-dim); }
+.report-body p  { margin: 6px 0; color: var(--text-dim); }
+.report-body ul, .report-body ol { padding-left: 22px; margin: 6px 0; }
+.report-body li { margin-bottom: 4px; color: var(--text-dim); }
+.report-body hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+.report-body strong { color: var(--text); }
+.report-body code { background: var(--bg-elev-2); border-radius: 4px; padding: 1px 5px; font-size: 12px; }

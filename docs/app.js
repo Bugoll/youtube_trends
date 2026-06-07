@@ -99,18 +99,95 @@
   // ---------------------------------------------------------------- overview
   function renderOverview(d) {
     const tl = d.timeline;
+    const reportDates = new Set(d.report_dates || []);
+
+    const hint = $("#timeline-hint");
+    // Show hint whenever there are dates to click (reports OR any package dates)
+    if (hint) hint.hidden = tl.length === 0;
+
+    const lineOpts = baseLineOpts();
+    lineOpts.onClick = (evt, elements) => {
+      if (!elements.length) return;
+      const date = tl[elements[0].index]?.date;
+      if (date) openReport(date, reportDates);
+    };
+    lineOpts.plugins = lineOpts.plugins || {};
+    lineOpts.plugins.tooltip = lineOpts.plugins.tooltip || {};
+
+    // Mark dates that have reports with a highlighted x-axis label
+    lineOpts.scales = lineOpts.scales || gridScales();
+    lineOpts.scales.x = lineOpts.scales.x || {};
+    lineOpts.scales.x.ticks = {
+      color: (ctx) => {
+        const label = tl[ctx.index]?.date;
+        return reportDates.has(label) ? "#58a6ff" : "#9aa7b4";
+      },
+      font: (ctx) => {
+        const label = tl[ctx.index]?.date;
+        return reportDates.has(label) ? { weight: "bold" } : {};
+      },
+      maxTicksLimit: 14,
+    };
+    lineOpts.scales.x.grid = { color: "#2a3340" };
+
+    // Metrics datasets use null for dates without real data (renders as a gap).
+    // New-videos bar always shows for all dates so the chart is never blank.
     makeChart("timeline-chart", {
-      type: "line",
+      type: "bar",
       data: {
         labels: tl.map((p) => p.date),
         datasets: [
-          lineDS("Просмотры", tl.map((p) => p.views), "#58a6ff"),
-          lineDS("Лайки", tl.map((p) => p.likes), "#3fb950"),
-          lineDS("Комментарии", tl.map((p) => p.comments), "#bc8cff"),
+          {
+            type: "line",
+            label: "Просмотры",
+            data: tl.map((p) => p.views),
+            borderColor: "#58a6ff", backgroundColor: "#58a6ff33",
+            tension: 0.3, fill: true, pointRadius: (ctx) => tl[ctx.dataIndex]?.views != null ? 3 : 0,
+            borderWidth: 2, spanGaps: false, yAxisID: "y",
+          },
+          {
+            type: "line",
+            label: "Лайки",
+            data: tl.map((p) => p.likes),
+            borderColor: "#3fb950", backgroundColor: "transparent",
+            tension: 0.3, fill: false, pointRadius: (ctx) => tl[ctx.dataIndex]?.likes != null ? 3 : 0,
+            borderWidth: 2, spanGaps: false, yAxisID: "y",
+          },
+          {
+            type: "line",
+            label: "Комментарии",
+            data: tl.map((p) => p.comments),
+            borderColor: "#bc8cff", backgroundColor: "transparent",
+            tension: 0.3, fill: false, pointRadius: (ctx) => tl[ctx.dataIndex]?.comments != null ? 3 : 0,
+            borderWidth: 2, spanGaps: false, yAxisID: "y",
+          },
+          {
+            type: "bar",
+            label: "Новых видео",
+            data: tl.map((p) => p.new_videos || 0),
+            backgroundColor: "#d2992233",
+            borderColor: "#d29922",
+            borderWidth: 1,
+            yAxisID: "y2",
+          },
         ],
       },
-      options: baseLineOpts(),
+      options: {
+        ...lineOpts,
+        scales: {
+          ...lineOpts.scales,
+          y: { ...gridScales().y, position: "left" },
+          y2: {
+            ...gridScales().y,
+            position: "right",
+            grid: { drawOnChartArea: false },
+            title: { display: true, text: "Новых видео", color: "#d29922", font: { size: 11 } },
+          },
+        },
+      },
     });
+
+    $("#report-close")?.addEventListener("click", closeReport);
 
     const tr = $("#trending-list");
     tr.innerHTML = "";
@@ -126,6 +203,78 @@
 
     barFromGroups("overview-authors-chart", d.authors.slice(0, 8), (g) => "#58a6ff");
     barFromGroups("overview-themes-chart", d.themes, (g) => colorForTheme(g.name));
+  }
+
+  // --------------------------------------------------------------- reports
+  function openReport(date, reportDates) {
+    const panel = $("#report-panel");
+    const body  = $("#report-body");
+    const title = $("#report-title");
+    if (!panel) return;
+
+    if (!reportDates.has(date)) {
+      body.innerHTML = `<p class="hint">Репорт за ${esc(date)} недоступен.</p>`;
+      title.textContent = `Репорт — ${date}`;
+      panel.hidden = false;
+      panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      return;
+    }
+
+    title.textContent = `Репорт — ${date}`;
+    body.innerHTML = `<p class="hint">Загрузка…</p>`;
+    panel.hidden = false;
+    panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+    fetch(`data/reports/${date}.md`)
+      .then((r) => r.text())
+      .then((md) => { body.innerHTML = renderMd(md); })
+      .catch(() => { body.innerHTML = `<p class="hint">Не удалось загрузить репорт.</p>`; });
+  }
+
+  function closeReport() {
+    const panel = $("#report-panel");
+    if (panel) panel.hidden = true;
+  }
+
+  function renderMd(md) {
+    const lines = md.split("\n");
+    let html = "", inList = false;
+    for (let raw of lines) {
+      const line = raw.trimEnd();
+      if (/^#{1}\s/.test(line)) {
+        if (inList) { html += "</ul>"; inList = false; }
+        html += `<h3>${esc(line.replace(/^#+\s*/, ""))}</h3>`;
+      } else if (/^#{2,3}\s/.test(line)) {
+        if (inList) { html += "</ul>"; inList = false; }
+        html += `<h4>${esc(line.replace(/^#+\s*/, ""))}</h4>`;
+      } else if (/^#{4,}\s/.test(line)) {
+        if (inList) { html += "</ul>"; inList = false; }
+        html += `<h5>${esc(line.replace(/^#+\s*/, ""))}</h5>`;
+      } else if (/^[-*+]\s/.test(line)) {
+        if (!inList) { html += "<ul>"; inList = true; }
+        html += `<li>${inlinesMd(line.replace(/^[-*+]\s*/, ""))}</li>`;
+      } else if (/^\d+\.\s/.test(line)) {
+        if (!inList) { html += "<ol>"; inList = "ol"; }
+        html += `<li>${inlinesMd(line.replace(/^\d+\.\s*/, ""))}</li>`;
+      } else if (/^---+$/.test(line.trim())) {
+        if (inList) { html += inList === "ol" ? "</ol>" : "</ul>"; inList = false; }
+        html += "<hr>";
+      } else if (line === "") {
+        if (inList) { html += inList === "ol" ? "</ol>" : "</ul>"; inList = false; }
+      } else {
+        if (inList) { html += inList === "ol" ? "</ol>" : "</ul>"; inList = false; }
+        html += `<p>${inlinesMd(line)}</p>`;
+      }
+    }
+    if (inList) html += inList === "ol" ? "</ol>" : "</ul>";
+    return html;
+  }
+
+  function inlinesMd(s) {
+    return esc(s)
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*(.+?)\*/g, "<em>$1</em>")
+      .replace(/`(.+?)`/g, "<code>$1</code>");
   }
 
   // ------------------------------------------------------------------ videos
@@ -169,15 +318,36 @@
     vids.forEach((v) => wrap.append(buildCard(v)));
   }
 
+  function hasContent(v) {
+    return !!(v.summary || (v.key_points && v.key_points.length) ||
+              (v.novel_ideas && v.novel_ideas.length) ||
+              (v.speaker_claims && v.speaker_claims.length) ||
+              (v.ideas && v.ideas.length));
+  }
+
   function buildCard(v) {
     const card = el("div", "card");
     const tColor = colorForTheme(v.topic);
     card.append(el("div", "card-title", esc(v.title)));
 
     const badges = el("div", "badges");
-    const tb = el("span", "badge theme", esc(v.topic));
-    tb.style.background = tColor;
-    badges.append(tb, el("span", "badge", esc(v.author)));
+    badges.append(el("span", "badge author", esc(v.author)));
+    const displayDate = v.published_at || v.first_seen;
+    if (displayDate) badges.append(el("span", "badge date", "📅 " + esc(displayDate)));
+    const statusMap = {
+      available:    ["badge status-available", "доступно",  "Видео есть в последнем пакете"],
+      deleted:      ["badge status-deleted",   "удалено",   "Видео исчезло с канала (автор удалил)"],
+      unsubscribed: ["badge status-unsub",     "отписан",   "Канал исключён из подписки — последние известные данные"],
+    };
+    const [sCls, sLabel, sTitle] = statusMap[v.status] || statusMap.available;
+    const sb = el("span", sCls, sLabel);
+    sb.title = sTitle;
+    badges.append(sb);
+    if (!hasContent(v)) {
+      const wb = el("span", "badge status-warn", "⚠ нет данных");
+      wb.title = "В пакете отсутствуют summary, key_points, novel_ideas и speaker_claims";
+      badges.append(wb);
+    }
     (v.tags || []).slice(0, 3).forEach((t) => badges.append(el("span", "badge", "#" + esc(t))));
     card.append(badges);
 
@@ -207,10 +377,15 @@
 
     const foot = el("div", "card-foot");
     const seen = `${v.snapshots_count} замер(ов)`;
-    foot.append(
-      el("span", "", esc(seen)),
-      v.url ? `<a href="${esc(v.url)}" target="_blank" rel="noopener">Открыть ↗</a>` : el("span")
-    );
+    foot.append(el("span", "", esc(seen)));
+    if (v.url) {
+      const a = document.createElement("a");
+      a.href = v.url;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = "Открыть ↗";
+      foot.append(a);
+    }
     card.append(foot);
     return card;
   }
@@ -220,15 +395,133 @@
     makeChart("authors-chart", {
       type: "bar",
       data: {
-        labels: d.authors.map((a) => a.name),
+        labels: d.authors.slice(0, 20).map((a) => a.name),
         datasets: [
-          { label: "Просмотры", data: d.authors.map((a) => a.views), backgroundColor: "#58a6ff" },
-          { label: "Лайки", data: d.authors.map((a) => a.likes), backgroundColor: "#3fb950" },
+          { label: "Просмотры", data: d.authors.slice(0, 20).map((a) => a.views), backgroundColor: "#58a6ff" },
+          { label: "Лайки", data: d.authors.slice(0, 20).map((a) => a.likes), backgroundColor: "#3fb950" },
         ],
       },
       options: baseBarOpts(),
     });
-    fillGroupTable("#authors-table tbody", d.authors);
+    buildAuthorsDetailTable(d.videos);
+  }
+
+  function buildAuthorsDetailTable(videos) {
+    const table = document.getElementById("authors-detail-table");
+    if (!table) return;
+
+    let sortCol = "author", sortDir = 1;
+
+    function rows(list) {
+      const tbody = table.querySelector("tbody");
+      tbody.innerHTML = "";
+      list.forEach((v) => {
+        const date = v.published_at || v.first_seen || "";
+        const titleHtml = v.url
+          ? `<a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.title)}</a>`
+          : esc(v.title);
+
+        // expandable detail block
+        const hasDetail = (v.key_points && v.key_points.length) ||
+                          (v.novel_ideas && v.novel_ideas.length) ||
+                          (v.speaker_claims && v.speaker_claims.length);
+
+        const summaryText = hasContent(v)
+          ? esc(v.summary || "")
+          : `<span class="badge status-warn" title="В пакете отсутствуют summary, key_points, novel_ideas и speaker_claims">⚠ нет данных в пакете</span>`;
+        const detailHtml = hasDetail ? `
+          <div class="detail-block" hidden>
+            ${listSection("Ключевые тезисы", v.key_points)}
+            ${listSection("Новые идеи", v.novel_ideas)}
+            ${listSection("Утверждения спикера", v.speaker_claims)}
+          </div>` : "";
+
+        const toggleBtn = hasDetail
+          ? `<button class="detail-toggle" aria-expanded="false">▶</button> ` : "";
+
+        const statusCfg = {
+          available:    ["status-available", "доступно",  "Видео есть в последнем пакете"],
+          deleted:      ["status-deleted",   "удалено",   "Видео исчезло с канала (автор удалил)"],
+          unsubscribed: ["status-unsub",     "отписан",   "Канал исключён из подписки"],
+        };
+        const [sCls2, sLbl2, sTip2] = statusCfg[v.status] || statusCfg.available;
+        const statusHtml = `<span class="badge ${sCls2}" title="${esc(sTip2)}">${esc(sLbl2)}</span>`;
+
+        const tr = document.createElement("tr");
+        tr.innerHTML =
+          `<td>${esc(v.author)}</td>` +
+          `<td>${titleHtml}</td>` +
+          `<td style="white-space:nowrap">${esc(date)}</td>` +
+          `<td class="summary-cell">${toggleBtn}${summaryText}${detailHtml}</td>` +
+          `<td style="white-space:nowrap">${statusHtml}</td>`;
+
+        if (hasDetail) {
+          const btn = tr.querySelector(".detail-toggle");
+          const block = tr.querySelector(".detail-block");
+          btn.addEventListener("click", () => {
+            const open = !block.hidden;
+            block.hidden = open;
+            btn.setAttribute("aria-expanded", String(!open));
+            btn.textContent = open ? "▶" : "▼";
+          });
+        }
+        tbody.append(tr);
+      });
+    }
+
+    function listSection(title, items) {
+      if (!items || !items.length) return "";
+      const lis = items.map((i) => `<li>${esc(i)}</li>`).join("");
+      return `<div class="detail-section"><strong>${esc(title)}</strong><ul>${lis}</ul></div>`;
+    }
+
+    function sorted(list) {
+      return [...list].sort((a, b) => {
+        let va, vb;
+        if (sortCol === "date") {
+          va = a.published_at || a.first_seen || "";
+          vb = b.published_at || b.first_seen || "";
+        } else {
+          va = a[sortCol] || "";
+          vb = b[sortCol] || "";
+        }
+        return sortDir * String(va).localeCompare(String(vb), "ru");
+      });
+    }
+
+    function redraw(list) {
+      rows(sorted(list));
+      table.querySelectorAll("thead th").forEach((th) => {
+        th.removeAttribute("data-sort");
+        if (th.dataset.col === sortCol) th.setAttribute("data-sort", sortDir > 0 ? "asc" : "desc");
+      });
+    }
+
+    let current = videos;
+
+    // search
+    const search = document.getElementById("authors-search");
+    if (search) {
+      search.addEventListener("input", () => {
+        const q = search.value.trim().toLowerCase();
+        current = q
+          ? videos.filter((v) =>
+              (v.author + " " + v.title + " " + v.topic).toLowerCase().includes(q))
+          : videos;
+        redraw(current);
+      });
+    }
+
+    // sort on header click
+    table.querySelectorAll("thead th").forEach((th) => {
+      th.addEventListener("click", () => {
+        if (sortCol === th.dataset.col) sortDir *= -1;
+        else { sortCol = th.dataset.col; sortDir = 1; }
+        redraw(current);
+      });
+    });
+
+    redraw(current);
   }
 
   function renderThemes(d) {
@@ -242,7 +535,7 @@
       options: { responsive: true, maintainAspectRatio: false,
         plugins: { legend: { labels: { color: "#9aa7b4" } } } },
     });
-    fillGroupTable("#themes-table tbody", d.themes);
+    makeSortable("themes-table", d.themes);
   }
 
   function fillGroupTable(sel, groups) {
@@ -258,40 +551,145 @@
     });
   }
 
+  // Numeric columns by index (0=name/string, 1..4=numbers, 5=string).
+  const _SORT_KEYS = [null, "video_count", "views", "likes", "comments", null];
+
+  function makeSortable(tableId, groups) {
+    const table = document.getElementById(tableId);
+    if (!table) return;
+    const ths = Array.from(table.querySelectorAll("thead th"));
+    let col = 2, dir = -1; // default: views desc
+
+    function redraw() {
+      const key = _SORT_KEYS[col];
+      const sorted = key
+        ? [...groups].sort((a, b) => dir * ((b[key] || 0) - (a[key] || 0)))
+        : [...groups].sort((a, b) => dir * String(a.name).localeCompare(String(b.name)));
+      fillGroupTable(`#${tableId} tbody`, sorted);
+      ths.forEach((th, i) => {
+        th.removeAttribute("data-sort");
+        if (i === col) th.setAttribute("data-sort", dir < 0 ? "desc" : "asc");
+      });
+    }
+
+    ths.forEach((th, i) => {
+      if (_SORT_KEYS[i] !== undefined) {
+        th.addEventListener("click", () => {
+          if (col === i) dir *= -1; else { col = i; dir = -1; }
+          redraw();
+        });
+      }
+    });
+
+    redraw();
+  }
+
   // ------------------------------------------------------------------- graph
+  const GRAPH_THEME_COLORS = {
+    "AI": "#58a6ff", "Финансы": "#3fb950", "Геополитика": "#f85149",
+    "Психология": "#bc8cff", "Бизнес": "#ffa657", "Наука": "#39c5cf",
+    "Технологии": "#26c7d0", "Личностный рост": "#d29922", "Разное": "#8b98a5",
+  };
+
   function renderGraphLegend() {
     const leg = $("#graph-legend");
+    if (!leg || !state.graph) return;
     leg.innerHTML = "";
-    state.dashboard.themes.forEach((t) => {
-      const item = el("div", "legend-item");
+
+    // --- Themes ---
+    const themeNodes = state.graph.nodes.filter(n => n.type === "theme")
+      .sort((a, b) => b.count - a.count);
+    themeNodes.forEach(n => {
+      const color = GRAPH_THEME_COLORS[n.label] || "#8b98a5";
+      const item  = el("div", "legend-item");
+      item.style.cursor = "pointer";
+      item.title = `${n.count} видео — кликните чтобы выделить`;
       const dot = el("span", "legend-dot");
-      dot.style.background = colorForTheme(t.name);
-      item.append(dot, el("span", "", `${esc(t.name)} (${t.video_count})`));
+      dot.style.background = color;
+      item.append(dot, el("span", "", `${esc(n.label)} (${n.count})`));
+      item.addEventListener("click", () => GraphView.focusNode(n.id));
       leg.append(item);
     });
+
+    // --- Authors header ---
+    if (state.graph.nodes.some(n => n.type === "author")) {
+      const h = el("h3", "", "Каналы");
+      h.style.cssText = "margin:14px 0 6px; font-size:13px; color:var(--text-dim)";
+      leg.append(h);
+
+      const authorNodes = state.graph.nodes.filter(n => n.type === "author")
+        .sort((a, b) => b.count - a.count);
+      authorNodes.forEach(n => {
+        const item = el("div", "legend-item");
+        item.style.cursor = "pointer";
+        item.title = `${n.count} видео — кликните чтобы выделить`;
+        const dot = el("span", "legend-dot");
+        dot.style.cssText = "background:#7aa2c8; border-radius:3px";
+        item.append(dot, el("span", "", `${esc(n.label)} (${n.count})`));
+        item.addEventListener("click", () => GraphView.focusNode(n.id));
+        leg.append(item);
+      });
+    }
   }
 
   function renderNodeDetail(node) {
     const box = $("#node-detail");
     if (!node) {
-      box.innerHTML = '<p class="hint">Наведите или кликните узел, чтобы увидеть идеи видео и его связи.</p>';
+      box.innerHTML = '<p class="hint">Кликните узел для фокуса — остальные потускнеют. Кликните снова чтобы сбросить.</p>';
       return;
     }
-    const neighbours = GraphView.neighboursOf(node.id);
+
+    // Hub: theme
+    if (node.type === "theme") {
+      const neighbours = GraphView.neighboursOf(node.id);
+      box.innerHTML =
+        `<div class="nd-title">🔷 ${esc(node.label)}</div>` +
+        `<div class="nd-meta">${node.count} видео в этой теме</div>` +
+        (neighbours.length
+          ? `<div class="neighbours"><strong>Видео в теме:</strong>` +
+            neighbours.slice(0, 12).map(n =>
+              `<a href="#" data-node="${esc(n.node.id)}">${esc(n.node.label)}</a>`).join("") +
+            (neighbours.length > 12 ? `<span class="hint"> ещё ${neighbours.length - 12}…</span>` : "") +
+            `</div>` : "");
+      $$("a[data-node]", box).forEach(a =>
+        a.addEventListener("click", e => { e.preventDefault(); GraphView.focusNode(a.dataset.node); }));
+      return;
+    }
+
+    // Hub: author
+    if (node.type === "author") {
+      const neighbours = GraphView.neighboursOf(node.id);
+      box.innerHTML =
+        `<div class="nd-title">👤 ${esc(node.label)}</div>` +
+        `<div class="nd-meta">${node.count} видео на канале</div>` +
+        (neighbours.length
+          ? `<div class="neighbours"><strong>Видео автора:</strong>` +
+            neighbours.slice(0, 12).map(n =>
+              `<a href="#" data-node="${esc(n.node.id)}">${esc(n.node.label)}</a>`).join("") +
+            (neighbours.length > 12 ? `<span class="hint"> ещё ${neighbours.length - 12}…</span>` : "") +
+            `</div>` : "");
+      $$("a[data-node]", box).forEach(a =>
+        a.addEventListener("click", e => { e.preventDefault(); GraphView.focusNode(a.dataset.node); }));
+      return;
+    }
+
+    // Video node
+    const neighbours = GraphView.neighboursOf(node.id)
+      .filter(n => n.node.type === "video");  // show only video neighbours, not hub back-links
     box.innerHTML =
       `<div class="nd-title">${esc(node.label)}</div>` +
-      `<div class="nd-meta">${esc(node.author)} · ${esc(node.topic)} · ${fmt(node.views)} просмотров` +
+      `<div class="nd-meta">${esc(node.author)} · ${fmt(node.views)} просмотров` +
       (node.url ? ` · <a href="${esc(node.url)}" target="_blank" rel="noopener">видео ↗</a>` : "") + `</div>` +
       (node.ideas && node.ideas.length
-        ? `<ul>${node.ideas.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>` : "") +
+        ? `<ul>${node.ideas.map(i => `<li>${esc(i)}</li>`).join("")}</ul>` : "") +
       (neighbours.length
-        ? `<div class="neighbours"><strong>Связанные идеи:</strong>` +
-          neighbours.map((n) =>
-            `<a href="#" data-node="${esc(n.node.id)}">${esc(n.node.label)} <span class="hint">(${n.type === "tag" ? "теги" : "смысл"} ${n.weight.toFixed(2)})</span></a>`).join("") +
+        ? `<div class="neighbours"><strong>Похожие видео:</strong>` +
+          neighbours.slice(0, 8).map(n =>
+            `<a href="#" data-node="${esc(n.node.id)}">${esc(n.node.label)} <span class="hint">(${n.type === "tag" ? "теги" : "смысл"})</span></a>`).join("") +
           `</div>`
         : `<div class="neighbours hint">Прямых связей не найдено.</div>`);
-    $$("a[data-node]", box).forEach((a) =>
-      a.addEventListener("click", (e) => { e.preventDefault(); GraphView.focusNode(a.dataset.node); }));
+    $$("a[data-node]", box).forEach(a =>
+      a.addEventListener("click", e => { e.preventDefault(); GraphView.focusNode(a.dataset.node); }));
   }
 
   // ------------------------------------------------------------- chart utils

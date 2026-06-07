@@ -31,6 +31,14 @@
         <div class="panel">
           <h2>Динамика суммарных метрик</h2>
           <div class="chart-box"><canvas id="timeline-chart"></canvas></div>
+          <p class="hint" id="timeline-hint" style="margin:8px 0 0">Нажмите на точку графика, чтобы открыть репорт за этот день.</p>
+        </div>
+        <div class="panel report-panel" id="report-panel" hidden>
+          <div class="report-header">
+            <h2 id="report-title">Репорт</h2>
+            <button class="btn" id="report-close">✕ Закрыть</button>
+          </div>
+          <div class="report-body" id="report-body"></div>
         </div>
         <div class="panel">
           <h2>🔥 В тренде (рост просмотров за сутки)</h2>
@@ -73,10 +81,16 @@
       </div>
       <div class="panel">
         <h2>Авторы детально</h2>
-        <table id="authors-table">
+        <div class="filters" style="margin-bottom:12px">
+          <input type="search" id="authors-search" placeholder="Поиск по автору, названию, теме…" />
+        </div>
+        <table id="authors-detail-table">
           <thead><tr>
-            <th>Автор</th><th>Видео</th><th>Просмотры</th><th>Лайки</th>
-            <th>Комментарии</th><th>Темы</th>
+            <th data-col="author">Автор</th>
+            <th data-col="title">Видео</th>
+            <th data-col="date">Дата</th>
+            <th data-col="topic">Тема</th>
+            <th data-col="status" title="Присутствует ли видео в последнем daily_package">В пакете</th>
           </tr></thead>
           <tbody></tbody>
         </table>
@@ -104,9 +118,10 @@
     <!-- GRAPH -->
     <section class="view" id="view-graph">
       <div class="graph-controls">
-        <input type="search" id="graph-search" placeholder="Найти видео на карте…" />
-        <label><input type="checkbox" id="toggle-semantic" checked /> Семантические связи</label>
-        <label><input type="checkbox" id="toggle-tag" checked /> Связи по тегам</label>
+        <input type="search" id="graph-search" placeholder="Найти на карте…" />
+        <label><input type="checkbox" id="toggle-hub" checked /> Связи с хабами</label>
+        <label><input type="checkbox" id="toggle-semantic" checked /> Семантические</label>
+        <label><input type="checkbox" id="toggle-tag" checked /> По тегам</label>
         <button class="btn" id="graph-reset">Сбросить вид</button>
         <span class="hint" id="graph-meta"></span>
       </div>

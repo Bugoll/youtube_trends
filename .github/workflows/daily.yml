@@ -34,18 +34,35 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch daily_package files from source repo
+      - name: Fetch daily_package + final_intelligence_report files from source repo
         env:
           # Создайте секрет MYCRABS_TOKEN: Settings → Secrets and variables →
           # Actions → New repository secret. Это PAT с правом чтения MyCrabs.
           MYCRABS_TOKEN: ${{ secrets.MYCRABS_TOKEN }}
           MYCRABS_REPO: ${{ vars.MYCRABS_REPO || 'bugoll/MyCrabs' }}
           SOURCE_DIR: ${{ vars.SOURCE_DIR || 'youtube-daily' }}
+          # Копирует все файлы по паттернам: daily_package + final_intelligence_report
+          # (default в fetch_packages.py). Переопределить через vars.PACKAGE_GLOB.
         run: python scripts/fetch_packages.py --dest data/raw
 
-      - name: Build dashboard + graph datasets
+      - name: Build dashboard + graph datasets (pass 1 — history)
         env:
-          # auto -> sentence-transformers (семантика), при сбое падает на TF-IDF
+          EMBED_BACKEND: ${{ vars.EMBED_BACKEND || 'auto' }}
+        run: python scripts/process.py --raw data/raw --out docs/data
+
+      - name: Refresh YouTube metrics via yt-dlp
+        # Fetches current views/likes/comments for every tracked video.
+        # Runs after pass-1 so new videos from today's package are already in history.json.
+        # --limit caps the batch size; remaining videos are picked up on subsequent days
+        # (refresh_metrics only re-checks videos whose metrics_checked_at < today).
+        run: |
+          python scripts/refresh_metrics.py \
+            --out docs/data \
+            --limit ${{ vars.REFRESH_LIMIT || 300 }} \
+            || echo "::warning::refresh_metrics finished with errors — continuing"
+
+      - name: Rebuild dashboard + graph with fresh metrics (pass 2)
+        env:
           EMBED_BACKEND: ${{ vars.EMBED_BACKEND || 'auto' }}
         run: python scripts/process.py --raw data/raw --out docs/data
 

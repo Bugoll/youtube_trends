@@ -1,18 +1,21 @@
 """Semantic similarity for the idea-connection (Obsidian-style) graph.
 
 We turn each video into a chunk of text (title + ideas + summary + tags) and
-embed it, then connect videos whose vectors are close. Three backends are tried
+embed it, then connect videos whose vectors are close. Four backends are tried
 in order of quality, so the pipeline always works — even with no extra packages
 installed (which is handy for CI bootstrapping and local demos):
 
-1. ``sentence-transformers`` — true multilingual semantic embeddings
-   (model: ``paraphrase-multilingual-MiniLM-L12-v2``). This is the intended
+1. ``ollama`` nomic-embed-text — high-quality 768-dim embeddings via local Ollama
+   server (http://localhost:11434). Fast, parallel, fully offline.
+2. ``sentence-transformers`` — true multilingual semantic embeddings
+   (model: ``paraphrase-multilingual-MiniLM-L12-v2``). This is the fallback
    production backend.
-2. ``scikit-learn`` TF-IDF — lexical vectors, decent and dependency-light.
-3. A pure-Python TF-IDF — zero third-party dependencies, always available.
+3. ``scikit-learn`` TF-IDF — lexical vectors, decent and dependency-light.
+4. A pure-Python TF-IDF — zero third-party dependencies, always available.
 
-Set ``EMBED_BACKEND=tfidf`` to skip the heavy model, or
-``EMBED_BACKEND=st`` to force sentence-transformers.
+Set ``EMBED_BACKEND=tfidf`` to skip the heavy model,
+``EMBED_BACKEND=st`` to force sentence-transformers, or
+``EMBED_BACKEND=ollama`` to force the Ollama backend.
 """
 
 from __future__ import annotations
@@ -21,6 +24,7 @@ import math
 import os
 import re
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Sequence
 
 _TOKEN_RE = re.compile(r"[\wа-яёА-ЯЁ]+", re.UNICODE)
@@ -50,6 +54,53 @@ def _tokenize(text: str) -> list[str]:
 # --------------------------------------------------------------------------- #
 # Backends
 # --------------------------------------------------------------------------- #
+def _embed_ollama(texts: Sequence[str]) -> list[list[float]]:
+    """Embed texts via Ollama nomic-embed-text using parallel HTTP requests.
+
+    Uses up to 8 concurrent threads and a 30-second per-request timeout.
+    Raises on any error so the caller can fall through to the next backend.
+    """
+    import urllib.request
+    import json as _json
+
+    url = "http://localhost:11434/api/embeddings"
+    total = len(texts)
+    results: list[list[float] | None] = [None] * total
+
+    _DIM = 768  # nomic-embed-text output dimension
+
+    def _fetch(idx: int, text: str) -> tuple[int, list[float]]:
+        prompt = text.strip() or "."  # Ollama returns 0-dim for empty strings
+        payload = _json.dumps({"model": "nomic-embed-text", "prompt": prompt}).encode()
+        req = urllib.request.Request(
+            url,
+            data=payload,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            body = _json.loads(resp.read())
+        emb = body["embedding"]
+        if not emb:
+            emb = [0.0] * _DIM  # fallback zero vector for truly empty content
+        return idx, emb
+
+    completed_count = 0
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures = {pool.submit(_fetch, i, t): i for i, t in enumerate(texts)}
+        for fut in as_completed(futures):
+            idx, emb = fut.result()  # propagates exceptions
+            results[idx] = emb
+            completed_count += 1
+            if completed_count % 50 == 0 or completed_count == total:
+                print(f"Ollama nomic-embed-text: {completed_count}/{total}")
+
+    # Verify all slots filled (should always be true if no exception above)
+    if any(v is None for v in results):
+        raise RuntimeError("Some Ollama embeddings did not complete")
+    return results  # type: ignore[return-value]
+
+
 def _embed_sentence_transformers(texts: Sequence[str]):
     from sentence_transformers import SentenceTransformer  # type: ignore
 
@@ -106,6 +157,7 @@ def _cosine_sparse(a: dict[str, float], b: dict[str, float]) -> float:
 # embeddings cluster around 0.3-0.8 for related texts, while sparse TF-IDF on
 # short multilingual texts is much lower. So thresholds are backend-specific.
 _DEFAULT_THRESHOLD = {
+    "ollama": 0.55,
     "sentence-transformers": 0.42,
     "sklearn-tfidf": 0.05,
     "pure-tfidf": 0.045,
@@ -115,7 +167,7 @@ _DEFAULT_THRESHOLD = {
 def compute_edges(
     records: Sequence[dict],
     *,
-    top_k: int = 5,
+    top_k: int = 3,
     threshold: float | None = None,
 ) -> tuple[list[dict], str]:
     """Return ``(edges, backend_name)`` connecting semantically similar videos.
@@ -139,6 +191,17 @@ def _similarity_matrix(texts: list[str]) -> tuple[list[list[float]], str]:
     n = len(texts)
     backend = os.environ.get("EMBED_BACKEND", "auto").lower()
 
+    # --- Ollama nomic-embed-text (top priority) ---
+    if backend in ("auto", "ollama"):
+        try:
+            vecs = _embed_ollama(texts)
+            sims = [[_cosine_dense(vecs[i], vecs[j]) for j in range(n)] for i in range(n)]
+            return sims, "ollama"
+        except Exception:
+            if backend == "ollama":
+                raise
+
+    # --- sentence-transformers ---
     if backend in ("auto", "st"):
         try:
             vecs = _embed_sentence_transformers(texts)
@@ -148,6 +211,7 @@ def _similarity_matrix(texts: list[str]) -> tuple[list[list[float]], str]:
             if backend == "st":
                 raise
 
+    # --- scikit-learn TF-IDF ---
     if backend in ("auto", "tfidf", "sklearn"):
         try:
             mat = _embed_sklearn(texts)
@@ -155,6 +219,7 @@ def _similarity_matrix(texts: list[str]) -> tuple[list[list[float]], str]:
         except Exception:
             pass
 
+    # --- pure-Python TF-IDF (always available) ---
     sparse = _embed_pure_tfidf(texts)
     sims = [[_cosine_sparse(sparse[i], sparse[j]) for j in range(n)] for i in range(n)]
     return sims, "pure-tfidf"

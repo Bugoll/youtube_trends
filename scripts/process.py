@@ -55,9 +55,20 @@ def _save_json(path: Path, data: Any) -> None:
 def update_history(history: dict[str, Any], records: list[dict]) -> dict[str, Any]:
     """Fold today's records into the long-lived per-video history store.
 
-    ``history[video_id]`` keeps stable metadata plus a list of dated snapshots.
-    A snapshot for an already-present date is replaced (idempotent reruns).
+    Status rules (derived entirely from the daily_package data):
+      "available"    — video present in the latest package
+      "deleted"      — video absent, but its author/channel IS present → author deleted it
+      "unsubscribed" — video absent AND no videos from its author in the latest package
+                       → you unsubscribed from that channel
     """
+    if not records:
+        return history
+
+    latest_date = max(r["captured_at"] for r in records)
+    latest_records = [r for r in records if r["captured_at"] == latest_date]
+    latest_video_ids: set[str] = {r["video_id"] for r in latest_records}
+    latest_authors: set[str] = {r["author"] for r in latest_records if r.get("author")}
+
     for rec in records:
         vid = rec["video_id"]
         entry = history.get(vid)
@@ -71,25 +82,55 @@ def update_history(history: dict[str, Any], records: list[dict]) -> dict[str, An
                 "tags": rec["tags"],
                 "ideas": rec["ideas"],
                 "summary": rec["summary"],
+                "key_points": rec.get("key_points", []),
+                "novel_ideas": rec.get("novel_ideas", []),
+                "speaker_claims": rec.get("speaker_claims", []),
                 "published_at": rec["published_at"],
                 "first_seen": rec["captured_at"],
                 "snapshots": [],
             }
             history[vid] = entry
 
-        # Refresh metadata with the latest, richest values.
         for field in ("title", "author", "topic", "url", "summary", "published_at"):
             if rec.get(field):
                 entry[field] = rec[field]
         entry["tags"] = list(dict.fromkeys([*entry.get("tags", []), *rec["tags"]]))
         entry["ideas"] = list(dict.fromkeys([*entry.get("ideas", []), *rec["ideas"]]))
+        for f in ("key_points", "novel_ideas", "speaker_claims"):
+            entry[f] = list(dict.fromkeys([*entry.get(f, []), *rec.get(f, [])]))
         entry["last_seen"] = rec["captured_at"]
 
-        snap = {"date": rec["captured_at"], **rec["metrics"]}
-        snaps = [s for s in entry["snapshots"] if s.get("date") != rec["captured_at"]]
-        snaps.append(snap)
-        snaps.sort(key=lambda s: s.get("date", ""))
-        entry["snapshots"] = snaps
+        pkg_snap = {"date": rec["captured_at"], **rec["metrics"]}
+        # Keep an existing snapshot if it already has real metrics (from refresh_metrics.py).
+        # Only replace it when the package provides at least one metric value.
+        existing = next((s for s in entry["snapshots"] if s.get("date") == rec["captured_at"]), None)
+        has_real_metrics = existing and any(
+            existing.get(k) for k in ("views", "likes", "comments")
+        )
+        pkg_has_metrics = any(rec["metrics"].get(k) for k in ("views", "likes", "comments"))
+        if not has_real_metrics or pkg_has_metrics:
+            # Merge: prefer larger values so neither source loses data
+            if has_real_metrics and pkg_has_metrics:
+                for k in ("views", "likes", "comments"):
+                    pkg_snap[k] = max(existing.get(k, 0), pkg_snap.get(k, 0)) or existing.get(k) or pkg_snap.get(k)
+            snaps = [s for s in entry["snapshots"] if s.get("date") != rec["captured_at"]]
+            snaps.append(pkg_snap)
+            snaps.sort(key=lambda s: s.get("date", ""))
+            entry["snapshots"] = snaps
+
+    # Status is owned entirely by refresh_metrics.py (real YouTube check).
+    # process.py only sets "available" for videos present in today's package
+    # and never downgrades a status — so no false "deleted" labels appear
+    # before refresh_metrics.py has had a chance to verify anything.
+    for vid in latest_video_ids:
+        if vid in history:
+            history[vid]["status"] = "available"
+
+    # Ensure every entry has at least a default status.
+    for entry in history.values():
+        if not entry.get("status"):
+            entry["status"] = "available"
+
     return history
 
 
@@ -101,18 +142,24 @@ def _engagement(metrics: dict[str, Any]) -> int:
 
 
 def _delta(snaps: list[dict], metric: str) -> int | None:
-    """Change in ``metric`` between the last two snapshots."""
-    vals = [(s["date"], int(s.get(metric, 0) or 0)) for s in snaps if metric in s]
+    """Change in ``metric`` between the last two snapshots that have real metrics."""
+    vals = [
+        int(s.get(metric, 0) or 0)
+        for s in snaps
+        if _has_metrics(s) and metric in s
+    ]
     if len(vals) < 2:
         return None
-    return vals[-1][1] - vals[-2][1]
+    return vals[-1] - vals[-2]
 
 
 def build_dashboard(history: dict[str, Any]) -> dict[str, Any]:
     videos: list[dict] = []
     for entry in history.values():
         snaps = entry["snapshots"]
-        latest = snaps[-1] if snaps else {}
+        # Use the most recent snapshot that actually has metric data.
+        metric_snaps = [s for s in snaps if _has_metrics(s)]
+        latest = metric_snaps[-1] if metric_snaps else (snaps[-1] if snaps else {})
         latest_metrics = {k: v for k, v in latest.items() if k != "date"}
         series = {
             metric: [
@@ -130,9 +177,13 @@ def build_dashboard(history: dict[str, Any]) -> dict[str, Any]:
             "tags": entry.get("tags", []),
             "ideas": entry.get("ideas", []),
             "summary": entry.get("summary", ""),
+            "key_points": entry.get("key_points", []),
+            "novel_ideas": entry.get("novel_ideas", []),
+            "speaker_claims": entry.get("speaker_claims", []),
             "published_at": entry.get("published_at"),
             "first_seen": entry.get("first_seen"),
             "last_seen": entry.get("last_seen"),
+            "status": entry.get("status", "available"),
             "metrics": latest_metrics,
             "engagement": _engagement(latest_metrics),
             "deltas": {
@@ -202,6 +253,10 @@ def _group_by(videos: list[dict], field: str) -> list[dict]:
     return out
 
 
+def _has_metrics(snap: dict) -> bool:
+    return any(snap.get(k) for k in ("views", "likes", "comments"))
+
+
 def _build_timeline(history: dict[str, Any]) -> list[dict]:
     by_date: dict[str, dict] = {}
     first_seen_by_date: dict[str, int] = {}
@@ -211,53 +266,155 @@ def _build_timeline(history: dict[str, Any]) -> list[dict]:
             first_seen_by_date[fs] = first_seen_by_date.get(fs, 0) + 1
         for s in entry["snapshots"]:
             d = s["date"]
-            agg = by_date.setdefault(d, {"date": d, "views": 0, "likes": 0,
-                                         "comments": 0, "active_videos": 0})
-            agg["views"] += int(s.get("views", 0) or 0)
-            agg["likes"] += int(s.get("likes", 0) or 0)
-            agg["comments"] += int(s.get("comments", 0) or 0)
+            agg = by_date.setdefault(d, {
+                "date": d, "views": None, "likes": None, "comments": None,
+                "active_videos": 0,
+            })
             agg["active_videos"] += 1
+            if _has_metrics(s):
+                agg["views"] = (agg["views"] or 0) + int(s.get("views", 0) or 0)
+                agg["likes"] = (agg["likes"] or 0) + int(s.get("likes", 0) or 0)
+                agg["comments"] = (agg["comments"] or 0) + int(s.get("comments", 0) or 0)
     for d, agg in by_date.items():
         agg["new_videos"] = first_seen_by_date.get(d, 0)
     return [by_date[d] for d in sorted(by_date)]
 
 
 # --------------------------------------------------------------------------- #
-# Graph (Obsidian-style idea map)
+# Macro-theme classification
+# --------------------------------------------------------------------------- #
+MACRO_THEMES: dict[str, list[str]] = {
+    "AI":              ["ai", "нейросет", "gpt", "llm", "искусственный интеллект",
+                        "машинное обучение", "claude", "openai", "gemini", "нейро",
+                        "language model", "трансформер"],
+    "Финансы":         ["финанс", "инвестиц", "акци", "крипто", "биткоин", "экономик",
+                        "деньг", "рынок", "трейд", "биржа", "доллар", "инфляц",
+                        "дивиденд", "портфел"],
+    "Геополитика":     ["геополитик", "война", "украин", "сша", "китай", "нато",
+                        "санкц", "политик", "конфликт", "армия", "военн"],
+    "Психология":      ["психолог", "эмоц", "мышлени", "осознанн", "медитац",
+                        "мозг", "поведени", "когнитив", "ментальн", "тревог"],
+    "Бизнес":          ["бизнес", "стартап", "предпринимат", "продаж", "маркетинг",
+                        "менеджмент", "управлени", "компани", "корпорат"],
+    "Наука":           ["наук", "физик", "биолог", "химия", "исследован",
+                        "квантов", "космос", "математик", "эволюц"],
+    "Технологии":      ["технолог", "программ", "блокчейн", "web3", "разработк",
+                        "software", "hardware", "кибер", "автоматизац"],
+    "Личностный рост": ["саморазвити", "продуктивност", "успех", "лидерств",
+                        "навык", "карьер", "привычк", "цел", "мотивац"],
+}
+DEFAULT_MACRO_THEME = "Разное"
+
+
+def classify_macro_theme(entry: dict) -> str:
+    text = " ".join([
+        entry.get("title", ""),
+        entry.get("topic", ""),
+        " ".join(entry.get("tags", [])),
+        " ".join(entry.get("ideas", [])[:4]),
+    ]).lower()
+    for theme, keywords in MACRO_THEMES.items():
+        if any(kw in text for kw in keywords):
+            return theme
+    return DEFAULT_MACRO_THEME
+
+
+# --------------------------------------------------------------------------- #
+# Graph (hub nodes: macro-themes + authors; video nodes; all edges)
 # --------------------------------------------------------------------------- #
 def build_graph(history: dict[str, Any], dashboard: dict[str, Any]) -> dict[str, Any]:
     records = list(history.values())
     edges, backend = embed.compute_edges(records)
 
-    # Secondary "shared tag" edges (dashed in the UI) enrich the semantic map.
     tag_edges = _shared_tag_edges(records)
     existing = {(e["source"], e["target"]) for e in edges}
     for e in tag_edges:
         if (e["source"], e["target"]) not in existing:
             edges.append(e)
 
+    # Classify every record into a macro-theme.
+    for rec in records:
+        rec["_macro_theme"] = classify_macro_theme(rec)
+
+    # Video-to-video degree (for sizing video nodes).
     degree: dict[str, int] = {}
     for e in edges:
         degree[e["source"]] = degree.get(e["source"], 0) + 1
         degree[e["target"]] = degree.get(e["target"], 0) + 1
 
-    nodes = [{
-        "id": e["video_id"],
-        "label": e["title"],
-        "author": e["author"],
-        "topic": e["topic"],
-        "url": e["url"],
-        "views": e["snapshots"][-1].get("views", 0) if e["snapshots"] else 0,
-        "ideas": e.get("ideas", [])[:8],
-        "degree": degree.get(e["video_id"], 0),
-    } for e in records]
+    # --- Video nodes ---
+    video_nodes = [{
+        "id":          rec["video_id"],
+        "type":        "video",
+        "label":       rec["title"],
+        "author":      rec["author"],
+        "topic":       rec["topic"],
+        "macro_theme": rec["_macro_theme"],
+        "url":         rec["url"],
+        "views":       rec["snapshots"][-1].get("views", 0) if rec["snapshots"] else 0,
+        "ideas":       rec.get("ideas", [])[:8],
+        "degree":      degree.get(rec["video_id"], 0),
+    } for rec in records]
+
+    # --- Theme hub nodes ---
+    theme_counts: dict[str, int] = {}
+    for rec in records:
+        t = rec["_macro_theme"]
+        theme_counts[t] = theme_counts.get(t, 0) + 1
+
+    theme_nodes = [{
+        "id":    f"theme:{t}",
+        "type":  "theme",
+        "label": t,
+        "macro_theme": t,
+        "count": c,
+        "degree": c,
+    } for t, c in sorted(theme_counts.items(), key=lambda x: -x[1])]
+
+    # --- Author hub nodes ---
+    author_counts: dict[str, int] = {}
+    for rec in records:
+        a = rec.get("author") or ""
+        if a:
+            author_counts[a] = author_counts.get(a, 0) + 1
+
+    author_nodes = [{
+        "id":    f"author:{a}",
+        "type":  "author",
+        "label": a,
+        "count": c,
+        "degree": c,
+    } for a, c in sorted(author_counts.items(), key=lambda x: -x[1])]
+
+    # --- Hub edges: video → theme hub + video → author hub ---
+    hub_edges: list[dict] = []
+    for rec in records:
+        vid = rec["video_id"]
+        hub_edges.append({
+            "source": vid,
+            "target": f"theme:{rec['_macro_theme']}",
+            "type":   "hub_theme",
+            "weight": 1.0,
+        })
+        author = rec.get("author") or ""
+        if author:
+            hub_edges.append({
+                "source": vid,
+                "target": f"author:{author}",
+                "type":   "hub_author",
+                "weight": 1.0,
+            })
+
+    all_nodes = theme_nodes + author_nodes + video_nodes
+    all_edges = hub_edges + edges
 
     return {
         "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
-        "backend": backend,
-        "nodes": nodes,
-        "edges": edges,
-        "stats": {"nodes": len(nodes), "edges": len(edges)},
+        "backend":      backend,
+        "nodes":        all_nodes,
+        "edges":        all_edges,
+        "macro_themes": [t["label"] for t in theme_nodes],
+        "stats":        {"nodes": len(all_nodes), "edges": len(all_edges)},
     }
 
 
@@ -301,7 +458,10 @@ def main() -> int:
     history = update_history(history, records)
     _save_json(history_path, history)
 
+    report_dates = _publish_reports(raw, out)
+
     dashboard = build_dashboard(history)
+    dashboard["report_dates"] = report_dates
     _save_json(out / "dashboard.json", dashboard)
 
     graph = build_graph(history, dashboard)
@@ -310,9 +470,57 @@ def main() -> int:
     print(f"Dashboard: {dashboard['totals']['videos']} videos, "
           f"{dashboard['totals']['authors']} authors, "
           f"{dashboard['totals']['themes']} themes")
+    print(f"Reports: {len(report_dates)} dates available")
     print(f"Graph: {graph['stats']['nodes']} nodes, {graph['stats']['edges']} "
           f"edges (backend: {graph['backend']})")
     return 0
+
+
+def _publish_reports(raw: Path, out: Path) -> list[str]:
+    """Copy intelligence report files to docs/data/reports/YYYY-MM-DD.md.
+
+    Priority (highest wins when both exist for the same date):
+      1. ``*final_intelligence_report*`` — dedicated AI-generated report
+      2. ``*daily_package*.md``          — fallback until intelligence reports arrive
+
+    Returns sorted list of dates that have a report available.
+    """
+    import re
+    import shutil
+
+    reports_dir = out / "reports"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+
+    date_re = re.compile(r"(20\d{2}-\d{2}-\d{2})")
+    best: dict[str, tuple[int, Path]] = {}  # date → (priority, path)
+
+    def _priority(name: str) -> int:
+        n = name.lower()
+        if "final_intelligence_report" in n:
+            return 2
+        if "daily_package" in n and n.endswith(".md"):
+            return 1
+        return 0
+
+    for path in sorted(raw.rglob("*")):
+        if not path.is_file() or path.suffix.lower() not in (".md", ".markdown"):
+            continue
+        pri = _priority(path.name)
+        if pri == 0:
+            continue
+        m = date_re.search(path.name)
+        if not m:
+            continue
+        date = m.group(1)
+        if date not in best or pri > best[date][0]:
+            best[date] = (pri, path)
+
+    all_dates: list[str] = []
+    for date, (pri, path) in best.items():
+        shutil.copy2(path, reports_dir / f"{date}.md")
+        all_dates.append(date)
+
+    return sorted(all_dates)
 
 
 if __name__ == "__main__":
