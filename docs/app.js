@@ -207,7 +207,57 @@
     });
 
     barFromGroups("overview-authors-chart", d.authors.slice(0, 8), (g) => "#58a6ff");
-    barFromGroups("overview-themes-chart", d.themes, (g) => colorForTheme(g.name));
+
+    renderBestVideos(d.videos);
+  }
+
+  function renderBestVideos(videos) {
+    const withViews = videos.filter((v) => v.metrics?.views > 0);
+    if (!withViews.length) return;
+
+    // Latest date in dataset = "today"
+    const dates = withViews.map((v) => v.first_seen).filter(Boolean).sort();
+    const latestDate = dates[dates.length - 1];
+    const cutoff7 = dates.length
+      ? new Date(new Date(latestDate).getTime() - 6 * 86400000).toISOString().slice(0, 10)
+      : null;
+
+    const dayVideos  = withViews.filter((v) => v.first_seen === latestDate);
+    const weekVideos = cutoff7 ? withViews.filter((v) => v.first_seen >= cutoff7) : withViews;
+
+    const bestDay  = dayVideos.sort((a, b) => (b.metrics.views || 0) - (a.metrics.views || 0))[0];
+    const bestWeek = [...weekVideos].sort((a, b) => (b.metrics.views || 0) - (a.metrics.views || 0)).slice(0, 7);
+
+    const dayEl = $("#best-day-video");
+    if (dayEl) dayEl.innerHTML = bestDay ? bestVideoCard(bestDay) : '<p class="hint">Нет данных за последний день.</p>';
+
+    const weekEl = $("#best-week-videos");
+    if (weekEl) weekEl.innerHTML = bestWeek.length
+      ? `<div class="best-week-grid">${bestWeek.map(bestVideoCard).join("")}</div>`
+      : '<p class="hint">Нет данных за 7 дней.</p>';
+  }
+
+  function bestVideoCard(v) {
+    const views    = fmt(v.metrics?.views);
+    const likes    = fmt(v.metrics?.likes);
+    const comments = fmt(v.metrics?.comments);
+    const theme    = esc(v.topic || "");
+    const themeColor = colorForTheme(v.topic) || "#8b98a5";
+    return `
+      <div class="best-card">
+        <div class="best-card-title"><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.title)}</a></div>
+        <div class="best-card-meta">
+          <span class="badge theme" style="background:${themeColor}">${theme}</span>
+          <span class="badge author">${esc(v.author)}</span>
+          <span class="badge date">${esc(v.first_seen || "")}</span>
+        </div>
+        <div class="best-card-metrics">
+          <span>👁 ${views}</span>
+          <span>👍 ${likes}</span>
+          <span>💬 ${comments}</span>
+        </div>
+        ${v.summary ? `<p class="best-card-summary">${esc(v.summary.slice(0, 160))}…</p>` : ""}
+      </div>`;
   }
 
   // --------------------------------------------------------------- reports
