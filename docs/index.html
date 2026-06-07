@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube Trends — дашборд динамики и связей идей</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <h1><span class="logo">▶</span> YouTube Trends</h1>
+    <div class="subtitle">Динамика и тренды по карточкам видео в разрезе авторов и тем · карта связей идей</div>
+    <div class="meta" id="meta-line">Загрузка данных…</div>
+
+    <div class="stats-row" id="stats-row"></div>
+
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-view="overview">Обзор</button>
+      <button class="tab" data-view="videos">Видео</button>
+      <button class="tab" data-view="authors">Авторы</button>
+      <button class="tab" data-view="themes">Темы</button>
+      <button class="tab" data-view="graph">Карта связей</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- OVERVIEW -->
+    <section class="view active" id="view-overview">
+      <div class="grid-2">
+        <div class="panel">
+          <h2>Динамика суммарных метрик</h2>
+          <div class="chart-box"><canvas id="timeline-chart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h2>🔥 В тренде (рост просмотров за сутки)</h2>
+          <ul class="trend-list" id="trending-list"></ul>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="panel">
+          <h2>Просмотры по авторам</h2>
+          <div class="chart-box"><canvas id="overview-authors-chart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h2>Просмотры по темам</h2>
+          <div class="chart-box"><canvas id="overview-themes-chart"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEOS -->
+    <section class="view" id="view-videos">
+      <div class="filters">
+        <input type="search" id="video-search" placeholder="Поиск по названию, идее, тегу…" />
+        <select id="filter-author"><option value="">Все авторы</option></select>
+        <select id="filter-theme"><option value="">Все темы</option></select>
+        <select id="sort-by">
+          <option value="views">Сортировка: просмотры</option>
+          <option value="delta">Сортировка: рост за сутки</option>
+          <option value="engagement">Сортировка: вовлечённость</option>
+          <option value="recent">Сортировка: новизна</option>
+        </select>
+      </div>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <!-- AUTHORS -->
+    <section class="view" id="view-authors">
+      <div class="panel">
+        <h2>Сравнение авторов</h2>
+        <div class="chart-box tall"><canvas id="authors-chart"></canvas></div>
+      </div>
+      <div class="panel">
+        <h2>Авторы детально</h2>
+        <table id="authors-table">
+          <thead><tr>
+            <th>Автор</th><th>Видео</th><th>Просмотры</th><th>Лайки</th>
+            <th>Комментарии</th><th>Темы</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- THEMES -->
+    <section class="view" id="view-themes">
+      <div class="panel">
+        <h2>Доля тем по просмотрам</h2>
+        <div class="chart-box tall"><canvas id="themes-chart"></canvas></div>
+      </div>
+      <div class="panel">
+        <h2>Темы детально</h2>
+        <table id="themes-table">
+          <thead><tr>
+            <th>Тема</th><th>Видео</th><th>Просмотры</th><th>Лайки</th>
+            <th>Комментарии</th><th>Авторы</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- GRAPH -->
+    <section class="view" id="view-graph">
+      <div class="graph-controls">
+        <input type="search" id="graph-search" placeholder="Найти видео на карте…" />
+        <label><input type="checkbox" id="toggle-semantic" checked /> Семантические связи</label>
+        <label><input type="checkbox" id="toggle-tag" checked /> Связи по тегам</label>
+        <button class="btn" id="graph-reset">Сбросить вид</button>
+        <span class="hint" id="graph-meta"></span>
+      </div>
+      <div class="graph-wrap">
+        <canvas id="graph-canvas"></canvas>
+        <aside class="graph-side">
+          <h3>Легенда (темы)</h3>
+          <div class="legend" id="graph-legend"></div>
+          <h3>Карточка узла</h3>
+          <div class="node-detail" id="node-detail">
+            <p class="hint">Наведите или кликните узел, чтобы увидеть идеи видео и его связи.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <script src="graph.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

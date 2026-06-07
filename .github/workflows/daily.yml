@@ -1,0 +1,78 @@
+name: Daily YouTube Trends
+
+# Ежедневно обходит папку youtube-daily в приватном репозитории MyCrabs,
+# копирует файлы daily_package в этот репозиторий, пересобирает датасеты
+# дашборда и графа связей, коммитит результат и публикует дашборд на Pages.
+
+on:
+  schedule:
+    - cron: "30 5 * * *"      # каждый день в 05:30 UTC
+  workflow_dispatch: {}        # ручной запуск из вкладки Actions
+
+permissions:
+  contents: write              # коммит обновлённых данных в репозиторий
+  pages: write                 # публикация дашборда
+  id-token: write
+
+concurrency:
+  group: daily-trends
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch daily_package files from source repo
+        env:
+          # Создайте секрет MYCRABS_TOKEN: Settings → Secrets and variables →
+          # Actions → New repository secret. Это PAT с правом чтения MyCrabs.
+          MYCRABS_TOKEN: ${{ secrets.MYCRABS_TOKEN }}
+          MYCRABS_REPO: ${{ vars.MYCRABS_REPO || 'bugoll/MyCrabs' }}
+          SOURCE_DIR: ${{ vars.SOURCE_DIR || 'youtube-daily' }}
+        run: python scripts/fetch_packages.py --dest data/raw
+
+      - name: Build dashboard + graph datasets
+        env:
+          # auto -> sentence-transformers (семантика), при сбое падает на TF-IDF
+          EMBED_BACKEND: ${{ vars.EMBED_BACKEND || 'auto' }}
+        run: python scripts/process.py --raw data/raw --out docs/data
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/raw docs/data
+          if git diff --cached --quiet; then
+            echo "Нет изменений в данных."
+          else
+            git commit -m "chore(data): daily refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

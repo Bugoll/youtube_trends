@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Временный клон исходного репозитория (создаётся fetch_packages.py)
+/tmp_source/
+*.tmp
+
+# Локальные секреты — никогда не коммитим токены
+.env
+*.token
