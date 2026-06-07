@@ -42,7 +42,11 @@ jobs:
 
       - name: Enrich new video metadata via LLM (incremental)
         env:
+          # Anthropic (cloud): set ANTHROPIC_API_KEY secret to enable
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Ollama (local): set OLLAMA_MODEL var (e.g. llama3) + OLLAMA_BASE_URL if non-default
+          OLLAMA_MODEL: ${{ vars.OLLAMA_MODEL }}
+          OLLAMA_BASE_URL: ${{ vars.OLLAMA_BASE_URL }}
         run: |
           python scripts/enrich.py \
             --out docs/data \
