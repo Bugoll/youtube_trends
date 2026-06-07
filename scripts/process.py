@@ -442,6 +442,18 @@ def _shared_tag_edges(records: list[dict], min_shared: int = 2) -> list[dict]:
     return edges
 
 
+def _bump_asset_version(docs: Path) -> None:
+    """Replace ?v=... query string on script tags in index.html with current timestamp."""
+    import re
+    index = docs / "index.html"
+    if not index.exists():
+        return
+    ver = dt.datetime.utcnow().strftime("%Y%m%d%H%M")
+    html = index.read_text(encoding="utf-8")
+    html = re.sub(r'(src="(?:app|graph)\.js)(?:\?v=[^"]*)?(")', rf'\1?v={ver}\2', html)
+    index.write_text(html, encoding="utf-8")
+
+
 # --------------------------------------------------------------------------- #
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -467,6 +479,9 @@ def main() -> int:
     dashboard = build_dashboard(history)
     dashboard["report_dates"] = report_dates
     _save_json(out / "dashboard.json", dashboard)
+
+    # Bump script version in index.html so browsers skip the cache on every build.
+    _bump_asset_version(out.parent)
 
     graph = build_graph(history, dashboard)
     _save_json(out / "graph.json", graph)
