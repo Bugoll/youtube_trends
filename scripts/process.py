@@ -259,24 +259,28 @@ def _has_metrics(snap: dict) -> bool:
 
 def _build_timeline(history: dict[str, Any]) -> list[dict]:
     by_date: dict[str, dict] = {}
-    first_seen_by_date: dict[str, int] = {}
+
     for entry in history.values():
         fs = entry.get("first_seen")
-        if fs:
-            first_seen_by_date[fs] = first_seen_by_date.get(fs, 0) + 1
-        for s in entry["snapshots"]:
-            d = s["date"]
-            agg = by_date.setdefault(d, {
-                "date": d, "views": None, "likes": None, "comments": None,
-                "active_videos": 0,
-            })
-            agg["active_videos"] += 1
-            if _has_metrics(s):
-                agg["views"] = (agg["views"] or 0) + int(s.get("views", 0) or 0)
-                agg["likes"] = (agg["likes"] or 0) + int(s.get("likes", 0) or 0)
-                agg["comments"] = (agg["comments"] or 0) + int(s.get("comments", 0) or 0)
-    for d, agg in by_date.items():
-        agg["new_videos"] = first_seen_by_date.get(d, 0)
+        if not fs:
+            continue
+
+        # Latest real metrics for this video (same source as video cards).
+        snaps = entry.get("snapshots", [])
+        metric_snaps = [s for s in snaps if _has_metrics(s)]
+        latest = metric_snaps[-1] if metric_snaps else None
+
+        agg = by_date.setdefault(fs, {
+            "date": fs, "views": None, "likes": None, "comments": None,
+            "new_videos": 0,
+        })
+        agg["new_videos"] += 1
+
+        if latest:
+            agg["views"] = (agg["views"] or 0) + int(latest.get("views", 0) or 0)
+            agg["likes"] = (agg["likes"] or 0) + int(latest.get("likes", 0) or 0)
+            agg["comments"] = (agg["comments"] or 0) + int(latest.get("comments", 0) or 0)
+
     return [by_date[d] for d in sorted(by_date)]
 
 

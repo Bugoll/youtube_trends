@@ -104,11 +104,7 @@
     const hint = $("#timeline-hint");
     if (hint) hint.hidden = tl.length === 0;
 
-    // Full labels for the new-videos bar chart (all dates).
-    const allLabels = tl.map((p) => p.date);
-
-    // For metrics charts use only dates that have real data so a small
-    // number of collected points is clearly visible, not hidden in a sea of nulls.
+    // Dates with real metrics (latest snapshot per video attributed to first_seen date).
     const metricTl = tl.filter((p) => p.views != null);
 
     function tlOnClick(src) {
@@ -139,69 +135,52 @@
       return o;
     }
 
-    // If no metric data collected yet, show a placeholder message in each chart.
-    if (metricTl.length === 0) {
-      ["timeline-views-chart", "timeline-engagement-chart"].forEach((id) => {
-        const canvas = document.getElementById(id);
-        if (!canvas) return;
-        canvas.style.display = "none";
-        const msg = document.createElement("p");
-        msg.className = "hint";
-        msg.style.cssText = "margin:0;padding:16px;text-align:center;";
-        msg.textContent = "Метрики появятся после первого запуска GitHub Actions (refresh_metrics).";
-        canvas.parentNode.insertBefore(msg, canvas);
-      });
-    } else {
-      // Chart 1: Total views
-      makeChart("timeline-views-chart", {
-        type: "line",
-        data: {
-          labels: metricTl.map((p) => p.date),
-          datasets: [{
-            label: "Просмотры",
-            data: metricTl.map((p) => p.views),
-            borderColor: "#58a6ff", backgroundColor: "#58a6ff22",
-            tension: 0.3, fill: true,
-            pointRadius: 5, pointHoverRadius: 8,
-            borderWidth: 2,
-          }],
-        },
-        options: tlOpts(metricTl, "Суммарные просмотры", "#58a6ff"),
-      });
+    // Chart 1: Total views per cohort date
+    makeChart("timeline-views-chart", {
+      type: "bar",
+      data: {
+        labels: metricTl.map((p) => p.date),
+        datasets: [{
+          label: "Просмотры",
+          data: metricTl.map((p) => p.views),
+          backgroundColor: "#58a6ff55",
+          borderColor: "#58a6ff",
+          borderWidth: 1,
+        }],
+      },
+      options: tlOpts(metricTl, "Просмотры", "#58a6ff"),
+    });
 
-      // Chart 2: Likes + comments
-      makeChart("timeline-engagement-chart", {
-        type: "line",
-        data: {
-          labels: metricTl.map((p) => p.date),
-          datasets: [
-            {
-              label: "Лайки",
-              data: metricTl.map((p) => p.likes),
-              borderColor: "#3fb950", backgroundColor: "transparent",
-              tension: 0.3, fill: false,
-              pointRadius: 5, pointHoverRadius: 8,
-              borderWidth: 2,
-            },
-            {
-              label: "Комментарии",
-              data: metricTl.map((p) => p.comments),
-              borderColor: "#bc8cff", backgroundColor: "transparent",
-              tension: 0.3, fill: false,
-              pointRadius: 5, pointHoverRadius: 8,
-              borderWidth: 2,
-            },
-          ],
-        },
-        options: tlOpts(metricTl, "Лайки / Комментарии", "#9aa7b4"),
-      });
-    }
+    // Chart 2: Likes + comments per cohort date
+    makeChart("timeline-engagement-chart", {
+      type: "bar",
+      data: {
+        labels: metricTl.map((p) => p.date),
+        datasets: [
+          {
+            label: "Лайки",
+            data: metricTl.map((p) => p.likes),
+            backgroundColor: "#3fb95055",
+            borderColor: "#3fb950",
+            borderWidth: 1,
+          },
+          {
+            label: "Комментарии",
+            data: metricTl.map((p) => p.comments),
+            backgroundColor: "#bc8cff55",
+            borderColor: "#bc8cff",
+            borderWidth: 1,
+          },
+        ],
+      },
+      options: tlOpts(metricTl, "Лайки / Комментарии", "#9aa7b4"),
+    });
 
-    // Chart 3: New videos per day (bar, always shows all dates)
+    // Chart 3: New videos per day
     makeChart("timeline-videos-chart", {
       type: "bar",
       data: {
-        labels: allLabels,
+        labels: tl.map((p) => p.date),
         datasets: [{
           label: "Новых видео",
           data: tl.map((p) => p.new_videos || 0),
