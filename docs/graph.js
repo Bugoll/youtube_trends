@@ -40,19 +40,21 @@ window.GraphView = (function () {
     const videoNodes = data.nodes.filter(n => n.type === "video");
     const maxViews   = Math.max(1, ...videoNodes.map(n => n.views || 0));
 
-    // Big-bang: all nodes start at centre with a random outward velocity.
-    // Hubs fly fastest → form the outer scaffold; videos follow via spring edges.
-    // Velocity cap in step() prevents NaN from near-zero initial distances.
+    // Big-bang: every node spawns at the origin with a random outward velocity.
+    // Phase 1 (pure ballistic): nodes fly freely — no springs, no repulsion.
+    // Phase 2 (hub springs): videos get pulled toward their author/theme hubs.
+    // Phase 3 (full physics): repulsion separates nodes within each cluster.
+    // A dynamic camera tracks the expanding cloud until auto-fit fires.
     nodes = data.nodes.map(n => {
       const angle = Math.random() * Math.PI * 2;
       let speed;
-      if      (n.type === "theme")  speed = 30 + Math.random() * 20;
-      else if (n.type === "author") speed = 18 + Math.random() * 14;
-      else                          speed =  6 + Math.random() * 12;
+      if      (n.type === "theme")  speed = 55 + Math.random() * 35;
+      else if (n.type === "author") speed = 32 + Math.random() * 20;
+      else                          speed =  8 + Math.random() * 16;
       return {
         ...n,
-        x:  (Math.random() - 0.5) * 4,
-        y:  (Math.random() - 0.5) * 4,
+        x:  (Math.random() - 0.5) * 2,
+        y:  (Math.random() - 0.5) * 2,
         vx: Math.cos(angle) * speed,
         vy: Math.sin(angle) * speed,
         r: n.type === "theme"  ? 30 + Math.sqrt(n.count || 1) * 1.5
@@ -71,7 +73,7 @@ window.GraphView = (function () {
       .map(e => ({ ...e, s: byId[e.source], t: byId[e.target] }))
       .filter(e => e.s && e.t);
 
-    view      = { scale: 0.05, x: 0, y: 0 };
+    view      = { scale: 1.1, x: 0, y: 0 };  // start zoomed in on the explosion
     alpha     = 1;
     autoFitted = false;
     hover     = null;
@@ -122,12 +124,16 @@ window.GraphView = (function () {
   function isHub(n) { return n.type === "theme" || n.type === "author"; }
 
   function step() {
-    // Phase 1 (alpha > 0.72): seeds fly outward, no repulsion, hub springs only.
-    // Phase 2 (alpha ≤ 0.72): full physics — repulsion + all edge types.
-    const phase1 = alpha > 0.72;
+    // Phase 1 — pure ballistic (alpha > 0.82): nodes fly freely from origin.
+    //   No springs, no repulsion. Camera dynamically zooms out to track the cloud.
+    // Phase 2 — hub springs (0.42 < alpha ≤ 0.82): hub edges pull videos to their
+    //   author/theme hubs. Structure begins to form.
+    // Phase 3 — full physics (alpha ≤ 0.42): repulsion + gravity settle the clusters.
+    const pure   = alpha > 0.82;
+    const phase2 = alpha > 0.42;
 
-    // Node–node repulsion (phase 2 only)
-    if (!phase1) {
+    // Node–node repulsion (phase 3 only)
+    if (!phase2) {
       for (let i = 0; i < nodes.length; i++) {
         const a = nodes[i];
         const ka = isHub(a) ? 4 : 1;
@@ -143,42 +149,32 @@ window.GraphView = (function () {
           a.vx += fx; a.vy += fy;
           b.vx -= fx; b.vy -= fy;
         }
-        // Gentle pull toward origin (keeps graph centred)
-        const gravity = isHub(a) ? 0.006 : 0.018;
+        const gravity = isHub(a) ? 0.008 : 0.022;
         a.vx -= a.x * gravity * alpha;
         a.vy -= a.y * gravity * alpha;
       }
     }
 
-    // Edge springs
-    for (const e of edges) {
-      if (!edgeVisible(e)) continue;
-      // Phase 1: only hub springs active — videos get dragged by their flying hubs
-      const isHubEdge = e.type === "hub_theme" || e.type === "hub_author";
-      if (phase1 && !isHubEdge) continue;
-
-      const dx = e.t.x - e.s.x, dy = e.t.y - e.s.y;
-      const d = Math.sqrt(dx * dx + dy * dy) || 0.01;
-      let target, k;
-      if (e.type === "hub_theme") {
-        target = 80;  k = 0.05;
-      } else if (e.type === "hub_author") {
-        target = 65;  k = 0.06;
-      } else {
-        target = 90 + (1 - (e.weight || 0.3)) * 120;
-        k = 0.02;
+    // Edge springs (not during pure ballistic phase)
+    if (!pure) {
+      for (const e of edges) {
+        if (!edgeVisible(e)) continue;
+        const dx = e.t.x - e.s.x, dy = e.t.y - e.s.y;
+        const d = Math.sqrt(dx * dx + dy * dy) || 0.01;
+        const target = e.type === "hub_theme" ? 110 : 85;
+        const k      = e.type === "hub_theme" ? 0.06 : 0.08;
+        const f  = (d - target) * k * alpha;
+        const fx = (dx / d) * f, fy = (dy / d) * f;
+        e.s.vx += fx; e.s.vy += fy;
+        e.t.vx -= fx; e.t.vy -= fy;
       }
-      const f  = (d - target) * k * alpha;
-      const fx = (dx / d) * f, fy = (dy / d) * f;
-      e.s.vx += fx; e.s.vy += fy;
-      e.t.vx -= fx; e.t.vy -= fy;
     }
 
-    // Integrate — velocity cap prevents NaN when nodes start at same position
-    const MAX_V = alpha > 0.5 ? 50 : 25;   // fast explosion, slower settle
+    // Integrate — velocity cap per phase
+    const MAX_V = pure ? 90 : (phase2 ? 48 : 22);
     for (const n of nodes) {
       if (n === dragging) { n.vx = 0; n.vy = 0; continue; }
-      const damp = isHub(n) ? 0.80 : 0.84;
+      const damp = pure ? 0.96 : (isHub(n) ? 0.80 : 0.84);
       n.vx *= damp; n.vy *= damp;
       const spd = Math.sqrt(n.vx * n.vx + n.vy * n.vy);
       if (spd > MAX_V) { n.vx = n.vx / spd * MAX_V; n.vy = n.vy / spd * MAX_V; }
@@ -371,15 +367,31 @@ window.GraphView = (function () {
     ctx.restore();
   }
 
+  // Smoothly zoom the camera to keep the expanding node cloud centred in view.
+  function trackCloud() {
+    let maxR = 20;
+    for (const n of nodes) {
+      const d = Math.sqrt(n.x * n.x + n.y * n.y) + n.r;
+      if (d > maxR) maxR = d;
+    }
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    const margin = 90;
+    const target = Math.min(1.4, (w / 2 - margin) / maxR, (h / 2 - margin) / maxR);
+    view.scale += (target - view.scale) * 0.05;
+  }
+
   function loop() {
     step();
-    draw();
-    // First fit: trigger after phase 2 is well underway (alpha < 0.6),
-    // giving the big-bang animation more time to be visible before zooming.
-    if (!autoFitted && alpha < 0.6) {
-      autoFitted = true;
-      fitToScreen(true);
+    // Track the expanding cloud until the layout settles enough for auto-fit.
+    if (!autoFitted) {
+      if (alpha > 0.28) {
+        trackCloud();
+      } else {
+        autoFitted = true;
+        fitToScreen(true);
+      }
     }
+    draw();
     raf = requestAnimationFrame(loop);
   }
 
