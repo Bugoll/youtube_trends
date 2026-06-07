@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-07T19:38:12",
-  "backend": "sklearn-tfidf",
+  "generated_at": "2026-06-07T16:46:56",
+  "backend": "sentence-transformers",
   "nodes": [
     {
       "id": "theme:Геополитика",
@@ -33745,7 +33745,7 @@
     {
       "source": "cbAjV-mAZCU",
       "target": "rqbdQDSFBxw",
-      "weight": 0.6411,
+      "weight": 0.6412,
       "type": "semantic"
     },
     {
