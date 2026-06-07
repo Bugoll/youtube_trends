@@ -477,13 +477,10 @@ def main() -> int:
 
 
 def _publish_reports(raw: Path, out: Path) -> list[str]:
-    """Copy intelligence report files to docs/data/reports/YYYY-MM-DD.md.
+    """Copy final_intelligence_report files to docs/data/reports/YYYY-MM-DD.md.
 
-    Priority (highest wins when both exist for the same date):
-      1. ``*final_intelligence_report*`` — dedicated AI-generated report
-      2. ``*daily_package*.md``          — fallback until intelligence reports arrive
-
-    Returns sorted list of dates that have a report available.
+    Only ``*final_intelligence_report*`` files are published and advertised.
+    Returns sorted list of dates that have an intelligence report available.
     """
     import re
     import shutil
@@ -492,35 +489,23 @@ def _publish_reports(raw: Path, out: Path) -> list[str]:
     reports_dir.mkdir(parents=True, exist_ok=True)
 
     date_re = re.compile(r"(20\d{2}-\d{2}-\d{2})")
-    best: dict[str, tuple[int, Path]] = {}  # date → (priority, path)
-
-    def _priority(name: str) -> int:
-        n = name.lower()
-        if "final_intelligence_report" in n:
-            return 2
-        if "daily_package" in n and n.endswith(".md"):
-            return 1
-        return 0
+    found: dict[str, Path] = {}
 
     for path in sorted(raw.rglob("*")):
         if not path.is_file() or path.suffix.lower() not in (".md", ".markdown"):
             continue
-        pri = _priority(path.name)
-        if pri == 0:
+        if "final_intelligence_report" not in path.name.lower():
             continue
         m = date_re.search(path.name)
         if not m:
             continue
         date = m.group(1)
-        if date not in best or pri > best[date][0]:
-            best[date] = (pri, path)
+        found[date] = path
 
-    all_dates: list[str] = []
-    for date, (pri, path) in best.items():
+    for date, path in found.items():
         shutil.copy2(path, reports_dir / f"{date}.md")
-        all_dates.append(date)
 
-    return sorted(all_dates)
+    return sorted(found.keys())
 
 
 if __name__ == "__main__":
