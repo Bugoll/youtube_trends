@@ -185,6 +185,7 @@ td .members { color: var(--text-faint); font-size: 11px; }
 
 .chart-box { position: relative; height: 280px; }
 .chart-box.tall { height: 340px; }
+.chart-box.small { height: 160px; }
 
 /* Trending list */
 .trend-list { list-style: none; padding: 0; margin: 0; }

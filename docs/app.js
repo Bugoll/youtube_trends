@@ -102,89 +102,105 @@
     const reportDates = new Set(d.report_dates || []);
 
     const hint = $("#timeline-hint");
-    // Show hint whenever there are dates to click (reports OR any package dates)
     if (hint) hint.hidden = tl.length === 0;
 
-    const lineOpts = baseLineOpts();
-    lineOpts.onClick = (evt, elements) => {
+    const labels = tl.map((p) => p.date);
+
+    // Shared x-axis options: highlight report dates, open report on click.
+    function tlXTicks() {
+      return {
+        color: (ctx) => reportDates.has(tl[ctx.index]?.date) ? "#58a6ff" : "#9aa7b4",
+        font:  (ctx) => reportDates.has(tl[ctx.index]?.date) ? { weight: "bold" } : {},
+        maxTicksLimit: 14,
+      };
+    }
+    function tlOnClick(evt, elements) {
       if (!elements.length) return;
       const date = tl[elements[0].index]?.date;
       if (date) openReport(date, reportDates);
-    };
-    lineOpts.plugins = lineOpts.plugins || {};
-    lineOpts.plugins.tooltip = lineOpts.plugins.tooltip || {};
+    }
+    function tlOpts(titleText, titleColor) {
+      const o = baseLineOpts();
+      o.onClick = tlOnClick;
+      o.scales = {
+        ...gridScales(),
+        x: { ticks: tlXTicks(), grid: { color: "#2a3340" } },
+        y: {
+          ...gridScales().y,
+          title: { display: true, text: titleText, color: titleColor, font: { size: 11 } },
+        },
+      };
+      return o;
+    }
+    function ptRadius(val) {
+      return (ctx) => val[ctx.dataIndex] != null ? 4 : 0;
+    }
 
-    // Mark dates that have reports with a highlighted x-axis label
-    lineOpts.scales = lineOpts.scales || gridScales();
-    lineOpts.scales.x = lineOpts.scales.x || {};
-    lineOpts.scales.x.ticks = {
-      color: (ctx) => {
-        const label = tl[ctx.index]?.date;
-        return reportDates.has(label) ? "#58a6ff" : "#9aa7b4";
-      },
-      font: (ctx) => {
-        const label = tl[ctx.index]?.date;
-        return reportDates.has(label) ? { weight: "bold" } : {};
-      },
-      maxTicksLimit: 14,
-    };
-    lineOpts.scales.x.grid = { color: "#2a3340" };
-
-    // Metrics datasets use null for dates without real data (renders as a gap).
-    // New-videos bar always shows for all dates so the chart is never blank.
-    makeChart("timeline-chart", {
-      type: "bar",
+    // Chart 1: Total views
+    makeChart("timeline-views-chart", {
+      type: "line",
       data: {
-        labels: tl.map((p) => p.date),
+        labels,
+        datasets: [{
+          label: "Просмотры",
+          data: tl.map((p) => p.views),
+          borderColor: "#58a6ff", backgroundColor: "#58a6ff22",
+          tension: 0.3, fill: true,
+          pointRadius: ptRadius(tl.map((p) => p.views)),
+          pointHoverRadius: 6,
+          borderWidth: 2, spanGaps: false,
+        }],
+      },
+      options: tlOpts("Суммарные просмотры", "#58a6ff"),
+    });
+
+    // Chart 2: Likes + comments (closer in scale, share one Y axis)
+    makeChart("timeline-engagement-chart", {
+      type: "line",
+      data: {
+        labels,
         datasets: [
           {
-            type: "line",
-            label: "Просмотры",
-            data: tl.map((p) => p.views),
-            borderColor: "#58a6ff", backgroundColor: "#58a6ff33",
-            tension: 0.3, fill: true, pointRadius: (ctx) => tl[ctx.dataIndex]?.views != null ? 3 : 0,
-            borderWidth: 2, spanGaps: false, yAxisID: "y",
-          },
-          {
-            type: "line",
             label: "Лайки",
             data: tl.map((p) => p.likes),
             borderColor: "#3fb950", backgroundColor: "transparent",
-            tension: 0.3, fill: false, pointRadius: (ctx) => tl[ctx.dataIndex]?.likes != null ? 3 : 0,
-            borderWidth: 2, spanGaps: false, yAxisID: "y",
+            tension: 0.3, fill: false,
+            pointRadius: ptRadius(tl.map((p) => p.likes)),
+            pointHoverRadius: 6,
+            borderWidth: 2, spanGaps: false,
           },
           {
-            type: "line",
             label: "Комментарии",
             data: tl.map((p) => p.comments),
             borderColor: "#bc8cff", backgroundColor: "transparent",
-            tension: 0.3, fill: false, pointRadius: (ctx) => tl[ctx.dataIndex]?.comments != null ? 3 : 0,
-            borderWidth: 2, spanGaps: false, yAxisID: "y",
-          },
-          {
-            type: "bar",
-            label: "Новых видео",
-            data: tl.map((p) => p.new_videos || 0),
-            backgroundColor: "#d2992233",
-            borderColor: "#d29922",
-            borderWidth: 1,
-            yAxisID: "y2",
+            tension: 0.3, fill: false,
+            pointRadius: ptRadius(tl.map((p) => p.comments)),
+            pointHoverRadius: 6,
+            borderWidth: 2, spanGaps: false,
           },
         ],
       },
-      options: {
-        ...lineOpts,
-        scales: {
-          ...lineOpts.scales,
-          y: { ...gridScales().y, position: "left" },
-          y2: {
-            ...gridScales().y,
-            position: "right",
-            grid: { drawOnChartArea: false },
-            title: { display: true, text: "Новых видео", color: "#d29922", font: { size: 11 } },
-          },
-        },
+      options: tlOpts("Лайки / Комментарии", "#9aa7b4"),
+    });
+
+    // Chart 3: New videos per day (bar)
+    makeChart("timeline-videos-chart", {
+      type: "bar",
+      data: {
+        labels,
+        datasets: [{
+          label: "Новых видео",
+          data: tl.map((p) => p.new_videos || 0),
+          backgroundColor: "#d2992233",
+          borderColor: "#d29922",
+          borderWidth: 1,
+        }],
       },
+      options: (() => {
+        const o = tlOpts("Новых видео", "#d29922");
+        o.scales.y.title.color = "#d29922";
+        return o;
+      })(),
     });
 
     $("#report-close")?.addEventListener("click", closeReport);
