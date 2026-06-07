@@ -150,11 +150,15 @@ class OllamaBackend:
         self._model = model
 
     def complete(self, prompt: str, max_tokens: int) -> str:  # noqa: ARG002
+        # num_predict is intentionally omitted: thinking models (Qwen3, DeepSeek-R1)
+        # consume hundreds of tokens in <think> before emitting the answer; capping
+        # at max_tokens silences the response entirely. Ollama returns the final
+        # answer in `response` (think content is in a separate `thinking` field).
         payload = json.dumps({
             "model": self._model,
             "prompt": prompt,
             "stream": False,
-            "options": {"num_predict": max_tokens, "temperature": 0.0},
+            "options": {"temperature": 0.0},
         }).encode("utf-8")
         req = urllib.request.Request(
             f"{self._base_url}/api/generate",
