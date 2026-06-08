@@ -276,3 +276,31 @@ td .members { color: var(--text-faint); font-size: 11px; }
 .report-body hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
 .report-body strong { color: var(--text); }
 .report-body code { background: var(--bg-elev-2); border-radius: 4px; padding: 1px 5px; font-size: 12px; }
+
+/* Timeline navigation */
+.tl-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.tl-nav-btn {
+  background: var(--bg-elev-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 4px 12px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1.4;
+  transition: border-color .15s, background .15s;
+}
+.tl-nav-btn:hover:not(:disabled) { border-color: var(--accent); background: var(--bg-elev-3); }
+.tl-nav-btn:disabled { opacity: .35; cursor: default; }
+.tl-nav-range {
+  flex: 1;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-dim);
+  letter-spacing: .03em;
+}
