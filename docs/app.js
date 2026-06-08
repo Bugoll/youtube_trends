@@ -106,43 +106,48 @@
 
     const metricTl = tl.filter((p) => p.views != null);
 
-    const WINDOW = 30;   // days visible at once
-    const STEP   = 15;   // days to jump per navigation click
+    const WINDOW = 30;
+    const STEP   = 15;
 
-    // windowEnd points to the last visible index in each source array.
-    // Initialised to the end of each array so "latest 30 days" shows by default.
     const win = {
       metric: Math.max(metricTl.length - 1, 0),
       all:    Math.max(tl.length - 1, 0),
     };
 
-    // ---- tick helper (no auto-skip, always show first + last of window)
-    function xTicks(slice, reportDates) {
-      const n = slice.length;
-      const maxVisible = 10;
-      const step = n <= maxVisible ? 1 : Math.ceil(n / (maxVisible - 1));
-      const show = new Set();
-      for (let i = 0; i < n; i += step) show.add(i);
-      show.add(n - 1);
+    // Mutable refs so tick callbacks always read the current window slice.
+    const refs = {
+      sliceM: [],
+      sliceA: [],
+    };
+
+    function sliceWin(arr, endIdx) {
+      const end = endIdx + 1;
+      return arr.slice(Math.max(0, end - WINDOW), end);
+    }
+
+    // Tick config that reads from refs at render time (no stale closure).
+    function xTicksRef(key) {
       return {
         autoSkip: false,
-        color: (ctx) => reportDates.has(slice[ctx.index]?.date) ? "#58a6ff" : "#9aa7b4",
-        font:  (ctx) => reportDates.has(slice[ctx.index]?.date) ? { weight: "bold" } : {},
-        callback(_, idx) { return show.has(idx) ? (slice[idx]?.date || "") : ""; },
+        maxRotation: 90,
+        minRotation: 45,
+        color: (ctx) => reportDates.has(refs[key][ctx.index]?.date) ? "#58a6ff" : "#9aa7b4",
+        font:  (ctx) => reportDates.has(refs[key][ctx.index]?.date) ? { weight: "bold" } : {},
+        callback(_, idx) { return refs[key][idx]?.date || ""; },
       };
     }
 
-    function makeOpts(slice, titleText, titleColor) {
+    function makeOpts(refKey, titleText, titleColor) {
       const o = baseLineOpts();
       o.animation = false;
       o.onClick = (evt, els) => {
         if (!els.length) return;
-        const date = slice[els[0].index]?.date;
+        const date = refs[refKey][els[0].index]?.date;
         if (date) openReport(date, reportDates);
       };
       o.scales = {
         ...gridScales(),
-        x: { ticks: xTicks(slice, reportDates), grid: { color: "#2a3340" } },
+        x: { ticks: xTicksRef(refKey), grid: { color: "#2a3340" } },
         y: {
           ...gridScales().y,
           title: { display: true, text: titleText, color: titleColor, font: { size: 11 } },
@@ -151,98 +156,82 @@
       return o;
     }
 
-    // ---- slice helpers
-    function sliceWin(arr, endIdx) {
-      const end = endIdx + 1;
-      const start = Math.max(0, end - WINDOW);
-      return arr.slice(start, end);
-    }
+    // Initialise refs before chart creation so callbacks have data.
+    refs.sliceM = sliceWin(metricTl, win.metric);
+    refs.sliceA = sliceWin(tl, win.all);
 
-    // ---- initial slices
-    let sliceM = sliceWin(metricTl, win.metric);
-    let sliceA = sliceWin(tl, win.all);
-
-    // ---- create charts
     const cViews = makeChart("timeline-views-chart", {
       type: "bar",
       data: {
-        labels: sliceM.map((p) => p.date),
+        labels: refs.sliceM.map((p) => p.date),
         datasets: [{
           label: "Просмотры",
-          data: sliceM.map((p) => p.views),
+          data: refs.sliceM.map((p) => p.views),
           backgroundColor: "#58a6ff55", borderColor: "#58a6ff", borderWidth: 1,
         }],
       },
-      options: makeOpts(sliceM, "Просмотры", "#58a6ff"),
+      options: makeOpts("sliceM", "Просмотры", "#58a6ff"),
     });
 
     const cEngage = makeChart("timeline-engagement-chart", {
       type: "bar",
       data: {
-        labels: sliceM.map((p) => p.date),
+        labels: refs.sliceM.map((p) => p.date),
         datasets: [
-          { label: "Лайки",        data: sliceM.map((p) => p.likes),    backgroundColor: "#3fb95055", borderColor: "#3fb950", borderWidth: 1 },
-          { label: "Комментарии",  data: sliceM.map((p) => p.comments), backgroundColor: "#bc8cff55", borderColor: "#bc8cff", borderWidth: 1 },
+          { label: "Лайки",       data: refs.sliceM.map((p) => p.likes),    backgroundColor: "#3fb95055", borderColor: "#3fb950", borderWidth: 1 },
+          { label: "Комментарии", data: refs.sliceM.map((p) => p.comments), backgroundColor: "#bc8cff55", borderColor: "#bc8cff", borderWidth: 1 },
         ],
       },
-      options: makeOpts(sliceM, "Лайки / Комментарии", "#9aa7b4"),
+      options: makeOpts("sliceM", "Лайки / Комментарии", "#9aa7b4"),
     });
 
     const cVideos = makeChart("timeline-videos-chart", {
       type: "bar",
       data: {
-        labels: sliceA.map((p) => p.date),
+        labels: refs.sliceA.map((p) => p.date),
         datasets: [{
           label: "Новых видео",
-          data: sliceA.map((p) => p.new_videos || 0),
+          data: refs.sliceA.map((p) => p.new_videos || 0),
           backgroundColor: "#d2992233", borderColor: "#d29922", borderWidth: 1,
         }],
       },
-      options: makeOpts(sliceA, "Новых видео", "#d29922"),
+      options: makeOpts("sliceA", "Новых видео", "#d29922"),
     });
 
-    // ---- navigation
     function updateRange() {
       const rangeEl = $("#tl-range");
-      if (!rangeEl) return;
-      // Show the wider of the two windows in the label
-      const startDate = sliceA[0]?.date || sliceM[0]?.date || "";
-      const endDate   = sliceA.at(-1)?.date || sliceM.at(-1)?.date || "";
-      rangeEl.textContent = startDate + " — " + endDate;
-      $("#tl-prev").disabled = win.metric <= WINDOW - 1 && win.all <= WINDOW - 1;
-      $("#tl-next").disabled = win.metric >= metricTl.length - 1 && win.all >= tl.length - 1;
+      if (rangeEl) {
+        const s = refs.sliceA[0]?.date || refs.sliceM[0]?.date || "";
+        const e = refs.sliceA.at(-1)?.date || refs.sliceM.at(-1)?.date || "";
+        rangeEl.textContent = s + " — " + e;
+      }
+      const atStart = win.metric <= WINDOW - 1 && win.all <= WINDOW - 1;
+      const atEnd   = win.metric >= metricTl.length - 1 && win.all >= tl.length - 1;
+      const prev = $("#tl-prev"), next = $("#tl-next");
+      if (prev) prev.disabled = atStart;
+      if (next) next.disabled = atEnd;
     }
 
     function applyWindow() {
-      sliceM = sliceWin(metricTl, win.metric);
-      sliceA = sliceWin(tl, win.all);
+      // Update refs — tick callbacks read these on next chart render.
+      refs.sliceM = sliceWin(metricTl, win.metric);
+      refs.sliceA = sliceWin(tl, win.all);
 
-      [cViews, cEngage].forEach((ch) => {
-        if (!ch) return;
-        ch.data.labels = sliceM.map((p) => p.date);
-        ch.data.datasets[0].data = sliceM.map((p) => p.views);
-        if (ch === cEngage) {
-          ch.data.datasets[0].data = sliceM.map((p) => p.likes);
-          ch.data.datasets[1].data = sliceM.map((p) => p.comments);
-        }
-        ch.options.scales.x.ticks = xTicks(sliceM, reportDates);
-        ch.options.onClick = (evt, els) => {
-          if (!els.length) return;
-          const date = sliceM[els[0].index]?.date;
-          if (date) openReport(date, reportDates);
-        };
-        ch.update("none");
-      });
-
+      // Update labels + data in place; ticks re-read refs automatically.
+      if (cViews) {
+        cViews.data.labels           = refs.sliceM.map((p) => p.date);
+        cViews.data.datasets[0].data = refs.sliceM.map((p) => p.views);
+        cViews.update("none");
+      }
+      if (cEngage) {
+        cEngage.data.labels           = refs.sliceM.map((p) => p.date);
+        cEngage.data.datasets[0].data = refs.sliceM.map((p) => p.likes);
+        cEngage.data.datasets[1].data = refs.sliceM.map((p) => p.comments);
+        cEngage.update("none");
+      }
       if (cVideos) {
-        cVideos.data.labels = sliceA.map((p) => p.date);
-        cVideos.data.datasets[0].data = sliceA.map((p) => p.new_videos || 0);
-        cVideos.options.scales.x.ticks = xTicks(sliceA, reportDates);
-        cVideos.options.onClick = (evt, els) => {
-          if (!els.length) return;
-          const date = sliceA[els[0].index]?.date;
-          if (date) openReport(date, reportDates);
-        };
+        cVideos.data.labels           = refs.sliceA.map((p) => p.date);
+        cVideos.data.datasets[0].data = refs.sliceA.map((p) => p.new_videos || 0);
         cVideos.update("none");
       }
 
