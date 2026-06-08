@@ -115,10 +115,20 @@
       };
     }
     function xTicks(src) {
+      // Always show first + last label plus evenly-spaced ticks in between.
+      // We generate the visible set ourselves so Chart.js auto-skip never hides
+      // the last date (which can happen when the last bar has value 0).
+      const n = src.length;
+      const maxVisible = 14;
+      const step = n <= maxVisible ? 1 : Math.ceil(n / (maxVisible - 1));
+      const visibleIdx = new Set();
+      for (let i = 0; i < n; i += step) visibleIdx.add(i);
+      visibleIdx.add(n - 1); // always include last
       return {
         color: (ctx) => reportDates.has(src[ctx.index]?.date) ? "#58a6ff" : "#9aa7b4",
         font:  (ctx) => reportDates.has(src[ctx.index]?.date) ? { weight: "bold" } : {},
-        maxTicksLimit: 14,
+        autoSkip: false,
+        callback(val, idx) { return visibleIdx.has(idx) ? src[idx]?.date : ""; },
       };
     }
     function tlOpts(src, titleText, titleColor) {
