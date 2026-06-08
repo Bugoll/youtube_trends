@@ -173,6 +173,7 @@ def build_dashboard(history: dict[str, Any]) -> dict[str, Any]:
             "title": entry["title"],
             "author": entry["author"],
             "topic": entry["topic"],
+            "macro_theme": classify_macro_theme(entry),
             "url": entry["url"],
             "tags": entry.get("tags", []),
             "ideas": entry.get("ideas", []),

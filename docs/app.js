@@ -591,17 +591,38 @@
   }
 
   function renderThemes(d) {
+    // Aggregate videos by macro_theme (9 categories from graph legend)
+    const order = Object.keys(GRAPH_THEME_COLORS);
+    const acc = {};
+    order.forEach((name) => {
+      acc[name] = { name, video_count: 0, views: 0, likes: 0, comments: 0, members: [] };
+    });
+    (d.videos || []).forEach((v) => {
+      const t = v.macro_theme || "Разное";
+      const bucket = acc[t] || acc["Разное"];
+      bucket.video_count += 1;
+      bucket.views    += (v.metrics && v.metrics.views)    ? +v.metrics.views    : 0;
+      bucket.likes    += (v.metrics && v.metrics.likes)    ? +v.metrics.likes    : 0;
+      bucket.comments += (v.metrics && v.metrics.comments) ? +v.metrics.comments : 0;
+      if (bucket.members.length < 5) bucket.members.push(v.author || "");
+    });
+    const macroThemes = order.map((n) => acc[n]).filter((g) => g.video_count > 0);
+
     makeChart("themes-chart", {
       type: "doughnut",
       data: {
-        labels: d.themes.map((t) => t.name),
-        datasets: [{ data: d.themes.map((t) => t.views),
-          backgroundColor: d.themes.map((t) => colorForTheme(t.name)), borderColor: "#0d1117", borderWidth: 2 }],
+        labels: macroThemes.map((t) => t.name),
+        datasets: [{
+          data: macroThemes.map((t) => t.views),
+          backgroundColor: macroThemes.map((t) => GRAPH_THEME_COLORS[t.name] || "#8b98a5"),
+          borderColor: "#0d1117",
+          borderWidth: 2,
+        }],
       },
       options: { responsive: true, maintainAspectRatio: false,
         plugins: { legend: { labels: { color: "#9aa7b4" } } } },
     });
-    makeSortable("themes-table", d.themes);
+    makeSortable("themes-table", macroThemes);
   }
 
   function fillGroupTable(sel, groups) {
