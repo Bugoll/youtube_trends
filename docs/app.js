@@ -109,147 +109,92 @@
     const WINDOW = 30;
     const STEP   = 15;
 
-    const win = {
-      metric: Math.max(metricTl.length - 1, 0),
-      all:    Math.max(tl.length - 1, 0),
-    };
-
-    // Mutable refs so tick callbacks always read the current window slice.
-    const refs = {
-      sliceM: [],
-      sliceA: [],
-    };
-
     function sliceWin(arr, endIdx) {
       const end = endIdx + 1;
       return arr.slice(Math.max(0, end - WINDOW), end);
     }
 
-    // Tick config that reads from refs at render time (no stale closure).
-    function xTicksRef(key) {
-      return {
+    // Each chart has its own independent ref + nav state.
+    function makeChartNav(chartId, src, prevId, nextId, rangeId, getDatasets, titleText, titleColor) {
+      const ref = { slice: sliceWin(src, src.length - 1) };
+      let endIdx = src.length - 1;
+
+      const ticks = {
         autoSkip: false,
         maxRotation: 90,
         minRotation: 45,
-        color: (ctx) => reportDates.has(refs[key][ctx.index]?.date) ? "#58a6ff" : "#9aa7b4",
-        font:  (ctx) => reportDates.has(refs[key][ctx.index]?.date) ? { weight: "bold" } : {},
-        callback(_, idx) { return refs[key][idx]?.date || ""; },
+        color: (ctx) => reportDates.has(ref.slice[ctx.index]?.date) ? "#58a6ff" : "#9aa7b4",
+        font:  (ctx) => reportDates.has(ref.slice[ctx.index]?.date) ? { weight: "bold" } : {},
+        callback(_, idx) { return ref.slice[idx]?.date || ""; },
       };
-    }
 
-    function makeOpts(refKey, titleText, titleColor) {
-      const o = baseLineOpts();
-      o.animation = false;
-      o.onClick = (evt, els) => {
+      const opts = baseLineOpts();
+      opts.animation = false;
+      opts.onClick = (evt, els) => {
         if (!els.length) return;
-        const date = refs[refKey][els[0].index]?.date;
+        const date = ref.slice[els[0].index]?.date;
         if (date) openReport(date, reportDates);
       };
-      o.scales = {
+      opts.scales = {
         ...gridScales(),
-        x: { ticks: xTicksRef(refKey), grid: { color: "#2a3340" } },
-        y: {
-          ...gridScales().y,
-          title: { display: true, text: titleText, color: titleColor, font: { size: 11 } },
-        },
+        x: { ticks, grid: { color: "#2a3340" } },
+        y: { ...gridScales().y, title: { display: true, text: titleText, color: titleColor, font: { size: 11 } } },
       };
-      return o;
+
+      const chart = makeChart(chartId, {
+        type: "bar",
+        data: { labels: ref.slice.map((p) => p.date), datasets: getDatasets(ref.slice) },
+        options: opts,
+      });
+
+      function updateNav() {
+        const rangeEl = $("#" + rangeId);
+        if (rangeEl) rangeEl.textContent = (ref.slice[0]?.date || "") + " — " + (ref.slice.at(-1)?.date || "");
+        const p = $("#" + prevId), n = $("#" + nextId);
+        if (p) p.disabled = endIdx <= WINDOW - 1;
+        if (n) n.disabled = endIdx >= src.length - 1;
+      }
+
+      function apply() {
+        ref.slice = sliceWin(src, endIdx);
+        if (chart) {
+          chart.data.labels = ref.slice.map((p) => p.date);
+          const ds = getDatasets(ref.slice);
+          ds.forEach((d, i) => { if (chart.data.datasets[i]) chart.data.datasets[i].data = d.data; });
+          chart.update("none");
+        }
+        updateNav();
+      }
+
+      $("#" + prevId)?.addEventListener("click", () => { endIdx = Math.max(WINDOW - 1, endIdx - STEP); apply(); });
+      $("#" + nextId)?.addEventListener("click", () => { endIdx = Math.min(src.length - 1, endIdx + STEP); apply(); });
+
+      updateNav();
     }
 
-    // Initialise refs before chart creation so callbacks have data.
-    refs.sliceM = sliceWin(metricTl, win.metric);
-    refs.sliceA = sliceWin(tl, win.all);
+    makeChartNav(
+      "timeline-views-chart", metricTl,
+      "tl-prev-views", "tl-next-views", "tl-range-views",
+      (s) => [{ label: "Просмотры", data: s.map((p) => p.views), backgroundColor: "#58a6ff55", borderColor: "#58a6ff", borderWidth: 1 }],
+      "Просмотры", "#58a6ff"
+    );
 
-    const cViews = makeChart("timeline-views-chart", {
-      type: "bar",
-      data: {
-        labels: refs.sliceM.map((p) => p.date),
-        datasets: [{
-          label: "Просмотры",
-          data: refs.sliceM.map((p) => p.views),
-          backgroundColor: "#58a6ff55", borderColor: "#58a6ff", borderWidth: 1,
-        }],
-      },
-      options: makeOpts("sliceM", "Просмотры", "#58a6ff"),
-    });
+    makeChartNav(
+      "timeline-engagement-chart", metricTl,
+      "tl-prev-engage", "tl-next-engage", "tl-range-engage",
+      (s) => [
+        { label: "Лайки",       data: s.map((p) => p.likes),    backgroundColor: "#3fb95055", borderColor: "#3fb950", borderWidth: 1 },
+        { label: "Комментарии", data: s.map((p) => p.comments), backgroundColor: "#bc8cff55", borderColor: "#bc8cff", borderWidth: 1 },
+      ],
+      "Лайки / Комментарии", "#9aa7b4"
+    );
 
-    const cEngage = makeChart("timeline-engagement-chart", {
-      type: "bar",
-      data: {
-        labels: refs.sliceM.map((p) => p.date),
-        datasets: [
-          { label: "Лайки",       data: refs.sliceM.map((p) => p.likes),    backgroundColor: "#3fb95055", borderColor: "#3fb950", borderWidth: 1 },
-          { label: "Комментарии", data: refs.sliceM.map((p) => p.comments), backgroundColor: "#bc8cff55", borderColor: "#bc8cff", borderWidth: 1 },
-        ],
-      },
-      options: makeOpts("sliceM", "Лайки / Комментарии", "#9aa7b4"),
-    });
-
-    const cVideos = makeChart("timeline-videos-chart", {
-      type: "bar",
-      data: {
-        labels: refs.sliceA.map((p) => p.date),
-        datasets: [{
-          label: "Новых видео",
-          data: refs.sliceA.map((p) => p.new_videos || 0),
-          backgroundColor: "#d2992233", borderColor: "#d29922", borderWidth: 1,
-        }],
-      },
-      options: makeOpts("sliceA", "Новых видео", "#d29922"),
-    });
-
-    function updateRange() {
-      const rangeEl = $("#tl-range");
-      if (rangeEl) {
-        const s = refs.sliceA[0]?.date || refs.sliceM[0]?.date || "";
-        const e = refs.sliceA.at(-1)?.date || refs.sliceM.at(-1)?.date || "";
-        rangeEl.textContent = s + " — " + e;
-      }
-      const atStart = win.metric <= WINDOW - 1 && win.all <= WINDOW - 1;
-      const atEnd   = win.metric >= metricTl.length - 1 && win.all >= tl.length - 1;
-      const prev = $("#tl-prev"), next = $("#tl-next");
-      if (prev) prev.disabled = atStart;
-      if (next) next.disabled = atEnd;
-    }
-
-    function applyWindow() {
-      // Update refs — tick callbacks read these on next chart render.
-      refs.sliceM = sliceWin(metricTl, win.metric);
-      refs.sliceA = sliceWin(tl, win.all);
-
-      // Update labels + data in place; ticks re-read refs automatically.
-      if (cViews) {
-        cViews.data.labels           = refs.sliceM.map((p) => p.date);
-        cViews.data.datasets[0].data = refs.sliceM.map((p) => p.views);
-        cViews.update("none");
-      }
-      if (cEngage) {
-        cEngage.data.labels           = refs.sliceM.map((p) => p.date);
-        cEngage.data.datasets[0].data = refs.sliceM.map((p) => p.likes);
-        cEngage.data.datasets[1].data = refs.sliceM.map((p) => p.comments);
-        cEngage.update("none");
-      }
-      if (cVideos) {
-        cVideos.data.labels           = refs.sliceA.map((p) => p.date);
-        cVideos.data.datasets[0].data = refs.sliceA.map((p) => p.new_videos || 0);
-        cVideos.update("none");
-      }
-
-      updateRange();
-    }
-
-    $("#tl-prev")?.addEventListener("click", () => {
-      win.metric = Math.max(WINDOW - 1, win.metric - STEP);
-      win.all    = Math.max(WINDOW - 1, win.all    - STEP);
-      applyWindow();
-    });
-    $("#tl-next")?.addEventListener("click", () => {
-      win.metric = Math.min(metricTl.length - 1, win.metric + STEP);
-      win.all    = Math.min(tl.length - 1,        win.all    + STEP);
-      applyWindow();
-    });
-
-    updateRange();
+    makeChartNav(
+      "timeline-videos-chart", tl,
+      "tl-prev-videos", "tl-next-videos", "tl-range-videos",
+      (s) => [{ label: "Новых видео", data: s.map((p) => p.new_videos || 0), backgroundColor: "#d2992233", borderColor: "#d29922", borderWidth: 1 }],
+      "Новых видео", "#d29922"
+    );
 
     $("#report-close")?.addEventListener("click", closeReport);
 

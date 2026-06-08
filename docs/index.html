@@ -30,14 +30,24 @@
       <div class="grid-2">
         <div class="panel">
           <h2>Динамика суммарных метрик</h2>
-          <div class="tl-nav">
-            <button class="tl-nav-btn" id="tl-prev" aria-label="Назад">&#8592;</button>
-            <span class="tl-nav-range" id="tl-range"></span>
-            <button class="tl-nav-btn" id="tl-next" aria-label="Вперёд">&#8594;</button>
+          <div class="chart-box small"><canvas id="timeline-views-chart"></canvas></div>
+          <div class="tl-nav" style="margin-bottom:14px">
+            <button class="tl-nav-btn" id="tl-prev-views">&#8592;</button>
+            <span class="tl-nav-range" id="tl-range-views"></span>
+            <button class="tl-nav-btn" id="tl-next-views">&#8594;</button>
           </div>
-          <div class="chart-box small" style="margin-bottom:12px"><canvas id="timeline-views-chart"></canvas></div>
-          <div class="chart-box small" style="margin-bottom:12px"><canvas id="timeline-engagement-chart"></canvas></div>
+          <div class="chart-box small"><canvas id="timeline-engagement-chart"></canvas></div>
+          <div class="tl-nav" style="margin-bottom:14px">
+            <button class="tl-nav-btn" id="tl-prev-engage">&#8592;</button>
+            <span class="tl-nav-range" id="tl-range-engage"></span>
+            <button class="tl-nav-btn" id="tl-next-engage">&#8594;</button>
+          </div>
           <div class="chart-box small"><canvas id="timeline-videos-chart"></canvas></div>
+          <div class="tl-nav">
+            <button class="tl-nav-btn" id="tl-prev-videos">&#8592;</button>
+            <span class="tl-nav-range" id="tl-range-videos"></span>
+            <button class="tl-nav-btn" id="tl-next-videos">&#8594;</button>
+          </div>
           <p class="hint" id="timeline-hint" style="margin:8px 0 0">Нажмите на столбец, чтобы открыть репорт за этот день.</p>
         </div>
         <div class="panel report-panel" id="report-panel" hidden>
