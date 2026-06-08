@@ -261,44 +261,56 @@ def _has_metrics(snap: dict) -> bool:
 
 
 def _build_timeline(history: dict[str, Any]) -> list[dict]:
-    """Build a time series over every date that has snapshots or new videos.
+    """Build a time series over every date that has new videos or metric refreshes.
 
-    Each entry aggregates:
-      - new_videos: count of videos first seen on that date
-      - views/likes/comments: sum of metrics from snapshots taken on that date
+    For first_seen dates: new_videos count + latest available metrics per video
+    (same as before — packages rarely carry real view counts so we use the most
+    recent refresh snapshot).
 
-    Dates that have only metric refreshes (no new videos) are included with
-    new_videos=0, so the chart extends to the latest refresh date.
+    For metric-refresh dates that fall after the last first_seen date: added as
+    extra entries with new_videos=0 and the actual snapshot metrics for that day.
+    This makes the timeline extend to the latest refresh run.
     """
     by_date: dict[str, dict] = {}
 
     for entry in history.values():
         fs = entry.get("first_seen")
+        if not fs:
+            continue
+
         snaps = entry.get("snapshots", [])
+        metric_snaps = [s for s in snaps if _has_metrics(s)]
+        latest = metric_snaps[-1] if metric_snaps else None
 
-        # Register the first_seen date so new_videos is tracked even if there
-        # are no snapshots for that day (e.g. package had no metrics).
-        if fs:
-            by_date.setdefault(fs, {
-                "date": fs, "views": None, "likes": None, "comments": None,
-                "new_videos": 0,
-            })["new_videos"] += 1  # type: ignore[index]
+        agg = by_date.setdefault(fs, {
+            "date": fs, "views": None, "likes": None, "comments": None,
+            "new_videos": 0,
+        })
+        agg["new_videos"] += 1
 
-        # Accumulate per-date snapshot metrics.
-        for snap in snaps:
-            if not _has_metrics(snap):
-                continue
+        if latest:
+            agg["views"] = (agg["views"] or 0) + int(latest.get("views", 0) or 0)
+            agg["likes"] = (agg["likes"] or 0) + int(latest.get("likes", 0) or 0)
+            agg["comments"] = (agg["comments"] or 0) + int(latest.get("comments", 0) or 0)
+
+    # Collect dates that only appear as metric-refresh snapshots (no new videos).
+    refresh_only: set[str] = set()
+    for entry in history.values():
+        for snap in entry.get("snapshots", []):
             d = snap.get("date")
-            if not d:
-                continue
-            agg = by_date.setdefault(d, {
-                "date": d, "views": None, "likes": None, "comments": None,
-                "new_videos": 0,
-            })
-            for k in ("views", "likes", "comments"):
-                v = int(snap.get(k, 0) or 0)
-                if v:
-                    agg[k] = (agg[k] or 0) + v
+            if d and _has_metrics(snap) and d not in by_date:
+                refresh_only.add(d)
+
+    for d in refresh_only:
+        agg = {"date": d, "views": None, "likes": None, "comments": None, "new_videos": 0}
+        for entry in history.values():
+            for snap in entry.get("snapshots", []):
+                if snap.get("date") == d and _has_metrics(snap):
+                    for k in ("views", "likes", "comments"):
+                        v = int(snap.get(k, 0) or 0)
+                        if v:
+                            agg[k] = (agg[k] or 0) + v
+        by_date[d] = agg
 
     return [by_date[d] for d in sorted(by_date)]
 
