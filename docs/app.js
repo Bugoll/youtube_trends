@@ -158,10 +158,17 @@
       function apply() {
         ref.slice = sliceWin(src, endIdx);
         if (chart) {
-          chart.data.labels = ref.slice.map((p) => p.date);
+          // Mutate arrays in place — Chart.js reliably detects in-place changes;
+          // replacing the reference can silently skip axis re-render.
+          const newLabels = ref.slice.map((p) => p.date);
+          chart.data.labels.splice(0, chart.data.labels.length, ...newLabels);
+
           const ds = getDatasets(ref.slice);
-          ds.forEach((d, i) => { if (chart.data.datasets[i]) chart.data.datasets[i].data = d.data; });
-          chart.update("none");
+          ds.forEach((d, i) => {
+            if (!chart.data.datasets[i]) return;
+            chart.data.datasets[i].data.splice(0, chart.data.datasets[i].data.length, ...d.data);
+          });
+          chart.update();
         }
         updateNav();
       }
