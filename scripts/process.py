@@ -94,6 +94,8 @@ def update_history(history: dict[str, Any], records: list[dict]) -> dict[str, An
         for field in ("title", "author", "topic", "url", "summary", "published_at"):
             if rec.get(field):
                 entry[field] = rec[field]
+        if rec.get("processing_error"):
+            entry["processing_error"] = rec["processing_error"]
         entry["tags"] = list(dict.fromkeys([*entry.get("tags", []), *rec["tags"]]))
         entry["ideas"] = list(dict.fromkeys([*entry.get("ideas", []), *rec["ideas"]]))
         for f in ("key_points", "novel_ideas", "speaker_claims"):
@@ -185,6 +187,7 @@ def build_dashboard(history: dict[str, Any]) -> dict[str, Any]:
             "first_seen": entry.get("first_seen"),
             "last_seen": entry.get("last_seen"),
             "status": entry.get("status", "available"),
+            "processing_error": entry.get("processing_error", ""),
             "metrics": latest_metrics,
             "engagement": _engagement(latest_metrics),
             "deltas": {

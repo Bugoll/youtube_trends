@@ -147,6 +147,7 @@ main { padding: 24px 32px 64px; }
 .badge.status-available { background: rgba(63,185,80,0.12);  border-color: var(--green);  color: var(--green); }
 .badge.status-unsub     { background: rgba(139,152,165,0.15); border-color: var(--text-faint); color: var(--text-faint); }
 .badge.status-warn      { background: rgba(210,153,34,0.15); border-color: var(--amber);  color: var(--amber); }
+.badge.status-error     { background: rgba(248,81,73,0.10);  border-color: rgba(248,81,73,0.5); color: var(--red); max-width: 340px; white-space: normal; line-height: 1.3; }
 
 .metrics { display: flex; gap: 16px; margin-bottom: 12px; }
 .metric { display: flex; flex-direction: column; }

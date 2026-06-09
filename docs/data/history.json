@@ -7224,6 +7224,9 @@
     "first_seen": "2026-05-11",
     "snapshots": [
       {
+        "date": "2026-05-10"
+      },
+      {
         "date": "2026-05-11"
       },
       {
@@ -7235,7 +7238,8 @@
     ],
     "last_seen": "2026-05-11",
     "status": "available",
-    "metrics_checked_at": "2026-06-07"
+    "metrics_checked_at": "2026-06-07",
+    "processing_error": "Временная ошибка транскрипции"
   },
   "Huxx2fs3omU": {
     "video_id": "Huxx2fs3omU",
@@ -8952,6 +8956,9 @@
     "first_seen": "2026-05-11",
     "snapshots": [
       {
+        "date": "2026-05-10"
+      },
+      {
         "date": "2026-05-11"
       },
       {
@@ -8963,7 +8970,8 @@
     ],
     "last_seen": "2026-05-11",
     "status": "available",
-    "metrics_checked_at": "2026-06-07"
+    "metrics_checked_at": "2026-06-07",
+    "processing_error": "Временная ошибка транскрипции"
   },
   "ry4W4vfcQDQ": {
     "video_id": "ry4W4vfcQDQ",
@@ -16590,6 +16598,9 @@
     "first_seen": "2026-05-14",
     "snapshots": [
       {
+        "date": "2026-05-10"
+      },
+      {
         "date": "2026-05-14"
       },
       {
@@ -16601,7 +16612,8 @@
     ],
     "last_seen": "2026-05-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-07"
+    "metrics_checked_at": "2026-06-07",
+    "processing_error": "Временная ошибка транскрипции"
   },
   "G7EXnvfqqsM": {
     "video_id": "G7EXnvfqqsM",
@@ -17715,6 +17727,9 @@
     "first_seen": "2026-05-15",
     "snapshots": [
       {
+        "date": "2026-05-14"
+      },
+      {
         "date": "2026-05-15"
       },
       {
@@ -17726,7 +17741,8 @@
     ],
     "last_seen": "2026-05-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-07"
+    "metrics_checked_at": "2026-06-07",
+    "processing_error": "YouTube требует подтверждения (bot check)"
   },
   "9PenopcvyhU": {
     "video_id": "9PenopcvyhU",
@@ -57622,7 +57638,7 @@
     ],
     "last_seen": "2026-06-01",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "5BflGXiZsdo": {
     "video_id": "5BflGXiZsdo",
@@ -58139,7 +58155,7 @@
     ],
     "last_seen": "2026-06-01",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "3TpNjymHCuc": {
     "video_id": "3TpNjymHCuc",
@@ -59144,7 +59160,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "A0yAPU2VIEc": {
     "video_id": "A0yAPU2VIEc",
@@ -59447,7 +59463,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "kesKA3_ryqE": {
     "video_id": "kesKA3_ryqE",
@@ -59987,7 +60003,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "v3pyzLWMzJw": {
     "video_id": "v3pyzLWMzJw",
@@ -60326,7 +60342,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "hThSP_jYPoI": {
     "video_id": "hThSP_jYPoI",
@@ -61396,7 +61412,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "3NPmrdGuIlw": {
     "video_id": "3NPmrdGuIlw",
@@ -61553,7 +61569,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "gOzi7NI95Sg": {
     "video_id": "gOzi7NI95Sg",
@@ -61693,7 +61709,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "D3Vzkopq3G0": {
     "video_id": "D3Vzkopq3G0",
@@ -61750,7 +61766,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "-lFpUVnNEBM": {
     "video_id": "-lFpUVnNEBM",
@@ -61823,7 +61839,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "MmWfev4_1jM": {
     "video_id": "MmWfev4_1jM",
@@ -61901,7 +61917,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "FwVqRlRCM24": {
     "video_id": "FwVqRlRCM24",
@@ -61976,7 +61992,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "cxfJObmlWIk": {
     "video_id": "cxfJObmlWIk",
@@ -62043,7 +62059,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "jc1ieOgPyRA": {
     "video_id": "jc1ieOgPyRA",
@@ -62135,7 +62151,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "CJ1cHU2F2a8": {
     "video_id": "CJ1cHU2F2a8",
@@ -62285,7 +62301,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Qf1D8p-tcMs": {
     "video_id": "Qf1D8p-tcMs",
@@ -62379,7 +62395,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "fWIU_xZheYo": {
     "video_id": "fWIU_xZheYo",
@@ -62489,7 +62505,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "_u2YC86okXc": {
     "video_id": "_u2YC86okXc",
@@ -62545,6 +62561,9 @@
     "first_seen": "2026-06-03",
     "snapshots": [
       {
+        "date": "2026-06-02"
+      },
+      {
         "date": "2026-06-03"
       },
       {
@@ -62556,7 +62575,8 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08",
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки"
   },
   "PYInJoAVKuE": {
     "video_id": "PYInJoAVKuE",
@@ -62616,7 +62636,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "aybkBOnIy6c": {
     "video_id": "aybkBOnIy6c",
@@ -62732,7 +62752,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "YUB0EG2ACKQ": {
     "video_id": "YUB0EG2ACKQ",
@@ -62794,7 +62814,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "14Otl4D424Y": {
     "video_id": "14Otl4D424Y",
@@ -62895,7 +62915,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "prMTCo25Nqc": {
     "video_id": "prMTCo25Nqc",
@@ -62994,7 +63014,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "aa6k-JrZTYI": {
     "video_id": "aa6k-JrZTYI",
@@ -63060,7 +63080,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "tjzIEmYpNjs": {
     "video_id": "tjzIEmYpNjs",
@@ -63194,7 +63214,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "2w3Kr_nezIM": {
     "video_id": "2w3Kr_nezIM",
@@ -63267,7 +63287,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "XO4U-vRMRZo": {
     "video_id": "XO4U-vRMRZo",
@@ -63399,7 +63419,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "-iz0p1MkX48": {
     "video_id": "-iz0p1MkX48",
@@ -63565,7 +63585,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "wYIhrVE72zU": {
     "video_id": "wYIhrVE72zU",
@@ -63674,13 +63694,13 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "gJXNoYh4peQ": {
     "video_id": "gJXNoYh4peQ",
-    "title": "Экономическое чудо Греции и Кипра. Павел Себастьянович, Юрий Романенко",
+    "title": "Почему Милей не взлетит: монетарный урок из Афин. Уроки экономического чуда Греции и Кипра.",
     "author": "Romanenko Shorts",
-    "topic": "Анализ экономического чуда Греции и Кипра в 1950–1990-е годы, причин его краха и сравнение с моделями развития других стран.",
+    "topic": "Разное",
     "url": "https://www.youtube.com/watch?v=gJXNoYh4peQ",
     "tags": [],
     "ideas": [
@@ -63756,11 +63776,15 @@
     "snapshots": [
       {
         "date": "2026-06-03"
+      },
+      {
+        "date": "2026-06-04"
       }
     ],
-    "last_seen": "2026-06-03",
+    "last_seen": "2026-06-04",
     "status": "deleted",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08",
+    "processing_error": "Видео удалено автором"
   },
   "rzLN4YbGnw4": {
     "video_id": "rzLN4YbGnw4",
@@ -63818,7 +63842,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "_S_DYXQKGbQ": {
     "video_id": "_S_DYXQKGbQ",
@@ -63979,7 +64003,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "4kp_N4WK1Zg": {
     "video_id": "4kp_N4WK1Zg",
@@ -64064,7 +64088,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "W3jCg6IVLjk": {
     "video_id": "W3jCg6IVLjk",
@@ -64170,7 +64194,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "ImCjvVCclCQ": {
     "video_id": "ImCjvVCclCQ",
@@ -64271,7 +64295,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "4JZk7hOQHaQ": {
     "video_id": "4JZk7hOQHaQ",
@@ -64355,7 +64379,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "18iA0spc_-A": {
     "video_id": "18iA0spc_-A",
@@ -64415,7 +64439,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "vfWTyEreOEc": {
     "video_id": "vfWTyEreOEc",
@@ -64489,7 +64513,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Z_9IJjH0_R0": {
     "video_id": "Z_9IJjH0_R0",
@@ -64571,7 +64595,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "HYACJXELPHU": {
     "video_id": "HYACJXELPHU",
@@ -64699,7 +64723,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "7nu9SlWAck8": {
     "video_id": "7nu9SlWAck8",
@@ -64789,7 +64813,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "mTqYud9tKsA": {
     "video_id": "mTqYud9tKsA",
@@ -64854,7 +64878,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "8v_55F0NUr4": {
     "video_id": "8v_55F0NUr4",
@@ -64934,7 +64958,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "76IuniiHykU": {
     "video_id": "76IuniiHykU",
@@ -65018,7 +65042,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "fY7YYFVF4iE": {
     "video_id": "fY7YYFVF4iE",
@@ -65144,7 +65168,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "bQMYHoJTcl8": {
     "video_id": "bQMYHoJTcl8",
@@ -65297,7 +65321,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "qpkvg7aFDBI": {
     "video_id": "qpkvg7aFDBI",
@@ -65365,7 +65389,7 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "mFI5OytduCk": {
     "video_id": "mFI5OytduCk",
@@ -65413,13 +65437,13 @@
     ],
     "last_seen": "2026-06-03",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "-gRlOIoXfXI": {
     "video_id": "-gRlOIoXfXI",
     "title": "Чому ви знаєте себе гірше ніж думаєте",
     "author": "ЗЕЛЕНІН SPACE",
-    "topic": "Анализ причин, по которым люди плохо знают себя, и предложение практик для честного самопознания через разделение ролей коуча и психотерапевта.",
+    "topic": "Разное",
     "url": "https://www.youtube.com/watch?v=-gRlOIoXfXI",
     "tags": [],
     "ideas": [
@@ -65462,6 +65486,9 @@
         "date": "2026-06-04"
       },
       {
+        "date": "2026-06-05"
+      },
+      {
         "date": "2026-06-07",
         "views": 483,
         "likes": 88,
@@ -65474,9 +65501,10 @@
         "comments": 10
       }
     ],
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08",
+    "processing_error": "YouTube требует подтверждения (bot check)"
   },
   "0mFFNYKIMJk": {
     "video_id": "0mFFNYKIMJk",
@@ -65577,7 +65605,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "0o7HNbndPCo": {
     "video_id": "0o7HNbndPCo",
@@ -65626,7 +65654,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "2EUC_LnBHvQ": {
     "video_id": "2EUC_LnBHvQ",
@@ -65776,7 +65804,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "41IuDfMOSNU": {
     "video_id": "41IuDfMOSNU",
@@ -65823,7 +65851,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "4d-sjbO0NCE": {
     "video_id": "4d-sjbO0NCE",
@@ -65883,7 +65911,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "4rcPMkyahiY": {
     "video_id": "4rcPMkyahiY",
@@ -65967,7 +65995,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "6q389kur_l4": {
     "video_id": "6q389kur_l4",
@@ -66026,7 +66054,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "7qZH3D7u-z8": {
     "video_id": "7qZH3D7u-z8",
@@ -66085,7 +66113,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "8AW0xe6Aong": {
     "video_id": "8AW0xe6Aong",
@@ -66294,7 +66322,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "9ipEXbQ0xhk": {
     "video_id": "9ipEXbQ0xhk",
@@ -66433,7 +66461,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "AUJZHhJdzx8": {
     "video_id": "AUJZHhJdzx8",
@@ -66483,7 +66511,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "ArTGQfW94Ag": {
     "video_id": "ArTGQfW94Ag",
@@ -66555,7 +66583,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "B_2SFl6nMmQ": {
     "video_id": "B_2SFl6nMmQ",
@@ -66608,7 +66636,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Bs2Z6cR4Nrs": {
     "video_id": "Bs2Z6cR4Nrs",
@@ -66658,7 +66686,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "C46KF6d5AWQ": {
     "video_id": "C46KF6d5AWQ",
@@ -66750,13 +66778,13 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "CMJPqoVSKqQ": {
     "video_id": "CMJPqoVSKqQ",
     "title": "Инфраструктура Украины под ударом в новом этапе войны с Россией. Олег Попенко, Юрий Романенко",
     "author": "Romanenko Shorts",
-    "topic": "Анализ критического состояния инфраструктуры Украины, нехватки ресурсов для защиты от ударов и необходимость системного перепланирования экономики и строительства на 50-летний горизонт.",
+    "topic": "Разное",
     "url": "https://www.youtube.com/watch?v=CMJPqoVSKqQ",
     "tags": [],
     "ideas": [
@@ -66855,6 +66883,9 @@
         "date": "2026-06-04"
       },
       {
+        "date": "2026-06-05"
+      },
+      {
         "date": "2026-06-07",
         "views": 949,
         "likes": 64,
@@ -66867,9 +66898,10 @@
         "comments": 2
       }
     ],
-    "last_seen": "2026-06-04",
+    "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08",
+    "processing_error": "YouTube требует подтверждения (bot check)"
   },
   "DCx-V5T-TVI": {
     "video_id": "DCx-V5T-TVI",
@@ -66949,7 +66981,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "D_cQQq5cYLM": {
     "video_id": "D_cQQq5cYLM",
@@ -67001,7 +67033,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Di43ArgrUGE": {
     "video_id": "Di43ArgrUGE",
@@ -67095,6 +67127,9 @@
     "first_seen": "2026-06-04",
     "snapshots": [
       {
+        "date": "2026-06-03"
+      },
+      {
         "date": "2026-06-04"
       },
       {
@@ -67112,7 +67147,8 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08",
+    "processing_error": "Постоянная ошибка транскрипции"
   },
   "EoRQZWpxEjc": {
     "video_id": "EoRQZWpxEjc",
@@ -67147,7 +67183,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "FwnACL6ipLs": {
     "video_id": "FwnACL6ipLs",
@@ -67196,7 +67232,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "HZl3HOTEOtY": {
     "video_id": "HZl3HOTEOtY",
@@ -67249,7 +67285,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "I2VytqXiwnM": {
     "video_id": "I2VytqXiwnM",
@@ -67320,7 +67356,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "K2eGEntbN_Q": {
     "video_id": "K2eGEntbN_Q",
@@ -67375,7 +67411,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "K4Kb8n1Q-yM": {
     "video_id": "K4Kb8n1Q-yM",
@@ -67433,7 +67469,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "KVqZIpp6VoQ": {
     "video_id": "KVqZIpp6VoQ",
@@ -67485,7 +67521,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "KwL7VcDGg8o": {
     "video_id": "KwL7VcDGg8o",
@@ -67647,7 +67683,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "LHe33IMuEKg": {
     "video_id": "LHe33IMuEKg",
@@ -67697,7 +67733,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "LUoRQ5Vfz_o": {
     "video_id": "LUoRQ5Vfz_o",
@@ -67750,7 +67786,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "LtCbOod_2bA": {
     "video_id": "LtCbOod_2bA",
@@ -67806,7 +67842,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Lxn-RrgtKHM": {
     "video_id": "Lxn-RrgtKHM",
@@ -67947,7 +67983,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "NWgALj8r94w": {
     "video_id": "NWgALj8r94w",
@@ -68011,7 +68047,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "O5Dj0UIo28w": {
     "video_id": "O5Dj0UIo28w",
@@ -68079,7 +68115,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "OMJ5et0NWMk": {
     "video_id": "OMJ5et0NWMk",
@@ -68259,7 +68295,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "OWtnASLZuJ4": {
     "video_id": "OWtnASLZuJ4",
@@ -68336,7 +68372,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "PYDJURJI64A": {
     "video_id": "PYDJURJI64A",
@@ -68379,7 +68415,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "PYL_-soqvAY": {
     "video_id": "PYL_-soqvAY",
@@ -68426,7 +68462,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "QV5jW_KRyKA": {
     "video_id": "QV5jW_KRyKA",
@@ -68492,7 +68528,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "QmQUj-cBeug": {
     "video_id": "QmQUj-cBeug",
@@ -68541,7 +68577,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "RSnoTndY3Fw": {
     "video_id": "RSnoTndY3Fw",
@@ -68576,7 +68612,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "RY2cxUDTVRw": {
     "video_id": "RY2cxUDTVRw",
@@ -68623,7 +68659,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Sl5AU1PaA_Q": {
     "video_id": "Sl5AU1PaA_Q",
@@ -68720,6 +68756,9 @@
     "first_seen": "2026-06-04",
     "snapshots": [
       {
+        "date": "2026-06-03"
+      },
+      {
         "date": "2026-06-04"
       },
       {
@@ -68731,7 +68770,8 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08",
+    "processing_error": "Постоянная ошибка транскрипции"
   },
   "TNMob7kc0M0": {
     "video_id": "TNMob7kc0M0",
@@ -68772,7 +68812,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "UJHoL3V7H0Y": {
     "video_id": "UJHoL3V7H0Y",
@@ -68818,7 +68858,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "V32WIjzWVo8": {
     "video_id": "V32WIjzWVo8",
@@ -68914,7 +68954,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "VBEIw9QXf40": {
     "video_id": "VBEIw9QXf40",
@@ -68971,7 +69011,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "VXxMYz_y8rM": {
     "video_id": "VXxMYz_y8rM",
@@ -69028,7 +69068,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "WjO4u2iY6zw": {
     "video_id": "WjO4u2iY6zw",
@@ -69090,7 +69130,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "X_wKL4ut7rs": {
     "video_id": "X_wKL4ut7rs",
@@ -69227,7 +69267,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "XvGzGBKfzro": {
     "video_id": "XvGzGBKfzro",
@@ -69303,7 +69343,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "YewoqJ4CnUE": {
     "video_id": "YewoqJ4CnUE",
@@ -69354,7 +69394,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Zsp0S9NqBAc": {
     "video_id": "Zsp0S9NqBAc",
@@ -69426,7 +69466,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "_KLAk1nXN_k": {
     "video_id": "_KLAk1nXN_k",
@@ -69489,7 +69529,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "_UXjslfIL2U": {
     "video_id": "_UXjslfIL2U",
@@ -69535,7 +69575,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "aVsogCNbCBc": {
     "video_id": "aVsogCNbCBc",
@@ -69600,7 +69640,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "b3yuAekDS4U": {
     "video_id": "b3yuAekDS4U",
@@ -69670,7 +69710,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "bb0iAqqFvIc": {
     "video_id": "bb0iAqqFvIc",
@@ -69722,6 +69762,9 @@
     "first_seen": "2026-06-04",
     "snapshots": [
       {
+        "date": "2026-06-03"
+      },
+      {
         "date": "2026-06-04"
       },
       {
@@ -69733,7 +69776,8 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08",
+    "processing_error": "Постоянная ошибка транскрипции"
   },
   "c0kaKxM2pHg": {
     "video_id": "c0kaKxM2pHg",
@@ -69784,7 +69828,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "cJQVpzaMONY": {
     "video_id": "cJQVpzaMONY",
@@ -69837,7 +69881,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "dajG-bVbm5Q": {
     "video_id": "dajG-bVbm5Q",
@@ -69882,7 +69926,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "e-SX-VFkGJ0": {
     "video_id": "e-SX-VFkGJ0",
@@ -69927,7 +69971,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "eJp1Xv0qLjI": {
     "video_id": "eJp1Xv0qLjI",
@@ -70020,7 +70064,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "efljDZylk8M": {
     "video_id": "efljDZylk8M",
@@ -70066,7 +70110,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "elYPAZh5IEs": {
     "video_id": "elYPAZh5IEs",
@@ -70274,7 +70318,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "fA5Cuo8-dxs": {
     "video_id": "fA5Cuo8-dxs",
@@ -70324,7 +70368,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "fQmlML9Lay4": {
     "video_id": "fQmlML9Lay4",
@@ -70394,7 +70438,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "fWAofGapamo": {
     "video_id": "fWAofGapamo",
@@ -70441,7 +70485,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "i1KWdgFN4HY": {
     "video_id": "i1KWdgFN4HY",
@@ -70523,7 +70567,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "iP-utmhT24M": {
     "video_id": "iP-utmhT24M",
@@ -70571,7 +70615,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "jn1jzePQirE": {
     "video_id": "jn1jzePQirE",
@@ -70617,7 +70661,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "kCUc8wXcs0A": {
     "video_id": "kCUc8wXcs0A",
@@ -70783,7 +70827,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "miyeqWxiJho": {
     "video_id": "miyeqWxiJho",
@@ -70830,7 +70874,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "nlSXRu6ZS74": {
     "video_id": "nlSXRu6ZS74",
@@ -70876,7 +70920,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "nuvS1teZsas": {
     "video_id": "nuvS1teZsas",
@@ -70905,7 +70949,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09",
+    "metrics_checked_at": "2026-06-08",
     "_macro_theme": "AI",
     "_enriched_at": "2026-06-07"
   },
@@ -71171,7 +71215,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "qPhXlU1BNkA": {
     "video_id": "qPhXlU1BNkA",
@@ -71220,7 +71264,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "qe02TghUnuk": {
     "video_id": "qe02TghUnuk",
@@ -71263,7 +71307,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "qhMYoDn-1dU": {
     "video_id": "qhMYoDn-1dU",
@@ -71376,6 +71420,9 @@
     "first_seen": "2026-06-04",
     "snapshots": [
       {
+        "date": "2026-06-03"
+      },
+      {
         "date": "2026-06-04"
       },
       {
@@ -71387,7 +71434,8 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08",
+    "processing_error": "Постоянная ошибка транскрипции"
   },
   "qwPu5Zk1lKo": {
     "video_id": "qwPu5Zk1lKo",
@@ -71434,7 +71482,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "s171POktcMo": {
     "video_id": "s171POktcMo",
@@ -71482,7 +71530,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "svp0ceyBx-g": {
     "video_id": "svp0ceyBx-g",
@@ -71525,7 +71573,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "t3HWIey2lh8": {
     "video_id": "t3HWIey2lh8",
@@ -71588,7 +71636,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "tAow8BSFX2U": {
     "video_id": "tAow8BSFX2U",
@@ -71701,6 +71749,9 @@
     "first_seen": "2026-06-04",
     "snapshots": [
       {
+        "date": "2026-06-03"
+      },
+      {
         "date": "2026-06-04"
       },
       {
@@ -71712,7 +71763,8 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08",
+    "processing_error": "Постоянная ошибка транскрипции"
   },
   "u4SylsuarAQ": {
     "video_id": "u4SylsuarAQ",
@@ -71889,7 +71941,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "vOjEQTXT9kQ": {
     "video_id": "vOjEQTXT9kQ",
@@ -71970,7 +72022,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "ve2BI5vmXDg": {
     "video_id": "ve2BI5vmXDg",
@@ -72014,7 +72066,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "wRYeVbNrlC4": {
     "video_id": "wRYeVbNrlC4",
@@ -72059,7 +72111,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "xRX3B1MUYNM": {
     "video_id": "xRX3B1MUYNM",
@@ -72153,7 +72205,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "z1Z6m4tbofQ": {
     "video_id": "z1Z6m4tbofQ",
@@ -72204,7 +72256,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "zgoztAZuJP4": {
     "video_id": "zgoztAZuJP4",
@@ -72276,7 +72328,7 @@
     ],
     "last_seen": "2026-06-04",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "unknown": {
     "video_id": "unknown",
@@ -92233,7 +92285,7 @@
     ],
     "last_seen": "2026-06-08",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "09Ug7-jFFWU": {
     "video_id": "09Ug7-jFFWU",
@@ -92816,7 +92868,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "EgyER9cY_0U": {
     "video_id": "EgyER9cY_0U",
@@ -92976,7 +93028,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "tao0MNlnewY": {
     "video_id": "tao0MNlnewY",
@@ -93114,7 +93166,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "tk795_MA6Qg": {
     "video_id": "tk795_MA6Qg",
@@ -93232,7 +93284,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "yEt0sBJhPxo": {
     "video_id": "yEt0sBJhPxo",
@@ -93323,7 +93375,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "-5a7AQGVV_Y": {
     "video_id": "-5a7AQGVV_Y",
@@ -93403,7 +93455,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "-CA7DM2W5nY": {
     "video_id": "-CA7DM2W5nY",
@@ -93445,7 +93497,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "2bO08fuwK6A": {
     "video_id": "2bO08fuwK6A",
@@ -93501,7 +93553,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "5P6k92gr96c": {
     "video_id": "5P6k92gr96c",
@@ -93543,7 +93595,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "6AlMab9FoLU": {
     "video_id": "6AlMab9FoLU",
@@ -93593,7 +93645,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "7BqDvalRbwE": {
     "video_id": "7BqDvalRbwE",
@@ -93662,7 +93714,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "9BJXRAPEuFA": {
     "video_id": "9BJXRAPEuFA",
@@ -93717,7 +93769,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "FWoseXWGX5Y": {
     "video_id": "FWoseXWGX5Y",
@@ -93756,7 +93808,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "KVEE4zcp-p0": {
     "video_id": "KVEE4zcp-p0",
@@ -93811,7 +93863,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Ns7777oBj4U": {
     "video_id": "Ns7777oBj4U",
@@ -93867,7 +93919,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "UX7IsrtprMo": {
     "video_id": "UX7IsrtprMo",
@@ -93919,7 +93971,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "_n4sVa24WVU": {
     "video_id": "_n4sVa24WVU",
@@ -93969,7 +94021,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "i1ocK9eD2pM": {
     "video_id": "i1ocK9eD2pM",
@@ -94027,7 +94079,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "iuqq6STf4XQ": {
     "video_id": "iuqq6STf4XQ",
@@ -94105,7 +94157,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "niLaN3k-gkU": {
     "video_id": "niLaN3k-gkU",
@@ -94160,7 +94212,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "sBl7s4pSs3g": {
     "video_id": "sBl7s4pSs3g",
@@ -94197,7 +94249,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "y_YFa9jxdRI": {
     "video_id": "y_YFa9jxdRI",
@@ -94263,7 +94315,7 @@
     ],
     "last_seen": "2026-06-02",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "-2YJWen9IGc": {
     "video_id": "-2YJWen9IGc",
@@ -94339,7 +94391,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "0KAfh-_uHOQ": {
     "video_id": "0KAfh-_uHOQ",
@@ -94378,7 +94430,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "0oXtPNIOqN4": {
     "video_id": "0oXtPNIOqN4",
@@ -94423,7 +94475,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "0t0mbPs23kQ": {
     "video_id": "0t0mbPs23kQ",
@@ -94465,7 +94517,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "0tjE0-RHx1U": {
     "video_id": "0tjE0-RHx1U",
@@ -94524,7 +94576,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "1qNuO7XjZOE": {
     "video_id": "1qNuO7XjZOE",
@@ -94572,7 +94624,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "2gPVL7orzCY": {
     "video_id": "2gPVL7orzCY",
@@ -94611,7 +94663,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "3B6PjoIz9Z0": {
     "video_id": "3B6PjoIz9Z0",
@@ -94649,7 +94701,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "4_x66kHSOoc": {
     "video_id": "4_x66kHSOoc",
@@ -94797,7 +94849,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "5BqF0qkoQrc": {
     "video_id": "5BqF0qkoQrc",
@@ -94889,7 +94941,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "6asiRTWRnw4": {
     "video_id": "6asiRTWRnw4",
@@ -94934,7 +94986,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "8lHIJzyTViI": {
     "video_id": "8lHIJzyTViI",
@@ -94998,7 +95050,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "96TZ6ZB9FFI": {
     "video_id": "96TZ6ZB9FFI",
@@ -95054,6 +95106,9 @@
     "first_seen": "2026-06-05",
     "snapshots": [
       {
+        "date": "2026-06-03"
+      },
+      {
         "date": "2026-06-05"
       },
       {
@@ -95065,7 +95120,8 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08",
+    "processing_error": "Постоянная ошибка транскрипции"
   },
   "9mOCqLYJOaM": {
     "video_id": "9mOCqLYJOaM",
@@ -95130,7 +95186,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "9vBiHK65NP4": {
     "video_id": "9vBiHK65NP4",
@@ -95281,7 +95337,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "AZOJMMRS44A": {
     "video_id": "AZOJMMRS44A",
@@ -95317,7 +95373,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "C0l2r5-rX0Y": {
     "video_id": "C0l2r5-rX0Y",
@@ -95361,7 +95417,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "CCToXKi38fM": {
     "video_id": "CCToXKi38fM",
@@ -95441,7 +95497,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "DU1HwU0LgJs": {
     "video_id": "DU1HwU0LgJs",
@@ -95495,7 +95551,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "EEjpD7hRvJE": {
     "video_id": "EEjpD7hRvJE",
@@ -95537,7 +95593,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "EKULOf_Cy0w": {
     "video_id": "EKULOf_Cy0w",
@@ -95609,7 +95665,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "ERU6Klc6WOQ": {
     "video_id": "ERU6Klc6WOQ",
@@ -95742,7 +95798,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Eo8E0QW-b8M": {
     "video_id": "Eo8E0QW-b8M",
@@ -95796,7 +95852,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "GRXmlw3ceXU": {
     "video_id": "GRXmlw3ceXU",
@@ -95858,7 +95914,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "GiZJF0fMJeU": {
     "video_id": "GiZJF0fMJeU",
@@ -95901,7 +95957,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Gz7OaS2_oWU": {
     "video_id": "Gz7OaS2_oWU",
@@ -96041,7 +96097,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "KQqfm3A5iCQ": {
     "video_id": "KQqfm3A5iCQ",
@@ -96084,7 +96140,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "KuwTjkfH4Js": {
     "video_id": "KuwTjkfH4Js",
@@ -96133,7 +96189,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "MlSU7kpxOMw": {
     "video_id": "MlSU7kpxOMw",
@@ -96166,7 +96222,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "NDeyhGnNECc": {
     "video_id": "NDeyhGnNECc",
@@ -96222,7 +96278,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "NYbisq_tn10": {
     "video_id": "NYbisq_tn10",
@@ -96261,7 +96317,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "NftraC9N1U4": {
     "video_id": "NftraC9N1U4",
@@ -96309,7 +96365,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "QgZBDtVudgc": {
     "video_id": "QgZBDtVudgc",
@@ -96350,7 +96406,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "R_r1OxLMIJI": {
     "video_id": "R_r1OxLMIJI",
@@ -96423,7 +96479,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "S5nFksta7uY": {
     "video_id": "S5nFksta7uY",
@@ -96496,7 +96552,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "SfX00BFSYBo": {
     "video_id": "SfX00BFSYBo",
@@ -96540,7 +96596,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Sy-2Ne2lUq0": {
     "video_id": "Sy-2Ne2lUq0",
@@ -96581,7 +96637,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "UTj3J0czM6w": {
     "video_id": "UTj3J0czM6w",
@@ -96659,7 +96715,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "VRS4B7EdwFQ": {
     "video_id": "VRS4B7EdwFQ",
@@ -96708,7 +96764,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Vdxe-XN-aqs": {
     "video_id": "Vdxe-XN-aqs",
@@ -96750,7 +96806,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Vem1pMeqKv0": {
     "video_id": "Vem1pMeqKv0",
@@ -96819,7 +96875,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "W7mft_WO-l4": {
     "video_id": "W7mft_WO-l4",
@@ -96864,7 +96920,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "WYjP21lOc28": {
     "video_id": "WYjP21lOc28",
@@ -96897,7 +96953,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "X8QJkyEelMQ": {
     "video_id": "X8QJkyEelMQ",
@@ -96954,7 +97010,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "XzM402v6UAY": {
     "video_id": "XzM402v6UAY",
@@ -97019,7 +97075,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Y11MUYreeyY": {
     "video_id": "Y11MUYreeyY",
@@ -97122,7 +97178,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "deleted",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "YeOajDZVmg0": {
     "video_id": "YeOajDZVmg0",
@@ -97163,7 +97219,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "_BE4Zh-3TII": {
     "video_id": "_BE4Zh-3TII",
@@ -97203,7 +97259,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "a-tsiVq8tR0": {
     "video_id": "a-tsiVq8tR0",
@@ -97276,7 +97332,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "aIbBd1hSORU": {
     "video_id": "aIbBd1hSORU",
@@ -97325,7 +97381,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "bCJ71Gn1kSo": {
     "video_id": "bCJ71Gn1kSo",
@@ -97380,7 +97436,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "cleoxF343qA": {
     "video_id": "cleoxF343qA",
@@ -97426,7 +97482,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "dKiZ-X1YQ9U": {
     "video_id": "dKiZ-X1YQ9U",
@@ -97489,7 +97545,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "e5WLDgamgi8": {
     "video_id": "e5WLDgamgi8",
@@ -97539,7 +97595,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "eT9O06bJR_4": {
     "video_id": "eT9O06bJR_4",
@@ -97595,7 +97651,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "f-zPm5uEN8g": {
     "video_id": "f-zPm5uEN8g",
@@ -97680,7 +97736,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "flq6M59Qq48": {
     "video_id": "flq6M59Qq48",
@@ -97722,7 +97778,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "hCmSIkF_zbM": {
     "video_id": "hCmSIkF_zbM",
@@ -97762,7 +97818,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "hc6_sKbbw9E": {
     "video_id": "hc6_sKbbw9E",
@@ -97809,7 +97865,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "jOJTcvNM5R0": {
     "video_id": "jOJTcvNM5R0",
@@ -97848,7 +97904,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "jfBsqZrjTz8": {
     "video_id": "jfBsqZrjTz8",
@@ -97888,7 +97944,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "lAkVAMBe32I": {
     "video_id": "lAkVAMBe32I",
@@ -97941,7 +97997,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "lnDGS4YURTY": {
     "video_id": "lnDGS4YURTY",
@@ -98006,7 +98062,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "mM7sIZT1Tts": {
     "video_id": "mM7sIZT1Tts",
@@ -98051,7 +98107,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "mQfdMIHeWQ4": {
     "video_id": "mQfdMIHeWQ4",
@@ -98115,7 +98171,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "mjmswQurIU4": {
     "video_id": "mjmswQurIU4",
@@ -98175,7 +98231,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "mzzlyX2hMUM": {
     "video_id": "mzzlyX2hMUM",
@@ -98220,7 +98276,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "nTd60rpFzwE": {
     "video_id": "nTd60rpFzwE",
@@ -98263,7 +98319,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "nnrklVhj8lk": {
     "video_id": "nnrklVhj8lk",
@@ -98299,7 +98355,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "s3tcS2P_QyE": {
     "video_id": "s3tcS2P_QyE",
@@ -98340,7 +98396,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "t09VxQqwQ-U": {
     "video_id": "t09VxQqwQ-U",
@@ -98407,7 +98463,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "tfiT_nor0Os": {
     "video_id": "tfiT_nor0Os",
@@ -98467,7 +98523,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "tz23G_UXCGA": {
     "video_id": "tz23G_UXCGA",
@@ -98533,7 +98589,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "uR7qEfcnCQU": {
     "video_id": "uR7qEfcnCQU",
@@ -98601,7 +98657,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "uXCXnMw7Xwk": {
     "video_id": "uXCXnMw7Xwk",
@@ -98661,7 +98717,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "uun2pmdJ3gs": {
     "video_id": "uun2pmdJ3gs",
@@ -98707,7 +98763,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "vFV1HNU5buY": {
     "video_id": "vFV1HNU5buY",
@@ -98747,7 +98803,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "vHBlbpUw0X0": {
     "video_id": "vHBlbpUw0X0",
@@ -98804,7 +98860,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "voIKth_fXZQ": {
     "video_id": "voIKth_fXZQ",
@@ -98863,7 +98919,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "wHJVCIQb7IA": {
     "video_id": "wHJVCIQb7IA",
@@ -98903,7 +98959,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "wLjdN-oW7kw": {
     "video_id": "wLjdN-oW7kw",
@@ -98975,7 +99031,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "ywS7Ytkx3A0": {
     "video_id": "ywS7Ytkx3A0",
@@ -99024,7 +99080,7 @@
     ],
     "last_seen": "2026-06-05",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "zuktMwJgdkI": {
     "video_id": "zuktMwJgdkI",
@@ -99143,7 +99199,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "0Aek__w9xyg": {
     "video_id": "0Aek__w9xyg",
@@ -99201,7 +99257,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "6GX0nfk3XjE": {
     "video_id": "6GX0nfk3XjE",
@@ -99261,7 +99317,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "8F-gsnmPB2I": {
     "video_id": "8F-gsnmPB2I",
@@ -99322,7 +99378,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "8qCL52oQ1Ak": {
     "video_id": "8qCL52oQ1Ak",
@@ -99413,7 +99469,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "MLK5NIMGlI0": {
     "video_id": "MLK5NIMGlI0",
@@ -99472,7 +99528,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "O9Nzg9hfwWo": {
     "video_id": "O9Nzg9hfwWo",
@@ -99562,7 +99618,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "RoIIdT8S_i4": {
     "video_id": "RoIIdT8S_i4",
@@ -99627,7 +99683,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Y26-kgt-FTI": {
     "video_id": "Y26-kgt-FTI",
@@ -99693,7 +99749,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "YDwDxhIc6D8": {
     "video_id": "YDwDxhIc6D8",
@@ -99772,7 +99828,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "Z1izm0aL_54": {
     "video_id": "Z1izm0aL_54",
@@ -99896,7 +99952,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "byNo6aiXFcE": {
     "video_id": "byNo6aiXFcE",
@@ -99967,7 +100023,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "dSn8sw4R6lQ": {
     "video_id": "dSn8sw4R6lQ",
@@ -100036,7 +100092,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "g2bojc-3mcM": {
     "video_id": "g2bojc-3mcM",
@@ -100084,7 +100140,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "p_hBx2HDEhw": {
     "video_id": "p_hBx2HDEhw",
@@ -100141,7 +100197,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "yyXCQHX55N4": {
     "video_id": "yyXCQHX55N4",
@@ -100208,7 +100264,7 @@
     ],
     "last_seen": "2026-06-06",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "1U-5XQXkhNw": {
     "video_id": "1U-5XQXkhNw",
@@ -100273,7 +100329,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "2jNg2Caa1DQ": {
     "video_id": "2jNg2Caa1DQ",
@@ -100381,7 +100437,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "AXKJjrAoKEM": {
     "video_id": "AXKJjrAoKEM",
@@ -100447,7 +100503,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "GQec7gvuPbY": {
     "video_id": "GQec7gvuPbY",
@@ -100504,7 +100560,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "HPLPtZmX9W0": {
     "video_id": "HPLPtZmX9W0",
@@ -100583,7 +100639,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "KM3i8zZRkec": {
     "video_id": "KM3i8zZRkec",
@@ -100642,7 +100698,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "QTkNeu3EiRA": {
     "video_id": "QTkNeu3EiRA",
@@ -100700,7 +100756,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "W3RX1bsofdU": {
     "video_id": "W3RX1bsofdU",
@@ -100768,7 +100824,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "cNlDT09Fa_k": {
     "video_id": "cNlDT09Fa_k",
@@ -100832,7 +100888,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "eSJy2dtbc-o": {
     "video_id": "eSJy2dtbc-o",
@@ -100896,7 +100952,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "g0JIqRh1Q5Y": {
     "video_id": "g0JIqRh1Q5Y",
@@ -100959,7 +101015,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "l6DKRf-fAAM": {
     "video_id": "l6DKRf-fAAM",
@@ -101019,7 +101075,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "n-ZaHnjvpEs": {
     "video_id": "n-ZaHnjvpEs",
@@ -101121,7 +101177,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "vfCgavroLFE": {
     "video_id": "vfCgavroLFE",
@@ -101214,7 +101270,7 @@
     ],
     "last_seen": "2026-06-07",
     "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "metrics_checked_at": "2026-06-08"
   },
   "SX7SI1Z9FCg": {
     "video_id": "SX7SI1Z9FCg",
@@ -101273,111 +101329,582 @@
     "status": "available",
     "metrics_checked_at": "2026-06-08"
   },
-  "-vbRhB69TEY": {
-    "video_id": "-vbRhB69TEY",
-    "title": "Prof. Jeffrey Sachs  :  Is Trump Losing It?",
+  "i0VKl9Ac96s": {
+    "video_id": "i0VKl9Ac96s",
+    "title": "Ian Proud  :  A Collapsing Government in London",
     "author": "Judge Napolitano - Judging Freedom",
-    "topic": "Анализ кризиса отношений между США и Израилем, потери поддержки Трампом Израиля и внутренней политической нестабильности в Израиле.",
-    "url": "https://www.youtube.com/watch?v=-vbRhB69TEY",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=i0VKl9Ac96s",
     "tags": [],
-    "ideas": [
-      "Иран считает требования Трампа недостижимыми из-за своей способности к ответным ударам.",
-      "Нетаниягу теряет поддержку в США и по всему миру из-за действий Израиля, включая войну с Ираном.",
-      "США больше не готовы автоматически защищать Израиль от эскалации конфликта с Ираном.",
-      "Израиль действует более отвратительно, чем в прошлом, что вызывает усталость американского общества.",
-      "Трамп чувствует давление внутренней американской политики из-за действий Израиля и готов сказать «нет».",
-      "США обвиняют Израиль в шпионаже за своими же чиновниками (Элдридж Кобби и Стивом Уиткоком).",
-      "Внутри израильского общества наблюдается радикализация и поддержка войны фанатичными поселенцами."
-    ],
-    "summary": "Видео обсуждает неспособность Дональда Трампа убедить Иран в серьезности угроз из-за способности Тегерана к ответным ударам. Также рассматривается рост изоляции Израиля, давление на Нетаньяху и Трамп со стороны американского общества, а также обвинения Израиля в шпионаже за чиновниками США.",
-    "key_points": [
-      "Иран считает требования Трампа недостижимыми из-за своей способности к ответным ударам.",
-      "Нетаниягу теряет поддержку в США и по всему миру из-за действий Израиля, включая войну с Ираном.",
-      "США больше не готовы автоматически защищать Израиль от эскалации конфликта с Ираном.",
-      "Израиль действует более отвратительно, чем в прошлом, что вызывает усталость американского общества.",
-      "Трамп чувствует давление внутренней американской политики из-за действий Израиля и готов сказать «нет».",
-      "США обвиняют Израиль в шпионаже за своими же чиновниками (Элдридж Кобби и Стивом Уиткоком).",
-      "Внутри израильского общества наблюдается радикализация и поддержка войны фанатичными поселенцами."
-    ],
-    "novel_ideas": [
-      "Израиль теряет свою безнаказанность (impunity) из-за смены политики США.",
-      "Израильская модель «большего Израиля» провалилась и привела к глобальному осуждению.",
-      "Общественное мнение США, ранее игнорируемое Израилем, теперь становится решающим фактором в политике."
-    ],
-    "speaker_claims": [
-      "Трампу не удастся убедить Иран в серьезности его угроз, так как у Тегерана есть возможности для эскалации.",
-      "Нетаниягу теряет поддержку в США и по всему миру из-за действий Израиля, включая войну с Ираном.",
-      "США больше не готовы автоматически защищать Израиль от эскалации конфликта с Ираном.",
-      "Премьеры Израиля ранее могли сказать «нет» и заставить США согласиться, но сейчас это сложнее.",
-      "Израиль действует более отвратительно, чем в прошлом, что вызывает усталость американского общества.",
-      "Израиль согласится на прекращение огня в Газе и Ливане, но цена будет высокой.",
-      "Израиль пытался использовать США как инструмент для контроля над Палестиной и Ливаном, но это провалилось.",
-      "Трамп чувствует давление внутренней американской политики из-за действий Израиля.",
-      "Служба безопасности Шин Бет предупредила о политической нестабильности в Израиле.",
-      "Новая статья The New York Times утверждает, что Израиль шпионит за американскими чиновниками.",
-      "Целями израильского шпионажа названы Элдридж Кобби и Стив Уиткок.",
-      "Израильская армия совершает зверства, включая убийство детей и поджог домов.",
-      "В Израиле действуют реальные фашисты во главе с Смитрихом и Бен Габиром.",
-      "Если Трамп скажет «нет», это будет действительно «нет».",
-      "Выборы в этой стране подтасованы.",
-      "Президент выиграл выборы с подавляющим большинством голосов (94%) и получил плохие новости о себе в прессе."
-    ],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
     "published_at": null,
-    "first_seen": "2026-06-08",
+    "first_seen": "2026-05-13",
     "snapshots": [
       {
-        "date": "2026-06-08"
+        "date": "2026-05-13"
       }
     ],
-    "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "processing_error": "Видео удалено автором",
+    "last_seen": "2026-05-13",
+    "status": "available"
   },
-  "0S8M3OtFIVc": {
-    "video_id": "0S8M3OtFIVc",
-    "title": "Dollar Tree Reveals Americans Have Hit Their Breaking Point",
-    "author": "Eurodollar University",
-    "topic": "Анализ противоречий между официальными данными по занятости США и реальным состоянием потребительского спроса, указывающий на экономический перелом из-за роста цен на энергию.",
-    "url": "https://www.youtube.com/watch?v=0S8M3OtFIVc",
+  "tsH-b8WRMLI": {
+    "video_id": "tsH-b8WRMLI",
+    "title": "Поговорим про AI, гаджеты и всё остальное",
+    "author": "Sergiy Petrenko",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=tsH-b8WRMLI",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-05-19",
+    "snapshots": [
+      {
+        "date": "2026-05-19"
+      }
+    ],
+    "processing_error": "Видео закрыто (приватное)",
+    "last_seen": "2026-05-19",
+    "status": "available"
+  },
+  "1U80vfELLNU": {
+    "video_id": "1U80vfELLNU",
+    "title": "КОФЗБЧ-3Ф",
+    "author": "Spectator",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=1U80vfELLNU",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-05-24",
+    "snapshots": [
+      {
+        "date": "2026-05-24"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-05-24",
+    "status": "available"
+  },
+  "jMRMH64i5iM": {
+    "video_id": "jMRMH64i5iM",
+    "title": "Как я заблуждалась",
+    "author": "Yulia Latynina",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=jMRMH64i5iM",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-05-27",
+    "snapshots": [
+      {
+        "date": "2026-05-27"
+      }
+    ],
+    "processing_error": "Видео закрыто (приватное)",
+    "last_seen": "2026-05-27",
+    "status": "available"
+  },
+  "RY_EcQK-lrE": {
+    "video_id": "RY_EcQK-lrE",
+    "title": "Vai stress iznīcina tavu redzi ātrāk nekā ekrāni? | Acu Klīnika",
+    "author": "BlackBox Šovs",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=RY_EcQK-lrE",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-02",
+    "snapshots": [
+      {
+        "date": "2026-06-02"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-02",
+    "status": "available"
+  },
+  "Fc2XL6EIpfg": {
+    "video_id": "Fc2XL6EIpfg",
+    "title": "Тайный план порабощения Украины. Моноэфир Романенко",
+    "author": "Yuriy Romanenko",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=Fc2XL6EIpfg",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-02",
+    "snapshots": [
+      {
+        "date": "2026-06-02"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-02",
+    "status": "available"
+  },
+  "ZiL63pYfLVA": {
+    "video_id": "ZiL63pYfLVA",
+    "title": "РФ не имеет военных инструментов, способных достичь цели СВО | Алексей Арестович",
+    "author": "Alexey Arestovych",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=ZiL63pYfLVA",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      }
+    ],
+    "processing_error": "YouTube требует подтверждения (bot check)",
+    "last_seen": "2026-06-05",
+    "status": "available"
+  },
+  "FyxxKeROGjg": {
+    "video_id": "FyxxKeROGjg",
+    "title": "Война исчерпала себя: Друзенко о том почему Запад спасет Россию и что ждет Украину",
+    "author": "Yuriy Romanenko",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=FyxxKeROGjg",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      }
+    ],
+    "processing_error": "YouTube требует подтверждения (bot check)",
+    "last_seen": "2026-06-05",
+    "status": "available"
+  },
+  "EmqavziNxg8": {
+    "video_id": "EmqavziNxg8",
+    "title": "Когда цикл в Python застревает на одной итерации",
+    "author": "OTUS IT Онлайн - образование",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=EmqavziNxg8",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-05",
+    "status": "available"
+  },
+  "SGgv_dNNsiE": {
+    "video_id": "SGgv_dNNsiE",
+    "title": "Зачем ТЦК гребут доходяг: правда с фронта про балласт и реальные потери бюджета. Геннадий Друзенко",
+    "author": "Yuriy Romanenko",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=SGgv_dNNsiE",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-05",
+    "status": "available"
+  },
+  "AdR8R6d2cZA": {
+    "video_id": "AdR8R6d2cZA",
+    "title": "Зеленский и Путин обменялись месседжами. Моноэфир Романенко",
+    "author": "Romanenko Shorts",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=AdR8R6d2cZA",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-05",
+    "status": "available"
+  },
+  "R99Ga81AfVM": {
+    "video_id": "R99Ga81AfVM",
+    "title": "Почему вечная война убьет Украину быстрее РФ: горькая правда с передовой от Геннадия Друзенко",
+    "author": "Yuriy Romanenko",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=R99Ga81AfVM",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-05",
+    "status": "available"
+  },
+  "6G58e9bpRRw": {
+    "video_id": "6G58e9bpRRw",
+    "title": "ИИ-деальная любовь. Разбор фильма «ОНА». Дмитрий Пастернак-Таранушенко, Юрий Романенко",
+    "author": "Romanenko Shorts",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=6G58e9bpRRw",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-05",
+    "status": "available"
+  },
+  "VrqyQ9Py5is": {
+    "video_id": "VrqyQ9Py5is",
+    "title": "ИИ-деальная любовь. Разбор фильма «ОНА». Дмитрий Пастернак-Таранушенко, Юрий Романенко",
+    "author": "Yuriy Romanenko",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=VrqyQ9Py5is",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      },
+      {
+        "date": "2026-06-06"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-06",
+    "status": "available"
+  },
+  "y-GRfhKOsYE": {
+    "video_id": "y-GRfhKOsYE",
+    "title": "Все про Морську піхоту України: формування, занепад і відродження",
+    "author": "First Division",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=y-GRfhKOsYE",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-05",
+    "status": "available"
+  },
+  "MUcJKk-si3Q": {
+    "video_id": "MUcJKk-si3Q",
+    "title": "Трагедия свободной нации: Друзенко о том как чиновники строят в Украине маленькую Россию",
+    "author": "Yuriy Romanenko",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=MUcJKk-si3Q",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-05",
+    "status": "available"
+  },
+  "F9CS9y4Rhik": {
+    "video_id": "F9CS9y4Rhik",
+    "title": "🔴 День 004. Собираю себя заново",
+    "author": "Мой путь к звёздам",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=F9CS9y4Rhik",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-05",
+    "status": "available"
+  },
+  "W1OgzQ31VqQ": {
+    "video_id": "W1OgzQ31VqQ",
+    "title": "This Is The NEW AI Workflow",
+    "author": "Leveling Up with Eric Siu",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=W1OgzQ31VqQ",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-05",
+    "snapshots": [
+      {
+        "date": "2026-06-05"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-05",
+    "status": "available"
+  },
+  "DuJFga52maY": {
+    "video_id": "DuJFga52maY",
+    "title": "ОФБЧ-4",
+    "author": "Spectator",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=DuJFga52maY",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-06",
+    "snapshots": [
+      {
+        "date": "2026-06-06"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-06",
+    "status": "available"
+  },
+  "GtsM0JEtgZk": {
+    "video_id": "GtsM0JEtgZk",
+    "title": "Поболтаем про AI, гаджеты и разное",
+    "author": "Sergiy Petrenko",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=GtsM0JEtgZk",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-06",
+    "snapshots": [
+      {
+        "date": "2026-06-06"
+      }
+    ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
+    "last_seen": "2026-06-06",
+    "status": "available"
+  },
+  "WHjAdD66rck": {
+    "video_id": "WHjAdD66rck",
+    "title": "Вечер на Живом гвозде. Алексей Кузнецов, Сергей Бунтман и Александр Минкин* / 08.06.26",
+    "author": "Живой Гвоздь",
+    "topic": "Анализ исторических процессов коллективизации и репрессий в Удмуртии через призму дела Лудоровая, с обсуждением роли тоталитарного насилия, пропаганды и литературы (В. Гросман «Жизнь и судьба»).",
+    "url": "https://www.youtube.com/watch?v=WHjAdD66rck",
     "tags": [],
     "ideas": [
-      "Данные BLS показали рекордный рост в сфере отдыха и гостеприимства (+172 000 рабочих мест), что противоречит данным о снижении доходов потребителей."
+      "К октябрю 1926 года в Удмуртии коллективизация еще не была завершена (уровень производства зерна тринадцатого года).",
+      "В селе Лудорвай летом 1928 года было расстреляно 150 крестьян по обвинению в религиозных практиках.",
+      "Критерий «кулачества» определялся количеством скота (3 лошади, 2 коровы), а не только наличием наёмного труда.",
+      "Советские журналисты выступали как общественные обвинители, формируя нарратив о «агрессивном кулачестве». Коммунистов убивали за выполнение постановлений по хлебозаготовкам."
     ],
-    "summary": "Спикеры утверждают, что резкий рост найма в сфере услуг является сезонной аномалией или искажением данных, маскирующим истинное падение реального располагаемого дохода. Исчерпание налоговых возвратов и высокие цены на топливо привели к тому, что потребители больше не могут тратить деньги даже в долларовых магазинах.",
+    "summary": "Спикеры разбирают исторический контекст коллективизации в Удмуртии, доказывая её незавершенность к октябрю 1926 года из-за специфики региона. Детально анализируется дело Лудоровая: расстрел крестьян за религиозные обряды и классовые мотивы репрессий против коммунистов.",
     "key_points": [
-      "Данные BLS показали рекордный рост в сфере отдыха и гостеприимства (+172 000 рабочих мест), что противоречит данным о снижении доходов потребителей."
+      "К октябрю 1926 года в Удмуртии коллективизация еще не была завершена (уровень производства зерна тринадцатого года).",
+      "В селе Лудорвай летом 1928 года было расстреляно 150 крестьян по обвинению в религиозных практиках.",
+      "Критерий «кулачества» определялся количеством скота (3 лошади, 2 коровы), а не только наличием наёмного труда.",
+      "Советские журналисты выступали как общественные обвинители, формируя нарратив о «агрессивном кулачестве». Коммунистов убивали за выполнение постановлений по хлебозаготовкам."
     ],
     "novel_ideas": [
-      "Идея о том, что массовый найм в сфере услуг при снижении доходов потребителей сигнализирует не о росте спроса, а о вынужденных мерах бизнеса и сезонности.",
-      "Концепция 'точки невозврата', когда даже резкое падение цен на топливо уже не спасет экономику из-за накопленного шока."
+      "Идея о том, что в Удмуртии коллективизация проходила иначе из-за отсутствия кулачества и сильных общинных традиций.",
+      "Сравнение зависимости СССР от экспорта зерна с зависимостью современной России от нефти.",
+      "Концепция «правового обычая» как источника права, основанного на местных традициях общины.",
+      "Аналогия между древнегреческими богами, продающими оружие, и современной ситуацией в редакции.",
+      "Сравнение Лудорвайского процесса с Мултанским делом для демонстрации масштаба репрессий.",
+      "Идея о том, что экскурсовод в музее не всегда является автором экспонатов и часто передает чужие знания.",
+      "Концепция «души-предательницы», которая соглашается с преступлениями ради выживания.",
+      "Три силы, формирующие покорность: инстинкт самосохранения, гипнотическая сила идей и ужас перед насилием государства."
     ],
     "speaker_claims": [
-      "Потребители больше не могут позволить себе покупать продукты даже в долларовых магазинах из-за роста цен на топливо.",
-      "Рост найма в сфере отдыха и гостеприимства является сезонным явлением или результатом искажений данных, а не признаком здоровья экономики.",
-      "Реальный располагаемый доход населения стал отрицательным еще в январе, что указывает на рецессию.",
-      "Бизнесы вынуждены нанимать персонал, надеясь на приток клиентов, но посещаемость парков и отелей остается низкой.",
-      "Сектор образования и здравоохранения не реагирует на экономические условия, поэтому рост там ожидаем.",
-      "Опрос домохозяйств лучше отражает реальную ситуацию рынка труда, чем опрос предприятий.",
-      "Полноценные рабочие места сократились на полмиллиона за последние пару месяцев из-за необходимости снижения затрат.",
-      "Цены на бензин и дизель будут维持在 $45 за галлон в обозримом будущем даже при разрешении конфликта с Ираном.",
-      "Владельцы малого бизнеса планируют новый найм только у 9% из них, что является шестилетним минимумом.",
-      "Малый бизнес понимает, что спрос исчезнет и нанимать сотрудников не имеет смысла.",
-      "Five Below подтвердила, что налоговые возвраты смягчили удар энергетического шока для потребителей с низким доходом.",
-      "Walmart предупредила о проблемах в будущих кварталах из-за исчерпания налоговых возвратов.",
-      "Расходы на энергию и коммунальные услуги летом заставят потребителей сократить траты на другие нужды, включая отпуска.",
-      "Рынок акций не является надежным барометром для стимулирования потребительских расходов в текущих условиях.",
-      "Индекс уверенности руководителей (Conference Board) упал с 59 до 47, что свидетельствует об ухудшении ожиданий бизнеса на ближайшие полгода."
+      "К октябрю 1926 года в Удмуртии коллективизация еще не была завершена.",
+      "Доля товарного хлеба середняков упала с 26% до 12-13% к моменту сплошной коллективизации.",
+      "В Удмуртии кулачество было слабо выражено из-за отсутствия крупного помещичьего землевладения.",
+      "В селе Лудорвай летом 1928 года было расстреляно 150 крестьян.",
+      "У удмуртов сохранились языческие верования и практика кровавых жертвоприношений.",
+      "В деле Лудорвая советская пропаганда искажала факты, обвиняя бедняков в избиении кулаков.",
+      "Советские журналисты выступали как общественные обвинители на процессах.",
+      "Коммунисты были убиты исключительно за выполнение постановления о хлебозаготовках.",
+      "Роман «Жизнь и судьба» — величайший советский роман про войну, возможно даже сильнее «Тихого Дона».",
+      "Большая часть населения при репрессиях становилась гипнотически послушной властям.",
+      "Тоталитаризм основан на насилии; отказавшись от него, тоталитарное государство гибнет.",
+      "Национальное сознание в СССР пробудилось во время войны как человеческое достоинство."
     ],
     "published_at": null,
-    "first_seen": "2026-06-08",
+    "first_seen": "2026-06-07",
     "snapshots": [
+      {
+        "date": "2026-06-07"
+      },
       {
         "date": "2026-06-08"
       }
     ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
+  },
+  "deqVC6uGzAY": {
+    "video_id": "deqVC6uGzAY",
+    "title": "Израиль атаковал Иран. Американцы на ПМЭФ. Абрамович в Киеве. СВО в тупике. Станислав Белковский*",
+    "author": "Живой Гвоздь",
+    "topic": "Анализ геополитической ситуации вокруг конфликта Иран-Израиль, роли Дональда Трампа и Путина в контексте ПМЭФ и СВО с использованием концепций «партии мира/войны» и «трикстера».",
+    "url": "https://www.youtube.com/watch?v=deqVC6uGzAY",
+    "tags": [],
+    "ideas": [
+      "Отсутствие новостей о конфликте Иран-Израиль может быть признаком затишья перед новой фазой войны или наоборот, лучшей новостью.",
+      "Арабские монархии являются более важной клиентелой для Трампа, чем Израиль.",
+      "В мире существуют две основные силы: партия мира (стремится к стабильности) и партия войны (считает войну двигателем прогресса).",
+      "ПМЭФ превратился в площадку для «фрик-шоу» с участием Кендис Оуэнс, Илона Маска и Эндрю Тейта.",
+      "Главный ресурс Путина — время, которое не капает на него сверху."
+    ],
+    "summary": "Видео рассматривает эскалацию конфликта между Израилем и Ираном, предположительно стремящуюся к затишью перед праздниками по воле Трампа. Обсуждается роль арабских монархий как приоритетной клиентелы США и концепция «партии мира» против «партии войны». Также анализируется атмосфера ПМЭФ, позиция Путина в информационном пузыре и необходимость дипломатических маневров через эриксоновский гипноз.",
+    "key_points": [
+      "Отсутствие новостей о конфликте Иран-Израиль может быть признаком затишья перед новой фазой войны или наоборот, лучшей новостью.",
+      "Арабские монархии являются более важной клиентелой для Трампа, чем Израиль.",
+      "В мире существуют две основные силы: партия мира (стремится к стабильности) и партия войны (считает войну двигателем прогресса).",
+      "ПМЭФ превратился в площадку для «фрик-шоу» с участием Кендис Оуэнс, Илона Маска и Эндрю Тейта.",
+      "Главный ресурс Путина — время, которое не капает на него сверху."
+    ],
+    "novel_ideas": [
+      "Идея создания эксклюзивной зоны Ормузского пролива (ЭЗОП) под контролем США.",
+      "Концепция глобального противостояния «партии мира» и «партии войны», где партия войны утверждает, что война необходима для возрождения наций.",
+      "Война на истощение в современном мире не требует контроля над территорией, а зависит от технологического превосходства.",
+      "Концепция «трикстера» как политического типа, который объединяет противоречивые группы через ресентимент и разрушает старые системы.",
+      "Применение эриксоновского гипноза для дипломатии с авторитарными лидерами."
+    ],
+    "speaker_claims": [
+      "Дональд Трамп стремится не возобновлять широкомасштабные боевые действия до окончания светлых праздников и чемпионата мира по футболу.",
+      "Трамп хочет заключить новую сделку с Ираном, более серьезную, чем соглашение Барака Обамы 2015 года.",
+      "Военные планы США и Израиля по поражению Ирана не оправдали себя, так как смена режима пока не произошла.",
+      "Главная цель Израиля — навсегда похоронить ядерную программу Ирана и прекратить производство баллистических ракет.",
+      "Арабские монархии являются более важной клиентелой для Трампа, чем Израиль.",
+      "В США 68% граждан выступают за скорейшее завершение иранской войны без учета конкретных военных результатов.",
+      "ПМЭФ превратился в «фрик-шоу», где доминируют ненавистные элитам фигуры типа Эндрю Тейта.",
+      "Путин находится в информационном пузыре (эхокамере) и верит в то, что сломает ситуацию на фронтах.",
+      "Алиса Вайдель живет в Швейцарии с партнершей-мигранткой из Шри-Ланки, чтобы не платить налоги Германии.",
+      "В Северной Корее наступило экономическое процветание благодаря украинской войне и помощи от РФ и Китая.",
+      "Открытое письмо Зеленского Путину было информационной акцией, а не реальным приглашением к переговорам."
+    ],
+    "published_at": null,
+    "first_seen": "2026-06-07",
+    "snapshots": [
+      {
+        "date": "2026-06-07"
+      },
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
   },
   "1j7sn9YomSg": {
     "video_id": "1j7sn9YomSg",
@@ -101438,6 +101965,192 @@
       "Европа собирает миллионы евро для помощи Ливану в укреплении армии против Хизбаллы."
     ],
     "published_at": null,
+    "first_seen": "2026-06-07",
+    "snapshots": [
+      {
+        "date": "2026-06-07"
+      },
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "6ln0A7xRv3M": {
+    "video_id": "6ln0A7xRv3M",
+    "title": "Николай Рыбаков: Персонально ваш / 08.06.26",
+    "author": "Живой Гвоздь",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=6ln0A7xRv3M",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-07",
+    "snapshots": [
+      {
+        "date": "2026-06-07"
+      }
+    ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
+    "last_seen": "2026-06-07",
+    "status": "available"
+  },
+  "m6MtruO45ig": {
+    "video_id": "m6MtruO45ig",
+    "title": "Выборы в Армении. Итоги ПМЭФ. Z-патриоты ругают Путина. Левиев*, Филиппов*, Баблоян*",
+    "author": "Живой Гвоздь",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=m6MtruO45ig",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-07",
+    "snapshots": [
+      {
+        "date": "2026-06-07"
+      }
+    ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
+    "last_seen": "2026-06-07",
+    "status": "available"
+  },
+  "nxefCoqIw60": {
+    "video_id": "nxefCoqIw60",
+    "title": "Доброволець з Казахстану в ЗСУ: війна, зброя та шлях захисника України",
+    "author": "ІБІС Зброя та Полювання",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=nxefCoqIw60",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-07",
+    "snapshots": [
+      {
+        "date": "2026-06-07"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-07",
+    "status": "available"
+  },
+  "PoMJ07kNIQ0": {
+    "video_id": "PoMJ07kNIQ0",
+    "title": "Россия теряет Кавказ: почему Пашинян победил в Армении. Тигран Авакян, Юрий Романенко",
+    "author": "Romanenko Shorts",
+    "topic": "Анализ результатов парламентских выборов в Армении и геополитического выбора между интеграцией с Россией или партнерством со США/ЕС.",
+    "url": "https://www.youtube.com/watch?v=PoMJ07kNIQ0",
+    "tags": [],
+    "ideas": [
+      "Партия Никола Пашиняна «Гражданский договор» лидирует, набирая от 30 до 40% голосов по разным данным экзит-полов.",
+      "Армения стоит перед выбором: интеграция с Россией (потеря суверенитета) или партнерство со США и ЕС (экономический рост).",
+      "ВВП Армении вырос на 45–50% за период 2021–2026 гг., достигнув более чем 25 млрд долларов.",
+      "Экспорт услуг составил 5,69 млрд долларов в 2023 году, а IT-отрасль превысила 1 млрд долларов.",
+      "Россия не сможет вернуть утраченные армянские земли или обеспечить безопасность из-за ресурсов на фронте СВО."
+    ],
+    "summary": "Спикеры Тигран Авакян и Юрий Романенко обсуждают победу партии Никола Пашиняна на выборах, утверждая, что Армения стоит перед стратегическим выбором: либо потеря суверенитета при интеграции с Россией, либо экономический рост под защитой США. Видео детально разбирает экономические успехи Армении (рост ВВП, IT-сектор) и аргументирует необходимость ухода от российского влияния.",
+    "key_points": [
+      "Партия Никола Пашиняна «Гражданский договор» лидирует, набирая от 30 до 40% голосов по разным данным экзит-полов.",
+      "Армения стоит перед выбором: интеграция с Россией (потеря суверенитета) или партнерство со США и ЕС (экономический рост).",
+      "ВВП Армении вырос на 45–50% за период 2021–2026 гг., достигнув более чем 25 млрд долларов.",
+      "Экспорт услуг составил 5,69 млрд долларов в 2023 году, а IT-отрасль превысила 1 млрд долларов.",
+      "Россия не сможет вернуть утраченные армянские земли или обеспечить безопасность из-за ресурсов на фронте СВО."
+    ],
+    "novel_ideas": [
+      "Выбор Армении — это выбор между будущим без Европы и США или с их масштабным присутствием.",
+      "Интеграция в Россию приведет к превращению страны в область РФ для противодействия китайской колонизации.",
+      "Армения как новый концепт экономического и логистического хаба в условиях падения держав Залива."
+    ],
+    "speaker_claims": [
+      "По предварительным оценкам партия Никола Пашиняна получает от 30 до 35% голосов.",
+      "Официальные данные ЦИК показывают победу правящей партии с около двух третей голосов, что вызывает сомнения у оппозиции.",
+      "Выбор Армении сводится к двум сценариям: интеграция с Россией или стратегическое партнерство со США и ЕС.",
+      "Интеграция Армении в Россию приведет к расселению мужского населения на Дальний Восток и Сибири для противодействия Китаю.",
+      "В случае союза с Россией часть мужского населения умрет на войнах России за «русский мир».",
+      "Армения стоит перед выбором между плохим и очень плохим сценариями, так как перспективы в России не просматриваются.",
+      "Россия исторически заставляла Армению терять территории и население.",
+      "Трамп назвал Пашиняна великим другом лидеров и выразил полную поддержку его переизбрания.",
+      "ВВП Армении вырос с 12–13 млрд до более чем 25 млрд долларов за период 2021–2026 гг.",
+      "Армения показала экономический рост ВВП на 45–50% за пять лет (2021–2026 гг.)",
+      "Россия не вернет утраченные территории Армении и никогда этого не сделает."
+    ],
+    "published_at": null,
+    "first_seen": "2026-06-07",
+    "snapshots": [
+      {
+        "date": "2026-06-07"
+      },
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "-vbRhB69TEY": {
+    "video_id": "-vbRhB69TEY",
+    "title": "Prof. Jeffrey Sachs  :  Is Trump Losing It?",
+    "author": "Judge Napolitano - Judging Freedom",
+    "topic": "Анализ кризиса отношений между США и Израилем, потери поддержки Трампом Израиля и внутренней политической нестабильности в Израиле.",
+    "url": "https://www.youtube.com/watch?v=-vbRhB69TEY",
+    "tags": [],
+    "ideas": [
+      "Иран считает требования Трампа недостижимыми из-за своей способности к ответным ударам.",
+      "Нетаниягу теряет поддержку в США и по всему миру из-за действий Израиля, включая войну с Ираном.",
+      "США больше не готовы автоматически защищать Израиль от эскалации конфликта с Ираном.",
+      "Израиль действует более отвратительно, чем в прошлом, что вызывает усталость американского общества.",
+      "Трамп чувствует давление внутренней американской политики из-за действий Израиля и готов сказать «нет».",
+      "США обвиняют Израиль в шпионаже за своими же чиновниками (Элдридж Кобби и Стивом Уиткоком).",
+      "Внутри израильского общества наблюдается радикализация и поддержка войны фанатичными поселенцами."
+    ],
+    "summary": "Видео обсуждает неспособность Дональда Трампа убедить Иран в серьезности угроз из-за способности Тегерана к ответным ударам. Также рассматривается рост изоляции Израиля, давление на Нетаньяху и Трамп со стороны американского общества, а также обвинения Израиля в шпионаже за чиновниками США.",
+    "key_points": [
+      "Иран считает требования Трампа недостижимыми из-за своей способности к ответным ударам.",
+      "Нетаниягу теряет поддержку в США и по всему миру из-за действий Израиля, включая войну с Ираном.",
+      "США больше не готовы автоматически защищать Израиль от эскалации конфликта с Ираном.",
+      "Израиль действует более отвратительно, чем в прошлом, что вызывает усталость американского общества.",
+      "Трамп чувствует давление внутренней американской политики из-за действий Израиля и готов сказать «нет».",
+      "США обвиняют Израиль в шпионаже за своими же чиновниками (Элдридж Кобби и Стивом Уиткоком).",
+      "Внутри израильского общества наблюдается радикализация и поддержка войны фанатичными поселенцами."
+    ],
+    "novel_ideas": [
+      "Израиль теряет свою безнаказанность (impunity) из-за смены политики США.",
+      "Израильская модель «большего Израиля» провалилась и привела к глобальному осуждению.",
+      "Общественное мнение США, ранее игнорируемое Израилем, теперь становится решающим фактором в политике."
+    ],
+    "speaker_claims": [
+      "Трампу не удастся убедить Иран в серьезности его угроз, так как у Тегерана есть возможности для эскалации.",
+      "Нетаниягу теряет поддержку в США и по всему миру из-за действий Израиля, включая войну с Ираном.",
+      "США больше не готовы автоматически защищать Израиль от эскалации конфликта с Ираном.",
+      "Премьеры Израиля ранее могли сказать «нет» и заставить США согласиться, но сейчас это сложнее.",
+      "Израиль действует более отвратительно, чем в прошлом, что вызывает усталость американского общества.",
+      "Израиль согласится на прекращение огня в Газе и Ливане, но цена будет высокой.",
+      "Израиль пытался использовать США как инструмент для контроля над Палестиной и Ливаном, но это провалилось.",
+      "Трамп чувствует давление внутренней американской политики из-за действий Израиля.",
+      "Служба безопасности Шин Бет предупредила о политической нестабильности в Израиле.",
+      "Новая статья The New York Times утверждает, что Израиль шпионит за американскими чиновниками.",
+      "Целями израильского шпионажа названы Элдридж Кобби и Стив Уиткок.",
+      "Израильская армия совершает зверства, включая убийство детей и поджог домов.",
+      "В Израиле действуют реальные фашисты во главе с Смитрихом и Бен Габиром.",
+      "Если Трамп скажет «нет», это будет действительно «нет».",
+      "Выборы в этой стране подтасованы.",
+      "Президент выиграл выборы с подавляющим большинством голосов (94%) и получил плохие новости о себе в прессе."
+    ],
+    "published_at": null,
     "first_seen": "2026-06-08",
     "snapshots": [
       {
@@ -101445,8 +102158,52 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
+  },
+  "0S8M3OtFIVc": {
+    "video_id": "0S8M3OtFIVc",
+    "title": "Dollar Tree Reveals Americans Have Hit Their Breaking Point",
+    "author": "Eurodollar University",
+    "topic": "Анализ противоречий между официальными данными по занятости США и реальным состоянием потребительского спроса, указывающий на экономический перелом из-за роста цен на энергию.",
+    "url": "https://www.youtube.com/watch?v=0S8M3OtFIVc",
+    "tags": [],
+    "ideas": [
+      "Данные BLS показали рекордный рост в сфере отдыха и гостеприимства (+172 000 рабочих мест), что противоречит данным о снижении доходов потребителей."
+    ],
+    "summary": "Спикеры утверждают, что резкий рост найма в сфере услуг является сезонной аномалией или искажением данных, маскирующим истинное падение реального располагаемого дохода. Исчерпание налоговых возвратов и высокие цены на топливо привели к тому, что потребители больше не могут тратить деньги даже в долларовых магазинах.",
+    "key_points": [
+      "Данные BLS показали рекордный рост в сфере отдыха и гостеприимства (+172 000 рабочих мест), что противоречит данным о снижении доходов потребителей."
+    ],
+    "novel_ideas": [
+      "Идея о том, что массовый найм в сфере услуг при снижении доходов потребителей сигнализирует не о росте спроса, а о вынужденных мерах бизнеса и сезонности.",
+      "Концепция 'точки невозврата', когда даже резкое падение цен на топливо уже не спасет экономику из-за накопленного шока."
+    ],
+    "speaker_claims": [
+      "Потребители больше не могут позволить себе покупать продукты даже в долларовых магазинах из-за роста цен на топливо.",
+      "Рост найма в сфере отдыха и гостеприимства является сезонным явлением или результатом искажений данных, а не признаком здоровья экономики.",
+      "Реальный располагаемый доход населения стал отрицательным еще в январе, что указывает на рецессию.",
+      "Бизнесы вынуждены нанимать персонал, надеясь на приток клиентов, но посещаемость парков и отелей остается низкой.",
+      "Сектор образования и здравоохранения не реагирует на экономические условия, поэтому рост там ожидаем.",
+      "Опрос домохозяйств лучше отражает реальную ситуацию рынка труда, чем опрос предприятий.",
+      "Полноценные рабочие места сократились на полмиллиона за последние пару месяцев из-за необходимости снижения затрат.",
+      "Цены на бензин и дизель будут维持在 $45 за галлон в обозримом будущем даже при разрешении конфликта с Ираном.",
+      "Владельцы малого бизнеса планируют новый найм только у 9% из них, что является шестилетним минимумом.",
+      "Малый бизнес понимает, что спрос исчезнет и нанимать сотрудников не имеет смысла.",
+      "Five Below подтвердила, что налоговые возвраты смягчили удар энергетического шока для потребителей с низким доходом.",
+      "Walmart предупредила о проблемах в будущих кварталах из-за исчерпания налоговых возвратов.",
+      "Расходы на энергию и коммунальные услуги летом заставят потребителей сократить траты на другие нужды, включая отпуска.",
+      "Рынок акций не является надежным барометром для стимулирования потребительских расходов в текущих условиях.",
+      "Индекс уверенности руководителей (Conference Board) упал с 59 до 47, что свидетельствует об ухудшении ожиданий бизнеса на ближайшие полгода."
+    ],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "last_seen": "2026-06-08",
+    "status": "available"
   },
   "5uzfAJydeNg": {
     "video_id": "5uzfAJydeNg",
@@ -101489,8 +102246,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "AvZHhmV_LeI": {
     "video_id": "AvZHhmV_LeI",
@@ -101531,8 +102287,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "Dg-_ZFAE-CI": {
     "video_id": "Dg-_ZFAE-CI",
@@ -101589,8 +102344,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "EzshAj555DY": {
     "video_id": "EzshAj555DY",
@@ -101664,8 +102418,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "G0CRt1hC0Ts": {
     "video_id": "G0CRt1hC0Ts",
@@ -101720,8 +102473,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "GGiB0oKGALM": {
     "video_id": "GGiB0oKGALM",
@@ -101796,59 +102548,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
-  },
-  "PoMJ07kNIQ0": {
-    "video_id": "PoMJ07kNIQ0",
-    "title": "Россия теряет Кавказ: почему Пашинян победил в Армении. Тигран Авакян, Юрий Романенко",
-    "author": "Romanenko Shorts",
-    "topic": "Анализ результатов парламентских выборов в Армении и геополитического выбора между интеграцией с Россией или партнерством со США/ЕС.",
-    "url": "https://www.youtube.com/watch?v=PoMJ07kNIQ0",
-    "tags": [],
-    "ideas": [
-      "Партия Никола Пашиняна «Гражданский договор» лидирует, набирая от 30 до 40% голосов по разным данным экзит-полов.",
-      "Армения стоит перед выбором: интеграция с Россией (потеря суверенитета) или партнерство со США и ЕС (экономический рост).",
-      "ВВП Армении вырос на 45–50% за период 2021–2026 гг., достигнув более чем 25 млрд долларов.",
-      "Экспорт услуг составил 5,69 млрд долларов в 2023 году, а IT-отрасль превысила 1 млрд долларов.",
-      "Россия не сможет вернуть утраченные армянские земли или обеспечить безопасность из-за ресурсов на фронте СВО."
-    ],
-    "summary": "Спикеры Тигран Авакян и Юрий Романенко обсуждают победу партии Никола Пашиняна на выборах, утверждая, что Армения стоит перед стратегическим выбором: либо потеря суверенитета при интеграции с Россией, либо экономический рост под защитой США. Видео детально разбирает экономические успехи Армении (рост ВВП, IT-сектор) и аргументирует необходимость ухода от российского влияния.",
-    "key_points": [
-      "Партия Никола Пашиняна «Гражданский договор» лидирует, набирая от 30 до 40% голосов по разным данным экзит-полов.",
-      "Армения стоит перед выбором: интеграция с Россией (потеря суверенитета) или партнерство со США и ЕС (экономический рост).",
-      "ВВП Армении вырос на 45–50% за период 2021–2026 гг., достигнув более чем 25 млрд долларов.",
-      "Экспорт услуг составил 5,69 млрд долларов в 2023 году, а IT-отрасль превысила 1 млрд долларов.",
-      "Россия не сможет вернуть утраченные армянские земли или обеспечить безопасность из-за ресурсов на фронте СВО."
-    ],
-    "novel_ideas": [
-      "Выбор Армении — это выбор между будущим без Европы и США или с их масштабным присутствием.",
-      "Интеграция в Россию приведет к превращению страны в область РФ для противодействия китайской колонизации.",
-      "Армения как новый концепт экономического и логистического хаба в условиях падения держав Залива."
-    ],
-    "speaker_claims": [
-      "По предварительным оценкам партия Никола Пашиняна получает от 30 до 35% голосов.",
-      "Официальные данные ЦИК показывают победу правящей партии с около двух третей голосов, что вызывает сомнения у оппозиции.",
-      "Выбор Армении сводится к двум сценариям: интеграция с Россией или стратегическое партнерство со США и ЕС.",
-      "Интеграция Армении в Россию приведет к расселению мужского населения на Дальний Восток и Сибири для противодействия Китаю.",
-      "В случае союза с Россией часть мужского населения умрет на войнах России за «русский мир».",
-      "Армения стоит перед выбором между плохим и очень плохим сценариями, так как перспективы в России не просматриваются.",
-      "Россия исторически заставляла Армению терять территории и население.",
-      "Трамп назвал Пашиняна великим другом лидеров и выразил полную поддержку его переизбрания.",
-      "ВВП Армении вырос с 12–13 млрд до более чем 25 млрд долларов за период 2021–2026 гг.",
-      "Армения показала экономический рост ВВП на 45–50% за пять лет (2021–2026 гг.)",
-      "Россия не вернет утраченные территории Армении и никогда этого не сделает."
-    ],
-    "published_at": null,
-    "first_seen": "2026-06-08",
-    "snapshots": [
-      {
-        "date": "2026-06-08"
-      }
-    ],
-    "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "Q-c3O3n0hJQ": {
     "video_id": "Q-c3O3n0hJQ",
@@ -101893,8 +102593,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "TJ9XpkkgegE": {
     "video_id": "TJ9XpkkgegE",
@@ -101948,63 +102647,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
-  },
-  "WHjAdD66rck": {
-    "video_id": "WHjAdD66rck",
-    "title": "Вечер на Живом гвозде. Алексей Кузнецов, Сергей Бунтман и Александр Минкин* / 08.06.26",
-    "author": "Живой Гвоздь",
-    "topic": "Анализ исторических процессов коллективизации и репрессий в Удмуртии через призму дела Лудоровая, с обсуждением роли тоталитарного насилия, пропаганды и литературы (В. Гросман «Жизнь и судьба»).",
-    "url": "https://www.youtube.com/watch?v=WHjAdD66rck",
-    "tags": [],
-    "ideas": [
-      "К октябрю 1926 года в Удмуртии коллективизация еще не была завершена (уровень производства зерна тринадцатого года).",
-      "В селе Лудорвай летом 1928 года было расстреляно 150 крестьян по обвинению в религиозных практиках.",
-      "Критерий «кулачества» определялся количеством скота (3 лошади, 2 коровы), а не только наличием наёмного труда.",
-      "Советские журналисты выступали как общественные обвинители, формируя нарратив о «агрессивном кулачестве». Коммунистов убивали за выполнение постановлений по хлебозаготовкам."
-    ],
-    "summary": "Спикеры разбирают исторический контекст коллективизации в Удмуртии, доказывая её незавершенность к октябрю 1926 года из-за специфики региона. Детально анализируется дело Лудоровая: расстрел крестьян за религиозные обряды и классовые мотивы репрессий против коммунистов.",
-    "key_points": [
-      "К октябрю 1926 года в Удмуртии коллективизация еще не была завершена (уровень производства зерна тринадцатого года).",
-      "В селе Лудорвай летом 1928 года было расстреляно 150 крестьян по обвинению в религиозных практиках.",
-      "Критерий «кулачества» определялся количеством скота (3 лошади, 2 коровы), а не только наличием наёмного труда.",
-      "Советские журналисты выступали как общественные обвинители, формируя нарратив о «агрессивном кулачестве». Коммунистов убивали за выполнение постановлений по хлебозаготовкам."
-    ],
-    "novel_ideas": [
-      "Идея о том, что в Удмуртии коллективизация проходила иначе из-за отсутствия кулачества и сильных общинных традиций.",
-      "Сравнение зависимости СССР от экспорта зерна с зависимостью современной России от нефти.",
-      "Концепция «правового обычая» как источника права, основанного на местных традициях общины.",
-      "Аналогия между древнегреческими богами, продающими оружие, и современной ситуацией в редакции.",
-      "Сравнение Лудорвайского процесса с Мултанским делом для демонстрации масштаба репрессий.",
-      "Идея о том, что экскурсовод в музее не всегда является автором экспонатов и часто передает чужие знания.",
-      "Концепция «души-предательницы», которая соглашается с преступлениями ради выживания.",
-      "Три силы, формирующие покорность: инстинкт самосохранения, гипнотическая сила идей и ужас перед насилием государства."
-    ],
-    "speaker_claims": [
-      "К октябрю 1926 года в Удмуртии коллективизация еще не была завершена.",
-      "Доля товарного хлеба середняков упала с 26% до 12-13% к моменту сплошной коллективизации.",
-      "В Удмуртии кулачество было слабо выражено из-за отсутствия крупного помещичьего землевладения.",
-      "В селе Лудорвай летом 1928 года было расстреляно 150 крестьян.",
-      "У удмуртов сохранились языческие верования и практика кровавых жертвоприношений.",
-      "В деле Лудорвая советская пропаганда искажала факты, обвиняя бедняков в избиении кулаков.",
-      "Советские журналисты выступали как общественные обвинители на процессах.",
-      "Коммунисты были убиты исключительно за выполнение постановления о хлебозаготовках.",
-      "Роман «Жизнь и судьба» — величайший советский роман про войну, возможно даже сильнее «Тихого Дона».",
-      "Большая часть населения при репрессиях становилась гипнотически послушной властям.",
-      "Тоталитаризм основан на насилии; отказавшись от него, тоталитарное государство гибнет.",
-      "Национальное сознание в СССР пробудилось во время войны как человеческое достоинство."
-    ],
-    "published_at": null,
-    "first_seen": "2026-06-08",
-    "snapshots": [
-      {
-        "date": "2026-06-08"
-      }
-    ],
-    "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "WlS8TUJ4yhE": {
     "video_id": "WlS8TUJ4yhE",
@@ -102062,8 +102705,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "XgfyWJn_Yfo": {
     "video_id": "XgfyWJn_Yfo",
@@ -102132,8 +102774,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "b44MTaWV8bs": {
     "video_id": "b44MTaWV8bs",
@@ -102178,8 +102819,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "bjXD5eEHMbc": {
     "video_id": "bjXD5eEHMbc",
@@ -102231,8 +102871,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "cNMGfil1Iso": {
     "video_id": "cNMGfil1Iso",
@@ -102287,8 +102926,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "cZ-IA4J-hUI": {
     "video_id": "cZ-IA4J-hUI",
@@ -102338,8 +102976,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "d8sQKJU8jFo": {
     "video_id": "d8sQKJU8jFo",
@@ -102392,61 +103029,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
-  },
-  "deqVC6uGzAY": {
-    "video_id": "deqVC6uGzAY",
-    "title": "Израиль атаковал Иран. Американцы на ПМЭФ. Абрамович в Киеве. СВО в тупике. Станислав Белковский*",
-    "author": "Живой Гвоздь",
-    "topic": "Анализ геополитической ситуации вокруг конфликта Иран-Израиль, роли Дональда Трампа и Путина в контексте ПМЭФ и СВО с использованием концепций «партии мира/войны» и «трикстера».",
-    "url": "https://www.youtube.com/watch?v=deqVC6uGzAY",
-    "tags": [],
-    "ideas": [
-      "Отсутствие новостей о конфликте Иран-Израиль может быть признаком затишья перед новой фазой войны или наоборот, лучшей новостью.",
-      "Арабские монархии являются более важной клиентелой для Трампа, чем Израиль.",
-      "В мире существуют две основные силы: партия мира (стремится к стабильности) и партия войны (считает войну двигателем прогресса).",
-      "ПМЭФ превратился в площадку для «фрик-шоу» с участием Кендис Оуэнс, Илона Маска и Эндрю Тейта.",
-      "Главный ресурс Путина — время, которое не капает на него сверху."
-    ],
-    "summary": "Видео рассматривает эскалацию конфликта между Израилем и Ираном, предположительно стремящуюся к затишью перед праздниками по воле Трампа. Обсуждается роль арабских монархий как приоритетной клиентелы США и концепция «партии мира» против «партии войны». Также анализируется атмосфера ПМЭФ, позиция Путина в информационном пузыре и необходимость дипломатических маневров через эриксоновский гипноз.",
-    "key_points": [
-      "Отсутствие новостей о конфликте Иран-Израиль может быть признаком затишья перед новой фазой войны или наоборот, лучшей новостью.",
-      "Арабские монархии являются более важной клиентелой для Трампа, чем Израиль.",
-      "В мире существуют две основные силы: партия мира (стремится к стабильности) и партия войны (считает войну двигателем прогресса).",
-      "ПМЭФ превратился в площадку для «фрик-шоу» с участием Кендис Оуэнс, Илона Маска и Эндрю Тейта.",
-      "Главный ресурс Путина — время, которое не капает на него сверху."
-    ],
-    "novel_ideas": [
-      "Идея создания эксклюзивной зоны Ормузского пролива (ЭЗОП) под контролем США.",
-      "Концепция глобального противостояния «партии мира» и «партии войны», где партия войны утверждает, что война необходима для возрождения наций.",
-      "Война на истощение в современном мире не требует контроля над территорией, а зависит от технологического превосходства.",
-      "Концепция «трикстера» как политического типа, который объединяет противоречивые группы через ресентимент и разрушает старые системы.",
-      "Применение эриксоновского гипноза для дипломатии с авторитарными лидерами."
-    ],
-    "speaker_claims": [
-      "Дональд Трамп стремится не возобновлять широкомасштабные боевые действия до окончания светлых праздников и чемпионата мира по футболу.",
-      "Трамп хочет заключить новую сделку с Ираном, более серьезную, чем соглашение Барака Обамы 2015 года.",
-      "Военные планы США и Израиля по поражению Ирана не оправдали себя, так как смена режима пока не произошла.",
-      "Главная цель Израиля — навсегда похоронить ядерную программу Ирана и прекратить производство баллистических ракет.",
-      "Арабские монархии являются более важной клиентелой для Трампа, чем Израиль.",
-      "В США 68% граждан выступают за скорейшее завершение иранской войны без учета конкретных военных результатов.",
-      "ПМЭФ превратился в «фрик-шоу», где доминируют ненавистные элитам фигуры типа Эндрю Тейта.",
-      "Путин находится в информационном пузыре (эхокамере) и верит в то, что сломает ситуацию на фронтах.",
-      "Алиса Вайдель живет в Швейцарии с партнершей-мигранткой из Шри-Ланки, чтобы не платить налоги Германии.",
-      "В Северной Корее наступило экономическое процветание благодаря украинской войне и помощи от РФ и Китая.",
-      "Открытое письмо Зеленского Путину было информационной акцией, а не реальным приглашением к переговорам."
-    ],
-    "published_at": null,
-    "first_seen": "2026-06-08",
-    "snapshots": [
-      {
-        "date": "2026-06-08"
-      }
-    ],
-    "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "kiWqcTeLaIQ": {
     "video_id": "kiWqcTeLaIQ",
@@ -102501,8 +103084,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "ktl8mNiWqMM": {
     "video_id": "ktl8mNiWqMM",
@@ -102570,8 +103152,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "tj0dKtP7Fpc": {
     "video_id": "tj0dKtP7Fpc",
@@ -102625,8 +103206,7 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
   },
   "uoMTaKBVEl4": {
     "video_id": "uoMTaKBVEl4",
@@ -102711,7 +103291,305 @@
       }
     ],
     "last_seen": "2026-06-08",
-    "status": "available",
-    "metrics_checked_at": "2026-06-09"
+    "status": "available"
+  },
+  "8Ofj0Wike_0": {
+    "video_id": "8Ofj0Wike_0",
+    "title": "Занятие «Мезозойское СПА» рубрики \"Динозавры и не только\" с Ярославом Поповым",
+    "author": "Центр Архэ",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=8Ofj0Wike_0",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "h3e7-odKZWc": {
+    "video_id": "h3e7-odKZWc",
+    "title": "Немного о важном. Дом. Владимир Никитин",
+    "author": "Romanenko Shorts",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=h3e7-odKZWc",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "jb9AocBauIY": {
+    "video_id": "jb9AocBauIY",
+    "title": "Важливість Claude Code | Реальні дані в пет-проєктах | Як вчитися шукати інсайти з даних",
+    "author": "Roman Povzyk | Data Analyst Mentor",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=jb9AocBauIY",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "OQ4ZxJefqWY": {
+    "video_id": "OQ4ZxJefqWY",
+    "title": "Статус. Екатерина Шульман* и Максим Курников / 09.06.26 @Ekaterina_Schulmann",
+    "author": "Живой Гвоздь",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=OQ4ZxJefqWY",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "amrOsu3Icgw": {
+    "video_id": "amrOsu3Icgw",
+    "title": "Генрих и его семья. Параграф 43",
+    "author": "Дилетант",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=amrOsu3Icgw",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Видео было анонсировано, но ещё не вышло в момент обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "ErMgDdQ_CIc": {
+    "video_id": "ErMgDdQ_CIc",
+    "title": "Новый этап войны на Ближнем Востоке. Никита Смагин*. Ищем выход",
+    "author": "Живой Гвоздь",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=ErMgDdQ_CIc",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "L2fD9lndqdI": {
+    "video_id": "L2fD9lndqdI",
+    "title": "Ольга Романова*: Особое мнение",
+    "author": "Живой Гвоздь",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=L2fD9lndqdI",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "sSFJeZ_a7bM": {
+    "video_id": "sSFJeZ_a7bM",
+    "title": "Курс Потапенко*. Дмитрий Потапенко* / 09.06.26 @PotapenkoDmitry",
+    "author": "Живой Гвоздь",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=sSFJeZ_a7bM",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "dV3ZWCAbxtg": {
+    "video_id": "dV3ZWCAbxtg",
+    "title": "Михаил Виноградов: Персонально ваш",
+    "author": "Живой Гвоздь",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=dV3ZWCAbxtg",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "ynZoAj0PNf4": {
+    "video_id": "ynZoAj0PNf4",
+    "title": "Переговорщик Абрамович. Бензин по талонам. Тайны семьи Апти Алаудинова. Венедиктов*, Орешкин*",
+    "author": "Живой Гвоздь",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=ynZoAj0PNf4",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Прямая трансляция ещё не началась в момент обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "fPOnbrO0Bxo": {
+    "video_id": "fPOnbrO0Bxo",
+    "title": "Зачем Путин слил Абрамовича. Моноэфир Романенко",
+    "author": "Romanenko Shorts",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=fPOnbrO0Bxo",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "YwqaSIRvPjs": {
+    "video_id": "YwqaSIRvPjs",
+    "title": "Первые деньги в медицине. Во что я вложил 100+ млн рублей. Гребенюк Live #3",
+    "author": "Михаил Гребенюк",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=YwqaSIRvPjs",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
+  },
+  "eusCU04EXOk": {
+    "video_id": "eusCU04EXOk",
+    "title": "Зачем Путин слил Абрамовича. Моноэфир Романенко",
+    "author": "Yuriy Romanenko",
+    "topic": "Разное",
+    "url": "https://www.youtube.com/watch?v=eusCU04EXOk",
+    "tags": [],
+    "ideas": [],
+    "summary": "",
+    "key_points": [],
+    "novel_ideas": [],
+    "speaker_claims": [],
+    "published_at": null,
+    "first_seen": "2026-06-08",
+    "snapshots": [
+      {
+        "date": "2026-06-08"
+      }
+    ],
+    "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
+    "last_seen": "2026-06-08",
+    "status": "available"
   }
 }

@@ -334,6 +334,27 @@ def _iter_video_dicts(data: Any) -> Iterable[dict[str, Any]]:
         yield data
 
 
+def _classify_processing_error(err: str, stage: str) -> str:
+    """Return a human-readable Russian explanation for a failed_item error."""
+    if "ffmpeg" in err or "Audio preparation" in err:
+        return "Транскрипция недоступна: ffmpeg не установлен на сервере обработки"
+    if "Premieres in" in err or ("premiere" in err.lower() and "begin" not in err.lower()):
+        return "Видео было анонсировано, но ещё не вышло в момент обработки"
+    if "live event will begin" in err or ("live" in err.lower() and "begin" in err.lower()):
+        return "Прямая трансляция ещё не началась в момент обработки"
+    if "Private video" in err or ("private" in err.lower() and "video" in err.lower()):
+        return "Видео закрыто (приватное)"
+    if "removed by the uploader" in err or ("unavailable" in err.lower() and "removed" in err.lower()):
+        return "Видео удалено автором"
+    if "Sign in" in err or ("bot" in err.lower() and "confirm" in err.lower()):
+        return "YouTube требует подтверждения (bot check)"
+    if stage in ("TRANSCRIPTION_FAILED_RETRYABLE",):
+        return "Временная ошибка транскрипции"
+    if stage in ("TRANSCRIPTION_FAILED_PERMANENT", "Transcription — permanent"):
+        return "Постоянная ошибка транскрипции"
+    return "Ошибка обработки"
+
+
 def _records_from_json(text: str, captured_at: str) -> list[dict[str, Any]]:
     try:
         data = json.loads(text)
@@ -345,7 +366,36 @@ def _records_from_json(text: str, captured_at: str) -> list[dict[str, Any]]:
             data.get("date") or data.get("captured_at") or data.get("generated_at")
         )
         captured_at = pkg_date or captured_at
-    return [_record_from_dict(d, captured_at) for d in _iter_video_dicts(data)]
+    records = [_record_from_dict(d, captured_at) for d in _iter_video_dicts(data)]
+    # Also ingest failed_items so they appear in the dashboard with an error reason.
+    if isinstance(data, dict):
+        for item in data.get("failed_items", []):
+            if not isinstance(item, dict):
+                continue
+            vid = item.get("video_id", "").strip()
+            if not vid:
+                continue
+            err = item.get("raw_error") or item.get("error_summary") or ""
+            stage = item.get("stage", "")
+            rec: dict[str, Any] = {
+                "video_id": vid,
+                "url": item.get("url") or f"https://www.youtube.com/watch?v={vid}",
+                "title": item.get("title") or "Без названия",
+                "author": item.get("channel") or item.get("author") or "Неизвестный автор",
+                "topic": "Разное",
+                "captured_at": captured_at,
+                "published_at": None,
+                "summary": "",
+                "tags": [],
+                "ideas": [],
+                "key_points": [],
+                "novel_ideas": [],
+                "speaker_claims": [],
+                "metrics": {},
+                "processing_error": _classify_processing_error(err, stage),
+            }
+            records.append(rec)
+    return records
 
 
 # --------------------------------------------------------------------------- #

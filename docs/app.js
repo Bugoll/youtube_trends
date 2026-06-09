@@ -409,7 +409,11 @@
     const sb = el("span", sCls, sLabel);
     sb.title = sTitle;
     badges.append(sb);
-    if (!hasContent(v)) {
+    if (v.processing_error) {
+      const eb = el("span", "badge status-error", "⚠ " + esc(v.processing_error));
+      eb.title = v.processing_error;
+      badges.append(eb);
+    } else if (!hasContent(v)) {
       const wb = el("span", "badge status-warn", "⚠ нет данных");
       wb.title = "В пакете отсутствуют summary, key_points, novel_ideas и speaker_claims";
       badges.append(wb);
