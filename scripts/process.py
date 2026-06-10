@@ -297,24 +297,33 @@ def _build_timeline(history: dict[str, Any]) -> list[dict]:
             agg["likes"] = (agg["likes"] or 0) + int(latest.get("likes", 0) or 0)
             agg["comments"] = (agg["comments"] or 0) + int(latest.get("comments", 0) or 0)
 
-    # Collect dates that only appear as metric-refresh snapshots (no new videos).
-    refresh_only: set[str] = set()
+    # Collect all dates that have refresh-metric snapshots.
+    # Two cases:
+    #   1. Date NOT in by_date → pure refresh-only date (no new videos), add it.
+    #   2. Date IS in by_date but views=None → new videos arrived that day but
+    #      had no metrics yet; supplement from existing-video snapshots for that date.
+    refresh_dates: set[str] = set()
     for entry in history.values():
         for snap in entry.get("snapshots", []):
             d = snap.get("date")
-            if d and _has_metrics(snap) and d not in by_date:
-                refresh_only.add(d)
+            if d and _has_metrics(snap):
+                refresh_dates.add(d)
 
-    for d in refresh_only:
-        agg = {"date": d, "views": None, "likes": None, "comments": None, "new_videos": 0}
-        for entry in history.values():
-            for snap in entry.get("snapshots", []):
-                if snap.get("date") == d and _has_metrics(snap):
-                    for k in ("views", "likes", "comments"):
-                        v = int(snap.get(k, 0) or 0)
-                        if v:
-                            agg[k] = (agg[k] or 0) + v
-        by_date[d] = agg
+    for d in refresh_dates:
+        if d not in by_date:
+            by_date[d] = {
+                "date": d, "views": None, "likes": None, "comments": None, "new_videos": 0,
+            }
+        agg = by_date[d]
+        # Only supplement if the first_seen loop left metrics as None.
+        if agg.get("views") is None:
+            for entry in history.values():
+                for snap in entry.get("snapshots", []):
+                    if snap.get("date") == d and _has_metrics(snap):
+                        for k in ("views", "likes", "comments"):
+                            v = int(snap.get(k, 0) or 0)
+                            if v:
+                                agg[k] = (agg[k] or 0) + v
 
     return [by_date[d] for d in sorted(by_date)]
 
