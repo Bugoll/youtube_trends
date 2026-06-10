@@ -53,10 +53,16 @@ jobs:
             --limit ${{ vars.ENRICH_LIMIT || 30 }} \
             || echo "::warning::enrich.py finished with errors — continuing"
 
-      - name: Refresh YouTube metrics via yt-dlp
+      - name: Refresh YouTube metrics
+        env:
+          # YouTube Data API v3 (recommended): create a key at console.cloud.google.com,
+          # enable "YouTube Data API v3", store as GOOGLE_API_KEY secret.
+          # Without this key, yt-dlp android client is used as fallback.
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: |
           python scripts/refresh_metrics.py \
             --out docs/data \
+            --reset-stale \
             --limit ${{ vars.REFRESH_LIMIT || 300 }} \
             || echo "::warning::refresh_metrics finished with errors — continuing"
 

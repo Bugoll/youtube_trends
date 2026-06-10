@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T19:51:44",
+  "generated_at": "2026-06-10T20:03:00",
   "latest_date": "2026-06-08",
   "totals": {
     "videos": 972,
@@ -94735,7 +94735,7 @@
       "published_at": null,
       "first_seen": "2026-06-03",
       "last_seen": "2026-06-04",
-      "status": "deleted",
+      "status": "available",
       "processing_error": "Видео удалено автором",
       "metrics": {},
       "engagement": 0,
@@ -116993,7 +116993,7 @@
       "published_at": null,
       "first_seen": "2026-06-05",
       "last_seen": "2026-06-06",
-      "status": "deleted",
+      "status": "available",
       "processing_error": "",
       "metrics": {},
       "engagement": 0,
@@ -117475,7 +117475,7 @@
       "published_at": null,
       "first_seen": "2026-06-05",
       "last_seen": "2026-06-05",
-      "status": "deleted",
+      "status": "available",
       "processing_error": "Транскрипция недоступна: ffmpeg не установлен на сервере обработки",
       "metrics": {},
       "engagement": 0,
