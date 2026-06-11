@@ -265,35 +265,34 @@ def _has_metrics(snap: dict) -> bool:
 
 
 def _build_timeline(history: dict[str, Any]) -> list[dict]:
-    """Build a time series: for each date sum views/likes/comments from all
-    snapshots dated on that exact day. new_videos = count of first_seen on that day.
+    """Build a time series grouped by first_seen date.
 
-    This means every date shows the actual metrics measured on that day — both
-    from refresh runs and from packages that include metrics.
+    Each date represents videos that appeared in that day's package:
+      views/likes/comments = sum of each video's LATEST available metrics
+      new_videos           = count of videos first seen on that date
+
+    Dates where only metric refreshes occurred (no new packages) are not
+    added as separate entries — the chart shows per-package-day totals only.
     """
     by_date: dict[str, dict] = {}
 
-    # Pass 1: count new_videos per first_seen date.
     for entry in history.values():
         fs = entry.get("first_seen")
         if not fs:
             continue
+
+        # Latest snapshot that has real metrics (from any subsequent refresh).
+        metric_snaps = [s for s in entry.get("snapshots", []) if _has_metrics(s)]
+        latest = metric_snaps[-1] if metric_snaps else None
+
         agg = by_date.setdefault(fs, {
             "date": fs, "views": None, "likes": None, "comments": None, "new_videos": 0,
         })
         agg["new_videos"] += 1
 
-    # Pass 2: accumulate metrics from every dated snapshot across all videos.
-    for entry in history.values():
-        for snap in entry.get("snapshots", []):
-            d = snap.get("date")
-            if not d or not _has_metrics(snap):
-                continue
-            agg = by_date.setdefault(d, {
-                "date": d, "views": None, "likes": None, "comments": None, "new_videos": 0,
-            })
+        if latest:
             for k in ("views", "likes", "comments"):
-                v = int(snap.get(k, 0) or 0)
+                v = int(latest.get(k, 0) or 0)
                 if v:
                     agg[k] = (agg[k] or 0) + v
 
