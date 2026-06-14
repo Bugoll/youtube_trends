@@ -271,12 +271,19 @@ def _build_timeline(history: dict[str, Any]) -> list[dict]:
       views/likes/comments = sum of each video's LATEST available metrics
       new_videos           = count of videos first seen on that date
 
-    Dates where only metric refreshes occurred (no new packages) are not
-    added as separate entries — the chart shows per-package-day totals only.
+    If the most recent metrics_checked_at across all videos is newer than the
+    latest package date, a trailing sentinel entry is appended with new_videos=0
+    and null metrics — this extends the x-axis to the refresh date without
+    distorting per-package view counts.
     """
     by_date: dict[str, dict] = {}
+    latest_refresh = ""
 
     for entry in history.values():
+        checked = entry.get("metrics_checked_at", "")
+        if checked > latest_refresh:
+            latest_refresh = checked
+
         fs = entry.get("first_seen")
         if not fs:
             continue
@@ -295,6 +302,18 @@ def _build_timeline(history: dict[str, Any]) -> list[dict]:
                 v = int(latest.get(k, 0) or 0)
                 if v:
                     agg[k] = (agg[k] or 0) + v
+
+    # If metrics were refreshed more recently than the last package arrival,
+    # add a sentinel point so the chart x-axis advances to the refresh date.
+    latest_package = max(by_date.keys()) if by_date else ""
+    if latest_refresh > latest_package:
+        by_date[latest_refresh] = {
+            "date": latest_refresh,
+            "views": None,
+            "likes": None,
+            "comments": None,
+            "new_videos": 0,
+        }
 
     return [by_date[d] for d in sorted(by_date)]
 

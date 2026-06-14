@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-14T07:06:28",
-  "latest_date": "2026-06-12",
+  "generated_at": "2026-06-14T19:56:29",
+  "latest_date": "2026-06-14",
   "totals": {
     "videos": 1092,
     "authors": 109,
@@ -170953,6 +170953,13 @@
       "likes": 1030465,
       "comments": 63963,
       "new_videos": 22
+    },
+    {
+      "date": "2026-06-14",
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "new_videos": 0
     }
   ],
   "trending": [

@@ -104,7 +104,10 @@
     const hint = $("#timeline-hint");
     if (hint) hint.hidden = tl.length === 0;
 
-    const metricTl = tl.filter((p) => p.views != null);
+    // Use the full timeline for all charts; entries without metrics (views=null) render
+    // as empty bars — this keeps the x-axis current even on refresh-only days with no
+    // new packages from MyCrabs.
+    const metricTl = tl;
 
     const WINDOW = 30;
     const STEP   = 15;
