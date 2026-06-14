@@ -373,12 +373,13 @@
       return true;
     });
     const sorters = {
+      newest: (a, b) => String(b.first_seen || "").localeCompare(String(a.first_seen || "")),
       views: (a, b) => (b.metrics.views || 0) - (a.metrics.views || 0),
       delta: (a, b) => (b.deltas.views || 0) - (a.deltas.views || 0),
       engagement: (a, b) => b.engagement - a.engagement,
       recent: (a, b) => String(b.published_at || "").localeCompare(String(a.published_at || "")),
     };
-    vids.sort(sorters[sort] || sorters.views);
+    vids.sort(sorters[sort] || sorters.newest);
 
     const wrap = $("#cards");
     wrap.innerHTML = "";
