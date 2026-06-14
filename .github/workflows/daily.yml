@@ -3,6 +3,13 @@ name: Daily YouTube Trends
 on:
   schedule:
     - cron: "30 5 * * *"
+  push:
+    branches:
+      - claude/intelligent-pascal-laCnA
+    paths:
+      - "docs/**"
+      - "scripts/**"
+      - "requirements.txt"
   workflow_dispatch: {}
 
 permissions:
@@ -30,7 +37,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # --- Full pipeline steps: only on schedule or manual trigger ---
+
       - name: Fetch daily_package + final_intelligence_report from source repo
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         env:
           MYCRABS_TOKEN: ${{ secrets.MYCRABS_TOKEN }}
           MYCRABS_REPO: ${{ vars.MYCRABS_REPO || 'bugoll/MyCrabs' }}
@@ -38,13 +48,13 @@ jobs:
         run: python scripts/fetch_packages.py --dest data/raw
 
       - name: Build dashboard + graph (pass 1 — ingest new packages)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python scripts/process.py --raw data/raw --out docs/data
 
       - name: Enrich new video metadata via LLM (incremental)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         env:
-          # Anthropic (cloud): set ANTHROPIC_API_KEY secret to enable
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # Ollama (local): set OLLAMA_MODEL var (e.g. llama3) + OLLAMA_BASE_URL if non-default
           OLLAMA_MODEL: ${{ vars.OLLAMA_MODEL }}
           OLLAMA_BASE_URL: ${{ vars.OLLAMA_BASE_URL }}
         run: |
@@ -54,10 +64,8 @@ jobs:
             || echo "::warning::enrich.py finished with errors — continuing"
 
       - name: Refresh YouTube metrics
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         env:
-          # YouTube Data API v3 (recommended): create a key at console.cloud.google.com,
-          # enable "YouTube Data API v3", store as GOOGLE_API_KEY secret.
-          # Without this key, yt-dlp android client is used as fallback.
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: |
           python scripts/refresh_metrics.py \
@@ -66,10 +74,13 @@ jobs:
             --limit ${{ vars.REFRESH_LIMIT || 300 }} \
             || echo "::warning::refresh_metrics finished with errors — continuing"
 
+      # --- Always: rebuild dashboard from whatever data is in the repo ---
+
       - name: Rebuild dashboard + graph (pass 2 — enriched + fresh metrics)
         run: python scripts/process.py --raw data/raw --out docs/data
 
       - name: Commit updated data
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
