@@ -101540,7 +101540,7 @@
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "09Ug7-jFFWU": {
     "video_id": "09Ug7-jFFWU",
@@ -130440,12 +130440,18 @@
         "views": 1077,
         "likes": 85,
         "comments": 4
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1089,
+        "likes": 85,
+        "comments": 4
       }
     ],
     "processing_error": "YouTube требует подтверждения (bot check)",
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "o4gTj4ZlcMA": {
     "video_id": "o4gTj4ZlcMA",
@@ -131709,11 +131715,17 @@
         "views": 62276,
         "likes": 3435,
         "comments": 146
+      },
+      {
+        "date": "2026-06-24",
+        "views": 62320,
+        "likes": 3436,
+        "comments": 146
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "0uXU6XWFhWg": {
     "video_id": "0uXU6XWFhWg",
@@ -137187,11 +137199,17 @@
         "views": 157,
         "likes": 1,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 160,
+        "likes": 1,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "x2M0Yy2R22I": {
     "video_id": "x2M0Yy2R22I",
@@ -137495,12 +137513,18 @@
         "views": 187753,
         "likes": 10817,
         "comments": 932
+      },
+      {
+        "date": "2026-06-24",
+        "views": 188890,
+        "likes": 10838,
+        "comments": 934
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "sMu0CXLXsw0": {
     "video_id": "sMu0CXLXsw0",
@@ -137579,12 +137603,18 @@
         "views": 74603,
         "likes": 1854,
         "comments": 240
+      },
+      {
+        "date": "2026-06-24",
+        "views": 76270,
+        "likes": 1871,
+        "comments": 239
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "xoPBuKJ5IP0": {
     "video_id": "xoPBuKJ5IP0",
@@ -137663,12 +137693,18 @@
         "views": 18453,
         "likes": 934,
         "comments": 138
+      },
+      {
+        "date": "2026-06-24",
+        "views": 18732,
+        "likes": 934,
+        "comments": 138
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "SUeJThbQKWQ": {
     "video_id": "SUeJThbQKWQ",
@@ -137775,12 +137811,18 @@
         "views": 32046,
         "likes": 1425,
         "comments": 47
+      },
+      {
+        "date": "2026-06-24",
+        "views": 32061,
+        "likes": 1425,
+        "comments": 47
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "0bEmdenZYo8": {
     "video_id": "0bEmdenZYo8",
@@ -137870,11 +137912,17 @@
         "views": 330894,
         "likes": 10926,
         "comments": 1077
+      },
+      {
+        "date": "2026-06-24",
+        "views": 330963,
+        "likes": 10924,
+        "comments": 1075
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "0cUYHmbXwFA": {
     "video_id": "0cUYHmbXwFA",
@@ -137968,11 +138016,17 @@
         "views": 98202,
         "likes": 3972,
         "comments": 360
+      },
+      {
+        "date": "2026-06-24",
+        "views": 98328,
+        "likes": 3973,
+        "comments": 360
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "1TGEN00E9Ds": {
     "video_id": "1TGEN00E9Ds",
@@ -138052,11 +138106,17 @@
         "views": 240860,
         "likes": 4799,
         "comments": 432
+      },
+      {
+        "date": "2026-06-24",
+        "views": 246812,
+        "likes": 4924,
+        "comments": 440
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "3CFY9L_Z_pI": {
     "video_id": "3CFY9L_Z_pI",
@@ -138142,11 +138202,17 @@
         "views": 6297,
         "likes": 580,
         "comments": 68
+      },
+      {
+        "date": "2026-06-24",
+        "views": 6302,
+        "likes": 580,
+        "comments": 68
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "5bEIoskiSuA": {
     "video_id": "5bEIoskiSuA",
@@ -138227,11 +138293,17 @@
         "views": 22978,
         "likes": 217,
         "comments": 4
+      },
+      {
+        "date": "2026-06-24",
+        "views": 23179,
+        "likes": 223,
+        "comments": 4
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "7clZ93KYwck": {
     "video_id": "7clZ93KYwck",
@@ -138316,11 +138388,17 @@
         "views": 1585,
         "likes": 175,
         "comments": 20
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1593,
+        "likes": 175,
+        "comments": 20
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "7hKnSYHieGk": {
     "video_id": "7hKnSYHieGk",
@@ -138406,11 +138484,17 @@
         "views": 7411,
         "likes": 247,
         "comments": 69
+      },
+      {
+        "date": "2026-06-24",
+        "views": 7420,
+        "likes": 246,
+        "comments": 69
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "7xaLTGKdMgI": {
     "video_id": "7xaLTGKdMgI",
@@ -138507,11 +138591,17 @@
         "views": 347,
         "likes": 37,
         "comments": 17
+      },
+      {
+        "date": "2026-06-24",
+        "views": 354,
+        "likes": 38,
+        "comments": 17
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "8EgC0SgrUL0": {
     "video_id": "8EgC0SgrUL0",
@@ -138596,11 +138686,17 @@
         "views": 1811,
         "likes": 13,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1816,
+        "likes": 13,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "BLx6bg91cVY": {
     "video_id": "BLx6bg91cVY",
@@ -138680,11 +138776,17 @@
         "views": 1201,
         "likes": 10,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1207,
+        "likes": 10,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "EunbKYwITl0": {
     "video_id": "EunbKYwITl0",
@@ -138766,11 +138868,17 @@
         "views": 98,
         "likes": 10,
         "comments": 5
+      },
+      {
+        "date": "2026-06-24",
+        "views": 102,
+        "likes": 10,
+        "comments": 5
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "FYJMHjvmTmM": {
     "video_id": "FYJMHjvmTmM",
@@ -138854,11 +138962,17 @@
         "views": 4135,
         "likes": 381,
         "comments": 89
+      },
+      {
+        "date": "2026-06-24",
+        "views": 4154,
+        "likes": 384,
+        "comments": 90
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Gh1E9VgXZWs": {
     "video_id": "Gh1E9VgXZWs",
@@ -138940,11 +139054,17 @@
         "views": 11713,
         "likes": 410,
         "comments": 18
+      },
+      {
+        "date": "2026-06-24",
+        "views": 11816,
+        "likes": 414,
+        "comments": 18
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "PMfzZYSGsFY": {
     "video_id": "PMfzZYSGsFY",
@@ -139021,11 +139141,17 @@
         "views": 2330,
         "likes": 71,
         "comments": 3
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2342,
+        "likes": 72,
+        "comments": 3
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "QWh6RJmcRJg": {
     "video_id": "QWh6RJmcRJg",
@@ -139107,11 +139233,17 @@
         "views": 27314,
         "likes": 1377,
         "comments": 104
+      },
+      {
+        "date": "2026-06-24",
+        "views": 27471,
+        "likes": 1388,
+        "comments": 107
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "SZlY1DTar8U": {
     "video_id": "SZlY1DTar8U",
@@ -139188,11 +139320,17 @@
         "views": 2453,
         "likes": 106,
         "comments": 2
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2482,
+        "likes": 108,
+        "comments": 2
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "T4T02c0FmjQ": {
     "video_id": "T4T02c0FmjQ",
@@ -139300,11 +139438,17 @@
         "views": 868868,
         "likes": 55004,
         "comments": 3546
+      },
+      {
+        "date": "2026-06-24",
+        "views": 869419,
+        "likes": 55009,
+        "comments": 3545
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "UezmqbMxl74": {
     "video_id": "UezmqbMxl74",
@@ -139384,11 +139528,17 @@
         "views": 2695,
         "likes": 54,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2703,
+        "likes": 54,
+        "comments": 1
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Xo3I0zRWkE0": {
     "video_id": "Xo3I0zRWkE0",
@@ -139470,11 +139620,17 @@
         "views": 94633,
         "likes": 4310,
         "comments": 131
+      },
+      {
+        "date": "2026-06-24",
+        "views": 106123,
+        "likes": 4572,
+        "comments": 135
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Z-10ebzx8uI": {
     "video_id": "Z-10ebzx8uI",
@@ -139579,11 +139735,17 @@
         "views": 442071,
         "likes": 11845,
         "comments": 1461
+      },
+      {
+        "date": "2026-06-24",
+        "views": 442890,
+        "likes": 11863,
+        "comments": 1458
       }
     ],
     "last_seen": "2026-06-14",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "_RmkEm3Duks": {
     "video_id": "_RmkEm3Duks",
@@ -141269,12 +141431,18 @@
         "views": 14670,
         "likes": 928,
         "comments": 14
+      },
+      {
+        "date": "2026-06-24",
+        "views": 14691,
+        "likes": 928,
+        "comments": 14
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "3Izm_GYIMSo": {
     "video_id": "3Izm_GYIMSo",
@@ -141367,12 +141535,18 @@
         "views": 71689,
         "likes": 2319,
         "comments": 48
+      },
+      {
+        "date": "2026-06-24",
+        "views": 71836,
+        "likes": 2320,
+        "comments": 48
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "7TRkeqNf-d4": {
     "video_id": "7TRkeqNf-d4",
@@ -141489,12 +141663,18 @@
         "views": 114591,
         "likes": 2045,
         "comments": 600
+      },
+      {
+        "date": "2026-06-24",
+        "views": 114725,
+        "likes": 2044,
+        "comments": 598
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "PU6_8EO8nP4": {
     "video_id": "PU6_8EO8nP4",
@@ -141606,12 +141786,18 @@
         "views": 12204,
         "likes": 515,
         "comments": 21
+      },
+      {
+        "date": "2026-06-24",
+        "views": 12215,
+        "likes": 516,
+        "comments": 21
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "bCEgIyBklP8": {
     "video_id": "bCEgIyBklP8",
@@ -141708,12 +141894,18 @@
         "views": 53753,
         "likes": 1974,
         "comments": 81
+      },
+      {
+        "date": "2026-06-24",
+        "views": 53777,
+        "likes": 1973,
+        "comments": 81
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "9FzsxLjS5Zg": {
     "video_id": "9FzsxLjS5Zg",
@@ -144203,11 +144395,17 @@
         "views": 120,
         "likes": 6,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 121,
+        "likes": 6,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "2-wvaHl0RVE": {
     "video_id": "2-wvaHl0RVE",
@@ -144325,11 +144523,17 @@
         "views": 66728,
         "likes": 3562,
         "comments": 690
+      },
+      {
+        "date": "2026-06-24",
+        "views": 67446,
+        "likes": 3586,
+        "comments": 694
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "2mKnT04ZXYk": {
     "video_id": "2mKnT04ZXYk",
@@ -144424,11 +144628,17 @@
         "views": 26319,
         "likes": 740,
         "comments": 88
+      },
+      {
+        "date": "2026-06-24",
+        "views": 26977,
+        "likes": 755,
+        "comments": 88
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "3XIGcM7VICc": {
     "video_id": "3XIGcM7VICc",
@@ -144519,11 +144729,17 @@
         "views": 72688,
         "likes": 2936,
         "comments": 172
+      },
+      {
+        "date": "2026-06-24",
+        "views": 74671,
+        "likes": 2984,
+        "comments": 173
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "3_098NPGYfk": {
     "video_id": "3_098NPGYfk",
@@ -144652,11 +144868,17 @@
         "views": 81424,
         "likes": 4121,
         "comments": 133
+      },
+      {
+        "date": "2026-06-24",
+        "views": 81625,
+        "likes": 4123,
+        "comments": 133
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "5NXaJqNbotE": {
     "video_id": "5NXaJqNbotE",
@@ -144735,11 +144957,17 @@
         "views": 30225,
         "likes": 2950,
         "comments": 375
+      },
+      {
+        "date": "2026-06-24",
+        "views": 30289,
+        "likes": 2951,
+        "comments": 375
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "5dZSJwaCj_Y": {
     "video_id": "5dZSJwaCj_Y",
@@ -144832,11 +145060,17 @@
         "views": 12819,
         "likes": 24,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 14883,
+        "likes": 25,
+        "comments": 1
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "5z21jBNP0xo": {
     "video_id": "5z21jBNP0xo",
@@ -144928,11 +145162,17 @@
         "views": 124364,
         "likes": 9954,
         "comments": 763
+      },
+      {
+        "date": "2026-06-24",
+        "views": 124397,
+        "likes": 9952,
+        "comments": 763
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "AH4ebdkC5BY": {
     "video_id": "AH4ebdkC5BY",
@@ -145041,11 +145281,17 @@
         "views": 28677,
         "likes": 1365,
         "comments": 39
+      },
+      {
+        "date": "2026-06-24",
+        "views": 28729,
+        "likes": 1365,
+        "comments": 40
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Aie07pNDSGo": {
     "video_id": "Aie07pNDSGo",
@@ -145151,11 +145397,17 @@
         "views": 103,
         "likes": 5,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 109,
+        "likes": 5,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "DTh7cPI8z3E": {
     "video_id": "DTh7cPI8z3E",
@@ -145243,11 +145495,17 @@
         "views": 49475,
         "likes": 1929,
         "comments": 202
+      },
+      {
+        "date": "2026-06-24",
+        "views": 49529,
+        "likes": 1932,
+        "comments": 202
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "DtdRiiR5cFU": {
     "video_id": "DtdRiiR5cFU",
@@ -145352,11 +145610,17 @@
         "views": 9403,
         "likes": 831,
         "comments": 30
+      },
+      {
+        "date": "2026-06-24",
+        "views": 9566,
+        "likes": 835,
+        "comments": 31
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "EBf2bgfLA8I": {
     "video_id": "EBf2bgfLA8I",
@@ -145455,11 +145719,17 @@
         "views": 40378,
         "likes": 3642,
         "comments": 241
+      },
+      {
+        "date": "2026-06-24",
+        "views": 40402,
+        "likes": 3642,
+        "comments": 241
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "FCjM3uyKg4E": {
     "video_id": "FCjM3uyKg4E",
@@ -145552,11 +145822,17 @@
         "views": 3164,
         "likes": 179,
         "comments": 32
+      },
+      {
+        "date": "2026-06-24",
+        "views": 3183,
+        "likes": 180,
+        "comments": 32
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Gu5L00O0ug0": {
     "video_id": "Gu5L00O0ug0",
@@ -145664,11 +145940,17 @@
         "views": 63126,
         "likes": 3136,
         "comments": 188
+      },
+      {
+        "date": "2026-06-24",
+        "views": 63235,
+        "likes": 3139,
+        "comments": 188
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "N2fjbsBi1v8": {
     "video_id": "N2fjbsBi1v8",
@@ -145809,11 +146091,17 @@
         "views": 960,
         "likes": 60,
         "comments": 2
+      },
+      {
+        "date": "2026-06-24",
+        "views": 963,
+        "likes": 60,
+        "comments": 2
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "NpUzgQmrCnc": {
     "video_id": "NpUzgQmrCnc",
@@ -145903,11 +146191,17 @@
         "views": 124326,
         "likes": 8138,
         "comments": 657
+      },
+      {
+        "date": "2026-06-24",
+        "views": 124403,
+        "likes": 8140,
+        "comments": 655
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ObBAxL2dFzw": {
     "video_id": "ObBAxL2dFzw",
@@ -146008,11 +146302,17 @@
         "views": 7336,
         "likes": 192,
         "comments": 11
+      },
+      {
+        "date": "2026-06-24",
+        "views": 7583,
+        "likes": 196,
+        "comments": 11
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "RLp00VrZHNM": {
     "video_id": "RLp00VrZHNM",
@@ -146126,11 +146426,17 @@
         "views": 37923,
         "likes": 1576,
         "comments": 35
+      },
+      {
+        "date": "2026-06-24",
+        "views": 37939,
+        "likes": 1577,
+        "comments": 35
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "VX_idyWF--k": {
     "video_id": "VX_idyWF--k",
@@ -146226,11 +146532,17 @@
         "views": 82,
         "likes": 1,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 87,
+        "likes": 1,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "WbRuIbRTeCM": {
     "video_id": "WbRuIbRTeCM",
@@ -146325,11 +146637,17 @@
         "views": 5974,
         "likes": 184,
         "comments": 18
+      },
+      {
+        "date": "2026-06-24",
+        "views": 6154,
+        "likes": 190,
+        "comments": 18
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "XEVwmXPksh4": {
     "video_id": "XEVwmXPksh4",
@@ -146485,11 +146803,17 @@
         "views": 798,
         "likes": 66,
         "comments": 3
+      },
+      {
+        "date": "2026-06-24",
+        "views": 803,
+        "likes": 66,
+        "comments": 3
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "_IWr7teS1Uc": {
     "video_id": "_IWr7teS1Uc",
@@ -146614,11 +146938,17 @@
         "views": 747822,
         "likes": 40123,
         "comments": 2584
+      },
+      {
+        "date": "2026-06-24",
+        "views": 750122,
+        "likes": 40157,
+        "comments": 2575
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "eiEH9Lww67A": {
     "video_id": "eiEH9Lww67A",
@@ -146709,11 +147039,17 @@
         "views": 115151,
         "likes": 10022,
         "comments": 650
+      },
+      {
+        "date": "2026-06-24",
+        "views": 115240,
+        "likes": 10024,
+        "comments": 650
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "o0aY3A_FBa0": {
     "video_id": "o0aY3A_FBa0",
@@ -146838,11 +147174,17 @@
         "views": 3706,
         "likes": 214,
         "comments": 8
+      },
+      {
+        "date": "2026-06-24",
+        "views": 3708,
+        "likes": 214,
+        "comments": 8
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "qBwTBwwJWzI": {
     "video_id": "qBwTBwwJWzI",
@@ -146936,11 +147278,17 @@
         "views": 8590,
         "likes": 375,
         "comments": 19
+      },
+      {
+        "date": "2026-06-24",
+        "views": 8693,
+        "likes": 380,
+        "comments": 19
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "rCTnZ0LEQRY": {
     "video_id": "rCTnZ0LEQRY",
@@ -147050,11 +147398,17 @@
         "views": 516,
         "likes": 18,
         "comments": 2
+      },
+      {
+        "date": "2026-06-24",
+        "views": 530,
+        "likes": 18,
+        "comments": 2
       }
     ],
     "last_seen": "2026-06-15",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "5OAnIbEKSb0": {
     "video_id": "5OAnIbEKSb0",
@@ -147164,12 +147518,18 @@
         "views": 5833,
         "likes": 296,
         "comments": 24
+      },
+      {
+        "date": "2026-06-24",
+        "views": 6032,
+        "likes": 300,
+        "comments": 25
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "TvKLwXWJr4c": {
     "video_id": "TvKLwXWJr4c",
@@ -147265,12 +147625,18 @@
         "views": 35865,
         "likes": 1512,
         "comments": 29
+      },
+      {
+        "date": "2026-06-24",
+        "views": 36114,
+        "likes": 1515,
+        "comments": 29
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "nxr9MkDqYbM": {
     "video_id": "nxr9MkDqYbM",
@@ -147361,12 +147727,18 @@
         "views": 22654,
         "likes": 650,
         "comments": 505
+      },
+      {
+        "date": "2026-06-24",
+        "views": 23238,
+        "likes": 661,
+        "comments": 533
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "lDi4W__2-qc": {
     "video_id": "lDi4W__2-qc",
@@ -147459,12 +147831,18 @@
         "views": 3475,
         "likes": 154,
         "comments": 8
+      },
+      {
+        "date": "2026-06-24",
+        "views": 3499,
+        "likes": 155,
+        "comments": 8
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "oqYZ9bAs23w": {
     "video_id": "oqYZ9bAs23w",
@@ -147589,12 +147967,18 @@
         "views": 15858,
         "likes": 563,
         "comments": 27
+      },
+      {
+        "date": "2026-06-24",
+        "views": 15949,
+        "likes": 564,
+        "comments": 27
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "jr3zZiuW64U": {
     "video_id": "jr3zZiuW64U",
@@ -147714,12 +148098,18 @@
         "views": 2785,
         "likes": 156,
         "comments": 12
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2792,
+        "likes": 156,
+        "comments": 12
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "0hKmWJlBGW4": {
     "video_id": "0hKmWJlBGW4",
@@ -147806,11 +148196,17 @@
         "views": 80,
         "likes": 3,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 81,
+        "likes": 3,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "3WQaITZvPno": {
     "video_id": "3WQaITZvPno",
@@ -147901,11 +148297,17 @@
         "views": 34710,
         "likes": 3032,
         "comments": 195
+      },
+      {
+        "date": "2026-06-24",
+        "views": 34750,
+        "likes": 3033,
+        "comments": 195
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "4ySu4mXpnxY": {
     "video_id": "4ySu4mXpnxY",
@@ -147980,11 +148382,17 @@
         "views": 28550,
         "likes": 2513,
         "comments": 278
+      },
+      {
+        "date": "2026-06-24",
+        "views": 28573,
+        "likes": 2516,
+        "comments": 278
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "8WE-7wYMAro": {
     "video_id": "8WE-7wYMAro",
@@ -148071,11 +148479,17 @@
         "views": 635,
         "likes": 24,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 667,
+        "likes": 25,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "HL3U7VpUy3I": {
     "video_id": "HL3U7VpUy3I",
@@ -148168,11 +148582,17 @@
         "views": 45618,
         "likes": 4037,
         "comments": 473
+      },
+      {
+        "date": "2026-06-24",
+        "views": 45686,
+        "likes": 4041,
+        "comments": 473
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Jk9ENZywY4A": {
     "video_id": "Jk9ENZywY4A",
@@ -148282,11 +148702,17 @@
         "views": 83022,
         "likes": 1680,
         "comments": 177
+      },
+      {
+        "date": "2026-06-24",
+        "views": 88596,
+        "likes": 1754,
+        "comments": 181
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "MJW3ZvNrwpY": {
     "video_id": "MJW3ZvNrwpY",
@@ -148403,11 +148829,17 @@
         "views": 783560,
         "likes": 52072,
         "comments": 3026
+      },
+      {
+        "date": "2026-06-24",
+        "views": 784311,
+        "likes": 52082,
+        "comments": 3023
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "MN03aHCtHwE": {
     "video_id": "MN03aHCtHwE",
@@ -148503,11 +148935,17 @@
         "views": 66387,
         "likes": 4551,
         "comments": 300
+      },
+      {
+        "date": "2026-06-24",
+        "views": 66780,
+        "likes": 4554,
+        "comments": 296
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "MkQ4_W7PmHo": {
     "video_id": "MkQ4_W7PmHo",
@@ -148660,11 +149098,17 @@
         "views": 3490,
         "likes": 251,
         "comments": 6
+      },
+      {
+        "date": "2026-06-24",
+        "views": 3513,
+        "likes": 251,
+        "comments": 6
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "NMIlocCVoAI": {
     "video_id": "NMIlocCVoAI",
@@ -148766,11 +149210,17 @@
         "views": 48462,
         "likes": 1796,
         "comments": 188
+      },
+      {
+        "date": "2026-06-24",
+        "views": 48521,
+        "likes": 1796,
+        "comments": 188
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "SebOXiIUm4k": {
     "video_id": "SebOXiIUm4k",
@@ -148837,11 +149287,17 @@
         "views": 57,
         "likes": 2,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 57,
+        "likes": 2,
+        "comments": 1
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "TWZCafToSgs": {
     "video_id": "TWZCafToSgs",
@@ -148928,11 +149384,17 @@
         "views": 42836,
         "likes": 2039,
         "comments": 121
+      },
+      {
+        "date": "2026-06-24",
+        "views": 43544,
+        "likes": 2066,
+        "comments": 124
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "aKnOsAWJCrc": {
     "video_id": "aKnOsAWJCrc",
@@ -149023,11 +149485,17 @@
         "views": 244988,
         "likes": 18537,
         "comments": 1102
+      },
+      {
+        "date": "2026-06-24",
+        "views": 245552,
+        "likes": 18558,
+        "comments": 1105
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "at6Z10Xgtv4": {
     "video_id": "at6Z10Xgtv4",
@@ -149135,11 +149603,17 @@
         "views": 6726,
         "likes": 194,
         "comments": 8
+      },
+      {
+        "date": "2026-06-24",
+        "views": 6766,
+        "likes": 194,
+        "comments": 8
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "eJb9quoYskw": {
     "video_id": "eJb9quoYskw",
@@ -149233,11 +149707,17 @@
         "views": 738297,
         "likes": 42079,
         "comments": 2007
+      },
+      {
+        "date": "2026-06-24",
+        "views": 744949,
+        "likes": 42143,
+        "comments": 2017
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "fKfcFDgePLw": {
     "video_id": "fKfcFDgePLw",
@@ -149346,11 +149826,17 @@
         "views": 60597,
         "likes": 1333,
         "comments": 230
+      },
+      {
+        "date": "2026-06-24",
+        "views": 60639,
+        "likes": 1334,
+        "comments": 231
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "hPaW0kHj7-0": {
     "video_id": "hPaW0kHj7-0",
@@ -149431,11 +149917,17 @@
         "views": 114582,
         "likes": 9012,
         "comments": 519
+      },
+      {
+        "date": "2026-06-24",
+        "views": 114777,
+        "likes": 9022,
+        "comments": 520
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "k6SVd-gKjYY": {
     "video_id": "k6SVd-gKjYY",
@@ -149554,11 +150046,17 @@
         "views": 10618,
         "likes": 264,
         "comments": 29
+      },
+      {
+        "date": "2026-06-24",
+        "views": 10872,
+        "likes": 267,
+        "comments": 30
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ki_x_N3lsAY": {
     "video_id": "ki_x_N3lsAY",
@@ -149636,11 +150134,17 @@
         "views": 82412,
         "likes": 6346,
         "comments": 460
+      },
+      {
+        "date": "2026-06-24",
+        "views": 82461,
+        "likes": 6348,
+        "comments": 460
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "lEebqWeBrfo": {
     "video_id": "lEebqWeBrfo",
@@ -149731,11 +150235,17 @@
         "views": 108324,
         "likes": 1335,
         "comments": 522
+      },
+      {
+        "date": "2026-06-24",
+        "views": 109149,
+        "likes": 1341,
+        "comments": 526
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "n9HxKZ-fek0": {
     "video_id": "n9HxKZ-fek0",
@@ -149809,11 +150319,17 @@
         "views": 2251,
         "likes": 145,
         "comments": 14
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2270,
+        "likes": 144,
+        "comments": 14
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "nrXlk58Qr7k": {
     "video_id": "nrXlk58Qr7k",
@@ -149897,11 +150413,17 @@
         "views": 5021,
         "likes": 275,
         "comments": 9
+      },
+      {
+        "date": "2026-06-24",
+        "views": 5085,
+        "likes": 277,
+        "comments": 9
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ocd1ZMBGcRw": {
     "video_id": "ocd1ZMBGcRw",
@@ -149983,11 +150505,17 @@
         "views": 15033,
         "likes": 894,
         "comments": 69
+      },
+      {
+        "date": "2026-06-24",
+        "views": 15079,
+        "likes": 896,
+        "comments": 69
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "p2J-z2cLUYA": {
     "video_id": "p2J-z2cLUYA",
@@ -150085,11 +150613,17 @@
         "views": 31554,
         "likes": 1385,
         "comments": 546
+      },
+      {
+        "date": "2026-06-24",
+        "views": 32461,
+        "likes": 1415,
+        "comments": 555
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "rXIf0Qnmq5Y": {
     "video_id": "rXIf0Qnmq5Y",
@@ -150172,11 +150706,17 @@
         "views": 72586,
         "likes": 2299,
         "comments": 314
+      },
+      {
+        "date": "2026-06-24",
+        "views": 74249,
+        "likes": 2332,
+        "comments": 310
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "tMAm3qnicdM": {
     "video_id": "tMAm3qnicdM",
@@ -150257,11 +150797,17 @@
         "views": 267442,
         "likes": 14781,
         "comments": 1578
+      },
+      {
+        "date": "2026-06-24",
+        "views": 267515,
+        "likes": 14779,
+        "comments": 1578
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "u_EkB1fwp5s": {
     "video_id": "u_EkB1fwp5s",
@@ -150340,11 +150886,17 @@
         "views": 13187,
         "likes": 915,
         "comments": 80
+      },
+      {
+        "date": "2026-06-24",
+        "views": 13470,
+        "likes": 919,
+        "comments": 80
       }
     ],
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "wfnrAfdOMhU": {
     "video_id": "wfnrAfdOMhU",
@@ -150438,12 +150990,18 @@
         "views": 43322,
         "likes": 1034,
         "comments": 131
+      },
+      {
+        "date": "2026-06-24",
+        "views": 43333,
+        "likes": 1076,
+        "comments": 131
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "y0bJ09OYZDw": {
     "video_id": "y0bJ09OYZDw",
@@ -150498,12 +151056,18 @@
         "views": 550,
         "likes": 19,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 574,
+        "likes": 20,
+        "comments": 1
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "9SZQr5_LGn8": {
     "video_id": "9SZQr5_LGn8",
@@ -150592,12 +151156,18 @@
         "views": 27198,
         "likes": 845,
         "comments": 49
+      },
+      {
+        "date": "2026-06-24",
+        "views": 27419,
+        "likes": 849,
+        "comments": 49
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "XQZrGKxwb7w": {
     "video_id": "XQZrGKxwb7w",
@@ -150678,12 +151248,18 @@
         "views": 14479,
         "likes": 545,
         "comments": 28
+      },
+      {
+        "date": "2026-06-24",
+        "views": 14607,
+        "likes": 547,
+        "comments": 28
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "d4Aoeian2ro": {
     "video_id": "d4Aoeian2ro",
@@ -150738,12 +151314,18 @@
         "views": 107990,
         "likes": 4124,
         "comments": 115
+      },
+      {
+        "date": "2026-06-24",
+        "views": 108142,
+        "likes": 4123,
+        "comments": 115
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "py-BvN5H2GA": {
     "video_id": "py-BvN5H2GA",
@@ -150798,12 +151380,18 @@
         "views": 25669,
         "likes": 1108,
         "comments": 48
+      },
+      {
+        "date": "2026-06-24",
+        "views": 26133,
+        "likes": 1129,
+        "comments": 53
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-16",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "47Jo98uc0I4": {
     "video_id": "47Jo98uc0I4",
@@ -150891,11 +151479,17 @@
         "views": 36625,
         "likes": 1907,
         "comments": 600
+      },
+      {
+        "date": "2026-06-24",
+        "views": 38571,
+        "likes": 1968,
+        "comments": 633
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "4Tc_kDWky8Q": {
     "video_id": "4Tc_kDWky8Q",
@@ -150980,11 +151574,17 @@
         "views": 66990,
         "likes": 2411,
         "comments": 438
+      },
+      {
+        "date": "2026-06-24",
+        "views": 68886,
+        "likes": 2464,
+        "comments": 446
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "4eMV_lu_jiY": {
     "video_id": "4eMV_lu_jiY",
@@ -151056,11 +151656,17 @@
         "views": 46,
         "likes": 2,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 46,
+        "likes": 2,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "5Q8zSnx12R0": {
     "video_id": "5Q8zSnx12R0",
@@ -151154,11 +151760,17 @@
         "views": 55483,
         "likes": 4427,
         "comments": 398
+      },
+      {
+        "date": "2026-06-24",
+        "views": 55542,
+        "likes": 4430,
+        "comments": 398
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ATIwByZ4nUA": {
     "video_id": "ATIwByZ4nUA",
@@ -151245,11 +151857,17 @@
         "views": 3052,
         "likes": 107,
         "comments": 11
+      },
+      {
+        "date": "2026-06-24",
+        "views": 3141,
+        "likes": 105,
+        "comments": 11
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "DTCyvo6cC54": {
     "video_id": "DTCyvo6cC54",
@@ -151335,11 +151953,17 @@
         "views": 94946,
         "likes": 2763,
         "comments": 121
+      },
+      {
+        "date": "2026-06-24",
+        "views": 102400,
+        "likes": 2953,
+        "comments": 126
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "PHNszV5lZ6g": {
     "video_id": "PHNszV5lZ6g",
@@ -151441,11 +152065,17 @@
         "views": 126,
         "likes": 7,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 147,
+        "likes": 7,
+        "comments": 1
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "PprkReUWCeE": {
     "video_id": "PprkReUWCeE",
@@ -151532,11 +152162,17 @@
         "views": 13596,
         "likes": 567,
         "comments": 48
+      },
+      {
+        "date": "2026-06-24",
+        "views": 13964,
+        "likes": 578,
+        "comments": 48
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "SbjDOZbKVYU": {
     "video_id": "SbjDOZbKVYU",
@@ -151625,11 +152261,17 @@
         "views": 2955,
         "likes": 136,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2957,
+        "likes": 136,
+        "comments": 1
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "X19wMrh3tgo": {
     "video_id": "X19wMrh3tgo",
@@ -151722,11 +152364,17 @@
         "views": 3101,
         "likes": 159,
         "comments": 41
+      },
+      {
+        "date": "2026-06-24",
+        "views": 3191,
+        "likes": 161,
+        "comments": 42
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "YB2xYTvkDLA": {
     "video_id": "YB2xYTvkDLA",
@@ -151807,11 +152455,17 @@
         "views": 50220,
         "likes": 3571,
         "comments": 595
+      },
+      {
+        "date": "2026-06-24",
+        "views": 50371,
+        "likes": 3580,
+        "comments": 596
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "YskzpuOiR4Y": {
     "video_id": "YskzpuOiR4Y",
@@ -151914,11 +152568,17 @@
         "views": 760779,
         "likes": 49271,
         "comments": 2613
+      },
+      {
+        "date": "2026-06-24",
+        "views": 761714,
+        "likes": 49289,
+        "comments": 2613
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Zswp0f1d2jQ": {
     "video_id": "Zswp0f1d2jQ",
@@ -152018,11 +152678,17 @@
         "views": 5696,
         "likes": 143,
         "comments": 39
+      },
+      {
+        "date": "2026-06-24",
+        "views": 6162,
+        "likes": 155,
+        "comments": 42
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ciJgV61bBo4": {
     "video_id": "ciJgV61bBo4",
@@ -152117,11 +152783,17 @@
         "views": 120,
         "likes": 5,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 125,
+        "likes": 5,
+        "comments": 1
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "d7cNjW_mcEM": {
     "video_id": "d7cNjW_mcEM",
@@ -152205,11 +152877,17 @@
         "views": 32269,
         "likes": 1331,
         "comments": 76
+      },
+      {
+        "date": "2026-06-24",
+        "views": 32420,
+        "likes": 1334,
+        "comments": 77
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "fsVUF92S92c": {
     "video_id": "fsVUF92S92c",
@@ -152323,11 +153001,17 @@
         "views": 4491,
         "likes": 223,
         "comments": 72
+      },
+      {
+        "date": "2026-06-24",
+        "views": 4668,
+        "likes": 235,
+        "comments": 75
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "tEJxhcALdAE": {
     "video_id": "tEJxhcALdAE",
@@ -152409,11 +153093,17 @@
         "views": 51800,
         "likes": 4706,
         "comments": 494
+      },
+      {
+        "date": "2026-06-24",
+        "views": 51959,
+        "likes": 4709,
+        "comments": 494
       }
     ],
     "last_seen": "2026-06-17",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "5HkYADBz8tM": {
     "video_id": "5HkYADBz8tM",
@@ -152511,12 +153201,18 @@
         "views": 1050,
         "likes": 53,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1116,
+        "likes": 53,
+        "comments": 1
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "T9Ex4TqxcPc": {
     "video_id": "T9Ex4TqxcPc",
@@ -152610,12 +153306,18 @@
         "views": 448,
         "likes": 22,
         "comments": 6
+      },
+      {
+        "date": "2026-06-24",
+        "views": 455,
+        "likes": 23,
+        "comments": 6
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "-2Z8NRLMHM4": {
     "video_id": "-2Z8NRLMHM4",
@@ -152713,11 +153415,17 @@
         "views": 361,
         "likes": 53,
         "comments": 6
+      },
+      {
+        "date": "2026-06-24",
+        "views": 385,
+        "likes": 57,
+        "comments": 6
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "-kY9vKqOacE": {
     "video_id": "-kY9vKqOacE",
@@ -152798,11 +153506,17 @@
         "views": 28818,
         "likes": 587,
         "comments": 104
+      },
+      {
+        "date": "2026-06-24",
+        "views": 29974,
+        "likes": 604,
+        "comments": 106
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "1CJPok38hYA": {
     "video_id": "1CJPok38hYA",
@@ -152891,11 +153605,17 @@
         "views": 197227,
         "likes": 13562,
         "comments": 1368
+      },
+      {
+        "date": "2026-06-24",
+        "views": 198516,
+        "likes": 13607,
+        "comments": 1370
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "1fwv4k6mVGk": {
     "video_id": "1fwv4k6mVGk",
@@ -152979,11 +153699,17 @@
         "views": 54798,
         "likes": 1864,
         "comments": 57
+      },
+      {
+        "date": "2026-06-24",
+        "views": 54910,
+        "likes": 1866,
+        "comments": 57
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "5ncIvVvUn5o": {
     "video_id": "5ncIvVvUn5o",
@@ -153092,11 +153818,17 @@
         "views": 949744,
         "likes": 65327,
         "comments": 5060
+      },
+      {
+        "date": "2026-06-24",
+        "views": 950632,
+        "likes": 65339,
+        "comments": 5022
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "7XKPhUtIInk": {
     "video_id": "7XKPhUtIInk",
@@ -153221,11 +153953,17 @@
         "views": 3821,
         "likes": 335,
         "comments": 40
+      },
+      {
+        "date": "2026-06-24",
+        "views": 3837,
+        "likes": 336,
+        "comments": 41
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "8euN1qElhLU": {
     "video_id": "8euN1qElhLU",
@@ -153304,11 +154042,17 @@
         "views": 2494,
         "likes": 65,
         "comments": 24
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2506,
+        "likes": 65,
+        "comments": 24
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "8ssl6p37TxA": {
     "video_id": "8ssl6p37TxA",
@@ -153364,11 +154108,17 @@
         "views": 105752,
         "likes": 201,
         "comments": 3
+      },
+      {
+        "date": "2026-06-24",
+        "views": 149190,
+        "likes": 267,
+        "comments": 3
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "9WH-0Pl9ydM": {
     "video_id": "9WH-0Pl9ydM",
@@ -153442,11 +154192,17 @@
         "views": 49177,
         "likes": 1652,
         "comments": 132
+      },
+      {
+        "date": "2026-06-24",
+        "views": 50648,
+        "likes": 1668,
+        "comments": 134
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "FGDz6ZO3FeM": {
     "video_id": "FGDz6ZO3FeM",
@@ -153526,11 +154282,17 @@
         "views": 471878,
         "likes": 31453,
         "comments": 2244
+      },
+      {
+        "date": "2026-06-24",
+        "views": 474219,
+        "likes": 31519,
+        "comments": 2260
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "J9DKXdtzKls": {
     "video_id": "J9DKXdtzKls",
@@ -153610,11 +154372,17 @@
         "views": 111446,
         "likes": 9213,
         "comments": 1109
+      },
+      {
+        "date": "2026-06-24",
+        "views": 111576,
+        "likes": 9222,
+        "comments": 1109
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "KFKDculX9v4": {
     "video_id": "KFKDculX9v4",
@@ -153696,11 +154464,17 @@
         "views": 62120,
         "likes": 921,
         "comments": 1672
+      },
+      {
+        "date": "2026-06-24",
+        "views": 63282,
+        "likes": 944,
+        "comments": 1694
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "LGVLwQ69J0Q": {
     "video_id": "LGVLwQ69J0Q",
@@ -153780,11 +154554,17 @@
         "views": 29275,
         "likes": 2748,
         "comments": 100
+      },
+      {
+        "date": "2026-06-24",
+        "views": 29872,
+        "likes": 2771,
+        "comments": 102
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "M9iOEeFhklU": {
     "video_id": "M9iOEeFhklU",
@@ -153880,11 +154660,17 @@
         "views": 201002,
         "likes": 8228,
         "comments": 454
+      },
+      {
+        "date": "2026-06-24",
+        "views": 202453,
+        "likes": 8251,
+        "comments": 460
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "P0ju8XGsYwA": {
     "video_id": "P0ju8XGsYwA",
@@ -153966,11 +154752,17 @@
         "views": 21845,
         "likes": 467,
         "comments": 106
+      },
+      {
+        "date": "2026-06-24",
+        "views": 24196,
+        "likes": 511,
+        "comments": 109
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "P18tATh5-F8": {
     "video_id": "P18tATh5-F8",
@@ -154039,11 +154831,17 @@
         "views": 2266,
         "likes": 154,
         "comments": 7
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2358,
+        "likes": 157,
+        "comments": 7
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "RCyTbIAexPM": {
     "video_id": "RCyTbIAexPM",
@@ -154106,11 +154904,17 @@
         "views": 35,
         "likes": 1,
         "comments": 2
+      },
+      {
+        "date": "2026-06-24",
+        "views": 35,
+        "likes": 1,
+        "comments": 2
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "RzLV8sfFdMM": {
     "video_id": "RzLV8sfFdMM",
@@ -154210,11 +155014,17 @@
         "views": 36610,
         "likes": 966,
         "comments": 66
+      },
+      {
+        "date": "2026-06-24",
+        "views": 39065,
+        "likes": 1010,
+        "comments": 69
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "glA2UcBoPYk": {
     "video_id": "glA2UcBoPYk",
@@ -154319,11 +155129,17 @@
         "views": 11477,
         "likes": 696,
         "comments": 54
+      },
+      {
+        "date": "2026-06-24",
+        "views": 12912,
+        "likes": 741,
+        "comments": 53
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "gqGpIngzUis": {
     "video_id": "gqGpIngzUis",
@@ -154409,11 +155225,17 @@
         "views": 235577,
         "likes": 17175,
         "comments": 1549
+      },
+      {
+        "date": "2026-06-24",
+        "views": 238600,
+        "likes": 17302,
+        "comments": 1564
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "hBhlsDw2Fmw": {
     "video_id": "hBhlsDw2Fmw",
@@ -154493,11 +155315,17 @@
         "views": 109715,
         "likes": 8758,
         "comments": 927
+      },
+      {
+        "date": "2026-06-24",
+        "views": 109893,
+        "likes": 8765,
+        "comments": 927
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "jHzHhoUUZZE": {
     "video_id": "jHzHhoUUZZE",
@@ -154584,11 +155412,17 @@
         "views": 1462937,
         "likes": 76319,
         "comments": 9345
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1468697,
+        "likes": 76425,
+        "comments": 9311
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "r44e9U7Ezvk": {
     "video_id": "r44e9U7Ezvk",
@@ -154702,11 +155536,17 @@
         "views": 38792,
         "likes": 1208,
         "comments": 102
+      },
+      {
+        "date": "2026-06-24",
+        "views": 39013,
+        "likes": 1213,
+        "comments": 102
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "sN4pZP98GUg": {
     "video_id": "sN4pZP98GUg",
@@ -154784,11 +155624,17 @@
         "views": 14691,
         "likes": 182,
         "comments": 48
+      },
+      {
+        "date": "2026-06-24",
+        "views": 17368,
+        "likes": 195,
+        "comments": 49
       }
     ],
     "last_seen": "2026-06-18",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "4RD2JaDCtVo": {
     "video_id": "4RD2JaDCtVo",
@@ -154887,12 +155733,18 @@
         "views": 3375,
         "likes": 218,
         "comments": 12
+      },
+      {
+        "date": "2026-06-24",
+        "views": 3823,
+        "likes": 238,
+        "comments": 15
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "0ENUsgYXxME": {
     "video_id": "0ENUsgYXxME",
@@ -154991,12 +155843,18 @@
         "views": 38545,
         "likes": 1186,
         "comments": 139
+      },
+      {
+        "date": "2026-06-24",
+        "views": 39780,
+        "likes": 1203,
+        "comments": 139
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "iedYoWm3Umc": {
     "video_id": "iedYoWm3Umc",
@@ -155101,12 +155959,18 @@
         "views": 76853,
         "likes": 3700,
         "comments": 347
+      },
+      {
+        "date": "2026-06-24",
+        "views": 78923,
+        "likes": 3759,
+        "comments": 351
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "1l0ybWQh44I": {
     "video_id": "1l0ybWQh44I",
@@ -155184,12 +156048,18 @@
         "views": 18444,
         "likes": 1087,
         "comments": 71
+      },
+      {
+        "date": "2026-06-24",
+        "views": 19955,
+        "likes": 1159,
+        "comments": 77
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "nxDEZ6JfQWQ": {
     "video_id": "nxDEZ6JfQWQ",
@@ -155259,12 +156129,18 @@
         "views": 55257,
         "likes": 2156,
         "comments": 24
+      },
+      {
+        "date": "2026-06-24",
+        "views": 55425,
+        "likes": 2156,
+        "comments": 24
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "lBXA44JuO8Q": {
     "video_id": "lBXA44JuO8Q",
@@ -155366,12 +156242,18 @@
         "views": 11684,
         "likes": 567,
         "comments": 77
+      },
+      {
+        "date": "2026-06-24",
+        "views": 13833,
+        "likes": 627,
+        "comments": 84
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "4RG5wmisnUE": {
     "video_id": "4RG5wmisnUE",
@@ -155434,11 +156316,17 @@
         "views": 22702,
         "likes": 1422,
         "comments": 174
+      },
+      {
+        "date": "2026-06-24",
+        "views": 24644,
+        "likes": 1483,
+        "comments": 179
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "8OOuCnZB-4o": {
     "video_id": "8OOuCnZB-4o",
@@ -155509,11 +156397,17 @@
         "views": 55595,
         "likes": 1303,
         "comments": 148
+      },
+      {
+        "date": "2026-06-24",
+        "views": 62365,
+        "likes": 1418,
+        "comments": 155
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "A1ic3tpmRtk": {
     "video_id": "A1ic3tpmRtk",
@@ -155571,11 +156465,17 @@
         "views": 100982,
         "likes": 8329,
         "comments": 616
+      },
+      {
+        "date": "2026-06-24",
+        "views": 101402,
+        "likes": 8349,
+        "comments": 619
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "CI6bhvIlI3w": {
     "video_id": "CI6bhvIlI3w",
@@ -155650,11 +156550,17 @@
         "views": 42890,
         "likes": 733,
         "comments": 168
+      },
+      {
+        "date": "2026-06-24",
+        "views": 46841,
+        "likes": 771,
+        "comments": 175
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "CqFc-LNqrds": {
     "video_id": "CqFc-LNqrds",
@@ -155712,11 +156618,17 @@
         "views": 125,
         "likes": 7,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 131,
+        "likes": 7,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "DEsH4dA8i5E": {
     "video_id": "DEsH4dA8i5E",
@@ -155774,11 +156686,17 @@
         "views": 5356,
         "likes": 243,
         "comments": 5
+      },
+      {
+        "date": "2026-06-24",
+        "views": 5421,
+        "likes": 246,
+        "comments": 5
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "DSnwbhLdjCc": {
     "video_id": "DSnwbhLdjCc",
@@ -155872,11 +156790,17 @@
         "views": 209,
         "likes": 7,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 225,
+        "likes": 7,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "DdDo5pAqiiU": {
     "video_id": "DdDo5pAqiiU",
@@ -155956,11 +156880,17 @@
         "views": 61932,
         "likes": 2650,
         "comments": 419
+      },
+      {
+        "date": "2026-06-24",
+        "views": 69793,
+        "likes": 2897,
+        "comments": 453
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "E-wmsxSSpfQ": {
     "video_id": "E-wmsxSSpfQ",
@@ -156068,11 +156998,17 @@
         "views": 75,
         "likes": 2,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 85,
+        "likes": 2,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "IpZ_HYxaU_8": {
     "video_id": "IpZ_HYxaU_8",
@@ -156135,11 +157071,17 @@
         "views": 42208,
         "likes": 1485,
         "comments": 134
+      },
+      {
+        "date": "2026-06-24",
+        "views": 42834,
+        "likes": 1495,
+        "comments": 134
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Qv6WkKorc08": {
     "video_id": "Qv6WkKorc08",
@@ -156205,11 +157147,17 @@
         "views": 59,
         "likes": 0,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 66,
+        "likes": 0,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "SvBheXuKY8s": {
     "video_id": "SvBheXuKY8s",
@@ -156267,11 +157215,17 @@
         "views": 7956,
         "likes": 184,
         "comments": 15
+      },
+      {
+        "date": "2026-06-24",
+        "views": 8448,
+        "likes": 189,
+        "comments": 16
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "VOpq3Cc7dhU": {
     "video_id": "VOpq3Cc7dhU",
@@ -156347,11 +157301,17 @@
         "views": 4817,
         "likes": 136,
         "comments": 76
+      },
+      {
+        "date": "2026-06-24",
+        "views": 5176,
+        "likes": 148,
+        "comments": 78
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "WljWLwcGG8Q": {
     "video_id": "WljWLwcGG8Q",
@@ -156394,11 +157354,17 @@
         "views": 20,
         "likes": 3,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 20,
+        "likes": 3,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "XROaLetSxg0": {
     "video_id": "XROaLetSxg0",
@@ -156486,11 +157452,17 @@
         "views": 12506,
         "likes": 0,
         "comments": 22
+      },
+      {
+        "date": "2026-06-24",
+        "views": 15473,
+        "likes": 0,
+        "comments": 25
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "YNME3CUvYpk": {
     "video_id": "YNME3CUvYpk",
@@ -156557,11 +157529,17 @@
         "views": 366371,
         "likes": 15184,
         "comments": 1818
+      },
+      {
+        "date": "2026-06-24",
+        "views": 370371,
+        "likes": 15246,
+        "comments": 1831
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "_IRy-hQMeEw": {
     "video_id": "_IRy-hQMeEw",
@@ -156638,11 +157616,17 @@
         "views": 1055990,
         "likes": 58045,
         "comments": 3562
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1086233,
+        "likes": 58485,
+        "comments": 3582
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "i1a3xNYKzps": {
     "video_id": "i1a3xNYKzps",
@@ -156705,11 +157689,17 @@
         "views": 1020,
         "likes": 39,
         "comments": 6
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1154,
+        "likes": 43,
+        "comments": 6
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "i2bmA3YtNZc": {
     "video_id": "i2bmA3YtNZc",
@@ -156784,11 +157774,17 @@
         "views": 243,
         "likes": 25,
         "comments": 4
+      },
+      {
+        "date": "2026-06-24",
+        "views": 270,
+        "likes": 26,
+        "comments": 4
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "keJyhrwdAx8": {
     "video_id": "keJyhrwdAx8",
@@ -156875,11 +157871,17 @@
         "views": 157,
         "likes": 6,
         "comments": 3
+      },
+      {
+        "date": "2026-06-24",
+        "views": 165,
+        "likes": 7,
+        "comments": 3
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "n27_Pe_jpJg": {
     "video_id": "n27_Pe_jpJg",
@@ -156947,11 +157949,17 @@
         "views": 178810,
         "likes": 2774,
         "comments": 828
+      },
+      {
+        "date": "2026-06-24",
+        "views": 182840,
+        "likes": 2808,
+        "comments": 838
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "supW6SLB0eI": {
     "video_id": "supW6SLB0eI",
@@ -157026,11 +158034,17 @@
         "views": 266,
         "likes": 8,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 274,
+        "likes": 8,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "v5uASa3SuIM": {
     "video_id": "v5uASa3SuIM",
@@ -157131,11 +158145,17 @@
         "views": 85159,
         "likes": 4306,
         "comments": 139
+      },
+      {
+        "date": "2026-06-24",
+        "views": 85961,
+        "likes": 4321,
+        "comments": 139
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "weAk1tO2wPE": {
     "video_id": "weAk1tO2wPE",
@@ -157201,11 +158221,17 @@
         "views": 15473,
         "likes": 1163,
         "comments": 220
+      },
+      {
+        "date": "2026-06-24",
+        "views": 16585,
+        "likes": 1206,
+        "comments": 230
       }
     ],
     "last_seen": "2026-06-19",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "hMZmfydW73M": {
     "video_id": "hMZmfydW73M",
@@ -157272,12 +158298,18 @@
         "views": 10960,
         "likes": 690,
         "comments": 13
+      },
+      {
+        "date": "2026-06-24",
+        "views": 11307,
+        "likes": 696,
+        "comments": 14
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "f7U7FBvzW8M": {
     "video_id": "f7U7FBvzW8M",
@@ -157372,12 +158404,18 @@
         "views": 17908,
         "likes": 884,
         "comments": 12
+      },
+      {
+        "date": "2026-06-24",
+        "views": 18308,
+        "likes": 889,
+        "comments": 12
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "94mwiWbOi0k": {
     "video_id": "94mwiWbOi0k",
@@ -157449,12 +158487,18 @@
         "views": 20927,
         "likes": 1133,
         "comments": 34
+      },
+      {
+        "date": "2026-06-24",
+        "views": 21234,
+        "likes": 1142,
+        "comments": 35
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "1vndLa1livg": {
     "video_id": "1vndLa1livg",
@@ -157526,12 +158570,18 @@
         "views": 40685,
         "likes": 1962,
         "comments": 71
+      },
+      {
+        "date": "2026-06-24",
+        "views": 42542,
+        "likes": 1993,
+        "comments": 71
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "BHXKjyyFjsw": {
     "video_id": "BHXKjyyFjsw",
@@ -157613,12 +158663,18 @@
         "views": 96765,
         "likes": 3219,
         "comments": 111
+      },
+      {
+        "date": "2026-06-24",
+        "views": 98578,
+        "likes": 3234,
+        "comments": 111
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "rayjvx5Xhlg": {
     "video_id": "rayjvx5Xhlg",
@@ -157685,12 +158741,18 @@
         "views": 32407,
         "likes": 1804,
         "comments": 15
+      },
+      {
+        "date": "2026-06-24",
+        "views": 32602,
+        "likes": 1807,
+        "comments": 15
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "2Qq_yWE50Hs": {
     "video_id": "2Qq_yWE50Hs",
@@ -157759,11 +158821,17 @@
         "views": 5147,
         "likes": 175,
         "comments": 21
+      },
+      {
+        "date": "2026-06-24",
+        "views": 5335,
+        "likes": 180,
+        "comments": 21
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "4Biq-Ai1KUM": {
     "video_id": "4Biq-Ai1KUM",
@@ -157816,11 +158884,17 @@
         "views": 45,
         "likes": 2,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 45,
+        "likes": 2,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "L3V01rreryo": {
     "video_id": "L3V01rreryo",
@@ -157907,11 +158981,17 @@
         "views": 677,
         "likes": 33,
         "comments": 2
+      },
+      {
+        "date": "2026-06-24",
+        "views": 749,
+        "likes": 35,
+        "comments": 3
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "LRnPSOeCyLw": {
     "video_id": "LRnPSOeCyLw",
@@ -157962,11 +159042,17 @@
         "views": 228965,
         "likes": 15911,
         "comments": 811
+      },
+      {
+        "date": "2026-06-24",
+        "views": 231947,
+        "likes": 15997,
+        "comments": 823
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Vxhy3i5-ZIE": {
     "video_id": "Vxhy3i5-ZIE",
@@ -158026,11 +159112,17 @@
         "views": 5166,
         "likes": 256,
         "comments": 104
+      },
+      {
+        "date": "2026-06-24",
+        "views": 5681,
+        "likes": 278,
+        "comments": 107
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Y5pErn0Eio4": {
     "video_id": "Y5pErn0Eio4",
@@ -158118,11 +159210,17 @@
         "views": 46046,
         "likes": 1723,
         "comments": 45
+      },
+      {
+        "date": "2026-06-24",
+        "views": 46326,
+        "likes": 1727,
+        "comments": 46
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "dLjbO-KUPU4": {
     "video_id": "dLjbO-KUPU4",
@@ -158184,11 +159282,17 @@
         "views": 13134,
         "likes": 552,
         "comments": 9
+      },
+      {
+        "date": "2026-06-24",
+        "views": 13990,
+        "likes": 578,
+        "comments": 16
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ghP9zcWnB34": {
     "video_id": "ghP9zcWnB34",
@@ -158254,11 +159358,17 @@
         "views": 79225,
         "likes": 1615,
         "comments": 925
+      },
+      {
+        "date": "2026-06-24",
+        "views": 82494,
+        "likes": 1634,
+        "comments": 946
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "jJSjh-6djzY": {
     "video_id": "jJSjh-6djzY",
@@ -158342,11 +159452,17 @@
         "views": 890921,
         "likes": 49446,
         "comments": 3152
+      },
+      {
+        "date": "2026-06-24",
+        "views": 904564,
+        "likes": 49661,
+        "comments": 3158
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ogGSfZDcfQ8": {
     "video_id": "ogGSfZDcfQ8",
@@ -158397,11 +159513,17 @@
         "views": 111331,
         "likes": 6446,
         "comments": 400
+      },
+      {
+        "date": "2026-06-24",
+        "views": 126075,
+        "likes": 6918,
+        "comments": 430
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "rPFMObrbFJ4": {
     "video_id": "rPFMObrbFJ4",
@@ -158457,11 +159579,17 @@
         "views": 214734,
         "likes": 11947,
         "comments": 1773
+      },
+      {
+        "date": "2026-06-24",
+        "views": 224675,
+        "likes": 12216,
+        "comments": 1837
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "xOPUgjPoB8A": {
     "video_id": "xOPUgjPoB8A",
@@ -158589,11 +159717,17 @@
         "views": 2536,
         "likes": 223,
         "comments": 4
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2627,
+        "likes": 226,
+        "comments": 5
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "xcVbion8Awo": {
     "video_id": "xcVbion8Awo",
@@ -158650,11 +159784,17 @@
         "views": 13003,
         "likes": 615,
         "comments": 182
+      },
+      {
+        "date": "2026-06-24",
+        "views": 15385,
+        "likes": 701,
+        "comments": 167
       }
     ],
     "last_seen": "2026-06-20",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "y6HRFPpibV4": {
     "video_id": "y6HRFPpibV4",
@@ -158790,11 +159930,17 @@
         "views": 1161,
         "likes": 107,
         "comments": 7
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1307,
+        "likes": 114,
+        "comments": 7
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "QSxww4irlAA": {
     "video_id": "QSxww4irlAA",
@@ -158927,12 +160073,18 @@
         "views": 1420,
         "likes": 58,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1441,
+        "likes": 59,
+        "comments": 1
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "0CLLpip2ROY": {
     "video_id": "0CLLpip2ROY",
@@ -159001,11 +160153,17 @@
         "views": 37997,
         "likes": 2040,
         "comments": 67
+      },
+      {
+        "date": "2026-06-24",
+        "views": 38746,
+        "likes": 2059,
+        "comments": 67
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "3j8NhL0FTo4": {
     "video_id": "3j8NhL0FTo4",
@@ -159061,11 +160219,17 @@
         "views": 36756,
         "likes": 1453,
         "comments": 118
+      },
+      {
+        "date": "2026-06-24",
+        "views": 37892,
+        "likes": 1473,
+        "comments": 120
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Ag2fcIsJ7y0": {
     "video_id": "Ag2fcIsJ7y0",
@@ -159127,11 +160291,17 @@
         "views": 1126,
         "likes": 112,
         "comments": 6
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1389,
+        "likes": 130,
+        "comments": 6
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "CX2Y4Iu7-MY": {
     "video_id": "CX2Y4Iu7-MY",
@@ -159194,11 +160364,17 @@
         "views": 105090,
         "likes": 1666,
         "comments": 1005
+      },
+      {
+        "date": "2026-06-24",
+        "views": 109899,
+        "likes": 1698,
+        "comments": 1024
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "J1B1uQ5Y0IY": {
     "video_id": "J1B1uQ5Y0IY",
@@ -159252,11 +160428,17 @@
         "views": 8149,
         "likes": 731,
         "comments": 57
+      },
+      {
+        "date": "2026-06-24",
+        "views": 9424,
+        "likes": 804,
+        "comments": 63
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Q_9L2fDdTHM": {
     "video_id": "Q_9L2fDdTHM",
@@ -159351,11 +160533,17 @@
         "views": 999208,
         "likes": 60662,
         "comments": 4277
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1004775,
+        "likes": 60795,
+        "comments": 4272
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "S2HgAnw01L4": {
     "video_id": "S2HgAnw01L4",
@@ -159412,11 +160600,17 @@
         "views": 2307,
         "likes": 269,
         "comments": 9
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2730,
+        "likes": 300,
+        "comments": 10
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "SCFbM1U6bSY": {
     "video_id": "SCFbM1U6bSY",
@@ -159526,11 +160720,17 @@
         "views": 16789,
         "likes": 870,
         "comments": 278
+      },
+      {
+        "date": "2026-06-24",
+        "views": 19643,
+        "likes": 956,
+        "comments": 306
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "aRxApCbgtAA": {
     "video_id": "aRxApCbgtAA",
@@ -159589,11 +160789,17 @@
         "views": 150453,
         "likes": 2728,
         "comments": 1599
+      },
+      {
+        "date": "2026-06-24",
+        "views": 165508,
+        "likes": 2838,
+        "comments": 1765
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "bm7Skpyfka0": {
     "video_id": "bm7Skpyfka0",
@@ -159670,11 +160876,17 @@
         "views": 121512,
         "likes": 8616,
         "comments": 961
+      },
+      {
+        "date": "2026-06-24",
+        "views": 132741,
+        "likes": 8968,
+        "comments": 1057
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "buAhpJ1V0Kw": {
     "video_id": "buAhpJ1V0Kw",
@@ -159732,11 +160944,17 @@
         "views": 7362,
         "likes": 395,
         "comments": 83
+      },
+      {
+        "date": "2026-06-24",
+        "views": 8259,
+        "likes": 420,
+        "comments": 89
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "clJK1kgAF2k": {
     "video_id": "clJK1kgAF2k",
@@ -159938,11 +161156,17 @@
         "views": 9445,
         "likes": 516,
         "comments": 82
+      },
+      {
+        "date": "2026-06-24",
+        "views": 12695,
+        "likes": 611,
+        "comments": 89
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "gw-tUer2Mto": {
     "video_id": "gw-tUer2Mto",
@@ -160017,11 +161241,17 @@
         "views": 38564,
         "likes": 2575,
         "comments": 119
+      },
+      {
+        "date": "2026-06-24",
+        "views": 39086,
+        "likes": 2595,
+        "comments": 120
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "msG7s60ATgc": {
     "video_id": "msG7s60ATgc",
@@ -160090,11 +161320,17 @@
         "views": 41167,
         "likes": 1416,
         "comments": 173
+      },
+      {
+        "date": "2026-06-24",
+        "views": 48983,
+        "likes": 1577,
+        "comments": 195
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "o_wOYfVnst0": {
     "video_id": "o_wOYfVnst0",
@@ -160166,11 +161402,17 @@
         "views": 758250,
         "likes": 42685,
         "comments": 2269
+      },
+      {
+        "date": "2026-06-24",
+        "views": 782772,
+        "likes": 43334,
+        "comments": 2316
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "qNGZ2sa02-A": {
     "video_id": "qNGZ2sa02-A",
@@ -160229,11 +161471,17 @@
         "views": 38380,
         "likes": 1435,
         "comments": 81
+      },
+      {
+        "date": "2026-06-24",
+        "views": 46632,
+        "likes": 1574,
+        "comments": 90
       }
     ],
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "SUsxWjjmweo": {
     "video_id": "SUsxWjjmweo",
@@ -160263,7 +161511,7 @@
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-21",
     "status": "deleted",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "XNRfbUm5WHI": {
     "video_id": "XNRfbUm5WHI",
@@ -160294,12 +161542,18 @@
         "views": 3337,
         "likes": 214,
         "comments": 8
+      },
+      {
+        "date": "2026-06-24",
+        "views": 4324,
+        "likes": 249,
+        "comments": 12
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Ti741ggsmRk": {
     "video_id": "Ti741ggsmRk",
@@ -160379,12 +161633,18 @@
         "views": 65413,
         "likes": 1480,
         "comments": 388
+      },
+      {
+        "date": "2026-06-24",
+        "views": 100138,
+        "likes": 1872,
+        "comments": 581
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "lzC_ipR5uVU": {
     "video_id": "lzC_ipR5uVU",
@@ -160415,12 +161675,18 @@
         "views": 8073,
         "likes": 801,
         "comments": 23
+      },
+      {
+        "date": "2026-06-24",
+        "views": 15010,
+        "likes": 1079,
+        "comments": 38
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-21",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "UtJP72SOKnk": {
     "video_id": "UtJP72SOKnk",
@@ -160480,12 +161746,18 @@
         "views": 49552,
         "likes": 1954,
         "comments": 66
+      },
+      {
+        "date": "2026-06-24",
+        "views": 50558,
+        "likes": 1936,
+        "comments": 72
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "54gQTTkeGhs": {
     "video_id": "54gQTTkeGhs",
@@ -160544,12 +161816,18 @@
         "views": 2404,
         "likes": 80,
         "comments": 18
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2510,
+        "likes": 86,
+        "comments": 18
       }
     ],
     "processing_error": "Постоянная ошибка транскрипции",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "-kGY_CAh1NE": {
     "video_id": "-kGY_CAh1NE",
@@ -160578,11 +161856,17 @@
         "views": 4000,
         "likes": 299,
         "comments": 46
+      },
+      {
+        "date": "2026-06-24",
+        "views": 5740,
+        "likes": 331,
+        "comments": 51
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "-zL_trhnQaI": {
     "video_id": "-zL_trhnQaI",
@@ -160639,11 +161923,17 @@
         "views": 23576,
         "likes": 993,
         "comments": 85
+      },
+      {
+        "date": "2026-06-24",
+        "views": 31472,
+        "likes": 1249,
+        "comments": 99
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "1EwA_z8z5vQ": {
     "video_id": "1EwA_z8z5vQ",
@@ -160684,11 +161974,17 @@
         "views": 11275,
         "likes": 739,
         "comments": 76
+      },
+      {
+        "date": "2026-06-24",
+        "views": 11818,
+        "likes": 752,
+        "comments": 78
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "1Owl1ZdapAE": {
     "video_id": "1Owl1ZdapAE",
@@ -160722,11 +162018,17 @@
         "views": 616,
         "likes": 9,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1182,
+        "likes": 21,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "2W_68zR6hME": {
     "video_id": "2W_68zR6hME",
@@ -160760,11 +162062,17 @@
         "views": 724,
         "likes": 2,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 924,
+        "likes": 9,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "3ecQFJF_1g0": {
     "video_id": "3ecQFJF_1g0",
@@ -160833,11 +162141,17 @@
         "views": 54791,
         "likes": 846,
         "comments": 722
+      },
+      {
+        "date": "2026-06-24",
+        "views": 81167,
+        "likes": 1083,
+        "comments": 946
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "4jSUjf18Rp0": {
     "video_id": "4jSUjf18Rp0",
@@ -160873,11 +162187,17 @@
         "views": 1188,
         "likes": 26,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1288,
+        "likes": 29,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "4wMRXmLpdA8": {
     "video_id": "4wMRXmLpdA8",
@@ -160920,11 +162240,17 @@
         "views": 16882,
         "likes": 841,
         "comments": 35
+      },
+      {
+        "date": "2026-06-24",
+        "views": 26049,
+        "likes": 1129,
+        "comments": 47
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "9-MpDa0TgDo": {
     "video_id": "9-MpDa0TgDo",
@@ -160977,7 +162303,7 @@
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "9Keg8NSj9fg": {
     "video_id": "9Keg8NSj9fg",
@@ -161030,11 +162356,17 @@
         "views": 417,
         "likes": 18,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 457,
+        "likes": 20,
+        "comments": 1
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "9gFDnLsNXRs": {
     "video_id": "9gFDnLsNXRs",
@@ -161087,11 +162419,17 @@
         "views": 5238,
         "likes": 168,
         "comments": 10
+      },
+      {
+        "date": "2026-06-24",
+        "views": 8251,
+        "likes": 223,
+        "comments": 15
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Ceusk1WGMlo": {
     "video_id": "Ceusk1WGMlo",
@@ -161134,11 +162472,17 @@
         "views": 1982,
         "likes": 55,
         "comments": 13
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2980,
+        "likes": 74,
+        "comments": 15
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "DjjIpaLJPUY": {
     "video_id": "DjjIpaLJPUY",
@@ -161188,11 +162532,17 @@
         "views": 572930,
         "likes": 10414,
         "comments": 415
+      },
+      {
+        "date": "2026-06-24",
+        "views": 715618,
+        "likes": 12188,
+        "comments": 475
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Dr0UUonmX1Q": {
     "video_id": "Dr0UUonmX1Q",
@@ -161227,11 +162577,17 @@
         "views": 32632,
         "likes": 647,
         "comments": 4
+      },
+      {
+        "date": "2026-06-24",
+        "views": 36848,
+        "likes": 704,
+        "comments": 4
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Em4vSL59Cas": {
     "video_id": "Em4vSL59Cas",
@@ -161278,11 +162634,17 @@
         "views": 1222,
         "likes": 52,
         "comments": 2
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2375,
+        "likes": 87,
+        "comments": 5
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "FSHsrJURRFw": {
     "video_id": "FSHsrJURRFw",
@@ -161369,11 +162731,17 @@
         "views": 1828,
         "likes": 139,
         "comments": 5
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2256,
+        "likes": 165,
+        "comments": 8
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "FdNeej7nUyY": {
     "video_id": "FdNeej7nUyY",
@@ -161436,11 +162804,17 @@
         "views": 58136,
         "likes": 4960,
         "comments": 521
+      },
+      {
+        "date": "2026-06-24",
+        "views": 67296,
+        "likes": 5443,
+        "comments": 550
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Htp0FwimS0Q": {
     "video_id": "Htp0FwimS0Q",
@@ -161474,11 +162848,17 @@
         "views": 20,
         "likes": 1,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 49,
+        "likes": 1,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "IFfogBi_Vtc": {
     "video_id": "IFfogBi_Vtc",
@@ -161517,11 +162897,17 @@
         "views": 18537,
         "likes": 1438,
         "comments": 93
+      },
+      {
+        "date": "2026-06-24",
+        "views": 25925,
+        "likes": 1710,
+        "comments": 108
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "IZNcRCS7eZg": {
     "video_id": "IZNcRCS7eZg",
@@ -161567,11 +162953,17 @@
         "views": 40883,
         "likes": 1934,
         "comments": 139
+      },
+      {
+        "date": "2026-06-24",
+        "views": 55897,
+        "likes": 2231,
+        "comments": 207
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "K_e2qAQqsQI": {
     "video_id": "K_e2qAQqsQI",
@@ -161608,11 +163000,17 @@
         "views": 51746,
         "likes": 653,
         "comments": 14
+      },
+      {
+        "date": "2026-06-24",
+        "views": 64423,
+        "likes": 764,
+        "comments": 16
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "KxplYD4PEQw": {
     "video_id": "KxplYD4PEQw",
@@ -161646,11 +163044,17 @@
         "views": 62950,
         "likes": 1135,
         "comments": 11
+      },
+      {
+        "date": "2026-06-24",
+        "views": 351632,
+        "likes": 6178,
+        "comments": 40
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "LzZJV7Y-YCk": {
     "video_id": "LzZJV7Y-YCk",
@@ -161697,11 +163101,17 @@
         "views": 101,
         "likes": 5,
         "comments": 3
+      },
+      {
+        "date": "2026-06-24",
+        "views": 121,
+        "likes": 6,
+        "comments": 3
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "MfyCfomNiys": {
     "video_id": "MfyCfomNiys",
@@ -161749,11 +163159,17 @@
         "views": 17993,
         "likes": 1083,
         "comments": 39
+      },
+      {
+        "date": "2026-06-24",
+        "views": 24018,
+        "likes": 1287,
+        "comments": 67
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "OcCt3MuWS0E": {
     "video_id": "OcCt3MuWS0E",
@@ -161815,11 +163231,17 @@
         "views": 89591,
         "likes": 6085,
         "comments": 604
+      },
+      {
+        "date": "2026-06-24",
+        "views": 116277,
+        "likes": 7206,
+        "comments": 737
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "QKdcORGxaD8": {
     "video_id": "QKdcORGxaD8",
@@ -161856,11 +163278,17 @@
         "views": 448,
         "likes": 44,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 820,
+        "likes": 55,
+        "comments": 1
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "SygdETYRFXQ": {
     "video_id": "SygdETYRFXQ",
@@ -161899,11 +163327,17 @@
         "views": 18754,
         "likes": 820,
         "comments": 7
+      },
+      {
+        "date": "2026-06-24",
+        "views": 24128,
+        "likes": 978,
+        "comments": 7
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "TUSL8oA5F9w": {
     "video_id": "TUSL8oA5F9w",
@@ -161939,11 +163373,17 @@
         "views": 1169,
         "likes": 24,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1269,
+        "likes": 26,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "XY3nwRHblY4": {
     "video_id": "XY3nwRHblY4",
@@ -161978,11 +163418,17 @@
         "views": 3487307,
         "likes": 80021,
         "comments": 1701
+      },
+      {
+        "date": "2026-06-24",
+        "views": 5206234,
+        "likes": 108324,
+        "comments": 2003
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "X_yf-0raxIw": {
     "video_id": "X_yf-0raxIw",
@@ -162035,11 +163481,17 @@
         "views": 2936,
         "likes": 313,
         "comments": 16
+      },
+      {
+        "date": "2026-06-24",
+        "views": 4293,
+        "likes": 450,
+        "comments": 37
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "YAyB4sOYSkE": {
     "video_id": "YAyB4sOYSkE",
@@ -162096,11 +163548,17 @@
         "views": 452705,
         "likes": 12980,
         "comments": 1470
+      },
+      {
+        "date": "2026-06-24",
+        "views": 458897,
+        "likes": 12871,
+        "comments": 1484
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "YblH_nI6qcU": {
     "video_id": "YblH_nI6qcU",
@@ -162142,11 +163600,17 @@
         "views": 188,
         "likes": 23,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 238,
+        "likes": 24,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ZL8pyw2Y3Zg": {
     "video_id": "ZL8pyw2Y3Zg",
@@ -162188,11 +163652,17 @@
         "views": 26082,
         "likes": 1444,
         "comments": 18
+      },
+      {
+        "date": "2026-06-24",
+        "views": 42539,
+        "likes": 2010,
+        "comments": 19
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ZNalUxabbZ8": {
     "video_id": "ZNalUxabbZ8",
@@ -162243,11 +163713,17 @@
         "views": 24119,
         "likes": 1924,
         "comments": 112
+      },
+      {
+        "date": "2026-06-24",
+        "views": 25769,
+        "likes": 1979,
+        "comments": 117
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "_FBivfgOvuE": {
     "video_id": "_FBivfgOvuE",
@@ -162294,11 +163770,17 @@
         "views": 16422,
         "likes": 936,
         "comments": 39
+      },
+      {
+        "date": "2026-06-24",
+        "views": 31598,
+        "likes": 1588,
+        "comments": 58
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "_M1EurG79Eo": {
     "video_id": "_M1EurG79Eo",
@@ -162339,11 +163821,17 @@
         "views": 219220,
         "likes": 8931,
         "comments": 466
+      },
+      {
+        "date": "2026-06-24",
+        "views": 295870,
+        "likes": 10601,
+        "comments": 585
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "bBsKJQFp9HA": {
     "video_id": "bBsKJQFp9HA",
@@ -162401,11 +163889,17 @@
         "views": 22769,
         "likes": 554,
         "comments": 255
+      },
+      {
+        "date": "2026-06-24",
+        "views": 37865,
+        "likes": 755,
+        "comments": 346
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "bEOdHG0lRmA": {
     "video_id": "bEOdHG0lRmA",
@@ -162441,11 +163935,17 @@
         "views": 9185,
         "likes": 585,
         "comments": 10
+      },
+      {
+        "date": "2026-06-24",
+        "views": 11565,
+        "likes": 702,
+        "comments": 13
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "bqgTotlZxHk": {
     "video_id": "bqgTotlZxHk",
@@ -162490,11 +163990,17 @@
         "views": 20595,
         "likes": 1982,
         "comments": 155
+      },
+      {
+        "date": "2026-06-24",
+        "views": 24327,
+        "likes": 2175,
+        "comments": 188
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "br35CLHKsyY": {
     "video_id": "br35CLHKsyY",
@@ -162531,11 +164037,17 @@
         "views": 176891,
         "likes": 2612,
         "comments": 103
+      },
+      {
+        "date": "2026-06-24",
+        "views": 430688,
+        "likes": 5282,
+        "comments": 212
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "c2LzapdRuT4": {
     "video_id": "c2LzapdRuT4",
@@ -162603,11 +164115,17 @@
         "views": 29866,
         "likes": 1159,
         "comments": 82
+      },
+      {
+        "date": "2026-06-24",
+        "views": 31571,
+        "likes": 1200,
+        "comments": 85
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "c45LHnpHk8E": {
     "video_id": "c45LHnpHk8E",
@@ -162644,11 +164162,17 @@
         "views": 847,
         "likes": 12,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 990,
+        "likes": 18,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ccH8PsQTykY": {
     "video_id": "ccH8PsQTykY",
@@ -162686,11 +164210,17 @@
         "views": 1992,
         "likes": 71,
         "comments": 1
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2399,
+        "likes": 85,
+        "comments": 2
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "csJuhCeRfoQ": {
     "video_id": "csJuhCeRfoQ",
@@ -162734,11 +164264,17 @@
         "views": 1480,
         "likes": 73,
         "comments": 9
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2374,
+        "likes": 88,
+        "comments": 9
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "djLH7VNLUoc": {
     "video_id": "djLH7VNLUoc",
@@ -162772,11 +164308,17 @@
         "views": 576,
         "likes": 3,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 596,
+        "likes": 3,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "eZmKNohOjyc": {
     "video_id": "eZmKNohOjyc",
@@ -162853,11 +164395,17 @@
         "views": 296536,
         "likes": 9284,
         "comments": 1059
+      },
+      {
+        "date": "2026-06-24",
+        "views": 317782,
+        "likes": 9444,
+        "comments": 1282
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "eZySj2MF2Us": {
     "video_id": "eZySj2MF2Us",
@@ -162918,11 +164466,17 @@
         "views": 901131,
         "likes": 54233,
         "comments": 3248
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1159489,
+        "likes": 60684,
+        "comments": 3768
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "enmsuDrZdqw": {
     "video_id": "enmsuDrZdqw",
@@ -162973,11 +164527,17 @@
         "views": 141289,
         "likes": 11262,
         "comments": 819
+      },
+      {
+        "date": "2026-06-24",
+        "views": 154742,
+        "likes": 11861,
+        "comments": 856
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "fU5Jb6FvL7A": {
     "video_id": "fU5Jb6FvL7A",
@@ -163034,11 +164594,17 @@
         "views": 260382,
         "likes": 19065,
         "comments": 930
+      },
+      {
+        "date": "2026-06-24",
+        "views": 356815,
+        "likes": 23174,
+        "comments": 1336
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "gHFGOvwwXB4": {
     "video_id": "gHFGOvwwXB4",
@@ -163073,11 +164639,17 @@
         "views": 24060,
         "likes": 1209,
         "comments": 90
+      },
+      {
+        "date": "2026-06-24",
+        "views": 28150,
+        "likes": 1264,
+        "comments": 101
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "gxSk3dF37XE": {
     "video_id": "gxSk3dF37XE",
@@ -163116,11 +164688,17 @@
         "views": 49545,
         "likes": 824,
         "comments": 64
+      },
+      {
+        "date": "2026-06-24",
+        "views": 96236,
+        "likes": 1293,
+        "comments": 123
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ioRNJI2NUvI": {
     "video_id": "ioRNJI2NUvI",
@@ -163154,11 +164732,17 @@
         "views": 2591,
         "likes": 37,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 3380,
+        "likes": 49,
+        "comments": 1
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "is85pLcA4R4": {
     "video_id": "is85pLcA4R4",
@@ -163214,11 +164798,17 @@
         "views": 376110,
         "likes": 12671,
         "comments": 980
+      },
+      {
+        "date": "2026-06-24",
+        "views": 377635,
+        "likes": 12652,
+        "comments": 979
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "kHTXjH9Rruk": {
     "video_id": "kHTXjH9Rruk",
@@ -163256,11 +164846,17 @@
         "views": 1319,
         "likes": 22,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 1663,
+        "likes": 37,
+        "comments": 0
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "l8Wb3ubgJ28": {
     "video_id": "l8Wb3ubgJ28",
@@ -163311,11 +164907,17 @@
         "views": 6005,
         "likes": 233,
         "comments": 23
+      },
+      {
+        "date": "2026-06-24",
+        "views": 10657,
+        "likes": 310,
+        "comments": 28
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "lINC3k-v_Yk": {
     "video_id": "lINC3k-v_Yk",
@@ -163364,11 +164966,17 @@
         "views": 3514,
         "likes": 206,
         "comments": 53
+      },
+      {
+        "date": "2026-06-24",
+        "views": 4683,
+        "likes": 247,
+        "comments": 65
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "mBRkWoFaFIY": {
     "video_id": "mBRkWoFaFIY",
@@ -163407,11 +165015,17 @@
         "views": 1384,
         "likes": 25,
         "comments": 2
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2382,
+        "likes": 64,
+        "comments": 2
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "mvcesPWvUIc": {
     "video_id": "mvcesPWvUIc",
@@ -163463,11 +165077,17 @@
         "views": 562391,
         "likes": 25586,
         "comments": 1846
+      },
+      {
+        "date": "2026-06-24",
+        "views": 981299,
+        "likes": 39020,
+        "comments": 2650
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "o9ZfyPtIyeQ": {
     "video_id": "o9ZfyPtIyeQ",
@@ -163507,11 +165127,17 @@
         "views": 427466,
         "likes": 5807,
         "comments": 390
+      },
+      {
+        "date": "2026-06-24",
+        "views": 493457,
+        "likes": 6478,
+        "comments": 463
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "qUs-kXGY560": {
     "video_id": "qUs-kXGY560",
@@ -163602,11 +165228,17 @@
         "views": 83105,
         "likes": 1878,
         "comments": 602
+      },
+      {
+        "date": "2026-06-24",
+        "views": 108423,
+        "likes": 2154,
+        "comments": 741
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "qZJS1yOaw_U": {
     "video_id": "qZJS1yOaw_U",
@@ -163649,11 +165281,17 @@
         "views": 18094,
         "likes": 1177,
         "comments": 56
+      },
+      {
+        "date": "2026-06-24",
+        "views": 29176,
+        "likes": 1622,
+        "comments": 91
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "s4Zvav19CF0": {
     "video_id": "s4Zvav19CF0",
@@ -163711,11 +165349,17 @@
         "views": 9310,
         "likes": 787,
         "comments": 33
+      },
+      {
+        "date": "2026-06-24",
+        "views": 12381,
+        "likes": 852,
+        "comments": 39
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "uHmN5WZIvHk": {
     "video_id": "uHmN5WZIvHk",
@@ -163798,11 +165442,17 @@
         "views": 745723,
         "likes": 48064,
         "comments": 2486
+      },
+      {
+        "date": "2026-06-24",
+        "views": 797433,
+        "likes": 48645,
+        "comments": 2541
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "vVuDX9_7xME": {
     "video_id": "vVuDX9_7xME",
@@ -163853,11 +165503,17 @@
         "views": 378,
         "likes": 26,
         "comments": 3
+      },
+      {
+        "date": "2026-06-24",
+        "views": 569,
+        "likes": 31,
+        "comments": 3
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "w01KUCvk2MY": {
     "video_id": "w01KUCvk2MY",
@@ -163973,11 +165629,17 @@
         "views": 246332,
         "likes": 5104,
         "comments": 1170
+      },
+      {
+        "date": "2026-06-24",
+        "views": 404917,
+        "likes": 6329,
+        "comments": 1842
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "wwHOZCWLUEk": {
     "video_id": "wwHOZCWLUEk",
@@ -164050,11 +165712,17 @@
         "views": 136034,
         "likes": 4072,
         "comments": 636
+      },
+      {
+        "date": "2026-06-24",
+        "views": 172623,
+        "likes": 4634,
+        "comments": 725
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "xkdiWtutnTM": {
     "video_id": "xkdiWtutnTM",
@@ -164098,11 +165766,17 @@
         "views": 3360,
         "likes": 273,
         "comments": 31
+      },
+      {
+        "date": "2026-06-24",
+        "views": 3762,
+        "likes": 290,
+        "comments": 33
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "yEjvpgDoNH8": {
     "video_id": "yEjvpgDoNH8",
@@ -164155,11 +165829,17 @@
         "views": 92557,
         "likes": 7910,
         "comments": 461
+      },
+      {
+        "date": "2026-06-24",
+        "views": 99821,
+        "likes": 8267,
+        "comments": 470
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "yfafpyhB-8E": {
     "video_id": "yfafpyhB-8E",
@@ -164271,11 +165951,17 @@
         "views": 3093,
         "likes": 0,
         "comments": 27
+      },
+      {
+        "date": "2026-06-24",
+        "views": 4452,
+        "likes": 0,
+        "comments": 27
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "yjXPGAJXjuE": {
     "video_id": "yjXPGAJXjuE",
@@ -164341,11 +166027,17 @@
         "views": 53657,
         "likes": 2485,
         "comments": 519
+      },
+      {
+        "date": "2026-06-24",
+        "views": 83151,
+        "likes": 3051,
+        "comments": 714
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "zUGj39xcHko": {
     "video_id": "zUGj39xcHko",
@@ -164388,11 +166080,17 @@
         "views": 1981,
         "likes": 112,
         "comments": 27
+      },
+      {
+        "date": "2026-06-24",
+        "views": 2164,
+        "likes": 128,
+        "comments": 31
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "zwJrR8QvULQ": {
     "video_id": "zwJrR8QvULQ",
@@ -164426,11 +166124,17 @@
         "views": 14069,
         "likes": 618,
         "comments": 60
+      },
+      {
+        "date": "2026-06-24",
+        "views": 17034,
+        "likes": 691,
+        "comments": 56
       }
     ],
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "XFOyyRSt5ns": {
     "video_id": "XFOyyRSt5ns",
@@ -164455,12 +166159,18 @@
         "views": 7971,
         "likes": 897,
         "comments": 60
+      },
+      {
+        "date": "2026-06-24",
+        "views": 66458,
+        "likes": 3513,
+        "comments": 213
       }
     ],
     "processing_error": "Видео было анонсировано, но ещё не вышло в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "MT0XYLO-kqE": {
     "video_id": "MT0XYLO-kqE",
@@ -164485,12 +166195,18 @@
         "views": 0,
         "likes": 24,
         "comments": 3
+      },
+      {
+        "date": "2026-06-24",
+        "views": 34891,
+        "likes": 2187,
+        "comments": 77
       }
     ],
     "processing_error": "Видео было анонсировано, но ещё не вышло в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "t56DmPz4Dx8": {
     "video_id": "t56DmPz4Dx8",
@@ -164515,12 +166231,18 @@
         "views": 0,
         "likes": 30,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 17774,
+        "likes": 1154,
+        "comments": 23
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "Q_I1ArlbXns": {
     "video_id": "Q_I1ArlbXns",
@@ -164545,12 +166267,18 @@
         "views": 0,
         "likes": 17,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 7679,
+        "likes": 304,
+        "comments": 31
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "q7eFhy5Vofw": {
     "video_id": "q7eFhy5Vofw",
@@ -164575,12 +166303,18 @@
         "views": 0,
         "likes": 11,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 6624,
+        "likes": 421,
+        "comments": 17
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "p4lrtCOyiy8": {
     "video_id": "p4lrtCOyiy8",
@@ -164605,12 +166339,18 @@
         "views": 0,
         "likes": 15,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 13735,
+        "likes": 460,
+        "comments": 16
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "z65HCyn5DfI": {
     "video_id": "z65HCyn5DfI",
@@ -164635,12 +166375,18 @@
         "views": 0,
         "likes": 14,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 3937,
+        "likes": 243,
+        "comments": 9
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "_5PQCxzmqPA": {
     "video_id": "_5PQCxzmqPA",
@@ -164665,12 +166411,18 @@
         "views": 11564,
         "likes": 1033,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 37537,
+        "likes": 1538,
+        "comments": 19
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "3q4KDSmwlA8": {
     "video_id": "3q4KDSmwlA8",
@@ -164695,12 +166447,18 @@
         "views": 0,
         "likes": 7,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 0,
+        "likes": 13,
+        "comments": 0
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "gikcyLZbhrs": {
     "video_id": "gikcyLZbhrs",
@@ -164725,12 +166483,18 @@
         "views": 0,
         "likes": 1,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 0,
+        "likes": 1,
+        "comments": 0
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "CVPosMWdx-0": {
     "video_id": "CVPosMWdx-0",
@@ -164755,12 +166519,18 @@
         "views": 0,
         "likes": 2,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 0,
+        "likes": 3,
+        "comments": 0
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "ttolMw1LLZE": {
     "video_id": "ttolMw1LLZE",
@@ -164785,12 +166555,18 @@
         "views": 0,
         "likes": 0,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 0,
+        "likes": 0,
+        "comments": 0
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   },
   "G_ZBZ8e_KR8": {
     "video_id": "G_ZBZ8e_KR8",
@@ -164815,11 +166591,17 @@
         "views": 0,
         "likes": 8,
         "comments": 0
+      },
+      {
+        "date": "2026-06-24",
+        "views": 0,
+        "likes": 11,
+        "comments": 0
       }
     ],
     "processing_error": "Прямая трансляция ещё не началась в момент обработки",
     "last_seen": "2026-06-22",
     "status": "available",
-    "metrics_checked_at": "2026-06-23"
+    "metrics_checked_at": "2026-06-24"
   }
 }
