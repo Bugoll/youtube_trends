@@ -1,0 +1,638 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-08",
+  "source_folder": "reports/youtube-daily/2026-07-08",
+  "total_videos": 27,
+  "completed_videos": 3,
+  "failed_videos": 24,
+  "model_used_for_preprocessing": "qwen3.5:9b",
+  "videos": [
+    {
+      "video_id": "TiRJuNfM5zc",
+      "url": "https://www.youtube.com/watch?v=TiRJuNfM5zc",
+      "channel": "Пастуховская Кухня",
+      "title": "Зачем Путин жертвует нефтянкой; Россию возвращают в спорт; Теракт в Монако - Пастуховская Кухня",
+      "main_topic": "Анализ перспектив возвращения российских спортсменов в международные соревнования и прогнозы по продолжению войны на Украине до конца 2027 года.",
+      "short_summary": "Спикеры обсуждают возможность деполитизации российского спорта как условия для возвращения атлетов, а также утверждают крах концепции СВО после первых месяцев боевых действий. Прогнозируется затяжной конфликт с штурмом укрепленных районов до зимы и далее до конца 2027 года.",
+      "key_points": [
+        "МОК выдал рекомендацию по возвращению российских спортсменов при условии их деполитизации",
+        "ФИФА обсуждает возможный допуск сборных России к турнирам",
+        "Концепция СВО как пропагандистского конструкта провалилась после первых двух месяцев войны",
+        "Война может продлиться до конца 2027 года из-за необходимости штурма укрепленных районов",
+        "Путин не может закончить войну без символа победы, что делает мир на условиях Зеленского невозможным"
+      ],
+      "speaker_claims": [
+        {
+          "claim": "МОК выдал общую рекомендацию начать возвращать российских спортсменов в мир соревнований",
+          "topic": "Спорт и политика",
+          "type": "fact",
+          "confidence": "high",
+          "evidence_timestamp": "00:01:08"
+        },
+        {
+          "claim": "ФИФА активно обсуждает возвращение России и сборных к международным турнирам",
+          "topic": "Спорт и политика",
+          "type": "forecast",
+          "confidence": "medium",
+          "evidence_timestamp": "00:01:39"
+        },
+        {
+          "claim": "Полная изоляция России оказалась нереализуемой стратегией из-за сопротивления и противоречия с другими принципами.",
+          "topic": "Геополитика",
+          "type": "fact",
+          "confidence": "high"
+        },
+        {
+          "claim": "Концепция специальной военной операции как теоретический конструкт провалилась после первых двух месяцев войны.",
+          "topic": "Военная стратегия",
+          "type": "fact",
+          "confidence": "high"
+        },
+        {
+          "claim": "Война будет продолжаться до конца 2027 года при сохранении текущих темпов наступления и захвата укрепленных районов.",
+          "topic": "Военная стратегия",
+          "type": "forecast",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Путин не может закончить войну без символа победы, иначе штыки развернутся в обратную сторону.",
+          "topic": "Внутренняя политика РФ",
+          "type": "opinion",
+          "confidence": "high"
+        },
+        {
+          "claim": "Любой мир на условиях Зеленского для Путина будет похабным и унизительным.",
+          "topic": "Дипломатия",
+          "type": "opinion",
+          "confidence": "high"
+        }
+      ],
+      "mentioned_tools": [
+        "дроны",
+        "крылатые ракеты",
+        "баллистика"
+      ],
+      "mentioned_companies": [
+        "ФИФА",
+        "МОК",
+        "Forbes"
+      ],
+      "mentioned_people": [
+        "Путин",
+        "Зеленский",
+        "Борис Пастухов",
+        "Ефрим",
+        "Владимир Владимирович",
+        "Высоцкий",
+        "Нетаньяху",
+        "Монак",
+        "Трамп",
+        "Гандз"
+      ],
+      "novel_ideas": [
+        "Олимпийское движение изначально создавалось как инклюзивное относительно 'зла', чтобы не исключать страны из-за конфликтов, но со временем забыло этот принцип.",
+        "Концепция «макушки»: победа определяется не территорией, а символическим статусом победителя."
+      ],
+      "information_density": "medium",
+      "watch_priority": 0.72,
+      "recommended_action": "read_summary",
+      "video_card_path": "processed/video_cards/TiRJuNfM5zc.json"
+    },
+    {
+      "video_id": "iksSiOIeZxw",
+      "url": "https://www.youtube.com/watch?v=iksSiOIeZxw",
+      "channel": "Flow: про книги, бізнес та ідеї",
+      "title": "Як побороти залежність від соцмереж? Чому цифровий детокс не працює? Книга Digital Minimalism",
+      "main_topic": "Анализ книги Кела Ньюпорта «Digital Minimalism»: почему цифровой детокс часто проваливается и как через цифровый минимализм вернуть контроль над вниманием.",
+      "short_summary": "Видео разбирает концепцию цифрового минимализма, утверждая, что сила воли для отказа от соцсетей неэффективна из-за системного давления алгоритмов. Вместо этого предлагается метод «цифрового прибирания» на 30 дней и пересмотр ценностей.",
+      "key_points": [
+        "Цифровой детокс (силовая воля) не работает в долгосрочной перспективе из-за системного давления алгоритмов.",
+        "Технологические компании используют механизмы типа слот-машин для удержания внимания пользователей.",
+        "Метод «30-дневного цифрового прибирания» позволяет перепроектировать систему и вернуться к технологиям только осознанно.",
+        "Социальные сети искажают восприятие, заставляя сравнивать себя с идеализированными образами других людей.",
+        "Первое правило минимализма: быть создателем контента, а не пассивным потребителем."
+      ],
+      "speaker_claims": [
+        {
+          "claim": "Большинство людей теряют контроль над своим вниманием и жизнью маленькими фрагментами времени в социальных сетях.",
+          "topic": "Влияние соцсетей на внимание",
+          "type": "opinion",
+          "confidence": "high"
+        },
+        {
+          "claim": "Мозг переходит в режим Default Mode Network (Default Mode Network) во время пауз без стимулов, что необходимо для рефлексии и ментального здоровья.",
+          "topic": "Нейробиология внимания",
+          "type": "fact",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Чрезмерное использование смартфона коррелирует с более высоким уровнем хронической скуки (boredom), а не счастья.",
+          "topic": "Психология использования гаджетов",
+          "type": "forecast",
+          "confidence": "high"
+        },
+        {
+          "claim": "В известном эксперименте участники предпочли получить слабый электрический удар, чем сидеть в тишине с собственными мыслями.",
+          "topic": "Эксперименты по скуке",
+          "type": "fact",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Цифровой детокс — это диета на силе воли, которая почти всегда проигрывает системному давлению алгоритмов.",
+          "topic": "Эффективность методов отказа от технологий",
+          "type": "opinion",
+          "confidence": "high"
+        },
+        {
+          "claim": "Телефон часто служит анестезией от внутренних проблем (тревога, невыполненные дела), и детокс лишь убирает обезболивающее.",
+          "topic": "Функция телефона как утешения",
+          "type": "opinion",
+          "confidence": "high"
+        },
+        {
+          "claim": "Цифровой минимализм — это не про количество технологий, а про намеренный выбор и контроль над использованием гаджетов для поддержки ценностей.",
+          "topic": "Определение цифрового минимализма",
+          "type": "recommendation",
+          "confidence": "high"
+        },
+        {
+          "claim": "Метод «30-дневного цифрового прибирания» позволяет перепроектировать систему и вернуться к старому только после осознанного выбора.",
+          "topic": "Методика детокса",
+          "type": "recommendation",
+          "confidence": "high"
+        },
+        {
+          "claim": "После 30 дней технологии возвращаются не «у себя», а только в трех категориях (ценное, рабочее или с правилами).",
+          "topic": "Категории возврата технологий",
+          "type": "recommendation",
+          "confidence": "high"
+        },
+        {
+          "claim": "Правила использования технологий не должны быть жесткими запретами, а скорее желаниями (например, «линьк один раз в неделю»).",
+          "topic": "Формулировка правил цифрового минимализма",
+          "type": "recommendation",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Социальные сети сломали эволюционный механизм сравнения, заставляя нас сравнивать себя с миллионами случайных людей и их лучшими версиями.",
+          "topic": "Влияние соцсетей на самооценку",
+          "type": "fact",
+          "confidence": "high"
+        },
+        {
+          "claim": "Чем больше человек скроллит, тем выше тревога из-за ощущения отставания и сравнения с идеализированными образами.",
+          "topic": "Корреляция скроллинга и тревоги",
+          "type": "fact",
+          "confidence": "high"
+        },
+        {
+          "claim": "Первое правило цифрового минимализма — быть создателем контента, а не потребителем.",
+          "topic": "Роль пользователя в соцсетях",
+          "type": "recommendation",
+          "confidence": "high"
+        },
+        {
+          "claim": "Второе правило — почти полное исключение чтения новостей в моменте, так как они быстро устаревают и не имеют долгосрочной ценности.",
+          "topic": "Потребление новостей",
+          "type": "recommendation",
+          "confidence": "high"
+        },
+        {
+          "claim": "Инструмент NotebookLM позволяет загружать свои источники (PDF, книги) и генерировать контент под себя.",
+          "topic": "Функционал инструмента NotebookLM",
+          "type": "fact",
+          "confidence": "high"
+        },
+        {
+          "claim": "Сэм Пара рекомендует создавать отдельные аккаунты в Instagram для конкретных тем, чтобы алгоритм работал на ваших интересах.",
+          "topic": "Стратегия использования соцсетей",
+          "type": "recommendation",
+          "confidence": "high"
+        }
+      ],
+      "mentioned_tools": [
+        "Instagram",
+        "Telegram",
+        "TikTok",
+        "Twitter",
+        "Facebook",
+        "Smartphone",
+        "NotebookLM",
+        "Google"
+      ],
+      "mentioned_companies": [],
+      "mentioned_people": [
+        "Кел Ньюпорт",
+        "Юра Гнатюк"
+      ],
+      "novel_ideas": [
+        "Концепция «цифрового прибирания» как альтернативы детоксу: не просто воздержание, а полный пересмотр и проектирование цифровой системы заново.",
+        "Идея о том, что технологии должны обслуживать ценности пользователя (например, использование Facebook только для поиска группы велосипедистов), а не наоборот."
+      ],
+      "information_density": "high",
+      "watch_priority": 0.85,
+      "recommended_action": "read_summary",
+      "video_card_path": "processed/video_cards/iksSiOIeZxw.json"
+    },
+    {
+      "video_id": "uDNnoojQ2YM",
+      "url": "https://www.youtube.com/watch?v=uDNnoojQ2YM",
+      "channel": "edureka!",
+      "title": "How to Build an AI Agent from Scratch (LLM to Production) | Edureka",
+      "main_topic": "Полный цикл разработки AI-агентов от теории трансформеров до практической реализации на Python с использованием фреймворков LangChain и инструментов Google.",
+      "short_summary": "Видео описывает эволюцию машинного обучения к эпохе LLM, объясняет архитектуру агентов (LLM как мозг, инструменты как органы) и демонстрирует создание системы для анализа транскриптов. Рассматриваются ключевые компоненты: токенизация, RAG, векторные базы данных и безопасность.",
+      "key_points": [
+        "AI-агенты эволюционировали от простых чат-ботов к сложным системам оркестрации рабочих процессов с использованием RAG.",
+        "Архитектура агента состоит из LLM (контроллер), памяти и инструментов для выполнения действий в реальном мире.",
+        "Токенизация разбивает слова на корни, что снижает стоимость API запросов по сравнению со счетом целых слов.",
+        "RAG позволяет загружать сотни документов без превышения лимитов контекста модели за счет поиска релевантных чанков.",
+        "Динамический выбор инструментов агентом заменяет жесткие последовательности шагов в традиционных рабочих процессах."
+      ],
+      "speaker_claims": [
+        {
+          "claim": "Спикер имеет опыт работы в сфере AI и программного обеспечения более 14 лет.",
+          "topic": "Биография спикера",
+          "type": "fact",
+          "confidence": "high",
+          "evidence_timestamp": "00:00:03"
+        },
+        {
+          "claim": "Трансформеры позволили моделям понимать историю текстовых данных и сложные паттерны, что было невозможно в традиционных глубоких системах обучения.",
+          "topic": "История ML",
+          "type": "fact",
+          "confidence": "high",
+          "evidence_timestamp": "00:05:48"
+        },
+        {
+          "claim": "OpenAI не сразу выпустила GPT-2 публично из опасений, что модель будет использована во вред.",
+          "topic": "История OpenAI",
+          "type": "fact",
+          "confidence": "high",
+          "evidence_timestamp": "00:06:39"
+        },
+        {
+          "claim": "Создание приложений на базе ML занимало около 3 месяцев, а сейчас аналогичные задачи решаются за неделю.",
+          "topic": "Эволюция разработки",
+          "type": "forecast",
+          "confidence": "medium",
+          "evidence_timestamp": "00:07:58"
+        },
+        {
+          "claim": "LLM стали первым средством помощи (first aid) для решения широкого круга задач и принятия решений.",
+          "topic": "Роль LLM в бизнесе",
+          "type": "opinion",
+          "confidence": "high",
+          "evidence_timestamp": "00:10:26"
+        },
+        {
+          "claim": "RAG необходим для предотвращения высоких затрат и задержек при передаче больших объемов текста (например, 600-700 страниц) модели.",
+          "topic": "Оптимизация RAG",
+          "type": "recommendation",
+          "confidence": "high"
+        },
+        {
+          "claim": "Без guardrails пользователи могут эксплуатировать уязвимости LLM для доступа к данным других пользователей (например, баланса банка).",
+          "topic": "Безопасность",
+          "type": "fact",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Через пять лет инженеры по-прежнему будут требоваться, но им нужно расширять горизонты обучения.",
+          "topic": "Перспективы профессии",
+          "type": "forecast",
+          "confidence": "high",
+          "evidence_timestamp": "00:23:14"
+        },
+        {
+          "claim": "RAG необходим для создания чат-ботов на основе сотен документов без высокой задержки и стоимости.",
+          "topic": "Применение RAG",
+          "type": "fact",
+          "confidence": "high",
+          "evidence_timestamp": "00:25:17"
+        },
+        {
+          "claim": "Стоимость использования API рассчитывается на уровне токенов (например, 10 слов могут превратиться в 12-13 токены).",
+          "topic": "Экономика LLM",
+          "type": "fact",
+          "confidence": "high"
+        },
+        {
+          "claim": "Открытые модели становятся дорогими для компаний без большой нагрузки или навыков управления GPU.",
+          "topic": "Сравнение API и Open Source",
+          "type": "opinion",
+          "confidence": "high"
+        }
+      ],
+      "mentioned_tools": [
+        "LLM",
+        "Transformer",
+        "Vector DB",
+        "RAG",
+        "API",
+        "GPT",
+        "CH GPT",
+        "Transformers Visualize",
+        "FastAPI",
+        "LangChain",
+        "LlamaIndex",
+        "AutoGen",
+        "CrewAI",
+        "Gemini AI Studio",
+        "google-generativeai",
+        "Python venv",
+        "pip install",
+        "Docker"
+      ],
+      "mentioned_companies": [
+        "Edureka",
+        "Google",
+        "OpenAI",
+        "Anthropic",
+        "GitHub Copilot",
+        "PostgreSQL",
+        "Oracle",
+        "Cursor"
+      ],
+      "mentioned_people": [
+        "Rishikesh Meade"
+      ],
+      "novel_ideas": [
+        "Концепция динамического оркестратора рабочих процессов, управляемого ИИ-мозгом.",
+        "Подход к контекстному инжинирингу через RAG для минимизации затрат на токены.",
+        "Аналогия работы мозга и тела человека для объяснения взаимодействия LLM (мозг) и инструментов (органы).",
+        "Концепция агента, который динамически решает, какие инструменты вызвать, а не следует жесткому рабочему процессу."
+      ],
+      "information_density": "high",
+      "watch_priority": 0.92,
+      "recommended_action": "read_summary",
+      "video_card_path": "processed/video_cards/uDNnoojQ2YM.json"
+    }
+  ],
+  "failed_items": [
+    {
+      "video_id": "FtSSWqe-Xdg",
+      "url": "https://www.youtube.com/watch?v=FtSSWqe-Xdg",
+      "title": "ИИ-агенты против младших разработчиков: кто кого заменит к концу 2026 года",
+      "channel": "OTUS IT Онлайн - образование",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for FtSSWqe-Xdg: ERROR: [youtube] FtSSWqe-Xdg: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "kvumupTExvA",
+      "url": "https://www.youtube.com/watch?v=kvumupTExvA",
+      "title": "Продвинутое структурирование промптов: как получать предсказуемый результат",
+      "channel": "OTUS IT Онлайн - образование",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for kvumupTExvA: ERROR: [youtube] kvumupTExvA: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "imyurlfv6GA",
+      "url": "https://www.youtube.com/watch?v=imyurlfv6GA",
+      "title": "Киберпанк для CISO — щит и меч ИИ // Курс «Директор по информационной безопасности (CISO)»",
+      "channel": "OTUS IT Онлайн - образование",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for imyurlfv6GA: ERROR: [youtube] imyurlfv6GA: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "c_nQwquHUlI",
+      "url": "https://www.youtube.com/watch?v=c_nQwquHUlI",
+      "title": "Париж и месса. Параграф 43 / 07.07.26",
+      "channel": "Дилетант",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for c_nQwquHUlI: ERROR: [youtube] c_nQwquHUlI: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "HQDT_1OXUuU",
+      "url": "https://www.youtube.com/watch?v=HQDT_1OXUuU",
+      "title": "Fable 5, GPT-5.6 and the high stakes of AI safeguards. Agentic ransomware, ClickFix reigns supreme",
+      "channel": "IBM Technology",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for HQDT_1OXUuU: ERROR: [youtube] HQDT_1OXUuU: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "oakHCzeCaLc",
+      "url": "https://www.youtube.com/watch?v=oakHCzeCaLc",
+      "title": "⚡️СРОЧНО! Встреча ТРАМПА и ЗЕЛЕНСКОГО меняет всё. Вот что ПРОИЗОШЛО в ПЕКИНЕ.ПИОНТКОВСКИЙ & ЦИМБАЛЮК",
+      "channel": "Андрей Пионтковский",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for oakHCzeCaLc: ERROR: [youtube] oakHCzeCaLc: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "msZrEStFFuw",
+      "url": "https://www.youtube.com/watch?v=msZrEStFFuw",
+      "title": "ДЕНЬ 1596. АД В КРЫМУ БЕЗ БЕНЗИНА И СВЕТА/ ГОРЯТ 2 НПЗ/ НОВЫЙ УДАР ПО ТАНКЕРАМ/ ВОЙНА США С ИРАНОМ",
+      "channel": "Майкл Наки",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for msZrEStFFuw: ERROR: [youtube] msZrEStFFuw: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "oJhdpGp2r-8",
+      "url": "https://www.youtube.com/watch?v=oJhdpGp2r-8",
+      "title": "I Cooked For EVERY World Cup Star",
+      "channel": "Nick DiGiovanni",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for oJhdpGp2r-8: ERROR: [youtube] oJhdpGp2r-8: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "JXT9N1A5ZIw",
+      "url": "https://www.youtube.com/watch?v=JXT9N1A5ZIw",
+      "title": "Why Most Teams Get Goal-Setting Wrong (feat. Christina Wodtke) | EP 62",
+      "channel": "NNgroup",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for JXT9N1A5ZIw: ERROR: [youtube] JXT9N1A5ZIw: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "xpeRVyFFy_Q",
+      "url": "https://www.youtube.com/watch?v=xpeRVyFFy_Q",
+      "title": "Solving the Blank Canvas Problem: Gusto's AI Co-Founder",
+      "channel": "Y Combinator",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for xpeRVyFFy_Q: ERROR: [youtube] xpeRVyFFy_Q: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "Vw1cyaIDnpI",
+      "url": "https://www.youtube.com/watch?v=Vw1cyaIDnpI",
+      "title": "Осевая нагрузка: запретить или разрешить? | Роман Бартенев, Дмитрий Калашников (FPA)",
+      "channel": "Ассоциация Профессионалов Фитнеса",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for Vw1cyaIDnpI: ERROR: [youtube] Vw1cyaIDnpI: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "XhN0i6AHldY",
+      "url": "https://www.youtube.com/watch?v=XhN0i6AHldY",
+      "title": "Полгода в фейковом СЗЧ: история, которую Минобороны не может объяснить. Антон Черный, Юрий Романенко",
+      "channel": "Romanenko Shorts",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for XhN0i6AHldY: ERROR: [youtube] XhN0i6AHldY: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "e30w6W-mHZI",
+      "url": "https://www.youtube.com/watch?v=e30w6W-mHZI",
+      "title": "ГИПЕРТОНИЯ НЕ ПРОХОДИТ? ВОТ ПОЧЕМУ ТАБЛЕТКИ НЕ ПОМОГАЮТ",
+      "channel": "Видео блог Доктора Шишонина",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for e30w6W-mHZI: ERROR: [youtube] e30w6W-mHZI: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "E_qW74EeLZY",
+      "url": "https://www.youtube.com/watch?v=E_qW74EeLZY",
+      "title": "Развилка эскалации. Дмитрий Разумков, Юрий Романенко",
+      "channel": "Romanenko Shorts",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for E_qW74EeLZY: ERROR: [youtube] E_qW74EeLZY: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "QCNrjOU6CnE",
+      "url": "https://www.youtube.com/watch?v=QCNrjOU6CnE",
+      "title": "ЛИПСИЦ: ИНТЕРЬЮ ДЛЯ ПЕРЕДАЧИ \"ЧЕСТНОЕ СЛОВО\" 08.07.2026",
+      "channel": "ИГОРЬ ЛИПСИЦ",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for QCNrjOU6CnE: ERROR: [youtube] QCNrjOU6CnE: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "tWVhcQWltfs",
+      "url": "https://www.youtube.com/watch?v=tWVhcQWltfs",
+      "title": "Бардак в ЗСУ. Три ранения, инвалидность — и статус дезертира: абсурд по-украински. Антон Черный",
+      "channel": "Yuriy Romanenko",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for tWVhcQWltfs: ERROR: [youtube] tWVhcQWltfs: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "xlRAGbm6vLc",
+      "url": "https://www.youtube.com/watch?v=xlRAGbm6vLc",
+      "title": "Юлия Дунаева: Неизвестная знаменитость – Мария Сибилла Мериа́н (1647–1717)",
+      "channel": "Центр Архэ",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for xlRAGbm6vLc: ERROR: [youtube] xlRAGbm6vLc: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "PNJl7ku8Qh0",
+      "url": "https://www.youtube.com/watch?v=PNJl7ku8Qh0",
+      "title": "Сергей Лопатин: Бесконечное разнообразие. Научные прорывы мая",
+      "channel": "Центр Архэ",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for PNJl7ku8Qh0: ERROR: [youtube] PNJl7ku8Qh0: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "d8kV-myDAts",
+      "url": "https://www.youtube.com/watch?v=d8kV-myDAts",
+      "title": "39я война с Ираном. Бомбардировка НПЗ- путь к миру. Сходняк НАТО.  ",
+      "channel": "Александр Невзоров",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for d8kV-myDAts: ERROR: [youtube] d8kV-myDAts: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "P-MwPmfrCrw",
+      "url": "https://www.youtube.com/watch?v=P-MwPmfrCrw",
+      "title": "Владимир Пастухов* и Ольга Журавлёва. Пастуховские четверги / 09.07.26",
+      "channel": "Живой Гвоздь",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for P-MwPmfrCrw: ERROR: [youtube] P-MwPmfrCrw: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "6LVudUQ8SGk",
+      "url": "https://www.youtube.com/watch?v=6LVudUQ8SGk",
+      "title": "Денис Волков и Ольга Журавлёва. Слоняры / 09.07.26",
+      "channel": "Живой Гвоздь",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 6LVudUQ8SGk: ERROR: [youtube] 6LVudUQ8SGk: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "-CrApcEG8LM",
+      "url": "https://www.youtube.com/watch?v=-CrApcEG8LM",
+      "title": "Трамп сделал ставку на удары по РФ. Какой будет жизнь в России после СВО? Кашин*, Некрасов*",
+      "channel": "Живой Гвоздь",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for -CrApcEG8LM: ERROR: [youtube] -CrApcEG8LM: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "d3LRtZMpceY",
+      "url": "https://www.youtube.com/watch?v=d3LRtZMpceY",
+      "title": "Сергей Алексашенко* и Лиза Аникина. Цена вопроса / 08.07.26 @SergeyAleksashenkoSr​",
+      "channel": "Живой Гвоздь",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for d3LRtZMpceY: ERROR: [youtube] d3LRtZMpceY: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "z-MMnDEK27g",
+      "url": "https://www.youtube.com/watch?v=z-MMnDEK27g",
+      "title": "Как физика и биология делают футбол априори нечестным",
+      "channel": "Ирина Якутенко",
+      "stage": "Transcription — permanent",
+      "error_summary": "Age-restricted",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for z-MMnDEK27g: ERROR: [youtube] z-MMnDEK27g: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  ],
+  "created_at": "2026-07-09T04:53:02.321441"
+}
