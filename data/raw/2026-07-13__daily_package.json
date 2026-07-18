@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-13",
+  "source_folder": "/home/roman/.openclaw/workspace/reports/youtube-daily/2026-07-13/processed",
+  "total_videos": 2,
+  "completed_videos": 2,
+  "failed_videos": 0,
+  "model_used_for_preprocessing": "qwen3.5:9b",
+  "videos": [
+    {
+      "video_id": "HY3hjkPTgrI",
+      "url": "https://www.youtube.com/watch?v=HY3hjkPTgrI",
+      "channel": "Dan Martell",
+      "title": "Busting myths about money",
+      "main_topic": "Разбор распространенных мифов о деньгах и стратегии накопления богатства",
+      "short_summary": "Спикер Дэн Мартелл утверждает, что дом является жильем, а не инвестицией, и подчеркивает необходимость обсуждения финансов. Он критикует систему наемной работы за отсутствие стабильности и рекомендует сберегать большую часть зарплаты вместо предоставления детям allowances.",
+      "key_points": [
+        "Дом — это жилье, а не инвестиция; инвестиции должны быть направлены на недвижимость как актив целиком",
+        "Отсутствие обсуждения финансов приводит к отсутствию денег у людей",
+        "Зарплата в $100k больше не гарантирует высокого качества жизни из-за инфляции",
+        "Образовательный долг оправдан только для получения навыков, приносящих доход, а не за формальный диплом",
+        "Накопление богатства требует сбережения большей части зарплаты"
+      ],
+      "speaker_claims": [
+        {
+          "claim": "Покупка дома — это умная инвестиция",
+          "topic": "Инвестиции в недвижимость/дом",
+          "type": "opinion",
+          "confidence": "high",
+          "evidence_timestamp": null
+        },
+        {
+          "claim": "Дом не является инвестицией, а недвижимость в целом может быть.",
+          "topic": "Инвестиции в недвижимость/дом",
+          "type": "fact|opinion",
+          "confidence": "high",
+          "evidence_timestamp": null
+        },
+        {
+          "claim": "Люди, которые не говорят о деньгах, обычно их не имеют.",
+          "topic": "Финансовая грамотность и коммуникация",
+          "type": "recommendation",
+          "confidence": "medium",
+          "evidence_timestamp": null
+        },
+        {
+          "claim": "Зарплата в $100k больше не обеспечивает высокое качество жизни.",
+          "topic": "Инфляция и покупательная способность",
+          "type": "fact|opinion",
+          "confidence": "high",
+          "evidence_timestamp": null
+        },
+        {
+          "claim": "Предоставление детям allowances — самый быстрый способ вырастить зависимых детей.",
+          "topic": "Воспитание и финансы семьи",
+          "type": "recommendation",
+          "confidence": "medium",
+          "evidence_timestamp": null
+        },
+        {
+          "claim": "Долг за образование оправдан только для получения навыков, увеличивающих доход.",
+          "topic": "Образовательный долг и карьера",
+          "type": "opinion",
+          "confidence": "high",
+          "evidence_timestamp": null
+        },
+        {
+          "claim": "Богатые люди — это сберегатели, а не тратители.",
+          "topic": "Психология накопления богатства",
+          "type": "fact|opinion",
+          "confidence": "medium",
+          "evidence_timestamp": null
+        },
+        {
+          "claim": "Стабильность работы по найму (9-5) больше не существует в современном мире.",
+          "topic": "Рынок труда и стабильность",
+          "type": "forecast",
+          "confidence": "high",
+          "evidence_timestamp": null
+        }
+      ],
+      "mentioned_tools": [],
+      "mentioned_companies": [],
+      "mentioned_people": [
+        "Dan Martell"
+      ],
+      "novel_ideas": [
+        "Стабильность работы по найму (9-5) больше не является гарантией безопасности.",
+        "Долг за образование имеет ценность только если он ведет к получению навыков, а не просто формальному диплому."
+      ],
+      "information_density": "high",
+      "watch_priority": 0.75,
+      "recommended_action": "read_summary",
+      "video_card_path": "processed/video_cards/HY3hjkPTgrI.json"
+    },
+    {
+      "video_id": "aM2v4p1jthU",
+      "url": "https://www.youtube.com/watch?v=aM2v4p1jthU",
+      "channel": "Romanenko Shorts",
+      "title": "Спекулянты в Крыму продают бензин в несколько раз дороже, чем в Украине. Пора возвращаться домой",
+      "main_topic": "Высокие цены на бензин в Крыму и необходимость возврата домой из-за спекуляций.",
+      "short_summary": "Видео посвящено ситуации с заправкой в Мирном (Крым), где цена литра бензина достигает 380 рублей при условии оплаты только наличными. Спикеры сравнивают эту стоимость с ценами на молоко и водки, называя её абсурдной.",
+      "key_points": [
+        "Цена бензина на заправке в Мирном (Крым) составляет 380 рублей за литр.",
+        "На данной заправке принимают только наличные деньги, карты не работают.",
+        "Спикеры выражают возмущение высокой ценой и называют её абсурдной по сравнению с другими товарами."
+      ],
+      "speaker_claims": [
+        {
+          "claim": "Цена бензина в Мирном составляет 380 рублей за литр.",
+          "topic": "Цены на топливо",
+          "type": "fact",
+          "confidence": "high",
+          "evidence_timestamp": "00:00:17"
+        },
+        {
+          "claim": "На этой заправке принимают только наличные деньги, карты не работают.",
+          "topic": "Способы оплаты",
+          "type": "fact",
+          "confidence": "medium",
+          "evidence_timestamp": "00:00:26"
+        },
+        {
+          "claim": "Цена бензина в Крыму выше, чем цена литра молока или водки.",
+          "topic": "Сравнение цен",
+          "type": "opinion",
+          "confidence": "high",
+          "evidence_timestamp": "00:00:41"
+        }
+      ],
+      "mentioned_tools": [],
+      "mentioned_companies": [],
+      "mentioned_people": [
+        "Romanenko Shorts",
+        "Спикер 2"
+      ],
+      "novel_ideas": [],
+      "information_density": "medium",
+      "watch_priority": 0.4,
+      "recommended_action": "read_summary",
+      "video_card_path": "processed/video_cards/aM2v4p1jthU.json"
+    }
+  ],
+  "failed_items": [],
+  "created_at": "2026-07-17T16:30:49Z"
+}
