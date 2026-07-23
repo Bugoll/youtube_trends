@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-22",
+  "source_folder": "reports/youtube-daily/2026-07-22",
+  "total_videos": 25,
+  "completed_videos": 1,
+  "failed_videos": 24,
+  "model_used_for_preprocessing": "qwen3.5:9b",
+  "videos": [
+    {
+      "video_id": "ARMzTvVmEHs",
+      "url": "https://www.youtube.com/watch?v=ARMzTvVmEHs",
+      "channel": "Judge Napolitano - Judging Freedom",
+      "title": "Phil Giraldi :  They Are Coming for Us!",
+      "main_topic": "Анализ заявлений администрации Трампа и секретаря Хеггетта о войне с Ираном как политического инструмента перед выборами, а также обсуждение ареста Джеймса Чемберса.",
+      "short_summary": "Спикеры утверждают, что заявления Дональда Трампа об уничтожении военных активов Ирана являются ложью для создания избирательного интереса. Обсуждается роль США и Израиля в региональной нестабильности, а также арест миллионера Джеймса Чемберса за поддержку Хамаса.",
+      "key_points": [
+        "Заявления Трампа о полном уничтожении военных мощностей Ирана названы ложью для создания политического интереса перед выборами.",
+        "США обвиняются в подготовке к агрессивным войнам без одобрения народа и использовании силы нелегитимно.",
+        "Арест Джеймса Чемберса был связан с его финансовой поддержкой Хамаса."
+      ],
+      "speaker_claims": [
+        {
+          "claim": "США готовятся к войне против Ирана (война 3.0).",
+          "topic": "Война с Ираном",
+          "type": "forecast",
+          "confidence": "medium",
+          "evidence_timestamp": "00:14:02"
+        },
+        {
+          "claim": "Арест Джеймса Чемберса был связан с его финансовой поддержкой Хамаса.",
+          "topic": "Дело Чемберса",
+          "type": "fact",
+          "confidence": "high",
+          "evidence_timestamp": "00:10:38"
+        },
+        {
+          "claim": "Трамп и Хеггетт заявили, что США уничтожили украинский революционный корпус и военные активы Ирана.",
+          "topic": "Заявления администрации",
+          "type": "fact",
+          "confidence": "high",
+          "evidence_timestamp": "00:15:16"
+        },
+        {
+          "claim": "Трамп хочет создать политический интерес, где США будут выглядеть как жертвы (садка), чтобы заявить о победе.",
+          "topic": "Политические мотивы",
+          "type": "opinion",
+          "confidence": "high",
+          "evidence_timestamp": "00:15:48"
+        },
+        {
+          "claim": "Иранские военные были уничтожены в обороне на 14-й день конфликта, но через три недели секретарь Хеггетт подтвердил это как историческую победу.",
+          "topic": "Ход войны",
+          "type": "fact",
+          "confidence": "high",
+          "evidence_timestamp": "00:18:59"
+        },
+        {
+          "claim": "США бомбили школу девушек в Тегеране, убив 168 студентов и преподавателей.",
+          "topic": "Военные преступления/инциденты",
+          "type": "fact",
+          "confidence": "high",
+          "evidence_timestamp": "00:22:35"
+        },
+        {
+          "claim": "США должны арестовать Биньямина Нетаниягу в Нью-Йорке, если он приедет.",
+          "topic": "Рекомендации по действиям",
+          "type": "recommendation",
+          "confidence": "medium",
+          "evidence_timestamp": "00:25:38"
+        }
+      ],
+      "mentioned_tools": [],
+      "mentioned_companies": [
+        "Citizens United",
+        "Амазон"
+      ],
+      "mentioned_people": [
+        "Phil Giraldi",
+        "Jefferson",
+        "Rubio",
+        "Zelensky",
+        "Trump",
+        "Hegseth",
+        "James Chambers",
+        "Natalia",
+        "Дональд Трамп",
+        "Хеггетт (Секретарь Хегг-Сeth)",
+        "Биньямин Нетаниягу",
+        "Майк Хакоби",
+        "Пистол Пит"
+      ],
+      "novel_ideas": [
+        "Израиль использует Иран как куклу для провокаций против США.",
+        "Концепция, что США сами являются главными спонсорами терроризма в регионе."
+      ],
+      "information_density": "medium",
+      "watch_priority": 0.75,
+      "recommended_action": "read_summary",
+      "video_card_path": "processed/video_cards/ARMzTvVmEHs.json"
+    }
+  ],
+  "failed_items": [
+    {
+      "video_id": "lSLkb3BB_0M",
+      "url": "https://www.youtube.com/watch?v=lSLkb3BB_0M",
+      "title": "BREAKING: The Private Credit Crisis Just Reached Amazon",
+      "channel": "Eurodollar University",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for lSLkb3BB_0M: ERROR: [youtube] lSLkb3BB_0M: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "LhFSMZVBPpc",
+      "url": "https://www.youtube.com/watch?v=LhFSMZVBPpc",
+      "title": "Build Your Own AI Agent: From LLM to Production | Edureka",
+      "channel": "edureka!",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for LhFSMZVBPpc: ERROR: [youtube] LhFSMZVBPpc: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "69X1mnz-Zn8",
+      "url": "https://www.youtube.com/watch?v=69X1mnz-Zn8",
+      "title": "День открытых дверей онлайн-магистратуры «Аналитика больших данных»",
+      "channel": "karpov.courses",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 69X1mnz-Zn8: ERROR: [youtube] 69X1mnz-Zn8: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "GTUQ4nxeuQ8",
+      "url": "https://www.youtube.com/watch?v=GTUQ4nxeuQ8",
+      "title": "ЛИПСИЦ: ИНТЕРВЬЮ ДМИТРИЮ НИЗОВЦЕВУ ДЛЯ ПРОГРАММЫ \"ЧЕСТНОЕ СЛОВО\" 21.07.2026",
+      "channel": "ИГОРЬ ЛИПСИЦ",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 1,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for GTUQ4nxeuQ8: ERROR: [youtube] GTUQ4nxeuQ8: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "73foyScPEdw",
+      "url": "https://www.youtube.com/watch?v=73foyScPEdw",
+      "title": "Париж и месса — часть 3. Параграф 43 / 21.07.26",
+      "channel": "Дилетант",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 73foyScPEdw: ERROR: [youtube] 73foyScPEdw: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "g4CNcUAqM4Q",
+      "url": "https://www.youtube.com/watch?v=g4CNcUAqM4Q",
+      "title": "GPT-Red: Can AI red teams stop prompt injections?",
+      "channel": "IBM Technology",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for g4CNcUAqM4Q: ERROR: [youtube] g4CNcUAqM4Q: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "-ae5jCru3AQ",
+      "url": "https://www.youtube.com/watch?v=-ae5jCru3AQ",
+      "title": "Welcome to our live show!",
+      "channel": "Exposure Ninja",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 1,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for -ae5jCru3AQ: ERROR: [youtube] -ae5jCru3AQ: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "-jpJT5r0MiY",
+      "url": "https://www.youtube.com/watch?v=-jpJT5r0MiY",
+      "title": "ЛИПСИЦ: ИНТЕРВЬЮ ДЛЯ ПРОГРАММЫ \"ВОТ ТАК\" (БЕЛСАТ) 21.07.2026",
+      "channel": "ИГОРЬ ЛИПСИЦ",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for -jpJT5r0MiY: ERROR: [youtube] -jpJT5r0MiY: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "6ThcE8rc8Qw",
+      "url": "https://www.youtube.com/watch?v=6ThcE8rc8Qw",
+      "title": "ДЕНЬ 1610. ВСУ СОЖГЛИ ЕЩЕ 2 СКЛАДА ВБ/ СЫРСКИЙ УВОЛЕН, НАЗНАЧЕН ДРАПАТЫЙ/ ТОПЛИВНЫЙ КРИЗИС",
+      "channel": "Майкл Наки",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 6ThcE8rc8Qw: ERROR: [youtube] 6ThcE8rc8Qw: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "fbwm5-_5Qlc",
+      "url": "https://www.youtube.com/watch?v=fbwm5-_5Qlc",
+      "title": "Gilbert Doctorow :  How Much Longer Can Russia Fight?",
+      "channel": "Judge Napolitano - Judging Freedom",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for fbwm5-_5Qlc: ERROR: [youtube] fbwm5-_5Qlc: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "xj5gZq159lM",
+      "url": "https://www.youtube.com/watch?v=xj5gZq159lM",
+      "title": "If I Wanted to Make My First $100K/Month, I’d Do This",
+      "channel": "Dan Martell",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for xj5gZq159lM: ERROR: [youtube] xj5gZq159lM: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "ALJQHSgCl2E",
+      "url": "https://www.youtube.com/watch?v=ALJQHSgCl2E",
+      "title": "Why Ambitious Startup Ideas Are Actually Easier To Sell",
+      "channel": "Y Combinator",
+      "stage": "Transcription — permanent",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for ALJQHSgCl2E: ERROR: [youtube] ALJQHSgCl2E: Requested ",
+      "retry_count": 1,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for ALJQHSgCl2E: ERROR: [youtube] ALJQHSgCl2E: Requested format is not available. Use --list-formats for a list of available formats"
+    },
+    {
+      "video_id": "GPGvywbwyeE",
+      "url": "https://www.youtube.com/watch?v=GPGvywbwyeE",
+      "title": "Pepe Escobar :  All Bets Are Off!",
+      "channel": "Judge Napolitano - Judging Freedom",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for GPGvywbwyeE: ERROR: [youtube] GPGvywbwyeE: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "YJJh-BSjkcU",
+      "url": "https://www.youtube.com/watch?v=YJJh-BSjkcU",
+      "title": "Информационная война 1812. Николай Промыслов. История конфликтов №2",
+      "channel": "Proshloe исторический журнал",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for YJJh-BSjkcU: ERROR: [youtube] YJJh-BSjkcU: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "KUnECW-Mg5c",
+      "url": "https://www.youtube.com/watch?v=KUnECW-Mg5c",
+      "title": "Алексей Арестович. Драпатый. Федоров посадил армию на e-баллы и картинку. Wildberries.",
+      "channel": "Yulia Latynina",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for KUnECW-Mg5c: ERROR: [youtube] KUnECW-Mg5c: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "dB2XNoptIAQ",
+      "url": "https://www.youtube.com/watch?v=dB2XNoptIAQ",
+      "title": "ВАЙЛДБЕРИС - ЭТО ЛИШЬ НАЧАЛО. Россия будет сожжена",
+      "channel": "Майкл Наки",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for dB2XNoptIAQ: ERROR: [youtube] dB2XNoptIAQ: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "oZ7athpXKrQ",
+      "url": "https://www.youtube.com/watch?v=oZ7athpXKrQ",
+      "title": "Арестович: \"Драпатый: новая стратегия или смена фамилии?\"",
+      "channel": "Alexey Arestovych",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for oZ7athpXKrQ: ERROR: [youtube] oZ7athpXKrQ: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "W52Xf7m-8ac",
+      "url": "https://www.youtube.com/watch?v=W52Xf7m-8ac",
+      "title": "Wildberries. Мадяр. Драпатый. Сырский. Федоров. Зеленский. БПЛА.  Путин. Трамп. Победа. Выборы в РФ.",
+      "channel": "Александр Невзоров",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for W52Xf7m-8ac: ERROR: [youtube] W52Xf7m-8ac: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "LPFqe0x-70A",
+      "url": "https://www.youtube.com/watch?v=LPFqe0x-70A",
+      "title": "Max Blumenthal :  Israel Threatens US Press Freedoms",
+      "channel": "Judge Napolitano - Judging Freedom",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for LPFqe0x-70A: ERROR: [youtube] LPFqe0x-70A: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "9ho_H8qfkjA",
+      "url": "https://www.youtube.com/watch?v=9ho_H8qfkjA",
+      "title": "Що насправді ховається за звільненням Федорова і Сирського? | НАЖИВО ЮРІЙ БУТУСОВ 22.07.26",
+      "channel": "Бутусов Плюс",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 9ho_H8qfkjA: ERROR: [youtube] 9ho_H8qfkjA: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "t9LNpD0-5ZI",
+      "url": "https://www.youtube.com/watch?v=t9LNpD0-5ZI",
+      "title": "Как удары по Wildberries подрывают опору путинской России. Моноэфир Романенко",
+      "channel": "Yuriy Romanenko",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for t9LNpD0-5ZI: ERROR: [youtube] t9LNpD0-5ZI: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "aEF1x_Xz85I",
+      "url": "https://www.youtube.com/watch?v=aEF1x_Xz85I",
+      "title": "Три месяца до коллапса России: сценарии ущерба от ударов Украины по Wildberries. Юрий Романенко",
+      "channel": "Romanenko Shorts",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for aEF1x_Xz85I: ERROR: [youtube] aEF1x_Xz85I: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "z6gH_v0buUc",
+      "url": "https://www.youtube.com/watch?v=z6gH_v0buUc",
+      "title": "Building a Company in Stealth | Travis Kalanick with a16z",
+      "channel": "a16z",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for z6gH_v0buUc: ERROR: [youtube] z6gH_v0buUc: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "video_id": "3A5RCAO6m_E",
+      "url": "https://www.youtube.com/watch?v=3A5RCAO6m_E",
+      "title": "ЛИПСИЦ: ИНТЕРВЬЮ ЕВГЕНИЮ КИСЕЛЕВУ 22.07.2026",
+      "channel": "ИГОРЬ ЛИПСИЦ",
+      "stage": "Transcription — retryable",
+      "error_summary": "Age-restricted",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 3A5RCAO6m_E: ERROR: [youtube] 3A5RCAO6m_E: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  ],
+  "created_at": "2026-07-23T04:33:38.455455"
+}
