@@ -6,7 +6,7 @@
 - Completed: 75
 - Failed: 5
 - Local model: qwen3.5:9b
-- Generated at: 2026-08-16T05:33:26.576503
+- Generated at: 2026-08-16T10:22:24.391639
 
 ## Videos
 
@@ -4052,8 +4052,8 @@
 
 | # | Title | Channel | URL | Stage | Reason | Retryable |
 |---|---|---|---|---|---|---|
-| 1 | Михаил Ромашов, SberCIB. N главных коммуникативных навыков для решения конфликтов между подчинёнными | Видео с мероприятий {speach! | [link](https://www.youtube.com/watch?v=db9ueZ6at7U) | Transcription — retryable | Age-restricted | ✓ |
-| 2 | Азат Сиразетдинов, Яндекс.Вертикали. Temporal в проде: к чему стоит быть готовым | Видео с мероприятий {speach! | [link](https://www.youtube.com/watch?v=6wZBESZ4xX0) | Transcription — retryable | Age-restricted | ✓ |
+| 1 | Михаил Ромашов, SberCIB. N главных коммуникативных навыков для решения конфликтов между подчинёнными | Видео с мероприятий {speach! | [link](https://www.youtube.com/watch?v=db9ueZ6at7U) | Transcription — permanent | Age-restricted | ✗ |
+| 2 | Азат Сиразетдинов, Яндекс.Вертикали. Temporal в проде: к чему стоит быть готовым | Видео с мероприятий {speach! | [link](https://www.youtube.com/watch?v=6wZBESZ4xX0) | Transcription — permanent | Age-restricted | ✗ |
 | 3 | Одна. Ольга Журавлёва / 15.08.2026 | Живой Гвоздь | [link](https://www.youtube.com/watch?v=NxY1H_6LCRc) | Transcription — permanent | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for NxY1H_6LCRc: ERROR: [youtube] NxY1H_6LCRc: This live  | ✗ |
 | 4 | Алексей Венедиктов* и Сергей Бунтман / Будем Наблюдать // 15.08.26 | Живой Гвоздь | [link](https://www.youtube.com/watch?v=Sh5nJ_5Hfk0) | Transcription — permanent | Live stream / upcoming | ✗ |
 | 5 | Книги и алгоритмы: кто влияет на читательский выбор? / Книжное казино. Истории / `15.08.26 | Дилетант | [link](https://www.youtube.com/watch?v=NSsgc6Pk8JE) | Transcription — permanent | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for NSsgc6Pk8JE: ERROR: [youtube] NSsgc6Pk8JE: This live  | ✗ |
