@@ -6,7 +6,7 @@
 - Completed: 100
 - Failed: 9
 - Local model: qwen3.5:9b
-- Generated at: 2026-08-19T15:39:20.785229
+- Generated at: 2026-08-21T00:27:12.176996
 
 ## Videos
 
@@ -4395,7 +4395,7 @@ Stripe переходит от простого процессинга плат�
 | # | Title | Channel | URL | Stage | Reason | Retryable |
 |---|---|---|---|---|---|---|
 | 1 | CS50x en Español - Clase 8 - HTML, CSS, JavaScript | CS50 | [link](https://www.youtube.com/watch?v=3Ph5G_sfrFM) | Transcription — retryable | ERROR: Cannot download audio. Reason: Failed to download audio for 3Ph5G_sfrFM: ERROR: unable to download video data: HT | ✓ |
-| 2 | CS50x en Español - Clase 9 - Flask | CS50 | [link](https://www.youtube.com/watch?v=7Yd_xMuzPHE) | Transcription — retryable | ERROR: Cannot download audio. Reason: Failed to download audio for 7Yd_xMuzPHE: ERROR: unable to download video data: HT | ✓ |
+| 2 | CS50x en Español - Clase 9 - Flask | CS50 | [link](https://www.youtube.com/watch?v=7Yd_xMuzPHE) | Transcription — permanent | ERROR: Cannot download audio. Reason: Failed to download audio for 7Yd_xMuzPHE: ERROR: [youtube] 7Yd_xMuzPHE: Requested  | ✗ |
 | 3 | CS50x en Español - El Fin | CS50 | [link](https://www.youtube.com/watch?v=0IjFxHxs88c) | Transcription — retryable | ERROR: Cannot download audio. Reason: Failed to download audio for 0IjFxHxs88c: ERROR: unable to download video data: HT | ✓ |
 | 4 | Иван Филиппов*: Особое мнение / 18.08.26 | Живой Гвоздь | [link](https://www.youtube.com/watch?v=H-SslpgFQ90) | Transcription — permanent | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for H-SslpgFQ90: ERROR: [youtube] H-SslpgFQ90: This live  | ✗ |
 | 5 | Курс Потапенко* Дмитрий Потапенко* / 18.08.26 @PotapenkoDmitry​ | Живой Гвоздь | [link](https://www.youtube.com/watch?v=FJhhty0bx7Q) | Transcription — permanent | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for FJhhty0bx7Q: ERROR: [youtube] FJhhty0bx7Q: This live  | ✗ |

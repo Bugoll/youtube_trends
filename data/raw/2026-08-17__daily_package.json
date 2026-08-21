@@ -11216,7 +11216,7 @@
       "channel": "CS50",
       "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot download audio. Reason: Failed to download audio for 3Ph5G_sfrFM: ERROR: unable to download video data: HT",
-      "retry_count": 0,
+      "retry_count": 1,
       "retryable": true,
       "raw_error": "ERROR: Cannot download audio. Reason: Failed to download audio for 3Ph5G_sfrFM: ERROR: unable to download video data: HTTP Error 403: Forbidden"
     },
@@ -11225,11 +11225,11 @@
       "url": "https://www.youtube.com/watch?v=7Yd_xMuzPHE",
       "title": "CS50x en Español - Clase 9 - Flask",
       "channel": "CS50",
-      "stage": "Transcription — retryable",
-      "error_summary": "ERROR: Cannot download audio. Reason: Failed to download audio for 7Yd_xMuzPHE: ERROR: unable to download video data: HT",
-      "retry_count": 1,
-      "retryable": true,
-      "raw_error": "ERROR: Cannot download audio. Reason: Failed to download audio for 7Yd_xMuzPHE: ERROR: unable to download video data: HTTP Error 403: Forbidden"
+      "stage": "Transcription — permanent",
+      "error_summary": "ERROR: Cannot download audio. Reason: Failed to download audio for 7Yd_xMuzPHE: ERROR: [youtube] 7Yd_xMuzPHE: Requested ",
+      "retry_count": 2,
+      "retryable": false,
+      "raw_error": "ERROR: Cannot download audio. Reason: Failed to download audio for 7Yd_xMuzPHE: ERROR: [youtube] 7Yd_xMuzPHE: Requested format is not available. Use --list-formats for a list of available formats"
     },
     {
       "video_id": "0IjFxHxs88c",
@@ -11304,10 +11304,10 @@
       "channel": "Yuriy Romanenko",
       "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot download audio. Reason: Failed to download audio for 4kJnjHWvsMo: ERROR: unable to download video data: HT",
-      "retry_count": 0,
+      "retry_count": 1,
       "retryable": true,
       "raw_error": "ERROR: Cannot download audio. Reason: Failed to download audio for 4kJnjHWvsMo: ERROR: unable to download video data: HTTP Error 403: Forbidden"
     }
   ],
-  "created_at": "2026-08-19T15:39:20.785229"
+  "created_at": "2026-08-21T00:27:12.176996"
 }
