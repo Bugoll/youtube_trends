@@ -10793,11 +10793,11 @@
       "url": "https://www.youtube.com/watch?v=QkpVQc1VFUM",
       "title": "35 лет независимости Украины в энергетике и коммуналке. Олег Попенко, Юрий Романенко",
       "channel": "Romanenko Shorts",
-      "stage": "Transcription — retryable",
-      "error_summary": "ERROR: Cannot download audio. Reason: Failed to download audio for QkpVQc1VFUM: ERROR: unable to download video data: HT",
-      "retry_count": 0,
-      "retryable": true,
-      "raw_error": "ERROR: Cannot download audio. Reason: Failed to download audio for QkpVQc1VFUM: ERROR: unable to download video data: HTTP Error 403: Forbidden"
+      "stage": "LLM analysis — permanent",
+      "error_summary": "Ollama unavailable",
+      "retry_count": 5,
+      "retryable": false,
+      "raw_error": "Ollama not reachable at http://localhost:11434"
     },
     {
       "video_id": "F89aFhKVuKQ",
@@ -10855,5 +10855,5 @@
       "raw_error": "Skipped: this is a live event or upcoming stream (live_status=is_live)"
     }
   ],
-  "created_at": "2026-08-23T19:51:36.168620"
+  "created_at": "2026-08-24T23:35:37.154862"
 }

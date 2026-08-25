@@ -9599,7 +9599,7 @@
       "channel": "Бутусов Плюс",
       "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot download audio. Reason: Failed to download audio for lO-ctjIBQwg: ERROR: unable to download video data: HT",
-      "retry_count": 1,
+      "retry_count": 2,
       "retryable": true,
       "raw_error": "ERROR: Cannot download audio. Reason: Failed to download audio for lO-ctjIBQwg: ERROR: unable to download video data: HTTP Error 403: Forbidden"
     },
@@ -9632,7 +9632,7 @@
       "channel": "Yuriy Romanenko",
       "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot download audio. Reason: Failed to download audio for WHBqfAaNG4k: ERROR: unable to download video data: HT",
-      "retry_count": 1,
+      "retry_count": 2,
       "retryable": true,
       "raw_error": "ERROR: Cannot download audio. Reason: Failed to download audio for WHBqfAaNG4k: ERROR: unable to download video data: HTTP Error 403: Forbidden"
     },
@@ -9797,7 +9797,7 @@
       "channel": "CS50",
       "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot download audio. Reason: Failed to download audio for i_GmZgveqpw: ERROR: unable to download video data: HT",
-      "retry_count": 0,
+      "retry_count": 2,
       "retryable": true,
       "raw_error": "ERROR: Cannot download audio. Reason: Failed to download audio for i_GmZgveqpw: ERROR: unable to download video data: HTTP Error 403: Forbidden"
     },
@@ -9912,5 +9912,5 @@
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for Ex0aW59b7Wk: ERROR: [youtube] Ex0aW59b7Wk: This live event will begin in 5 days."
     }
   ],
-  "created_at": "2026-08-21T00:22:35.711952"
+  "created_at": "2026-08-24T18:56:48.984979"
 }

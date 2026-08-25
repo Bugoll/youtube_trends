@@ -6,7 +6,7 @@
 - Completed: 72
 - Failed: 6
 - Local model: qwen3.5:9b
-- Generated at: 2026-08-23T19:51:36.168620
+- Generated at: 2026-08-24T23:35:37.154862
 
 ## Videos
 
@@ -3629,7 +3629,7 @@
 
 | # | Title | Channel | URL | Stage | Reason | Retryable |
 |---|---|---|---|---|---|---|
-| 1 | 35 лет независимости Украины в энергетике и коммуналке. Олег Попенко, Юрий Романенко | Romanenko Shorts | [link](https://www.youtube.com/watch?v=QkpVQc1VFUM) | Transcription — retryable | ERROR: Cannot download audio. Reason: Failed to download audio for QkpVQc1VFUM: ERROR: unable to download video data: HT | ✓ |
+| 1 | 35 лет независимости Украины в энергетике и коммуналке. Олег Попенко, Юрий Романенко | Romanenko Shorts | [link](https://www.youtube.com/watch?v=QkpVQc1VFUM) | LLM analysis — permanent | Ollama unavailable | ✗ |
 | 2 | Як формувати ICP в B2B: портрет ідеального клієнта, критерії, оцінка. | Linked Promo | LinkedIn & B2B Marketing | [link](https://www.youtube.com/watch?v=F89aFhKVuKQ) | Transcription — retryable | ERROR: Cannot download audio. Reason: Failed to download audio for F89aFhKVuKQ: ERROR: unable to download video data: HT | ✓ |
 | 3 | Кульпа: украинская модель управления войной оказалась эффективнее польской бюрократии. Пьотр Кульпа | Romanenko Shorts | [link](https://www.youtube.com/watch?v=7ZJ_QiruVKQ) | Transcription — retryable | ERROR: Cannot download audio. Reason: Failed to download audio for 7ZJ_QiruVKQ: ERROR: unable to download video data: HT | ✓ |
 | 4 | Союз диктатур сильнее Запада: почему Россия получает ракеты, а Украина остается без них. Кульпа | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=jGYrsLLfV08) | Transcription — retryable | ERROR: Cannot download audio. Reason: Failed to download audio for jGYrsLLfV08: ERROR: unable to download video data: HT | ✓ |
