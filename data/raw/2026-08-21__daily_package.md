@@ -6,7 +6,7 @@
 - Completed: 115
 - Failed: 13
 - Local model: qwen3.5:9b
-- Generated at: 2026-08-24T15:29:35.154309
+- Generated at: 2026-08-27T04:21:08.794520
 
 ## Videos
 
@@ -5714,7 +5714,7 @@
 
 | # | Title | Channel | URL | Stage | Reason | Retryable |
 |---|---|---|---|---|---|---|
-| 1 | Чому близькі люди заважають розвитку? Як стратегії двох людей конфліктують | ЗЕЛЕНІН SPACE | [link](https://www.youtube.com/watch?v=TbvmI7YTN9Y) | Transcription — retryable | ERROR: Cannot download audio. Reason: Failed to download audio for TbvmI7YTN9Y: ERROR: unable to download video data: HT | ✓ |
+| 1 | Чому близькі люди заважають розвитку? Як стратегії двох людей конфліктують | ЗЕЛЕНІН SPACE | [link](https://www.youtube.com/watch?v=TbvmI7YTN9Y) | LLM analysis — permanent | Ollama unavailable | ✗ |
 | 2 | Россия получила карт-бланш на расстрел Украины: почему у мира закончились ракеты для Patriot. Кульпа | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=z7BzMfrOgns) | Transcription — retryable | ERROR: Cannot download audio. Reason: Failed to download audio for z7BzMfrOgns: ERROR: unable to download video data: HT | ✓ |
 | 3 | Суверенитет Украины непостижим для Польши: Пьотр Кульпа о двух моделях выживания в войне | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=mvEkyimoLrg) | Transcription — retryable | ERROR: Cannot download audio. Reason: Failed to download audio for mvEkyimoLrg: ERROR: unable to download video data: HT | ✓ |
 | 4 | Кульпа: НАБУ, мирные переговоры и давление на Зеленского складываются в сценарий капитуляции | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=LFyxeOZDMr0) | Transcription — retryable | ERROR: Cannot download audio. Reason: Failed to download audio for LFyxeOZDMr0: ERROR: unable to download video data: HT | ✓ |
