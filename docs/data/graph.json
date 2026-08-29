@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T08:20:58",
+  "generated_at": "2026-08-29T05:38:03",
   "backend": "hub_only",
   "nodes": [
     {
@@ -7,48 +7,48 @@
       "type": "theme",
       "label": "Геополитика",
       "macro_theme": "Геополитика",
-      "count": 1445,
-      "degree": 1445
+      "count": 1468,
+      "degree": 1468
     },
     {
       "id": "theme:Разное",
       "type": "theme",
       "label": "Разное",
       "macro_theme": "Разное",
-      "count": 1103,
-      "degree": 1103
+      "count": 1112,
+      "degree": 1112
     },
     {
       "id": "theme:Финансы",
       "type": "theme",
       "label": "Финансы",
       "macro_theme": "Финансы",
-      "count": 937,
-      "degree": 937
+      "count": 954,
+      "degree": 954
     },
     {
       "id": "theme:AI",
       "type": "theme",
       "label": "AI",
       "macro_theme": "AI",
-      "count": 687,
-      "degree": 687
+      "count": 698,
+      "degree": 698
     },
     {
       "id": "theme:Бизнес",
       "type": "theme",
       "label": "Бизнес",
       "macro_theme": "Бизнес",
-      "count": 285,
-      "degree": 285
+      "count": 286,
+      "degree": 286
     },
     {
       "id": "theme:Психология",
       "type": "theme",
       "label": "Психология",
       "macro_theme": "Психология",
-      "count": 173,
-      "degree": 173
+      "count": 175,
+      "degree": 175
     },
     {
       "id": "theme:Личностный рост",
@@ -71,78 +71,78 @@
       "type": "theme",
       "label": "Технологии",
       "macro_theme": "Технологии",
-      "count": 79,
-      "degree": 79
+      "count": 80,
+      "degree": 80
     },
     {
       "id": "author:Живой Гвоздь",
       "type": "author",
       "label": "Живой Гвоздь",
-      "count": 607,
-      "degree": 607
+      "count": 621,
+      "degree": 621
     },
     {
       "id": "author:Yuriy Romanenko",
       "type": "author",
       "label": "Yuriy Romanenko",
-      "count": 348,
-      "degree": 348
+      "count": 349,
+      "degree": 349
     },
     {
       "id": "author:Judge Napolitano - Judging Freedom",
       "type": "author",
       "label": "Judge Napolitano - Judging Freedom",
-      "count": 341,
-      "degree": 341
+      "count": 344,
+      "degree": 344
     },
     {
       "id": "author:Ходорковский LIVE",
       "type": "author",
       "label": "Ходорковский LIVE",
-      "count": 282,
-      "degree": 282
+      "count": 285,
+      "degree": 285
     },
     {
       "id": "author:Майкл Наки",
       "type": "author",
       "label": "Майкл Наки",
-      "count": 199,
-      "degree": 199
-    },
-    {
-      "id": "author:Aleksandr Nevzorov",
-      "type": "author",
-      "label": "Aleksandr Nevzorov",
-      "count": 165,
-      "degree": 165
+      "count": 203,
+      "degree": 203
     },
     {
       "id": "author:OTUS IT Онлайн - образование",
       "type": "author",
       "label": "OTUS IT Онлайн - образование",
-      "count": 161,
-      "degree": 161
+      "count": 167,
+      "degree": 167
+    },
+    {
+      "id": "author:Aleksandr Nevzorov",
+      "type": "author",
+      "label": "Aleksandr Nevzorov",
+      "count": 166,
+      "degree": 166
     },
     {
       "id": "author:Romanenko Shorts",
       "type": "author",
       "label": "Romanenko Shorts",
-      "count": 157,
-      "degree": 157
+      "count": 159,
+      "degree": 159
     },
     {
       "id": "author:SiliconValleyVoice",
       "type": "author",
       "label": "SiliconValleyVoice",
-      "count": 134,
-      "degree": 134
+      "count": 138,
+      "degree": 138
     },
     {
       "id": "author:ИГОРЬ ЛИПСИЦ",
       "type": "author",
       "label": "ИГОРЬ ЛИПСИЦ",
-      "count": 118,
-      "degree": 118
+      "count": 119,
+      "degree": 119
     },
     {
       "id": "author:Leveling Up with Eric Siu",
@@ -152,18 +152,18 @@
       "degree": 104
     },
     {
+      "id": "author:Дилетант",
+      "type": "author",
+      "label": "Дилетант",
+      "count": 91,
+      "degree": 91
+    },
+    {
       "id": "author:Dan Martell",
       "type": "author",
       "label": "Dan Martell",
       "count": 90,
       "degree": 90
-    },
-    {
-      "id": "author:Дилетант",
-      "type": "author",
-      "label": "Дилетант",
-      "count": 88,
-      "degree": 88
     },
     {
       "id": "author:Alexey Arestovych",
@@ -197,13 +197,20 @@
       "id": "author:Eurodollar University",
       "type": "author",
       "label": "Eurodollar University",
-      "count": 68,
-      "degree": 68
+      "count": 69,
+      "degree": 69
     },
     {
       "id": "author:IBM Technology",
       "type": "author",
       "label": "IBM Technology",
+      "count": 63,
+      "degree": 63
+    },
+    {
+      "id": "author:Yulia Latynina",
+      "type": "author",
+      "label": "Yulia Latynina",
       "count": 61,
       "degree": 61
     },
@@ -215,32 +222,25 @@
       "degree": 61
     },
     {
-      "id": "author:Yulia Latynina",
-      "type": "author",
-      "label": "Yulia Latynina",
-      "count": 60,
-      "degree": 60
-    },
-    {
       "id": "author:Михаил Гребенюк",
       "type": "author",
       "label": "Михаил Гребенюк",
-      "count": 54,
-      "degree": 54
+      "count": 55,
+      "degree": 55
     },
     {
       "id": "author:Nate Herk | AI Automation",
       "type": "author",
       "label": "Nate Herk | AI Automation",
-      "count": 52,
-      "degree": 52
+      "count": 54,
+      "degree": 54
     },
     {
       "id": "author:Центр Архэ",
       "type": "author",
       "label": "Центр Архэ",
-      "count": 51,
-      "degree": 51
+      "count": 52,
+      "degree": 52
     },
     {
       "id": "author:Y Combinator",
@@ -260,15 +260,15 @@
       "id": "author:CS50",
       "type": "author",
       "label": "CS50",
-      "count": 36,
-      "degree": 36
+      "count": 37,
+      "degree": 37
     },
     {
       "id": "author:Mark Solonin",
       "type": "author",
       "label": "Mark Solonin",
-      "count": 35,
-      "degree": 35
+      "count": 36,
+      "degree": 36
     },
     {
       "id": "author:edureka!",
@@ -295,6 +295,13 @@
       "id": "author:a16z",
       "type": "author",
       "label": "a16z",
+      "count": 30,
+      "degree": 30
+    },
+    {
+      "id": "author:Ирина Якутенко",
+      "type": "author",
+      "label": "Ирина Якутенко",
       "count": 29,
       "degree": 29
     },
@@ -306,11 +313,11 @@
       "degree": 28
     },
     {
-      "id": "author:Ирина Якутенко",
+      "id": "author:Data Tutorials",
       "type": "author",
-      "label": "Ирина Якутенко",
-      "count": 28,
-      "degree": 28
+      "label": "Data Tutorials",
+      "count": 26,
+      "degree": 26
     },
     {
       "id": "author:Мастерская инженеров-менеджеров",
@@ -327,6 +334,13 @@
       "degree": 26
     },
     {
+      "id": "author:Клубный сервис",
+      "type": "author",
+      "label": "Клубный сервис",
+      "count": 26,
+      "degree": 26
+    },
+    {
       "id": "author:Center for Strategic & International Studies",
       "type": "author",
       "label": "Center for Strategic & International Studies",
@@ -334,16 +348,9 @@
       "degree": 26
     },
     {
-      "id": "author:Data Tutorials",
+      "id": "author:На пенсию в 35 лет!",
       "type": "author",
-      "label": "Data Tutorials",
-      "count": 25,
-      "degree": 25
-    },
-    {
-      "id": "author:Клубный сервис",
-      "type": "author",
-      "label": "Клубный сервис",
+      "label": "На пенсию в 35 лет!",
       "count": 25,
       "degree": 25
     },
@@ -353,13 +360,6 @@
       "label": "Академия Здоровья Елены Бахтиной",
       "count": 25,
       "degree": 25
-    },
-    {
-      "id": "author:На пенсию в 35 лет!",
-      "type": "author",
-      "label": "На пенсию в 35 лет!",
-      "count": 24,
-      "degree": 24
     },
     {
       "id": "author:Tool Finder",
@@ -383,6 +383,13 @@
       "degree": 22
     },
     {
+      "id": "author:Wall Street с Андреем Михайлец",
+      "type": "author",
+      "label": "Wall Street с Андреем Михайлец",
+      "count": 22,
+      "degree": 22
+    },
+    {
       "id": "author:Exposure Ninja",
       "type": "author",
       "label": "Exposure Ninja",
@@ -393,13 +400,6 @@
       "id": "author:Мой путь к звёздам",
       "type": "author",
       "label": "Мой путь к звёздам",
-      "count": 21,
-      "degree": 21
-    },
-    {
-      "id": "author:Wall Street с Андреем Михайлец",
-      "type": "author",
-      "label": "Wall Street с Андреем Михайлец",
       "count": 21,
       "degree": 21
     },
@@ -509,6 +509,13 @@
       "degree": 15
     },
     {
+      "id": "author:Семинары по истории Александра Макарова",
+      "type": "author",
+      "label": "Семинары по истории Александра Макарова",
+      "count": 15,
+      "degree": 15
+    },
+    {
       "id": "author:ПостНаука",
       "type": "author",
       "label": "ПостНаука",
@@ -530,9 +537,9 @@
       "degree": 15
     },
     {
-      "id": "author:Семинары по истории Александра Макарова",
+      "id": "author:Ассоциация Профессионалов Фитнеса",
       "type": "author",
-      "label": "Семинары по истории Александра Макарова",
+      "label": "Ассоциация Профессионалов Фитнеса",
       "count": 14,
       "degree": 14
     },
@@ -544,9 +551,9 @@
       "degree": 14
     },
     {
-      "id": "author:Ассоциация Профессионалов Фитнеса",
+      "id": "author:Андрей Пионтковский",
       "type": "author",
-      "label": "Ассоциация Профессионалов Фитнеса",
+      "label": "Андрей Пионтковский",
       "count": 13,
       "degree": 13
     },
@@ -575,13 +582,6 @@
       "id": "author:MrBeast",
       "type": "author",
       "label": "MrBeast",
-      "count": 12,
-      "degree": 12
-    },
-    {
-      "id": "author:Андрей Пионтковский",
-      "type": "author",
-      "label": "Андрей Пионтковский",
       "count": 12,
       "degree": 12
     },
@@ -628,6 +628,13 @@
       "degree": 10
     },
     {
+      "id": "author:Dmitry Solodin",
+      "type": "author",
+      "label": "Dmitry Solodin",
+      "count": 9,
+      "degree": 9
+    },
+    {
       "id": "author:JB 3D Studio",
       "type": "author",
       "label": "JB 3D Studio",
@@ -649,13 +656,6 @@
       "degree": 8
     },
     {
-      "id": "author:Dmitry Solodin",
-      "type": "author",
-      "label": "Dmitry Solodin",
-      "count": 8,
-      "degree": 8
-    },
-    {
       "id": "author:Кардиолог Чайковская",
       "type": "author",
       "label": "Кардиолог Чайковская",
@@ -673,6 +673,13 @@
       "id": "author:Дети и Наука",
       "type": "author",
       "label": "Дети и Наука",
+      "count": 8,
+      "degree": 8
+    },
+    {
+      "id": "author:Relax Yoga Оксана Рогова",
+      "type": "author",
+      "label": "Relax Yoga Оксана Рогова",
       "count": 8,
       "degree": 8
     },
@@ -701,13 +708,6 @@
       "id": "author:PRO BLOCKCHAIN",
       "type": "author",
       "label": "PRO BLOCKCHAIN",
-      "count": 7,
-      "degree": 7
-    },
-    {
-      "id": "author:Relax Yoga Оксана Рогова",
-      "type": "author",
-      "label": "Relax Yoga Оксана Рогова",
       "count": 7,
       "degree": 7
     },
@@ -761,6 +761,13 @@
       "degree": 6
     },
     {
+      "id": "author:Rush Agency",
+      "type": "author",
+      "label": "Rush Agency",
+      "count": 5,
+      "degree": 5
+    },
+    {
       "id": "author:ФинФак",
       "type": "author",
       "label": "ФинФак",
@@ -806,13 +813,6 @@
       "id": "author:Наталия Капцова",
       "type": "author",
       "label": "Наталия Капцова",
-      "count": 4,
-      "degree": 4
-    },
-    {
-      "id": "author:Rush Agency",
-      "type": "author",
-      "label": "Rush Agency",
       "count": 4,
       "degree": 4
     },
@@ -16835,7 +16835,7 @@
     {
       "id": "unknown",
       "type": "video",
-      "label": "YouTube Daily Package — 2026-08-26",
+      "label": "YouTube Daily Package — 2026-08-28",
       "author": "Неизвестный автор",
       "topic": "Без темы",
       "macro_theme": "AI",
@@ -77389,7 +77389,7 @@
       "topic": "Обзор исторических дат 22-27 августа, личные воспоминания ведущей Ольги Журавлёвой о работе на «Эхо Москвы», биографиях исторических личностей и обсуждении бытовых тем.",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=-PQ1a0LZPzk",
-      "views": 3461,
+      "views": 3519,
       "ideas": [
         "Спикер извиняется за технические проблемы с поиском чата и просит зрителей помочь закрыть долги канала.",
         "Обсуждаются юбилеи Хорхе Луиса Борхеса (127 лет), Леонарда Бернстайна (108 лет) и Ширли Менсон (60 лет).",
@@ -77455,7 +77455,7 @@
       "topic": "Анализ системного кризиса российской экономики, прогнозы экспертов Клепача и Вьюгина о переходе к мобилизационной модели и рисках социального коллапса.",
       "macro_theme": "Финансы",
       "url": "https://www.youtube.com/watch?v=0dClGxbg6dw",
-      "views": 122727,
+      "views": 124651,
       "ideas": [
         "Экономика России вошла в техническую рецессию и зависит исключительно от нефтегазового сектора.",
         "Бюджетный дефицит к концу года может составить 10-12 триллионов рублей из-за роста военных расходов.",
@@ -77804,7 +77804,7 @@
       "topic": "Географ Семён Павлюк разбирает книгу «Все цвета Африки», опровергая стереотипы о континенте, анализирует постколониальную ситуацию, роль социализма и кубинского влияния, а также в конце обсуждает книгу «Родная речь» 1949 года.",
       "macro_theme": "Финансы",
       "url": "https://www.youtube.com/watch?v=CMpReJGMHas",
-      "views": 1075,
+      "views": 1158,
       "ideas": [
         "Африка воспринимается как единый субъект из-за исторических стереотипов о необходимости её «цивилизации» и влияния идеи панафриканизма.",
         "Страны, бывшие колониями Франции, чаще сталкиваются с нестабильностью и военными хунтами по сравнению с британскими колониями.",
@@ -77843,7 +77843,7 @@
       "topic": "Обзор текущей политической ситуации в России (война, выборы, партии), анализ демографических кризисов и обсуждение культурных тем (литература, букинизм) с элементами новостной сводки.",
       "macro_theme": "Финансы",
       "url": "https://www.youtube.com/watch?v=DoQc9JX0DNo",
-      "views": 43740,
+      "views": 43838,
       "ideas": [
         "Атаки беспилотников на склады Ozon в Оренбурге и пожары в Санкт-Петербурге.",
         "На границе Верхний Ларс очереди штатные, туристический поток вырос.",
@@ -78751,7 +78751,7 @@
       "topic": "Философия и психология личности, травмы, архетипы и стратегии саморазвития через ответы на вопросы зрителей.",
       "macro_theme": "Психология",
       "url": "https://www.youtube.com/watch?v=wJtWjJoy1y0",
-      "views": 41342,
+      "views": 43798,
       "ideas": [
         "Мечта, порожденная травмой или чувством нехватки, может быть достигнута только путем внутреннего развития и способности отдавать любовь, а не через внешнюю охоту за ней.",
         "Стабильность в отношениях определяется качеством обратной связи между партнерами, а не общими представлениями о том, что такое стабильность.",
@@ -79933,7 +79933,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=TgPkcpOVj3E",
-      "views": 246803,
+      "views": 256124,
       "ideas": [],
       "degree": 2
     },
@@ -79957,7 +79957,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=IkXnQi2oz68",
-      "views": 86461,
+      "views": 87269,
       "ideas": [],
       "degree": 2
     },
@@ -79969,7 +79969,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=EOdgmfJ5i04",
-      "views": 106126,
+      "views": 107765,
       "ideas": [],
       "degree": 2
     },
@@ -79981,7 +79981,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=bZgOe-y75BY",
-      "views": 91774,
+      "views": 93675,
       "ideas": [],
       "degree": 2
     },
@@ -79993,7 +79993,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=blJg7d54CUI",
-      "views": 21309,
+      "views": 22008,
       "ideas": [],
       "degree": 2
     },
@@ -80005,7 +80005,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=dNz5x8yadFM",
-      "views": 61453,
+      "views": 61615,
       "ideas": [],
       "degree": 2
     },
@@ -80017,7 +80017,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=3JpGPjnJwRA",
-      "views": 21266,
+      "views": 22723,
       "ideas": [],
       "degree": 2
     },
@@ -81828,7 +81828,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=7UyuhTpPzfA",
-      "views": 26521,
+      "views": 32250,
       "ideas": [],
       "degree": 2
     },
@@ -84165,7 +84165,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=kkS5keTF0zI",
-      "views": 157730,
+      "views": 162428,
       "ideas": [],
       "degree": 2
     },
@@ -84177,7 +84177,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=JS_IAiyiPH8",
-      "views": 10592,
+      "views": 12437,
       "ideas": [],
       "degree": 2
     },
@@ -84189,7 +84189,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=-gYEL75U_r0",
-      "views": 33363,
+      "views": 33661,
       "ideas": [],
       "degree": 2
     },
@@ -84201,7 +84201,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=FGn70wIub20",
-      "views": 70523,
+      "views": 74040,
       "ideas": [],
       "degree": 2
     },
@@ -84213,7 +84213,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=UsfCe5fJK6A",
-      "views": 66890,
+      "views": 76614,
       "ideas": [],
       "degree": 2
     },
@@ -84225,7 +84225,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=gfR6CJgt6Tg",
-      "views": 2605,
+      "views": 3277,
       "ideas": [],
       "degree": 2
     },
@@ -84237,7 +84237,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=FMCmCdfGgbQ",
-      "views": 355,
+      "views": 356,
       "ideas": [],
       "degree": 2
     },
@@ -84249,7 +84249,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=XGllw2XEEH8",
-      "views": 246788,
+      "views": 247366,
       "ideas": [],
       "degree": 2
     },
@@ -84261,7 +84261,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=uKwQ5C9MDeU",
-      "views": 30967,
+      "views": 31613,
       "ideas": [],
       "degree": 2
     },
@@ -84273,7 +84273,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=Yj7vYhmRNAk",
-      "views": 5116,
+      "views": 5204,
       "ideas": [],
       "degree": 2
     },
@@ -84285,7 +84285,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=oM1ZkAyg59A",
-      "views": 1927,
+      "views": 1952,
       "ideas": [],
       "degree": 2
     },
@@ -84309,7 +84309,7 @@
       "topic": "Разное",
       "macro_theme": "Личностный рост",
       "url": "https://www.youtube.com/watch?v=PMT4pGcE_RI",
-      "views": 32651,
+      "views": 34221,
       "ideas": [],
       "degree": 2
     },
@@ -84321,7 +84321,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=fNf7HZI8-V4",
-      "views": 317542,
+      "views": 318076,
       "ideas": [],
       "degree": 2
     },
@@ -84333,7 +84333,7 @@
       "topic": "Разное",
       "macro_theme": "Наука",
       "url": "https://www.youtube.com/watch?v=8HcFTGR-Sfs",
-      "views": 3666,
+      "views": 3740,
       "ideas": [],
       "degree": 2
     },
@@ -84345,7 +84345,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=b8wNgekLZz0",
-      "views": 11610,
+      "views": 13805,
       "ideas": [],
       "degree": 2
     },
@@ -84369,7 +84369,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=3nbgAE8X5Q0",
-      "views": 27109,
+      "views": 27799,
       "ideas": [],
       "degree": 2
     },
@@ -84381,7 +84381,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=aOYlRKTISVs",
-      "views": 481460,
+      "views": 489768,
       "ideas": [],
       "degree": 2
     },
@@ -84393,7 +84393,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=_HY3Z7TBjuU",
-      "views": 75228,
+      "views": 75678,
       "ideas": [],
       "degree": 2
     },
@@ -84405,7 +84405,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=BY7KL_abb_c",
-      "views": 59727,
+      "views": 60754,
       "ideas": [],
       "degree": 2
     },
@@ -84417,7 +84417,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=E4F0z3VwAFo",
-      "views": 800,
+      "views": 819,
       "ideas": [],
       "degree": 2
     },
@@ -84429,7 +84429,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=1Q61vgSXPhg",
-      "views": 780,
+      "views": 796,
       "ideas": [],
       "degree": 2
     },
@@ -84441,7 +84441,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=6zgSfZf6-QY",
-      "views": 14874,
+      "views": 15583,
       "ideas": [],
       "degree": 2
     },
@@ -84453,7 +84453,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=Fw5aTNQkVTA",
-      "views": 48299,
+      "views": 54175,
       "ideas": [],
       "degree": 2
     },
@@ -84465,7 +84465,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=5eMaDuCTLQ0",
-      "views": 4093,
+      "views": 4359,
       "ideas": [],
       "degree": 2
     },
@@ -84477,7 +84477,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=FPD-b-0Qm_o",
-      "views": 116682,
+      "views": 118284,
       "ideas": [],
       "degree": 2
     },
@@ -84489,7 +84489,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=R-FwHr61y8w",
-      "views": 3246,
+      "views": 4677,
       "ideas": [],
       "degree": 2
     },
@@ -84501,7 +84501,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=HrrLtEQ7ct8",
-      "views": 132766,
+      "views": 143731,
       "ideas": [],
       "degree": 2
     },
@@ -84513,7 +84513,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=f4FOIsgG0PY",
-      "views": 2129,
+      "views": 2401,
       "ideas": [],
       "degree": 2
     },
@@ -84525,7 +84525,7 @@
       "topic": "Разное",
       "macro_theme": "Психология",
       "url": "https://www.youtube.com/watch?v=5GHDgKrAqFc",
-      "views": 20679,
+      "views": 21150,
       "ideas": [],
       "degree": 2
     },
@@ -84537,7 +84537,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=xsxe4eJCwKI",
-      "views": 8851,
+      "views": 9307,
       "ideas": [],
       "degree": 2
     },
@@ -84549,7 +84549,7 @@
       "topic": "Разное",
       "macro_theme": "Бизнес",
       "url": "https://www.youtube.com/watch?v=kqQKsJ1wnqk",
-      "views": 9037,
+      "views": 9361,
       "ideas": [],
       "degree": 2
     },
@@ -84561,7 +84561,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=zAe-sau06io",
-      "views": 19268,
+      "views": 20684,
       "ideas": [],
       "degree": 2
     },
@@ -84573,7 +84573,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=pLSMz-I8Sqo",
-      "views": 318588,
+      "views": 319269,
       "ideas": [],
       "degree": 2
     },
@@ -84585,7 +84585,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=Bmla-ZTDzak",
-      "views": 38289,
+      "views": 38805,
       "ideas": [],
       "degree": 2
     },
@@ -84597,7 +84597,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=pZkOFLTkglQ",
-      "views": 53036,
+      "views": 57302,
       "ideas": [],
       "degree": 2
     },
@@ -84609,7 +84609,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=Z7sX1gOgkr8",
-      "views": 801972,
+      "views": 804834,
       "ideas": [],
       "degree": 2
     },
@@ -84621,7 +84621,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=n-cIL7F5cA0",
-      "views": 5860,
+      "views": 6388,
       "ideas": [],
       "degree": 2
     },
@@ -84633,7 +84633,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=ij_Q1pz0J70",
-      "views": 18212,
+      "views": 18614,
       "ideas": [],
       "degree": 2
     },
@@ -84645,7 +84645,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=1vACfj_JduQ",
-      "views": 4110,
+      "views": 4675,
       "ideas": [],
       "degree": 2
     },
@@ -84657,7 +84657,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=G3pnBiYGEm8",
-      "views": 4554,
+      "views": 4748,
       "ideas": [],
       "degree": 2
     },
@@ -84669,7 +84669,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=7JeUrtRJmbk",
-      "views": 6654,
+      "views": 7027,
       "ideas": [],
       "degree": 2
     },
@@ -84681,7 +84681,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=bEXa_bR003I",
-      "views": 249,
+      "views": 303,
       "ideas": [],
       "degree": 2
     },
@@ -84693,7 +84693,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=rwGHggnXJLs",
-      "views": 3062,
+      "views": 3140,
       "ideas": [],
       "degree": 2
     },
@@ -84705,7 +84705,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=WXNb9yYeqBY",
-      "views": 1657,
+      "views": 1670,
       "ideas": [],
       "degree": 2
     },
@@ -84717,7 +84717,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=r-wB6ZgbwHY",
-      "views": 233,
+      "views": 257,
       "ideas": [],
       "degree": 2
     },
@@ -84729,7 +84729,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=5U-V0y-fkSw",
-      "views": 1146838,
+      "views": 1234815,
       "ideas": [],
       "degree": 2
     },
@@ -84741,7 +84741,7 @@
       "topic": "Разное",
       "macro_theme": "Финансы",
       "url": "https://www.youtube.com/watch?v=B105L7sdQKY",
-      "views": 92564,
+      "views": 92713,
       "ideas": [],
       "degree": 2
     },
@@ -84753,7 +84753,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=alBiq54zprI",
-      "views": 14433,
+      "views": 15243,
       "ideas": [],
       "degree": 2
     },
@@ -84765,7 +84765,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=uZjyhkjqPxE",
-      "views": 23989,
+      "views": 26390,
       "ideas": [],
       "degree": 2
     },
@@ -84777,7 +84777,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=ZzHsJW10iq4",
-      "views": 11637,
+      "views": 12317,
       "ideas": [],
       "degree": 2
     },
@@ -84789,7 +84789,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=qNqRj0RpVWY",
-      "views": 64465,
+      "views": 65581,
       "ideas": [],
       "degree": 2
     },
@@ -84801,7 +84801,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=QyJo5en63eM",
-      "views": 167910,
+      "views": 168920,
       "ideas": [],
       "degree": 2
     },
@@ -84813,7 +84813,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=gbYScXWqEUA",
-      "views": 1538,
+      "views": 1593,
       "ideas": [],
       "degree": 2
     },
@@ -84837,7 +84837,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=gzN5fBsaPs8",
-      "views": 4800,
+      "views": 5034,
       "ideas": [],
       "degree": 2
     },
@@ -84849,7 +84849,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=lEVmah7Kl74",
-      "views": 9833,
+      "views": 10352,
       "ideas": [],
       "degree": 2
     },
@@ -84861,7 +84861,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=I-oyp1UC64Y",
-      "views": 1577,
+      "views": 1765,
       "ideas": [],
       "degree": 2
     },
@@ -84873,7 +84873,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=JZn9hGhCh0A",
-      "views": 412,
+      "views": 424,
       "ideas": [],
       "degree": 2
     },
@@ -84885,7 +84885,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=t3l_W_o8W80",
-      "views": 4922,
+      "views": 5400,
       "ideas": [],
       "degree": 2
     },
@@ -84897,7 +84897,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=1t_HPAZo3sg",
-      "views": 23108,
+      "views": 23630,
       "ideas": [],
       "degree": 2
     },
@@ -84909,7 +84909,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=gGG7yDL8UFk",
-      "views": 13257,
+      "views": 13432,
       "ideas": [],
       "degree": 2
     },
@@ -84921,7 +84921,7 @@
       "topic": "Разное",
       "macro_theme": "Бизнес",
       "url": "https://www.youtube.com/watch?v=wC7-MPFG0Bw",
-      "views": 289609,
+      "views": 290737,
       "ideas": [],
       "degree": 2
     },
@@ -84933,7 +84933,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=feqCfirSCuk",
-      "views": 10071,
+      "views": 10445,
       "ideas": [],
       "degree": 2
     },
@@ -84945,7 +84945,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=2lWarkDqRTA",
-      "views": 70964,
+      "views": 72460,
       "ideas": [],
       "degree": 2
     },
@@ -84957,7 +84957,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=KhaMAY4BJGY",
-      "views": 674,
+      "views": 676,
       "ideas": [],
       "degree": 2
     },
@@ -84969,7 +84969,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=6J4nsq6hYOE",
-      "views": 4470,
+      "views": 4481,
       "ideas": [],
       "degree": 2
     },
@@ -84981,7 +84981,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=9wP6-Wc-2-Y",
-      "views": 1140,
+      "views": 1141,
       "ideas": [],
       "degree": 2
     },
@@ -84993,7 +84993,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=gVCNvWXGV8A",
-      "views": 74817,
+      "views": 82040,
       "ideas": [],
       "degree": 2
     },
@@ -85005,7 +85005,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=ZutWrFoIbQU",
-      "views": 99196,
+      "views": 101335,
       "ideas": [],
       "degree": 2
     },
@@ -85017,7 +85017,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=IF1q6d386J0",
-      "views": 41369,
+      "views": 42860,
       "ideas": [],
       "degree": 2
     },
@@ -85041,7 +85041,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=cnqXFzcH7eg",
-      "views": 59299,
+      "views": 60325,
       "ideas": [],
       "degree": 2
     },
@@ -85053,7 +85053,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=nKGIQx6OyvA",
-      "views": 6519,
+      "views": 6767,
       "ideas": [],
       "degree": 2
     },
@@ -85065,7 +85065,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=cY-fWg-YfMk",
-      "views": 59891,
+      "views": 62494,
       "ideas": [],
       "degree": 2
     },
@@ -85077,7 +85077,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=ASMxVXezDuc",
-      "views": 4274,
+      "views": 4409,
       "ideas": [],
       "degree": 2
     },
@@ -85089,7 +85089,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=slJJpniu55M",
-      "views": 5250,
+      "views": 7042,
       "ideas": [],
       "degree": 2
     },
@@ -85101,7 +85101,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=1o8Io-qhvJU",
-      "views": 737918,
+      "views": 742089,
       "ideas": [],
       "degree": 2
     },
@@ -85113,7 +85113,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=VZVoAV9S0jM",
-      "views": 84826,
+      "views": 86323,
       "ideas": [],
       "degree": 2
     },
@@ -85125,7 +85125,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=lpHCHZ00laI",
-      "views": 387,
+      "views": 428,
       "ideas": [],
       "degree": 2
     },
@@ -85137,7 +85137,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=bBFqi6Ke8Cs",
-      "views": 9872,
+      "views": 10237,
       "ideas": [],
       "degree": 2
     },
@@ -85149,7 +85149,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=Ndyo_6L0GoM",
-      "views": 149507,
+      "views": 153630,
       "ideas": [],
       "degree": 2
     },
@@ -85161,7 +85161,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=7Np-5PYk5jo",
-      "views": 6697,
+      "views": 7517,
       "ideas": [],
       "degree": 2
     },
@@ -85173,7 +85173,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=pmFpt_xQ1sk",
-      "views": 13844,
+      "views": 15115,
       "ideas": [],
       "degree": 2
     },
@@ -85185,7 +85185,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=zuL2FFCtKhY",
-      "views": 73097,
+      "views": 74909,
       "ideas": [],
       "degree": 2
     },
@@ -85197,7 +85197,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=-XT3tMJEzEs",
-      "views": 38233,
+      "views": 38653,
       "ideas": [],
       "degree": 2
     },
@@ -85209,7 +85209,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=uHeDjAxIyqY",
-      "views": 39088,
+      "views": 40778,
       "ideas": [],
       "degree": 2
     },
@@ -85221,7 +85221,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=rYVxw1zdTRI",
-      "views": 68953,
+      "views": 70299,
       "ideas": [],
       "degree": 2
     },
@@ -85233,7 +85233,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=3Op2VWonJj0",
-      "views": 6403,
+      "views": 6571,
       "ideas": [],
       "degree": 2
     },
@@ -85245,7 +85245,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=2yBvUd_OiEk",
-      "views": 41709,
+      "views": 41998,
       "ideas": [],
       "degree": 2
     },
@@ -85257,7 +85257,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=q3C3EeXsFZw",
-      "views": 9609,
+      "views": 10436,
       "ideas": [],
       "degree": 2
     },
@@ -85269,7 +85269,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=ydSJTrbYcCw",
-      "views": 86259,
+      "views": 93199,
       "ideas": [],
       "degree": 2
     },
@@ -85281,7 +85281,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=n-x5QD42asI",
-      "views": 43752,
+      "views": 44495,
       "ideas": [],
       "degree": 2
     },
@@ -85293,7 +85293,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=Z-xEyq-RV1o",
-      "views": 21850,
+      "views": 22396,
       "ideas": [],
       "degree": 2
     },
@@ -85305,7 +85305,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=FOUeWXaIgyM",
-      "views": 7235,
+      "views": 7348,
       "ideas": [],
       "degree": 2
     },
@@ -85317,7 +85317,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=vU9G-5Au6Pg",
-      "views": 11916,
+      "views": 12011,
       "ideas": [],
       "degree": 2
     },
@@ -85329,7 +85329,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=CDQlpo540WE",
-      "views": 5324,
+      "views": 5376,
       "ideas": [],
       "degree": 2
     },
@@ -85341,7 +85341,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=F4TiEKU0c94",
-      "views": 8202,
+      "views": 9123,
       "ideas": [],
       "degree": 2
     },
@@ -85353,7 +85353,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=VywouwD4jhg",
-      "views": 339478,
+      "views": 342606,
       "ideas": [],
       "degree": 2
     },
@@ -85365,7 +85365,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=O9oXceXE1Ds",
-      "views": 250,
+      "views": 252,
       "ideas": [],
       "degree": 2
     },
@@ -85377,7 +85377,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=osr7DHMSJG4",
-      "views": 1158,
+      "views": 1179,
       "ideas": [],
       "degree": 2
     },
@@ -85389,7 +85389,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=w7-BMV8WhWg",
-      "views": 49794,
+      "views": 50527,
       "ideas": [],
       "degree": 2
     },
@@ -85401,7 +85401,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=qTiv9dG04E0",
-      "views": 6403,
+      "views": 6702,
       "ideas": [],
       "degree": 2
     },
@@ -85413,7 +85413,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=haPuQQ5gf34",
-      "views": 19480,
+      "views": 20455,
       "ideas": [],
       "degree": 2
     },
@@ -85425,7 +85425,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=g0jL5Jhj9S8",
-      "views": 26195,
+      "views": 27608,
       "ideas": [],
       "degree": 2
     },
@@ -85437,7 +85437,7 @@
       "topic": "Разное",
       "macro_theme": "Бизнес",
       "url": "https://www.youtube.com/watch?v=rFKdz6o501E",
-      "views": 22920,
+      "views": 25066,
       "ideas": [],
       "degree": 2
     },
@@ -85449,7 +85449,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=oshjZjc5FJI",
-      "views": 64517,
+      "views": 69437,
       "ideas": [],
       "degree": 2
     },
@@ -85461,7 +85461,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=rQWWHT6fmkk",
-      "views": 1424,
+      "views": 1470,
       "ideas": [],
       "degree": 2
     },
@@ -85473,7 +85473,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=NslqHxmnEPk",
-      "views": 274280,
+      "views": 274870,
       "ideas": [],
       "degree": 2
     },
@@ -85485,7 +85485,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=jvppBw08Q30",
-      "views": 20667,
+      "views": 21801,
       "ideas": [],
       "degree": 2
     },
@@ -85497,7 +85497,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=UaeDD2zrVH0",
-      "views": 4021,
+      "views": 4315,
       "ideas": [],
       "degree": 2
     },
@@ -85509,7 +85509,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=EZYroQcRR6Q",
-      "views": 8459,
+      "views": 8622,
       "ideas": [],
       "degree": 2
     },
@@ -85521,7 +85521,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=Cni9Ex2Ihbs",
-      "views": 1208,
+      "views": 1216,
       "ideas": [],
       "degree": 2
     },
@@ -85533,7 +85533,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=Dch-9cq2oxQ",
-      "views": 1205,
+      "views": 1213,
       "ideas": [],
       "degree": 2
     },
@@ -85545,7 +85545,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=4Rvqi0YLi-g",
-      "views": 817834,
+      "views": 859813,
       "ideas": [],
       "degree": 2
     },
@@ -85557,7 +85557,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=Ju6oeHZaT1E",
-      "views": 1445,
+      "views": 1550,
       "ideas": [],
       "degree": 2
     },
@@ -85569,7 +85569,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=OiZhqGLU0n4",
-      "views": 217839,
+      "views": 218285,
       "ideas": [],
       "degree": 2
     },
@@ -85581,7 +85581,7 @@
       "topic": "Разное",
       "macro_theme": "Личностный рост",
       "url": "https://www.youtube.com/watch?v=IwUtAD0XXc4",
-      "views": 1140,
+      "views": 1165,
       "ideas": [],
       "degree": 2
     },
@@ -85593,7 +85593,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=7Y9_Iu2aNN8",
-      "views": 17945,
+      "views": 18630,
       "ideas": [],
       "degree": 2
     },
@@ -85605,7 +85605,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=QfMURAd0FRY",
-      "views": 308143,
+      "views": 314550,
       "ideas": [],
       "degree": 2
     },
@@ -85617,7 +85617,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=p9giokA1IWY",
-      "views": 2191,
+      "views": 2249,
       "ideas": [],
       "degree": 2
     },
@@ -85629,7 +85629,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=jwujlpGP4lM",
-      "views": 8469,
+      "views": 9246,
       "ideas": [],
       "degree": 2
     },
@@ -85641,7 +85641,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=Z0WZbtoU2pU",
-      "views": 30605,
+      "views": 34188,
       "ideas": [],
       "degree": 2
     },
@@ -85653,7 +85653,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=3EI0ndSOeVk",
-      "views": 676397,
+      "views": 713387,
       "ideas": [],
       "degree": 2
     },
@@ -85665,7 +85665,7 @@
       "topic": "Разное",
       "macro_theme": "Личностный рост",
       "url": "https://www.youtube.com/watch?v=pcG0_I-j-_E",
-      "views": 17026,
+      "views": 19268,
       "ideas": [],
       "degree": 2
     },
@@ -85677,7 +85677,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=etBO_OoVaRE",
-      "views": 957,
+      "views": 966,
       "ideas": [],
       "degree": 2
     },
@@ -85689,7 +85689,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=oUgZgRVE6Lw",
-      "views": 33793,
+      "views": 37906,
       "ideas": [],
       "degree": 2
     },
@@ -85701,7 +85701,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=GaiEDEZLcw0",
-      "views": 217049,
+      "views": 226274,
       "ideas": [],
       "degree": 2
     },
@@ -85713,7 +85713,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=mxz08W_YzmM",
-      "views": 16886,
+      "views": 17733,
       "ideas": [],
       "degree": 2
     },
@@ -85725,7 +85725,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=PBOJVjpZS6I",
-      "views": 19597,
+      "views": 21386,
       "ideas": [],
       "degree": 2
     },
@@ -85737,7 +85737,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=ZELPNFXJ4_o",
-      "views": 40812,
+      "views": 47060,
       "ideas": [],
       "degree": 2
     },
@@ -85749,7 +85749,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=SRXMDIm6hQU",
-      "views": 7278,
+      "views": 7708,
       "ideas": [],
       "degree": 2
     },
@@ -85761,7 +85761,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=BP8rpg4a_B0",
-      "views": 168,
+      "views": 203,
       "ideas": [],
       "degree": 2
     },
@@ -85773,7 +85773,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=Yyr0B571qN8",
-      "views": 334676,
+      "views": 336149,
       "ideas": [],
       "degree": 2
     },
@@ -85785,7 +85785,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=hzlsklkJSzw",
-      "views": 92,
+      "views": 119,
       "ideas": [],
       "degree": 2
     },
@@ -85797,7 +85797,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=zvCGXC-_Ryg",
-      "views": 629400,
+      "views": 632582,
       "ideas": [],
       "degree": 2
     },
@@ -85809,7 +85809,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=KtHTA4EFiFI",
-      "views": 4660,
+      "views": 4757,
       "ideas": [],
       "degree": 2
     },
@@ -85821,7 +85821,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=SzxMKmRVOAM",
-      "views": 3519,
+      "views": 4614,
       "ideas": [],
       "degree": 2
     },
@@ -85833,7 +85833,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=erJb8Vgsgrs",
-      "views": 1908,
+      "views": 2048,
       "ideas": [],
       "degree": 2
     },
@@ -85845,7 +85845,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=sFqYVXciDVE",
-      "views": 170,
+      "views": 193,
       "ideas": [],
       "degree": 2
     },
@@ -85857,7 +85857,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=X5Fyvieyl8g",
-      "views": 40977,
+      "views": 45925,
       "ideas": [],
       "degree": 2
     },
@@ -85869,7 +85869,7 @@
       "topic": "Разное",
       "macro_theme": "Технологии",
       "url": "https://www.youtube.com/watch?v=X9deodj79x4",
-      "views": 148,
+      "views": 187,
       "ideas": [],
       "degree": 2
     },
@@ -85881,7 +85881,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=IFvHnJR8L1s",
-      "views": 57413,
+      "views": 65315,
       "ideas": [],
       "degree": 2
     },
@@ -85893,7 +85893,7 @@
       "topic": "Разное",
       "macro_theme": "Бизнес",
       "url": "https://www.youtube.com/watch?v=-SyO5y-wRKk",
-      "views": 2297,
+      "views": 2368,
       "ideas": [],
       "degree": 2
     },
@@ -85905,7 +85905,7 @@
       "topic": "Разное",
       "macro_theme": "Бизнес",
       "url": "https://www.youtube.com/watch?v=qSXhaWuCNXA",
-      "views": 21182,
+      "views": 21996,
       "ideas": [],
       "degree": 2
     },
@@ -85917,7 +85917,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=DoHPZf7jEQ4",
-      "views": 13978,
+      "views": 15380,
       "ideas": [],
       "degree": 2
     },
@@ -85929,7 +85929,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=5Yut0GCY_AM",
-      "views": 1178,
+      "views": 1245,
       "ideas": [],
       "degree": 2
     },
@@ -85941,7 +85941,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=gC3wvTrZOAM",
-      "views": 4432,
+      "views": 4795,
       "ideas": [],
       "degree": 2
     },
@@ -85953,7 +85953,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=3oBlubLXBms",
-      "views": 7303,
+      "views": 7765,
       "ideas": [],
       "degree": 2
     },
@@ -85965,7 +85965,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=o0ORPbSEgd8",
-      "views": 24303,
+      "views": 28429,
       "ideas": [],
       "degree": 2
     },
@@ -85977,7 +85977,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=3L_CrPhErso",
-      "views": 5083,
+      "views": 5381,
       "ideas": [],
       "degree": 2
     },
@@ -85989,7 +85989,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=5nBAH736mt4",
-      "views": 1070,
+      "views": 1132,
       "ideas": [],
       "degree": 2
     },
@@ -86001,7 +86001,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=cga7bZZbMXE",
-      "views": 1997,
+      "views": 2062,
       "ideas": [],
       "degree": 2
     },
@@ -86013,7 +86013,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=D3PCiKdUzck",
-      "views": 30974,
+      "views": 32183,
       "ideas": [],
       "degree": 2
     },
@@ -86025,7 +86025,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=GHPB1MwlKU0",
-      "views": 9644,
+      "views": 10675,
       "ideas": [],
       "degree": 2
     },
@@ -86037,7 +86037,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=YvTKTM0zgfo",
-      "views": 557311,
+      "views": 560871,
       "ideas": [],
       "degree": 2
     },
@@ -86049,7 +86049,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=4-sMW2_JCS8",
-      "views": 5789,
+      "views": 6233,
       "ideas": [],
       "degree": 2
     },
@@ -86061,7 +86061,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=V8C0S7CcEc8",
-      "views": 18004,
+      "views": 20075,
       "ideas": [],
       "degree": 2
     },
@@ -86073,7 +86073,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=a88QJaldxgY",
-      "views": 756,
+      "views": 769,
       "ideas": [],
       "degree": 2
     },
@@ -86085,7 +86085,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=a4SCP5nZuIo",
-      "views": 29473,
+      "views": 31179,
       "ideas": [],
       "degree": 2
     },
@@ -86097,7 +86097,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=-HEnfCGUSqE",
-      "views": 3736,
+      "views": 3915,
       "ideas": [],
       "degree": 2
     },
@@ -86109,7 +86109,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=81eAT_afqSA",
-      "views": 128988,
+      "views": 155290,
       "ideas": [],
       "degree": 2
     },
@@ -86121,7 +86121,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=N0zC0CpwiZc",
-      "views": 14301247,
+      "views": 18871719,
       "ideas": [],
       "degree": 2
     },
@@ -86133,7 +86133,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=fGUQnZAsY1Q",
-      "views": 78,
+      "views": 86,
       "ideas": [],
       "degree": 2
     },
@@ -86145,7 +86145,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=8RuzHkmHQHQ",
-      "views": 331685,
+      "views": 362890,
       "ideas": [],
       "degree": 2
     },
@@ -86157,7 +86157,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=_eL3iLybe2M",
-      "views": 3669,
+      "views": 3722,
       "ideas": [],
       "degree": 2
     },
@@ -86169,7 +86169,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=fvqf1b5vkfo",
-      "views": 1220,
+      "views": 1320,
       "ideas": [],
       "degree": 2
     },
@@ -86181,7 +86181,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=1JJ3gIFiNOg",
-      "views": 948371,
+      "views": 967786,
       "ideas": [],
       "degree": 2
     },
@@ -86193,7 +86193,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=fSkl4GfnKHs",
-      "views": 14811,
+      "views": 16062,
       "ideas": [],
       "degree": 2
     },
@@ -86205,7 +86205,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=Sl5Um7QNXzY",
-      "views": 4611,
+      "views": 4762,
       "ideas": [],
       "degree": 2
     },
@@ -86217,7 +86217,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=idgcxIziM9c",
-      "views": 5866,
+      "views": 6055,
       "ideas": [],
       "degree": 2
     },
@@ -86226,11 +86226,20 @@
       "type": "video",
       "label": "Один с Дмитрием Быковым*. Травля как литературный жанр / 26.08.26",
       "author": "Живой Гвоздь",
-      "topic": "Разное",
+      "topic": "Анализ феномена лекторства, литературной критики и исторической судьбы России через призму травли, архетипов и культурных кодов.",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=NUZGId6O3o4",
-      "views": 15693,
-      "ideas": [],
+      "views": 18404,
+      "ideas": [
+        "Лекторство — это мост между высокой культурой и массовой аудиторией, часто воспринимаемый профессионалами как девальвация сложных тем.",
+        "Мотивы лекторов делятся на три типа: желание экстраверта поделиться ощущениями, потребность структурировать мысли вслух и стремление создать окружение единомышленников.",
+        "Спикер приводит пример книги Джеймса Джонса «Иди к разлучнице», где описание клаустрофобии героя совпало с личным опытом автора.",
+        "Аналогия с историей мальчика, раздающего макароны, иллюстрирует идею создания коллектива через ритуалы и общие интересы.",
+        "Лекции возникли как способ самоспасения русского социума, когда образование попало в кризис.",
+        "Научная деятельность и лекторство часто мотивированы личным интересом, а не исключительно благом человечества.",
+        "Российская модель государства (с Ивана Грозного) описывается как смертоцентричная секта, ведущая к самоубийству.",
+        "Путин назван гениальным исполнителем предначертанной Иваном Грозным трагической судьбы России."
+      ],
       "degree": 2
     },
     {
@@ -86238,11 +86247,19 @@
       "type": "video",
       "label": "Вечер на Живом гвозде. Андрей Нечаев, Даня Порнорэп, Борис Барабанов и Лиза Аникина",
       "author": "Живой Гвоздь",
-      "topic": "Разное",
-      "macro_theme": "Разное",
+      "topic": "Обсуждение политических решений по выборам (партия «Яблоко»), анализа состояния российской экономики (зависимость от ВПК, топливный кризис) и культурного феномена Канье Уэста в контексте цензуры и отмены концертов.",
+      "macro_theme": "Финансы",
       "url": "https://www.youtube.com/watch?v=O2jtHHZld98",
-      "views": 10302,
-      "ideas": [],
+      "views": 10762,
+      "ideas": [
+        "Суд отменил решение о снятии Михаила Матвеева с выборов, что спикеры воспринимают как редкий случай объективности.",
+        "Партия «Яблоко» была вычеркнута из-за антивоенной позиции, что создает риски для власти в случае получения парцией более 5% голосов.",
+        "Власти предпочитают устранять конкурентов заранее, чтобы избежать необходимости объяснять результаты выборов и управлять общественным мнением.",
+        "Экономика зашла в тупик из-за зависимости от ВПК и топливного кризиса.",
+        "Вышел указ президента об изъятии активов компаний, не обеспечивших защиту от дронов.",
+        "Концерт Канье Уэста в Санкт-Петербурге был отменен после отказа «Газпром Арены» подписать договор.",
+        "Канье Уэст потерял миллиардное состояние за 5 лет из-за медийных скандалов и разрыва контрактов с Adidas."
+      ],
       "degree": 2
     },
     {
@@ -86253,7 +86270,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=RSzH9A35Di8",
-      "views": 6859,
+      "views": 7284,
       "ideas": [],
       "degree": 2
     },
@@ -86265,7 +86282,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=xL1AwoHY-w4",
-      "views": 120077,
+      "views": 124360,
       "ideas": [],
       "degree": 2
     },
@@ -86277,7 +86294,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=zwhkXMu7b2c",
-      "views": 15563,
+      "views": 15782,
       "ideas": [],
       "degree": 2
     },
@@ -86289,7 +86306,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=wvPO6oRt6UM",
-      "views": 8385,
+      "views": 10651,
       "ideas": [],
       "degree": 2
     },
@@ -86301,7 +86318,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=zCCsOGNOk58",
-      "views": 33129,
+      "views": 36128,
       "ideas": [],
       "degree": 2
     },
@@ -86313,7 +86330,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=EcBQY6pLHQ4",
-      "views": 111259,
+      "views": 114192,
       "ideas": [],
       "degree": 2
     },
@@ -86325,7 +86342,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=YWEH83MvCvU",
-      "views": 22044,
+      "views": 22908,
       "ideas": [],
       "degree": 2
     },
@@ -86337,7 +86354,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=FzUyzbRuC8s",
-      "views": 65263,
+      "views": 65790,
       "ideas": [],
       "degree": 2
     },
@@ -86349,7 +86366,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=DyEZxfDWcvA",
-      "views": 396828,
+      "views": 404421,
       "ideas": [],
       "degree": 2
     },
@@ -86361,7 +86378,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=AREdERLjGW4",
-      "views": 13438,
+      "views": 16251,
       "ideas": [],
       "degree": 2
     },
@@ -86373,7 +86390,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=lPupoU1yaDE",
-      "views": 60003,
+      "views": 64327,
       "ideas": [],
       "degree": 2
     },
@@ -86385,7 +86402,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=8w9lPYAH3SM",
-      "views": 8059,
+      "views": 9480,
       "ideas": [],
       "degree": 2
     },
@@ -86397,7 +86414,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=f7GBCgRNnhw",
-      "views": 19679,
+      "views": 20872,
       "ideas": [],
       "degree": 2
     },
@@ -86409,7 +86426,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=ghvkXlsPy0c",
-      "views": 4954,
+      "views": 6930,
       "ideas": [],
       "degree": 2
     },
@@ -86421,7 +86438,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=X6KF3FKZF1g",
-      "views": 221519,
+      "views": 228218,
       "ideas": [],
       "degree": 2
     },
@@ -86433,7 +86450,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=AD1lwvT9_nM",
-      "views": 629,
+      "views": 830,
       "ideas": [],
       "degree": 2
     },
@@ -86445,7 +86462,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=3yh66qK0jNo",
-      "views": 14102,
+      "views": 14880,
       "ideas": [],
       "degree": 2
     },
@@ -86457,7 +86474,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=RVSDJl_aJls",
-      "views": 36650,
+      "views": 38039,
       "ideas": [],
       "degree": 2
     },
@@ -86481,7 +86498,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=q5hW5eT2Lkc",
-      "views": 38952,
+      "views": 39957,
       "ideas": [],
       "degree": 2
     },
@@ -86493,7 +86510,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=d_by0ua9R70",
-      "views": 3219,
+      "views": 3560,
       "ideas": [],
       "degree": 2
     },
@@ -86505,7 +86522,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=lJr7NvVZ3Cg",
-      "views": 30272,
+      "views": 30788,
       "ideas": [],
       "degree": 2
     },
@@ -86517,7 +86534,7 @@
       "topic": "Разное",
       "macro_theme": "Бизнес",
       "url": "https://www.youtube.com/watch?v=4e0sg5vDKpk",
-      "views": 554,
+      "views": 653,
       "ideas": [],
       "degree": 2
     },
@@ -86529,7 +86546,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=nWgvobB4hcw",
-      "views": 6617,
+      "views": 7867,
       "ideas": [],
       "degree": 2
     },
@@ -86541,7 +86558,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=lhZCdPYR7Ss",
-      "views": 4148,
+      "views": 4279,
       "ideas": [],
       "degree": 2
     },
@@ -86553,7 +86570,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=A73FZcA-aoA",
-      "views": 694622,
+      "views": 701590,
       "ideas": [],
       "degree": 2
     },
@@ -86565,7 +86582,7 @@
       "topic": "Разное",
       "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=IGM49cYgtpE",
-      "views": 327627,
+      "views": 379620,
       "ideas": [],
       "degree": 2
     },
@@ -86577,7 +86594,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=bg0C-2iUUqM",
-      "views": 38307,
+      "views": 46246,
       "ideas": [],
       "degree": 2
     },
@@ -86589,7 +86606,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=7HtM_znkeEE",
-      "views": 33751,
+      "views": 34657,
       "ideas": [],
       "degree": 2
     },
@@ -86601,7 +86618,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=TVpLs0F1zpA",
-      "views": 27693,
+      "views": 36098,
       "ideas": [],
       "degree": 2
     },
@@ -86613,7 +86630,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=ZNWI23HqrCs",
-      "views": 59172,
+      "views": 63824,
       "ideas": [],
       "degree": 2
     },
@@ -86625,7 +86642,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=zEZ0rQ8Ef-Y",
-      "views": 6544,
+      "views": 7615,
       "ideas": [],
       "degree": 2
     },
@@ -86637,7 +86654,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=F4JMwWLD_2Q",
-      "views": 7524,
+      "views": 8976,
       "ideas": [],
       "degree": 2
     },
@@ -86649,7 +86666,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=gijtw5kNTXU",
-      "views": 26617,
+      "views": 28294,
       "ideas": [],
       "degree": 2
     },
@@ -86661,7 +86678,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=FVVSS9hnNB0",
-      "views": 959461,
+      "views": 1007366,
       "ideas": [],
       "degree": 2
     },
@@ -86673,7 +86690,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=JVNYEAy_VC0",
-      "views": 8599,
+      "views": 9764,
       "ideas": [],
       "degree": 2
     },
@@ -86685,7 +86702,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=qmPf74rM1xM",
-      "views": 45041,
+      "views": 47362,
       "ideas": [],
       "degree": 2
     },
@@ -86697,7 +86714,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=niTJ2221aS8",
-      "views": 21993,
+      "views": 26054,
       "ideas": [],
       "degree": 2
     },
@@ -86709,7 +86726,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=_uU4bt-3PIo",
-      "views": 85109,
+      "views": 89178,
       "ideas": [],
       "degree": 2
     },
@@ -86721,7 +86738,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=RB74Me3_prs",
-      "views": 453,
+      "views": 622,
       "ideas": [],
       "degree": 2
     },
@@ -86730,11 +86747,17 @@
       "type": "video",
       "label": "Pepe Esobar  :  What Iran Expects From Trump",
       "author": "Judge Napolitano - Judging Freedom",
-      "topic": "Разное",
-      "macro_theme": "Разное",
+      "topic": "Анализ ожиданий Ирана от администрации Трампа, включая критику американских стратегий контроля над Ормузским проливом и роль стран Глобального Юга в обходе санкций.",
+      "macro_theme": "Геополитика",
       "url": "https://www.youtube.com/watch?v=b6FNI9fTpXg",
-      "views": 92645,
-      "ideas": [],
+      "views": 99407,
+      "ideas": [
+        "США не контролируют Ормузский пролив; их корабли находятся слишком далеко (400-600 км) для эффективной блокады.",
+        "Иран экспортирует около 300-500 тысяч баррелей в день через сухопутные пути с помощью Пакистана и Китая.",
+        "Россия, Китай и Пакистан отвергают вторичные санкции США против Ирана.",
+        "Страны BRICS и Глобального Юга активно работают над обходом американских санкций через Иран на саммите в Дели.",
+        "Украина уже проиграла войну из-за разрушенной инфраструктуры и отсутствия средств."
+      ],
       "degree": 2
     },
     {
@@ -86742,11 +86765,16 @@
       "type": "video",
       "label": "COL. Lawrence Wilkerson  :  No Chance for US to Prevail in Iran",
       "author": "Judge Napolitano - Judging Freedom",
-      "topic": "Разное",
+      "topic": "Анализ перспектив конфликта США с Ираном и Украины через призму критики ЦРУ, исторических параллелей с Гитлером и оценки военной готовности США.",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=0YOWLR5qHHg",
-      "views": 69728,
-      "ideas": [],
+      "views": 93974,
+      "ideas": [
+        "Спецоперация России началась как превентивный удар против плана Украины напасть на Москву 8 марта 2022 года.",
+        "Контроль США над Ормузским проливом не является полным; суда проходят через него скрытно ночью.",
+        "Трамп планирует возобновить войну с Ираном после выборов в конце ноября, возможно, с применением ядерного оружия.",
+        "США не могут выиграть конфликт из-за истощения военных ресурсов и сокращения бюджета при администрациях Буша и Клинтон."
+      ],
       "degree": 2
     },
     {
@@ -86754,11 +86782,18 @@
       "type": "video",
       "label": "Max Blumenthal  :  -   Netanyahu: The Islamic Republic of Britain?",
       "author": "Judge Napolitano - Judging Freedom",
-      "topic": "Разное",
+      "topic": "Анализ гибридной войны Израиля против Великобритании и США, критика про-израильской повестки демократов в Конгрессе и обсуждение угроз со стороны радикальных элементов израильского правительства.",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=KIr4Dq-DZag",
-      "views": 94227,
-      "ideas": [],
+      "views": 140278,
+      "ideas": [
+        "Нетаньяху угрожает Великобритании гибридной войной, если та откажется от «особых отношений» с Израилем или позволит политическое влияние мусульманских иммигрантов.",
+        "США рассматриваются Нетаньяху как «восьмой фронт», а действия против мэра Нью-Йорка Зохрана Мамдани оправдываются как ответ на угрозы убийства со стороны израильских сил.",
+        "Группа «Palestine Action» успешно парализует производство оружия в заводах Elbit Systems в Великобритании, но сталкивается с судебными преследованиями и попытками объявить их террористами.",
+        "Администрация Трампа (в 2026 году) и британское правительство пытаются классифицировать мирные акции солидарности как терроризм, чтобы подорвать демократические процессы.",
+        "Демократы в Конгрессе сохраняют про-израильскую повестку через назначение лояльных AIPAC членов на ключевые посты.",
+        "Габи Ашкенази характеризуется как архитектор доктрины Дахия и ответственный за операцию «Цельный свинец», более опасный, чем Нетаньяху."
+      ],
       "degree": 2
     },
     {
@@ -86769,7 +86804,7 @@
       "topic": "Разное",
       "macro_theme": "Личностный рост",
       "url": "https://www.youtube.com/watch?v=7EZTrt_bqs8",
-      "views": 6196,
+      "views": 6485,
       "ideas": [],
       "degree": 2
     },
@@ -86781,7 +86816,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=1BApLicRt1w",
-      "views": 73984,
+      "views": 87723,
       "ideas": [],
       "degree": 2
     },
@@ -86793,7 +86828,7 @@
       "topic": "Разное",
       "macro_theme": "AI",
       "url": "https://www.youtube.com/watch?v=sp64f4mIDKM",
-      "views": 3203,
+      "views": 3810,
       "ideas": [],
       "degree": 2
     },
@@ -86805,7 +86840,7 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=JR-kJFQku_Q",
-      "views": 321456,
+      "views": 338547,
       "ideas": [],
       "degree": 2
     },
@@ -86817,7 +86852,1229 @@
       "topic": "Разное",
       "macro_theme": "Разное",
       "url": "https://www.youtube.com/watch?v=V1_U8TjN1AA",
-      "views": 1778,
+      "views": 2395,
+      "ideas": [],
+      "degree": 2
+    },
+    {
+      "id": "4MWK13PWgWY",
+      "type": "video",
+      "label": "Behind the Scenes: Math for Introductory CS - Exponents and Logarithms",
+      "author": "CS50",
+      "topic": "Обучение математическим концепциям (степени, логарифмы, экспоненты) через технику Ферми и анализ игровых экономик.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=4MWK13PWgWY",
+      "views": 21069,
+      "ideas": [
+        "Техника Ферми позволяет оценивать сложные вопросы, разбивая их на простые компоненты и округляя до ближайшего порядка величины.",
+        "При умножении степеней с одинаковым основанием показатели складываются, а при делении — вычитаются.",
+        "Логарифм является обратной функцией к показательной функции и позволяет «опустить» показатель степени.",
+        "Иррациональные показатели степени определяются через формулу a^b = e^(b * ln(a)).",
+        "Экономика Хайруль демонстрирует высокую инфляцию (6,6% годовых), превышающую здоровый уровень в 2%."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "6IkkfiwlUCQ",
+      "type": "video",
+      "label": "Армения  сорвет мобилизацию в  РФ. Новый план Путина- полное уничтожение Украины.",
+      "author": "Aleksandr Nevzorov",
+      "topic": "Анализ реакции Армении на российскую мобилизацию, критика российской политической системы и прогнозы о последствиях войны для демобилизованных солдат.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=6IkkfiwlUCQ",
+      "views": 442248,
+      "ideas": [
+        "Армения готова принимать всех, кто хлынет в страну от мобилизации, без специальных мер на границе.",
+        "Венгрия официально признала Россию угрозой для себя и человечества.",
+        "На сентябрьские выборы в РФ зарегистрировано 1600 участников СВО («окопных орков»).",
+        "Россия и Северная Корея лишены права на мысль, развитие и сомнения.",
+        "Вернувшиеся с фронта солдаты могут стать бандитами или серийными убийцами."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "6QtLeRWDHBk",
+      "type": "video",
+      "label": "Борьба за мир - спасайся кто может!!!",
+      "author": "SiliconValleyVoice",
+      "topic": "Анализ причин начала Второй мировой войны с акцентом на провокации Германии и ввод советских войск в Польшу.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=6QtLeRWDHBk",
+      "views": 8628,
+      "ideas": [
+        "Страны боролись за мир до тех пор, пока их не вынудили к войне (пример: Чемберлен, Сталин, Гитлер).",
+        "Нападение Германии на Польшу было спровоцировано операцией «Консервы» (убийство сотрудников радиостанции в Глявице и использование трупов поляков).",
+        "СССР ввёл войска в Польшу 17 сентября, заявив о прекращении существования польского государства и защите украинцев и белорусов.",
+        "Пакт Молотова-Риббентропа предусматривал секретное разделение Польши между Германией и СССР."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "6QwEZwO5g0Y",
+      "type": "video",
+      "label": "⚡️СРАЗУ после ВСТРЕЧИ с ДИРЕКТОРОМ ЦРУ! НЕ ПОВЕРИТЕ, что произошло ПРЯМО в МОСКВЕ. Путин ТЕРЯЕТ ВСЁ",
+      "author": "Андрей Пионтковский",
+      "topic": "Анализ геополитических последствий визита директора ЦРУ и Зеленского в Китай, предполагающий смену стратегии конфликта через посредничество Пекина.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=6QwEZwO5g0Y",
+      "views": 163078,
+      "ideas": [
+        "Визит директора ЦРУ Родкифа в Москву был предупреждением Кремлю о невозможности атак на НАТО.",
+        "Китай демонстрирует антироссийскую позицию (отказ от «Сила Сибири», поддержка суверенитета Беларуси), что спикер интерпретирует как приглашение Украине к стратегическому сближению.",
+        "Предлагается план: визит Сигибы в Пекин, пресс-конференция Ван И и последующий государственный визит Зеленского 1 сентября.",
+        "Китай добился полного экономического и политического доминирования над Россией, превратив её в зависимого партнера.",
+        "Северная Корея перенаправляет войска и технику через Россию на Украину, что подтверждает влияние Пекина на Москву."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "7_-T8KNfENA",
+      "type": "video",
+      "label": "Трампу не до Украины. Все «башни» одинаковы. Не выборы, а спецоперация. Андрей Илларионов*",
+      "author": "Живой Гвоздь",
+      "topic": "Анализ визита директора ЦРУ Ратклефа в Москву, мотивов действий Трампа перед выборами и призыв к бойкоту выборов Госдумы из-за узурпации власти.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=7_-T8KNfENA",
+      "views": 55880,
+      "ideas": [
+        "Информационное сопровождение визита директора ЦРУ в Москву сильно отличается от того, что происходит в Вашингтоне: Москва молчала, а США активно сливали утечки.",
+        "Популярные версии о целях визита (предупреждение о нападении, мирные предложения) носят противоречивый и неподтвержденный характер.",
+        "Встреча Ратлифа в Москве была инициирована для решения проблемы Ирана, а не Украины.",
+        "Путин незримо контролировал переговоры и использовал свое влияние над Ираном для помощи Трампу перед промежуточными выборами.",
+        "Участие в выборах рассматривается как способ легитимизации узурпированной власти, а официальная статистика искажена.",
+        "Снятие флага США с посольства связано со смертью поп-звезды, а не с политическими отношениями.",
+        "Визит директора ЦРУ Ратклефа в Москву окружён множеством противоречивых версий и утечек информации.",
+        "Главной проблемой для Трампа является незавершенная война Ирана против США, которую поддерживают Россия и Китай."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "C8yCdvyeKBI",
+      "type": "video",
+      "label": "Так приедет ли Канье Уэст в Россию? Даня Порнорэп, Борис Барабанов и Лиза Аникина. Фигура",
+      "author": "Живой Гвоздь",
+      "topic": "Обсуждение вероятности концерта Канье Уэста в России, его биографии, скандалов и политической актуальности для аудитории.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=C8yCdvyeKBI",
+      "views": 6727,
+      "ideas": [
+        "Концерт Канье Уэста в Санкт-Петербурге под вопросом из-за отсутствия подписанного договора с «Газпром Арену» к 27 числу.",
+        "Состояние Канье упало с 6,5 млрд до 350-400 млн долларов за 5 лет из-за скандалов и разрыва контрактов (Adidas).",
+        "Провокации артиста интерпретируются как борьба с цензурой, что делает его актуальным для России.",
+        "Александр Дугин назвал Канье «идеологически нашим», несмотря на его высказывания.",
+        "Собрано 4,25 млн рублей донатов для поддержки проекта канала."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "HuX70EhFaEg",
+      "type": "video",
+      "label": "Покупаешь гибрид или электричку? Обязательно к просмотру",
+      "author": "Клубный сервис",
+      "topic": "Анализ рисков покупки китайских гибридов и электромобилей в России из-за отсутствия долгосрочной поддержки, быстрой моральной устаревания и несоответствия технологий российским климатическим условиям.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=HuX70EhFaEg",
+      "views": 471868,
+      "ideas": [
+        "Китайские гибриды создаются как массовый товар с расчетом на эксплуатацию 1.5–2 года, а не как долгосрочное имущество.",
+        "В России покупатели переплачивают в 2 раза за ту же машину, но получают ноль гарантий и поддержку после окончания дилерского срока.",
+        "Китайские производители меняют архитектуру батарей и электромоторов каждые год-два, делая предыдущие модели устаревшими.",
+        "В отличие от Запада (10–15 лет поддержки), в Китае нет законов, гарантирующих права потребителей на долгосрочное обслуживание.",
+        "Покупатель гибрида в РФ берет на себя все коммерческие риски: деградацию батареи, поломки и отсутствие запчастей.",
+        "Китайские автомобили устаревают морально каждые 1-2 года, теряя ликвидность и стоимость.",
+        "Электроника и сенсоры (лидары) деградируют быстрее механики и бесполезны на грязных российских дорогах зимой.",
+        "Технологии, созданные для теплого климата (Хайнань), не подходят для эксплуатации в Сибири или России."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NUfOwJC5cas",
+      "type": "video",
+      "label": "ЭТИ 2 метода помогут принять ЛЮБОЕ решение в бизнесе",
+      "author": "Михаил Гребенюк",
+      "topic": "Михаил Гребенюк описывает два метода принятия бизнес-решений: стратегические («однодверные») и тактические («двухдверные»), а также формулу успеха через калибр личности, среду, систему и время.",
+      "macro_theme": "Бизнес",
+      "url": "https://www.youtube.com/watch?v=NUfOwJC5cas",
+      "views": 20782,
+      "ideas": [
+        "Главный продукт деятельности предпринимателя — принятие решений.",
+        "Результат зависит от калибра личности, среды, системы и времени.",
+        "Существует два типа решений: стратегические (One Way Door) и тактические (Two Way Doors).",
+        "Для стратегических решений нужен подход «подумал, понял, сделал», а для тактических — «сделал, понял, подумал».",
+        "Спикер купил 90% компании всего за два месяца от идеи до сделки.",
+        "В условиях турбулентности нельзя долго думать, нужно быстро действовать с умом."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "O82hZ9gQuo4",
+      "type": "video",
+      "label": "LoRA и RAG: как адаптировать LLM под свои данные и задачи",
+      "author": "OTUS IT Онлайн - образование",
+      "topic": "Сравнение технологий RAG и LoRA для адаптации больших языковых моделей под конкретные задачи, а также обзор продвинутого курса по машинному обучению.",
+      "macro_theme": "AI",
+      "url": "https://www.youtube.com/watch?v=O82hZ9gQuo4",
+      "views": 495,
+      "ideas": [
+        "Вебинар сравнивает технологии RAG и LoRA для адаптации LLM под конкретные задачи.",
+        "Языковая модель решает задачу предсказания вероятности следующего слова или токена в последовательности текста.",
+        "В современных моделях используется стратегия токенизации на подслова, а не только целые слова.",
+        "System prompt определяет контекст ситуации, позволяя модели точнее сфокусироваться на цели.",
+        "Технология RAG позволяет модели опираться на внешние базы знаний для точных фактологических ответов.",
+        "LoRA — это метод дообучения легковесного модуля, который не требует изменения весов исходной модели.",
+        "Для векторизации текстов рекомендуется использовать имбедеры, специализированные на нужном языке (например, FreeDa для русского).",
+        "Курс по теме стартует в конце июля, а занятия проходят по средам и пятницам."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "QTB69fkUAnI",
+      "type": "video",
+      "label": "Power BI + SQL + AI Masterclass 2026 | Build 22 Real-World Data Analytics Projects #powerbi #sql #ai",
+      "author": "Data Tutorials",
+      "topic": "Представление комплексного курса по Power BI, SQL и искусственному интеллекту с 22 реальными проектами и интеграцией облачных моделей ИИ.",
+      "macro_theme": "AI",
+      "url": "https://www.youtube.com/watch?v=QTB69fkUAnI",
+      "views": 1935,
+      "ideas": [
+        "Курс включает 22 реальных проекта по Power BI, SQL и AI.",
+        "Обучение охватывает ввод данных из Excel, CSV, SQL Server, Fabric и ADLS.",
+        "Подробно разбираются типы диаграмм, фильтры, срезы (slicers) и параметры.",
+        "Модуль DAX включает агрегатные, логические, временные и текстовые функции.",
+        "Интеграция Cloud AI с Power BI через MCP-серверы и JSON-файлы.",
+        "Курс обновляется ежемесячно новыми моделями и темами.",
+        "Для обучения SQL используется база данных MySQL, но навыки применимы к MSSQL, Postgres и Oracle.",
+        "В курсе представлены 3 проекта по SQL и 21 проект по Power BI."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "SEtI_0ZTlm8",
+      "type": "video",
+      "label": "Слив переписки Грефа. Как ФСБ вербует врагов режима. Кашин*, Шепелин*",
+      "author": "Живой Гвоздь",
+      "topic": "Анализ российской пропаганды, вербовки в спецслужбы, экономических проблем и исторических мифов на основе слитых переписок и наблюдений за медиа-пространством.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=SEtI_0ZTlm8",
+      "views": 68349,
+      "ideas": [
+        "Рита Флорес работала в ФСБ около 3 лет и была вербована через психологическое давление.",
+        "Российское телевидение систематически искажает факты (мощи Донского, Куликовская битва).",
+        "Платформенная экономика России находится под угрозой краха из-за атак на склады и отсутствия инвестиций.",
+        "Вероятность достижения Россией военного превосходства в Украине оценивается Сбербанком в 7%.",
+        "США исторически ставили стабильность ядерной державы выше демократии, поддерживая режимы Ельцина и Путина.",
+        "Дефицит дизельного топлива приведет к полной остановке экономики России в течение месяца."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "UlU-PDRiMQg",
+      "type": "video",
+      "label": "Барон Осман. Великие реформаторы / 28.08.26",
+      "author": "Дилетант",
+      "topic": "Анализ масштабных градостроительных реформ Парижа под руководством барона Османа при Наполеоне III, их причин, социальных последствий и архитектурных особенностей.",
+      "macro_theme": "Разное",
+      "url": "https://www.youtube.com/watch?v=UlU-PDRiMQg",
+      "views": 4421,
+      "ideas": [
+        "Барон Осман кардинально изменил Париж, создав систему бульваров и проспектов, связывающих монументы.",
+        "До реформ город страдал от эпидемий холеры из-за плохой вентиляции и скученности населения (до 100 тыс. чел./км²).",
+        "Транспортная нагрузка была критической: к 1851 году в Париже было более 60 тысяч конных экипажей, занимающих 300 км.",
+        "Реформы включали присоединение пригородов и расширение границ города за укрепления Тьера.",
+        "Вместо снесенных 20 тысяч домов было построено 40 тысяч новых, изменив социальную структуру города.",
+        "Широкие проспекты и казармы у их концов позволяли войскам быстро подавлять восстания.",
+        "Османовские улицы породили социальную исключенность беднейших классов на окраинах."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "V2Du8tGH1CY",
+      "type": "video",
+      "label": "Как люди, приехавшие из СССР, могут в США голосовать за демократов?",
+      "author": "SiliconValleyVoice",
+      "topic": "Анализ причин голосования выходцев из СССР за демократов в США через призму различий между тоталитарным коммунизмом, европейским социализмом и центристской платформой американских демократов.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=V2Du8tGH1CY",
+      "views": 8112,
+      "ideas": [
+        "Критика голосующих за демократов людей из СССР часто является эмоциональной реакцией на травму, а не логическим анализом.",
+        "Советский Союз был тоталитарной системой, тогда как американские демократы придерживаются центристской платформы с частной собственностью.",
+        "Европейский социализм (высокие налоги, социальные программы) ближе к платформе умеренных американских демократов, чем СССР.",
+        "И экстремальные правые республиканцы (магеры), и левые демократы используют методы создания образа врага и бюрократизации управления, что напоминает черты советской системы."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "VSYWq92WjtE",
+      "type": "video",
+      "label": "Визит главы ЦРУ в Москву: переговоры возобновятся? Комары-убийцы — не миф. Венедиктов*",
+      "author": "Живой Гвоздь",
+      "topic": "Анализ технологического влияния на войну (Palantir, ИИ), геополитических сдвигов (отношения РФ-Армения, визит ЦРУ) и критики системы российского медиабизнеса через данные о доходах пропагандистов.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=VSYWq92WjtE",
+      "views": 99313,
+      "ideas": [
+        "Визит главы ЦРУ в Москву связан с вопросами Ирана и энергетического кризиса.",
+        "Компания Palantir меняет ведение современной войны через сбор данных и прогнозирование.",
+        "Украинские технологические компании предоставили ПО для распознавания лиц и ведения боевых действий.",
+        "Доходы российских пропагандистов (Киселёв, Соловьёв) значительно выше официальных средних по стране.",
+        "Введение закона об обязательной отработке врачей в 2026 году усугубит кадровый дефицит.",
+        "Ежегодно от укусов комаров умирает около 700 000 человек.",
+        "Palantir меняет современную войну благодаря сбору информации и прогнозированию.",
+        "Украина использует ПО Clearview AI и Alex Carp для ведения боевых действий."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "WLeS6ixH-mM",
+      "type": "video",
+      "label": "Как сделать идеальный сайт для SEO с помощью AI",
+      "author": "Rush Agency",
+      "topic": "Практическое руководство по созданию высокоэффективных SEO-сайтов с использованием AI-инструментов (DD-code, Klocodo) и современных стеков разработки.",
+      "macro_theme": "AI",
+      "url": "https://www.youtube.com/watch?v=WLeS6ixH-mM",
+      "views": 7445,
+      "ideas": [
+        "Миф о невозможности создания функциональных многостраничных сайтов с помощью AI опровергнут успешным кейсом.",
+        "Структурирование сайта через отдельные страницы усиливает сигналы экспертности для поисковиков.",
+        "Собственные инструменты калькуляции заменяют платные решения стоимостью 70.000 руб./год.",
+        "Использование стека Laravel 11, Tailwind и Alpine JS позволило собрать сайт с админкой за неделю вместо нескольких месяцев.",
+        "Нейросети не способны самостоятельно проектировать структуру каталога, семантику и логику работы сайта без участия человека."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "Z67fHluI4xk",
+      "type": "video",
+      "label": "«Я бы не стала кидать камни в Красовского». Подвиг Шлосберга*. Киселёва уволили / Арина Бородина",
+      "author": "Живой Гвоздь",
+      "topic": "Арина Бородина обсуждает перспективы телевидения, поддержку заключенных через «Зону Телеком», новые проекты в кино и театре (сериалы Стругацких, балет «Анна Каренина»), а также свое отношение к ремейкам и работе на ТВ.",
+      "macro_theme": "Разное",
+      "url": "https://www.youtube.com/watch?v=Z67fHluI4xk",
+      "views": 13410,
+      "ideas": [
+        "Телевидение сохраняет аудиторию благодаря бесплатности, доступности и качественному контенту (сериалы, спорт).",
+        "Лев Шлосберг осужден на 11 лет и 1 месяц; апелляция ожидается в начале сентября.",
+        "Сервис «Зона Телеком» является основным способом связи с заключенными, письма доходят быстро.",
+        "Антон Кросовский ранее помогал многодетным семьям при поддержке Михаила Прохорова.",
+        "Сериал «Трудно быть богом» признан масштабным проектом года на платформе Wiн.",
+        "Новая программа Дмитрия Киселёва в воскресенье имеет высокий рейтинг и не является понижением.",
+        "Андрей Золотарёв написал либрето для балета «Анна Каренина».",
+        "Телевидение сохраняет аудиторию за счет бесплатности, в то время как онлайн-кинотеатры требуют оплаты."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "_jJckjAW3Kw",
+      "type": "video",
+      "label": "Перезагрузка в Польше и украинский вопрос. Российские деньги в польской политике. Найчук, Романенко",
+      "author": "Yuriy Romanenko",
+      "topic": "Анализ текущей политической ситуации в Польше, её влияния на украинский вопрос и перспективы перезагрузки отношений перед выборами 2027 года.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=_jJckjAW3Kw",
+      "views": 19006,
+      "ideas": [
+        "Польское правительство отделяет исторические вопросы от экономических и безопасностных интересов ради интеграции Украины в ЕС.",
+        "Россия рассматривает две главные карты для победы: скрытую мобилизацию и использование зимы через разрушение энергосистемы.",
+        "На правом фланге Польши сформировались четыре основные силы: ПИС, Конфедерация (Менсон/Босак), «Развитие плюс» и Конфедерация Гжегожа Брауна.",
+        "Президент Новроцкий использует тему Украины для консолидации правого лагеря и повышения своих рейтингов.",
+        "Спецслужбы Польши предотвратили теракты, включая попытку взрыва поезда и покушение на художника.",
+        "Перемещение польской техники к границе с Калининградом создает риски превращения её в мишени для российских дронов."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "aIoZcm_d1fw",
+      "type": "video",
+      "label": "Полет из США и план \"буферной зоны\" Кто разводил Маска?  Беседа с Александром Шелестом",
+      "author": "Yulia Latynina",
+      "topic": "Анализ геополитической роли Украины как инструмента Запада, критика позиции Илона Маска и разоблачение планов по созданию буферной зоны под управлением США.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=aIoZcm_d1fw",
+      "views": 86035,
+      "ideas": [
+        "План создания буферной зоны глубиной 200 км предполагает передачу контроля под управление США.",
+        "Россия должна уступить все завоеванные территории (Крым, Донбасс) в обмен на формальное прекращение огня без снятия санкций.",
+        "Илон Маск не разрешит использование Starlink для ударов по России из-за коммерческих рисков и страха ядерной войны.",
+        "Украина рассматривается Западом как «одноразовый инструмент» для взаимного уничтожения двух частей России.",
+        "Текущий переговорный процесс описывается как бюрократическая иллюзия без реальных позиций сторон.",
+        "Частные расследователи (Христо Грозев, Арик Толер) покинули Bellingcat из-за её левых идеологических установок."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "b81fFgC4FjI",
+      "type": "video",
+      "label": "Как растить детей в эпоху повсеместных экранов",
+      "author": "Ирина Якутенко",
+      "topic": "Влияние экранного времени на развитие детей и практические рекомендации по организации цифрового детокса в семье.",
+      "macro_theme": "Психология",
+      "url": "https://www.youtube.com/watch?v=b81fFgC4FjI",
+      "views": 31343,
+      "ideas": [
+        "Долгосрочные интервенционные исследования невозможны, но краткосрочные показывают, что без телефонов дети активнее и удовлетвореннее.",
+        "Экраны вытесняют развивающую активность, ухудшают речь, концентрацию и качество сна из-за нарушения циркадных ритмов.",
+        "Скука важна для творчества, а телефоны лишают детей возможности испытывать продуктивную скуку.",
+        "Рекомендуется отключить все уведомления, чтобы снизить зависимость мозга от внешних стимулов.",
+        "Быстрый контент (Reels, TikTok) следует ограничивать дольше, чем фильмы или мультики, чтобы тренировать способность доводить дела до конца.",
+        "Использование экранного времени как награды или наказания увеличивает риски проблемного использования телефона.",
+        "Никогда не давайте телефон маленьким детям для успокоения, это мешает развитию эмоциональной регуляции.",
+        "Телефон должен храниться в другой комнате во время сна, используйте классический будильник."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "egyI8WQW37U",
+      "type": "video",
+      "label": "«Путин — агент Госдепа». Кашин* об СВО, элите и спецхране / УР 27.08",
+      "author": "Живой Гвоздь",
+      "topic": "Анализ структуры реальной власти в России, роли Владимира Путина как фактора ослабления страны и критика концепции «спецхрана» через призму исторических параллелей и теорий заговора.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=egyI8WQW37U",
+      "views": 58499,
+      "ideas": [
+        "Современный «спецхран» является муляжом советской системы, где запрещённая литература выставлена напоказ с пропагандистскими элементами.",
+        "Владимир Путин отличается от Брежнева отсутствием императива «не было войны», что приводит к насилию ради насилия.",
+        "Реальная власть в России не структурирована как политбюро, а представляет собой непонятную силу с полуродственными связями.",
+        "Внешняя политика и принятие решений часто зависят от личных связей (например, массажисты или повара), а не от официальных должностей.",
+        "Российская элита описывается как замкнутая система, где карьера строится на компромате и круговой поруке.",
+        "США десятилетиями ставили стабильность ядерной державе выше поддержки демократии внутри России.",
+        "Владимир Путин является главным агентом, который ослабил экономику и население России.",
+        "Российские IT-компании (Яндекс, ВК) были разрушены действиями Путина, а не внешними санкциями."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "gQef3d3erOs",
+      "type": "video",
+      "label": "Set Up a Personal Hermes in 14 Mins (no VPS or mac mini)",
+      "author": "Nate Herk | AI Automation",
+      "topic": "Инструкция по настройке управляемого AI-агента Hermes на платформе Hostinger за 14 минут без использования VPS или Mac Mini.",
+      "macro_theme": "AI",
+      "url": "https://www.youtube.com/watch?v=gQef3d3erOs",
+      "views": 34328,
+      "ideas": [
+        "Управляемый агент Hermes на Hostinger стоит около 6 долларов в месяц и дешевле VPS за счет отсутствия необходимости обслуживания сервера.",
+        "Для работы агента рекомендуется использовать API ключ от подписки ChatGPT (Codex) для экономии затрат на инференс.",
+        "Настройка Telegram-бота осуществляется через BotFather, где создается уникальный юзернейм, заканчивающийся на 'bot'.",
+        "Пользователь получает доступ к дашборду для управления задачами, создания расписанных рабочих процессов и просмотра Kanban.",
+        "Дашборд Hermes синхронизируется с телефоном через Telegram и размещен на хостинге Hostinger.",
+        "Для работы с внешними инструментами, такими как Tavily, необходимо добавить соответствующие API ключи в переменные окружения.",
+        "Рекомендуется использовать навык 'grill me' для сбора контекста о пользователе, его целях и бизнесе."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "iva4CWogV-A",
+      "type": "video",
+      "label": "Владимир Пастухов* и Алексей Венедиктов*. Пастуховские четверги / 27.08.26",
+      "author": "Живой Гвоздь",
+      "topic": "Анализ геополитической ситуации, шпионских скандалов и внутренней политики России с комментариями Владимира Пастухова.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=iva4CWogV-A",
+      "views": 258410,
+      "ideas": [
+        "История о завербованной девушке из ФСБ в США рассматривается как некорректная для верификации и возможная выдумка.",
+        "Польский суд закрыл процесс над Блиновым, чтобы скрыть механизмы работы спецслужб и защитить информацию о внедрённых агентах.",
+        "Встреча Нарышкина и Трампа была нестандартной и не являлась рутинной, возможно связана с Ираном.",
+        "Кремль вынужден эскалировать конфликт через гибридную войну, так как ресурсы для прямого вторжения исчерпаны.",
+        "Визит в Дубай интерпретируется как демонстрационный сигнал или предупреждение перед осенними событиями.",
+        "Алексей Фёдоров рассматривается как «оттеночный лидер», выступающий с теми же позиций, что и Зеленский, но обещая делать это лучше.",
+        "Путин проводит выборы в условиях военного положения сознательно, возможно, руководствуясь интуицией или надеждой на возвращение в европейское сообщество."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "m36xRjF77fo",
+      "type": "video",
+      "label": "Phil Giraldi  :  Trump’s Madness (take two)",
+      "author": "Judge Napolitano - Judging Freedom",
+      "topic": "Анализ действий администрации Дональда Трампа, включая назначение директора ЦРУ Джона Ратклиффа для переговоров с Россией, критику дипломатических решений и обсуждение рисков эскалации конфликтов на Ближнем Востоке.",
+      "macro_theme": "AI",
+      "url": "https://www.youtube.com/watch?v=m36xRjF77fo",
+      "views": 64546,
+      "ideas": [
+        "Директор ЦРУ Джон Ратклифф провел 4 часа в России без встречи с Путиным, что является беспрецедентным событием для разведки США.",
+        "Выбор директора ЦРУ вместо госсекретаря Марко Рубио для переговоров с Россией считается ошибочным шагом.",
+        "Дональд Трамп уволил Каролин Левитт после того, как ее не предупредили о том, что самолет Air Force One был подменным.",
+        "Трамп утверждает, что США владеют проливом Ормуз и Онтарио, но у этих заявлений нет оснований.",
+        "Поселенцы на Западном берегу совершают акты жестокости, включая убийство ослика и уничтожение оливковых рощей.",
+        "Администрация Трампа не будет препятствовать Израилю в случае нападения на Турцию, что может привести к серьезным последствиям."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "m722fDFydkM",
+      "type": "video",
+      "label": "Россия усиливает эскалацию. Реактивные дроны РФ меняют правила игры. Юрий Романенко",
+      "author": "Romanenko Shorts",
+      "topic": "Россия усиливает эскалацию войны с использованием реактивных дронов и гибридных боеприпасов, что приводит к системному истощению Украины, необходимости перехода на дистанционное обучение и пересмотру экономических протоколов.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=m722fDFydkM",
+      "views": 6259,
+      "ideas": [
+        "Россия использует реактивные дроны и «Бандероли» для системной эскалации войны, нанося удары по складам, НПЗ и металлургическим заводам.",
+        "Украина сталкивается с тремя критическими проблемами: дырой в ПВО, дефицитом бюджета (27 млрд долларов) и потерей дипломатической субъектности.",
+        "Постоянные воздушные тревоги делают невозможным очный учебный процесс, что приведет к массовому переходу на дистанционное обучение.",
+        "Россия реализует стратегию истощения ресурсов Украины: уничтожение ВПК, отключение энергетики и разрушение аграрного сектора.",
+        "Необходимо срочно пересмотреть протоколы работы экономики и перейти к мобилизационному режиму из-за постоянных атак на Киев и пригороды.",
+        "Строительство аквапарка в Верпине (бюджет 8,5 млн долларов) названо безумием из-за отсутствия инстинкта самосохранения инвесторов.",
+        "Реактивные дроны противника перекрывают левый берег Украины и углубляют зону поражения по мере роста дальности полета.",
+        "Выборы могут стать единственным приемлемым способом выхода из войны, так как Путин и Трамп заинтересованы в смене режима Зеленского."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "mhkNbTm-5hU",
+      "type": "video",
+      "label": "Рубль рухнул: евро по 100. Офицера РФ взорвали в машине. ЦРУ в Москве. Дефицит бензина | ВОЗДУХ",
+      "author": "Ходорковский LIVE",
+      "topic": "Анализ текущей ситуации в России: военные атаки, топливный кризис, экономические последствия ослабления рубля и культурные события.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=mhkNbTm-5hU",
+      "views": 575363,
+      "ideas": [
+        "В Санкт-Петербурге под автомобилем российского военного лётчика взорвалась бомба, погиб один человек.",
+        "Украинские дроны атаковали объекты в Башкирии, включая склад Озона и НПЗ Башнефть.",
+        "Глава ЦРУ Джон Редклиф посетил Москву для встречи с Сергеем Нарышкиным.",
+        "Остановка всех четырех крупнейших НПЗ Лукойла усугубляет топливный кризис.",
+        "Экспорт зерна России рухнул на 79% из-за блокады Черноморской акватории Украиной.",
+        "Рубль стал самой слабой валютой в мире с девальвацией около 20% за последние три месяца."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "nVImVgKpoOY",
+      "type": "video",
+      "label": "LLM & AI Agent Benchmarks vs Reality: Why AI Applications Break",
+      "author": "IBM Technology",
+      "topic": "Разрыв между бенчмарками LLM и реальными показателями приложений из-за компромиссов между точностью, скоростью и стоимостью.",
+      "macro_theme": "AI",
+      "url": "https://www.youtube.com/watch?v=nVImVgKpoOY",
+      "views": 22602,
+      "ideas": [
+        "Существует разрыв между бенчмарками и реальными показателями в продакшене из-за компромисса между точностью, скоростью и стоимостью.",
+        "Оценка моделей включает проверку на стандартизированных тестах (MMLU) или специализированных бенчмарках для кода (SW bench).",
+        "Системная оценка фокусируется на метриках времени до первого токена, внутренней латентности и пропускной способности.",
+        "Разные типы приложений требуют разных профилей нагрузки: офлайн-инференс для больших документов и онлайн-инференс для интерактивных агентов.",
+        "Для масштабирования необходимо найти точку перегиба (inflection point), где пропускная способность максимальна при соблюдении целевой латентности.",
+        "Агенты представляют собой цепочку решений, где каждый шаг является потенциальной точкой отказа и требует отдельной оценки.",
+        "Оценка агентов строится по пирамиде: база (производительность системы), форматирование, безопасность/предвзятость, фактологическая точность и предметная оценка."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "p5rJmsPzfno",
+      "type": "video",
+      "label": "Глава ЦРУ предупредил Путина. Судьба Яблока. Трабер вышел из СИЗО. ФСБ и Рита Флорес / Шендерович*",
+      "author": "Живой Гвоздь",
+      "topic": "Анализ политической ситуации в России, включая действия властей против оппозиции (партия «Яблоко», Илья Трабер), двойные стандарты спецслужб, визит главы ЦРУ и культурные события.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=p5rJmsPzfno",
+      "views": 48546,
+      "ideas": [
+        "Освобождение Илюи Трабера из СИЗО под домашний арест при сохранении обвинений в убийстве.",
+        "Визит главы ЦРУ Дэниела Редклифа в Москву, вероятно, для передачи предупреждений НАТО или о рисках эскалации.",
+        "Снятие партии «Яблоко» и других оппозиционных партий со списков выборов Свердловской области.",
+        "Рекомендация Анатолия Кашпировского испортить бюллетень на выборах вместо голосования за Единую Россию.",
+        "Разгон мультимодного ивента «Безумное чаепитие» полицией дважды за один день в Царицыно и Тропарёво.",
+        "Анонс презентации книги Виктора Шендеровича «Короткий метр» в Вене 2 сентября.",
+        "Обсуждение вероятности концерта Канье Уэста в Санкт-Петербурге 10-11 октября.",
+        "Концерт Канье Уэста в Санкт-Петербурге состоится 10-11 октября."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "v545BRfLtHM",
+      "type": "video",
+      "label": "ДЕНЬ 1646. США ПОСТАВИЛИ ПУТИНУ УЛЬТИМАТУМ/ РАКЕТАМИ УНИЧТОЖЕН ШТАБ В ДОНЕЦКЕ/ НОВЫЕ УДАРЫ ПО OZON",
+      "author": "Майкл Наки",
+      "topic": "Анализ текущей ситуации на фронте, последствий украинских ударов по российской инфраструктуре (Ozon, НПЗ), геополитических угроз НАТО и изменений в командовании ВСУ.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=v545BRfLtHM",
+      "views": 1087775,
+      "ideas": [
+        "Украина нанесла массированный ракетный удар по штабам в Донецке, включая подземный паркинг и промзону НИИ.",
+        "Поражены склады Ozon в Оренбурге и Башкортостане, а также завод «Башкирская содовая компания».",
+        "Директор ЦРУ Джон Редклиф посетил Москву, чтобы предупредить Россию о риске эскалации против стран Балтии.",
+        "Пропагандистские публикации о жертвах среди мирного населения в Донецке быстро удаляются после подтверждения военных целей.",
+        "Украина передала оборону Донбасса двум проверенным командирам: Андрею Белецкому и Денису Прокопенко.",
+        "Фракт на танкеры вырос с 200 тыс. до 469 тыс. долларов в сутки из-за рисков атак.",
+        "НПЗ Лукойл в Хотово приостановил работу 26 августа после удара БПЛА.",
+        "Россия переоборудует до 17 пусковых установок С-400 для ракетных ударов по Украине."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "y5v9Ifeh8lQ",
+      "type": "video",
+      "label": "Раскол в правительстве США. ФРС против Минфина. Ученики Сороса делят власть",
+      "author": "Wall Street с Андреем Михайлец",
+      "topic": "Анализ раскола в американском правительстве между ФРС и Минфином, влияния этого конфликта на экономику США и рекомендации по торговым стратегиям на крипторынке.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=y5v9Ifeh8lQ",
+      "views": 6899,
+      "ideas": [
+        "Кевин Ворш (ФРС) и Джанет Бесент (Минфин) находятся в профессиональном конфликте по поводу процентных ставок.",
+        "Минфин пытается искусственно снизить ставки через операции с облигациями, чтобы облегчить обслуживание госдолга.",
+        "ФРС вынуждена повышать ставки для борьбы с инфляцией, что противоречит целям Минфина.",
+        "Дефицит бюджета США составляет около 6% и не планируется изменению в ближайшие 10-20 лет.",
+        "Госдолг вырастет еще примерно на 14 триллионов долларов в следующие годы.",
+        "ФРС должна повысить ставку хотя бы на одном из заседаний до конца года.",
+        "Процентные ставки являются единственным ограничителем для бесконтрольных государственных трат политиков.",
+        "ФРС пытается дистанцироваться от рынка и сократить прозрачность коммуникации, что усугубляет проблемы США."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "y7K5dWPaUt4",
+      "type": "video",
+      "label": "The Mark Walter Scandal Could Expose Billions in Private Credit Losses",
+      "author": "Eurodollar University",
+      "topic": "Скандал вокруг Марка Уолтера и его империи Guggenheim Partners/TWG Global выявляет системные риски в секторе частного кредитования, связанные с использованием страховых компаний для скрытой концентрации рисков.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=y7K5dWPaUt4",
+      "views": 42536,
+      "ideas": [
+        "Долг Guggenheim Investments в размере 1,18 млрд долларов упал до 73 центов за доллар из-за проблем с ликвидностью и репутации.",
+        "Страховые компании Delaware Life и Clear Spring признали, что более 20 миллиардов долларов инвестиций должны были быть классифицированы как аффилированные.",
+        "Марк Уолтер использовал страховые премии для финансирования своих проектов (например, LA Dodgers, LA Lakers), перекладывая риски на страховщиков.",
+        "Сектор частного кредитования может скрывать огромные потери из-за непрозрачных связей между страховыми компаниями и заемщиками.",
+        "Регуляторное давление заставило страховые компании сократить экспозицию на 6,5 млрд долларов.",
+        "S&P подтвердил рейтинг A- для Delaware Life, но изменил прогноз с устойчивого на негативный."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "yXsqaEDAx4o",
+      "type": "video",
+      "label": "УЛЬТИМАТУМ ПУТИНУ. США предупредили не трогать Балтию",
+      "author": "Майкл Наки",
+      "topic": "США через визит директора ЦРУ предупредили Путина о риске эскалации на Балтике, где Россия планирует гибридную операцию для перенаправления ресурсов Европы.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=yXsqaEDAx4o",
+      "views": 1471693,
+      "ideas": [
+        "Визит директора ЦРУ Джона Редклифа в Москву был дипломатическим предупреждением о риске эскалации на Балтике.",
+        "Основная цель возможного российского нападения — заставить европейцев тратить оружие и деньги на оборону вместо помощи Киеву.",
+        "Американское военное присутствие в Европе сокращается: выводятся войска из Германии, отменяются ротации в Польше и странах Балтии.",
+        "Дефицит критических вооружений (ракеты ATACMS, Patriot SM-3) возник на фоне войны с Ираном.",
+        "Окно риска для ограниченного вторжения оценивается разведкой США как существующее с осени 2026 по 2029 год.",
+        "Европейская система защиты от беспилотников выйдет на полную мощность только к концу 2028 года.",
+        "Физическая оккупация стран Балтии Россией невозможна без вывода войск с Украины.",
+        "Стратегия России строится на провокации инцидента для использования Статьи 5 НАТО."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "z7JwvvkJh34",
+      "type": "video",
+      "label": "Персональный тренер Light. Бесплатный курс FPA. 46/81. Оптимальная нагрузка: больше не лучше",
+      "author": "Ассоциация Профессионалов Фитнеса",
+      "topic": "Оптимальная тренировочная нагрузка для роста мышц не является максимальной, а определяется балансом между стимулом и способностью организма к восстановлению.",
+      "macro_theme": "Разное",
+      "url": "https://www.youtube.com/watch?v=z7JwvvkJh34",
+      "views": 1819,
+      "ideas": [
+        "Суперкомпенсация не линейно зависит от величины нагрузки: чрезмерное утомление может снизить результат из-за нехватки ресурсов на восстановление и адаптацию.",
+        "Восстановление — это активный, ресурсозатратный процесс (синтез гликогена, АТФ, ионов), который конкурирует с процессами роста мышц.",
+        "Оптимальная нагрузка должна быть выше привычного уровня, но не максимальной или изнуряющей.",
+        "Избыточная нагрузка делает тренировку бессмысленной, так как организм тратит все силы на восстановление, а не на суперкомпенсацию."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "-YXmNNuWjek",
+      "type": "video",
+      "label": "За кулисами императорского двора: от Петра I до Екатерины II. Игорь Курукин / Книжное казино",
+      "author": "Дилетант",
+      "topic": "Разное",
+      "macro_theme": "Разное",
+      "url": "https://www.youtube.com/watch?v=-YXmNNuWjek",
+      "views": 0,
+      "ideas": [],
+      "degree": 2
+    },
+    {
+      "id": "YSGAwKE4SLY",
+      "type": "video",
+      "label": "Повседневная жизнь студентов в Средние века.",
+      "author": "Семинары по истории Александра Макарова",
+      "topic": "Разное",
+      "macro_theme": "Разное",
+      "url": "https://www.youtube.com/watch?v=YSGAwKE4SLY",
+      "views": 0,
+      "ideas": [],
+      "degree": 2
+    },
+    {
+      "id": "VXJcJ1LxGo4",
+      "type": "video",
+      "label": "Михаил Вишневский: Деликатесные грибы Грузии",
+      "author": "Центр Архэ",
+      "topic": "Разное",
+      "macro_theme": "Разное",
+      "url": "https://www.youtube.com/watch?v=VXJcJ1LxGo4",
+      "views": 0,
+      "ideas": [],
+      "degree": 2
+    },
+    {
+      "id": "4eiQNRcoaWc",
+      "type": "video",
+      "label": "Перестань покупать БАРАХЛО. АНТИПОТРЕБЛЕНИЕ в кризис",
+      "author": "На пенсию в 35 лет!",
+      "topic": "Необходимость перехода к антипотреблению и фругализму для сохранения финансового здоровья в условиях кризиса.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=4eiQNRcoaWc",
+      "views": 71184,
+      "ideas": [
+        "Рынок дешевого ширпотреба заточен на одноразовые товары через политику планируемого устаревания.",
+        "Экономия на качестве превращается в скрытый налог на бедность из-за необходимости частой замены вещей.",
+        "Технологии (3D-печать, роботизация) позволят в будущем производить детали по требованию вместо массового производства мусора.",
+        "Фругализм (бережливость) отличается от минимализма: первый отвечает на вопрос 'как сделать дешевле', второй — 'нужно ли это вообще'.",
+        "Капитал создается вне биржи через бизнес и пользу обществу, а не через спекуляции.",
+        "Идеальный подход — сочетание минимализма и бережливости: мало вещей, но дорогих и долговечных.",
+        "Расхламление снижает стресс и освобождает место для реального капитала.",
+        "Норма сбережений в кризис 30-50% является обязательной, а не опцией."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "606J0GmupbI",
+      "type": "video",
+      "label": "Развитие команды без найма: инструменты наставничества для QA Lead",
+      "author": "OTUS IT Онлайн - образование",
+      "topic": "Развитие команды QA без внешнего найма через системное наставничество, менторство и использование специфических инструментов (Starmap, RFC, цикл Колба).",
+      "macro_theme": "Психология",
+      "url": "https://www.youtube.com/watch?v=606J0GmupbI",
+      "views": 191,
+      "ideas": [
+        "Развитие команды требует долгосрочной стратегии (до 6 месяцев онбординга), а не только краткосрочных мер.",
+        "Наставник должен снимать стресс у новичка, а не просто передавать знания.",
+        "Метод Феймана помогает выявлять пробелы в знаниях через объяснение без сленга.",
+        "Смена наставника — это рабочий процесс при достижении паритета навыков или психологической несовместимости.",
+        "Матрица Starmap используется для выявления пробелов в навыках сотрудников.",
+        "Шеринг знаний должен проходить полный цикл Колба для закрепления в памяти.",
+        "Документация должна быть централизованной, актуальной и написанной всей командой.",
+        "Паттерн RFC формализует процесс согласования крупных изменений через публикацию и сбор замечаний."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "CCJV2zU8LG4",
+      "type": "video",
+      "label": "INTEL Roundtable w/ Johnson & Kwiatkowski  - Weekly Wrap  28-August",
+      "author": "Judge Napolitano - Judging Freedom",
+      "topic": "Анализ геополитической ситуации вокруг Украины, ослабления американского влияния в Персидском заливе и критики экономической политики Скотта Бессента.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=CCJV2zU8LG4",
+      "views": 75851,
+      "ideas": [
+        "Директор ЦРУ летел на C-17 для перевозки тел погибших американских спецназовцев.",
+        "Мария Захарова заявила, что действия Великобритании ведут к стратегическому поражению России.",
+        "Россия готова атаковать объекты НАТО за пределами Украины.",
+        "Оборонное соглашение между Турцией, Пакистаном и Саудовской Аравией создает угрозу для Израиля.",
+        "Страны Персидского залива стремятся к экономической независимости от США.",
+        "Скотт Бессет обвиняется в коррупции, включая уничтожение базы данных FinCEN.",
+        "Иран контролирует пролив Ормуз с марта 2024 года."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "GsgSq0LhHJI",
+      "type": "video",
+      "label": "ПАПКА, КОТОРУЮ ПУТИНУ БОЯЛИСЬ ПОКАЗАТЬ. Её привезло ЦРУ",
+      "author": "Майкл Наки",
+      "topic": "Анализ секретной встречи директора ЦРУ с Путиным и системного искажения информации российским руководством",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=GsgSq0LhHJI",
+      "views": 1225102,
+      "ideas": [
+        "Глава ЦРУ привёз Путину сводку с фронта, утверждая, что информация от генштаба РФ является ложной.",
+        "Редклиф лично передал данные директору ФСБ Александру Бортниковому, с которым они общались ранее только по закрытому каналу.",
+        "США требуют от России прекратить гибридные атаки на страны НАТО и сократить экономическую поддержку Ирана.",
+        "Путин системно вводит в заблуждение благодаря искажённым данным своих советников, что подтверждается публичными заявлениями российских официальных лиц.",
+        "Герасимов несет абсолютную ахинею про фронт, так как город Купинск остался под контролем Украины.",
+        "Россия не выполнила ни одного из 16 дедлайнов по захвату Донецкой области, установленных с начала вторжения.",
+        "Российская армия теряет около 30-34 тыс. человек в месяц, набирая лишь около 27 тыс., что ведет к сокращению личного состава.",
+        "Официальные данные Росстата о росте ВВП (1,3%) противоречат прогнозам ЦБ и Минэкономразвития, что свидетельствует о манипуляции статистикой."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "JFtRL2fwZro",
+      "type": "video",
+      "label": "Он сказал ПОЕХАЛИ - и, вот, мы все тут",
+      "author": "SiliconValleyVoice",
+      "topic": "Личная история спикера о прощании с однокурсником Сашей Новосёловым перед его эмиграцией в США в 1981 году на фоне исторических событий позднего СССР.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=JFtRL2fwZro",
+      "views": 8303,
+      "ideas": [
+        "Фотография сделана 11 апреля 1981 года на вечеринке перед вылетом Саши Новосёлова в США.",
+        "Саша стал частью волны эмиграции из института связи, организованной после избрания Рейгана президентом США.",
+        "Выезд был затруднён афганской войной 1979 года, которая приостановила массовые отправки за рубеж.",
+        "Спикер использовал редкий объектив Гелиус, купленный в Минске во время Олимпиады-80."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "PYjbeY8sGLs",
+      "type": "video",
+      "label": "I Cloned Calendly and Now It’s Free Forever",
+      "author": "Nate Herk | AI Automation",
+      "topic": "Создание бесплатного клона Calendly (Snag Time) за неделю с использованием автономных AI-агентов и ручная оптимизация UX.",
+      "macro_theme": "AI",
+      "url": "https://www.youtube.com/watch?v=PYjbeY8sGLs",
+      "views": 29969,
+      "ideas": [
+        "Snag Time — это бесплатный клон Calendly, запущенный локально за неделю.",
+        "Приложение поддерживает типы событий, буферы времени и интеграцию с Google Calendar.",
+        "Разработка велась в четырех фазах: исследование, планирование, создание и тестирование.",
+        "Спикер вручную улучшил UX, сделав кнопки навигации кликабельными.",
+        "Процесс разработки включал цикл из четырех фаз с возвратом к строительству после тестирования.",
+        "Автономные агенты протестировали приложение более 50 раз, находя и исправляя баги.",
+        "Проект потребовал 334 часа работы агентов параллельно, но итоговая стоимость составила около $15 000."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "QcFdzfmcG4U",
+      "type": "video",
+      "label": "Prof. Mohammad Marandi : China Will Long Be With Iran",
+      "author": "Judge Napolitano - Judging Freedom",
+      "topic": "Профессор Мохаммад Маранди утверждает, что Иран сохраняет экономическую устойчивость благодаря Китаю и Оману, координирует действия с Россией против США и требует полного выполнения условий Меморандума (MOU) перед возобновлением боевых действий.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=QcFdzfmcG4U",
+      "views": 123927,
+      "ideas": [
+        "Иран и Россия активно координируют действия в контексте войны в Украине.",
+        "Оман выступает посредником между США и Ираном по вопросам управления проливом Ормуз.",
+        "США не контролируют пролив Ормуз единолично; там действуют соглашения с Ираном и Оманом.",
+        "Трамп преувеличивает объемы нефти, проходящей через пролив Ормуз, для политических целей.",
+        "Иран требует полного выполнения Меморандума (MOU), включая вывод Израиля из Ливана.",
+        "Китайские банки не будут добровольно финансировать иранский бизнес под давлением США.",
+        "Иран активно развивает подземные заводы по производству ракет и дронов."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "QxVS86cDpho",
+      "type": "video",
+      "label": "IBM’s mainframe chip collab, NVIDIA’s Poolside deal & Ox Alpha’s reveal",
+      "author": "IBM Technology",
+      "topic": "Анализ стратегий NVIDIA и IBM в сфере ИИ, включая сделки с Hugging Face и Poolside, анонс нового гибридного чипа IBM/Arm и раскрытие модели Ox Alpha.",
+      "macro_theme": "AI",
+      "url": "https://www.youtube.com/watch?v=QxVS86cDpho",
+      "views": 12896,
+      "ideas": [
+        "NVIDIA планирует будущее через сильную экосистему открытых моделей, что подтверждается покупкой Hugging Face.",
+        "Сделка с Poolside является инвестицией в модельный ряд NemoTron для обеспечения надежности.",
+        "Hugging Face выступает центром гравитации открытого ИИ благодаря пакету Transformers.",
+        "NVIDIA защищает свои продажи чипов, предотвращая вертикальную интеграцию конкурентов.",
+        "IBM совместно с Arm анонсировала чип с двойной архитектурой (Z + Arm), способный переключаться между рабочими нагрузками за наносекунды.",
+        "Сделка Nvidia с Poolside является неэксклюзивной лицензией, позволяя другим компаниям использовать подход создания моделей.",
+        "Модель Ox Alpha (GLM-5.3) использовала стратегию скрытого запуска для генерации маркетингового ажиотажа."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "Sa1qlbXkcsA",
+      "type": "video",
+      "label": "Создание ИИ-продуктов в Lovable: от идеи до рабочего мини-MVP",
+      "author": "OTUS IT Онлайн - образование",
+      "topic": "Методология создания ИИ-продуктов с использованием платформы Lovable, от написания промптов до развертывания MVP.",
+      "macro_theme": "AI",
+      "url": "https://www.youtube.com/watch?v=Sa1qlbXkcsA",
+      "views": 240,
+      "ideas": [
+        "Lovable — это шведская AI-платформа (ранее GPTer), ориентированная на создание эстетичных веб-приложений с нативной поддержкой.",
+        "Вайб-кодинг сокращает время выхода на рынок с месяцев до нескольких часов, меняя роль разработчика на архитектора.",
+        "Критически важно составлять детальное ТЗ (мини-PRD) перед генерацией, иначе ИИ выдаст абстрактный или нерабочий результат.",
+        "Типичные ошибки: перегруженные промты, рассинхронизация экранов и хаос в структуре базы данных Supabase.",
+        "Защита от SQL-инъекций должна быть явно прописана в промте, так как базовые генерации её не содержат."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "UztNYbqim4Q",
+      "type": "video",
+      "label": "Атака на Россию. Стрельба под Москвой. Проблемы с бензином. Пожар в самолете. Удар по Крыму | ВОЗДУХ",
+      "author": "Ходорковский LIVE",
+      "topic": "Анализ серии атак беспилотников, дефицита топлива, сокращения бюджета и доходов российских пропагандистов в условиях «замороженного» конфликта.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=UztNYbqim4Q",
+      "views": 399201,
+      "ideas": [
+        "Украинские дроны атаковали НПЗ Славнефть в Ярославле, магазин «Магнит» и поликлинику в Москве.",
+        "В аэропорту Внуково задержано около 150 рейсов из-за угроз беспилотников.",
+        "Производство бензина в России упало почти на 20%, а дизельного топлива — на 23%.",
+        "Россия сократила несвязанные с войной расходы на 35% и готовит увольнение 15% чиновников.",
+        "Наиболее вероятный сценарий — вечная заморозка конфликта без мирных договоренностей и снятия санкций.",
+        "Государство введет талоны на бензин с дифференцированными нормами для разных категорий граждан.",
+        "Появляется новая форма рейдерства — «дроновое рейдерство» через подделку атак дронов.",
+        "Кирилл Ковальчук возглавляет рейтинг медиаменеджеров с доходом 628 млн руб. в год."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "X5ZJQV_hyfk",
+      "type": "video",
+      "label": "Крымская война. Алексей Кузнецов: Дилетанты / 28.08.26",
+      "author": "Дилетант",
+      "topic": "Анализ причин, хода и последствий Крымской войны с акцентом на геополитические интересы («греческий проект»), системные проблемы Российской империи (коррупция, логистика) и влияние войны на общественное мнение и реформы.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=X5ZJQV_hyfk",
+      "views": 11709,
+      "ideas": [
+        "Крымская война стала третьим этапом реализации «греческого проекта» по возвращению России доминирующего положения в регионе.",
+        "Османская империя воспринималась как «больной человек Европы», чье наследство оспаривали Россия, Франция и Великобритания.",
+        "Война позволяла российским правителям надеяться на сплочение всех сословий вокруг трона через патриотический подъем.",
+        "Сардинское королевство приняло участие в войне и понесло потери, что опровергает распространенные предрассудки.",
+        "Россия рассчитывала на нейтралитет или поддержку Австрии после подавления венгерской революции.",
+        "Неуклюжие действия русской армии и дипломатии (например, политика Меншикова) раздражали Вену и провоцировали турок.",
+        "Крымская война стала первой, где массовая информация влияла на общественное мнение с революционной скоростью.",
+        "Системные причины поражения России (коррупция, неэффективное управление) важнее личности императора."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "Zx1Ec8LWFeM",
+      "type": "video",
+      "label": "Why Top Founders Are Racing Into AI Infrastructure",
+      "author": "a16z",
+      "topic": "Критический дефицит ИИ-инфраструктуры (чипы, энергия, охлаждение) к 2028 году и фундаментальный сдвиг венчурного капитала в сторону создания аппаратных систем.",
+      "macro_theme": "AI",
+      "url": "https://www.youtube.com/watch?v=Zx1Ec8LWFeM",
+      "views": 37543,
+      "ideas": [
+        "Спрос на ИИ-инфраструктуру (чипы, память, энергия) превышает предложение, что приводит к дефициту до 2028 года.",
+        "Гиперскейлеры увеличивают CAPEX до триллиона долларов в год, раскупая оборудование по многодневным аукционам.",
+        "Цены на чипы растут, в отличие от традиционного тренда на снижение стоимости технологий.",
+        "Основное ограничение сместилось с разработки моделей на физические ресурсы («юг от модели»): мощность, охлаждение и материалы.",
+        "Доля сделок топ-основателей в сфере сложного оборудования выросла с 5% до 20-30%.",
+        "К 2028 году новым дата-центрам потребуется около 44 ГВт дополнительной мощности против ожидаемых 25 ГВт добавлений в сеть.",
+        "Только 2% электриков в США имеют сертификацию по работе с постоянным током (DC power).",
+        "Nvidia находится в позиции обладателя «золотых кирпичей», имея огромный объем рынка и не нуждаясь в поиске новых ниш."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "bHrwOfkdAHo",
+      "type": "video",
+      "label": "pilates zanyatie 6 blok remen",
+      "author": "Relax Yoga Оксана Рогова",
+      "topic": "Комплексный урок пилатеса с использованием ремня и кирпича для формирования осанки, укрепления кора и работы с тазовым дном.",
+      "macro_theme": "Разное",
+      "url": "https://www.youtube.com/watch?v=bHrwOfkdAHo",
+      "views": 214,
+      "ideas": [
+        "Регулярное выполнение цикла упражнений (2-3 раза в неделю) гарантирует приобретение правильной осанки.",
+        "Для занятий подходят как профессиональные инструменты (блок, ремень), так и их домашние аналоги (стопка книг, полотенце, пояс).",
+        "Ключевая техника включает сжатие предмета между коленями и расталкивание ремня запястьями для создания нагрузки на мышцы.",
+        "Важно сохранять стабильность таза и не допускать его смещения в стороны при наклонах.",
+        "Использование кирпича между коленями или под крестцом для контроля глубины прогиба и нагрузки на мышцы.",
+        "Работа с ремнем: растяжение задней поверхности бедра, удержание в позе стола и включение верхних мышц спины.",
+        "Техника дыхания: расширение живота на вдохе и плотное прижатие к спине на выдохе.",
+        "Важность втягивания тазового дна и контроля положения лопаток и плеч во всех упражнениях."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "cLRDsM807XU",
+      "type": "video",
+      "label": "Молодёжь отказывается от ординатуры: провал новой системы подготовки врачей",
+      "author": "Живой Гвоздь",
+      "topic": "Массовый отказ молодых врачей от ординатуры в России из-за введения обязательной отработки по новому закону и низких условий труда.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=cLRDsM807XU",
+      "views": 74473,
+      "ideas": [
+        "Молодёжь массово отказывается от ординатуры из-за обязательной отработки по новым правилам.",
+        "Ведущие медицинские вузы (Сеченовский, РМАПО и др.) имеют сотни незаполненных бюджетных мест.",
+        "Новый закон 2026 года легализовал принудительную отработку, что вызвало негативную реакцию абитуриентов.",
+        "Низкая зарплата и условия целевого обучения делают ординатуру непривлекательной даже при наличии места.",
+        "Средний конкурсный балл по программе специалитета достиг 19 человек на место.",
+        "В США почти 100% выпускников медицинских школ идут работать врачами из-за высокой стоимости обучения и привязки к долгу.",
+        "Средняя зарплата российских врачей составляет около 30 000 рублей при официальной работе на 1,25 ставки."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "cj2BJCYGO-U",
+      "type": "video",
+      "label": "От разделов Польши до разделов Украины: неизменная схема России. Юрий Романенко",
+      "author": "Romanenko Shorts",
+      "topic": "Анализ исторических паттернов российской внешней политики от XVIII века до современности, обосновывающий предопределённость войны с Украиной через призму разделов Польши и использования хаоса.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=cj2BJCYGO-U",
+      "views": 5460,
+      "ideas": [
+        "Война между Россией и Украиной рассматривается как часть исторических закономерностей, предопределённых событиями XVIII века.",
+        "Смерть Елизаветы Петровны в 1762 году стала точкой бифуркации, определившей союз России и Пруссии.",
+        "Алгоритм действий России: создание внутреннего кризиса у соседа -> вмешательство -> расширение территории (разделы Польши vs аннексия Крыма/Донбасса).",
+        "2005 год стал критической точкой, когда Россия начала готовиться к войне через строительство обходных газопроводов.",
+        "Россия использует коррупционные цепочки и внутренние конфликты элит для дестабилизации Украины.",
+        "Крым рассматривается как специально оставленный «бэкдор» для возвращения России."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "dQYm0M90zhA",
+      "type": "video",
+      "label": "Венедиктов*: Лавров может уйти в отставку. Кто заменит главу МИД?",
+      "author": "Живой Гвоздь",
+      "topic": "Анализ геополитических переговоров (визит ЦРУ), внутренней политики России (отставка Лаврова, коррупция в силовых структурах), исторической памяти и проблем образования.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=dQYm0M90zhA",
+      "views": 162868,
+      "ideas": [
+        "Визит Джона Редклифа в Москву был частью переговорного процесса по Ирану, а не попыткой исправить доклады советникам Путина.",
+        "Россия поставляет данные военных спутников Ирану, что является предметом обсуждения с США.",
+        "Сергей Лавров может уйти в отставку из-за усталости, его преемником станет Михаил Голузин.",
+        "Система управления в России построена как автократическая пирамида, где решения принимаются в Администрации президента.",
+        "Школы отказываются принимать учеников в 10-й класс сверх плана из-за финансовых ограничений.",
+        "Призывники получают приоритет при поступлении в вузы на бюджет, вытесняя абитуриентов с высокими баллами ЕГЭ."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "iN0c17cKuKM",
+      "type": "video",
+      "label": "АСЛАНЯН. Мобилизуют 600 тысяч. Зимой — бунт в России. Тайна ЦРУ в Москве",
+      "author": "Ходорковский LIVE",
+      "topic": "Анализ визита директора ЦРУ в Москву, проблем мобилизации в России, уязвимости критической инфраструктуры и социальных последствий войны.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=iN0c17cKuKM",
+      "views": 215226,
+      "ideas": [
+        "Визит Джона Редклифа в Москву был необходим для передачи Трампу компромата, представляющего личную угрозу именно ему.",
+        "Трамп опасается не нападения на страны НАТО, а раскрытия секретов КГБ/ФСБ, которые хранятся у Путина.",
+        "В Санкт-Петербурге взорвали автомобиль российского военного подполковника ВВС и ПВО.",
+        "Военные искренне считают себя «не при делах» и не предпринимают мер предосторожности из-за фатализма.",
+        "Запад называет новую мобилизацию на 300 000 человек, но в России процессы носят гибридный и неопределенный характер.",
+        "Возрождение «Стройбата» позволяет рекрутировать людей под видом гражданских специалистов для нужд Минобороны.",
+        "Прогнозируется создание спецформирований для детей депутатов в случае затяжной войны.",
+        "Статистика количества нефтеперерабатывающих заводов в России (45 против 80) названа некорректной."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "jpweQ7xpn4s",
+      "type": "video",
+      "label": "Оставить детям наследство или лучше потратить деньги на себя?",
+      "author": "SiliconValleyVoice",
+      "topic": "Обсуждение дилеммы между оставлением наследства детям и обеспечением собственной финансовой независимости в старости, а также анализ влияния роста стоимости жилья на американскую мечту.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=jpweQ7xpn4s",
+      "views": 13435,
+      "ideas": [
+        "Люди в преклонном возрасте должны иметь собственные средства на уход за собой, чтобы не зависеть от детей финансово.",
+        "Очень богатые люди (миллиардеры) обычно не стремятся обеспечить потомков полной независимостью, а дают лишь стартовый капитал.",
+        "Рост стоимости недвижимости и ипотеки в США делает самостоятельное приобретение жилья для молодежи практически невозможным без помощи родителей.",
+        "Средний возраст покупки первой недвижимости вырос с 22 лет до 40 лет из-за экономических изменений.",
+        "Родители должны помогать детям только на развитие (образование, бизнес), но не на прожигание жизни (дорогие машины, развлечения).",
+        "Передача денег детям при жизни требует специального оформления для избежания налогов (кредиты до 12 млн могут быть освобождены).",
+        "Каждый третий американец до 35 лет живет с родителями из-за дороговизны аренды и отсутствия амбиций у части населения."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "nA3LAkPlVao",
+      "type": "video",
+      "label": "HR на языке цифр: от кадров к стратегии // «Бизнес-партнер по управлению персоналом в ИТ/ HRBP»",
+      "author": "OTUS IT Онлайн - образование",
+      "topic": "Необходимость перевода HR-процессов на язык цифр и финансов для повышения стратегической значимости специалистов.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=nA3LAkPlVao",
+      "views": 345,
+      "ideas": [
+        "HR-бизнес-партнеры должны быть финансово грамотными аналитиками, способными работать на одной волне с финансистами.",
+        "Ключевая цель HR — не стать финансовым экспертом, а понимать 5 ключевых показателей финансового здоровья компании для оценки рисков и точек влияния.",
+        "Доход показывает спрос, но компания может быть убыточной при высоком доходе; важно анализировать чистую прибыль и денежный поток.",
+        "HR напрямую влияет на статью расходов через зарплаты, обучение и стоимость текучести кадров.",
+        "В IT-компаниях доля затрат на персонал может переваливать за 60%.",
+        "Текучесть кадров связана с расходами на простое и стоимость найма новых сотрудников.",
+        "Накопление больших объемов отпусков создает финансовый риск при увольнении сотрудника.",
+        "Инвестиции в обучение (например, DevOps) могут окупиться за счет ускорения выхода продукта на рынок."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "p0-axpwB4_E",
+      "type": "video",
+      "label": "ЛИПСИЦ: ИНТЕРВЬЮ ЯНУ МОРАВИЦКОМУ (\"ВОТ ТАК\") 28.08.2026",
+      "author": "ИГОРЬ ЛИПСИЦ",
+      "topic": "Анализ кризисных явлений в России: отток капитала, закрытие заводов, топливный кризис и гражданское неповиновение.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=p0-axpwB4_E",
+      "views": 141929,
+      "ideas": [
+        "Сергей Лавров характеризует стиль российской внешней политики как «пацанский» и утверждает, что Россия привыкла решать дела по-благородному.",
+        "Россия оказалась в компании стран-изгоев (Северная Корея, Иран), живущих исключительно на военную экономику и санкции.",
+        "Рост кассовых сборов в российских кинотеатрах обусловлен показом зарубежного фильма «Человек-паук», а не отечественных блокбастеров.",
+        "Россияне массово выводят деньги из страны в иностранную валюту, несмотря на призывы властей.",
+        "Более 100.000 россиян уехали в Грузию за неделю из-за страха перед мобилизацией.",
+        "Заводы «Русала» (Пикалёвский, Североуральский, Богословский, Уральский) находятся под угрозой закрытия из-за нехватки ресурсов.",
+        "Переработка нефти в России упала до минимума за 20 лет.",
+        "Владельцы НПЗ саботируют ремонт, понимая, что после ремонта завод снова сгорит от дрона."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "qS-BaL9lFto",
+      "type": "video",
+      "label": "Почему СОКРАЩАЮ ПОРТФЕЛЬ? | Инвест ГРОГ с Солодиным",
+      "author": "Dmitry Solodin",
+      "topic": "Анализ макроэкономических рисков, признаков надвигающейся рецессии и стратегия резкого сокращения инвестиционного портфеля спикером Дмитрием Солодиным.",
+      "macro_theme": "Финансы",
+      "url": "https://www.youtube.com/watch?v=qS-BaL9lFto",
+      "views": 14159,
+      "ideas": [
+        "Расходы на жильё достигли пика (40-45%), аналогичного уровню перед кризисом 2008 года.",
+        "Рынок жилья замораживается из-за высокой стоимости аренды и невозможности платить по счетам.",
+        "Снижение продаж домов опережает начало рецессии, являясь циклическим индикатором.",
+        "Инвестиции в технологии ИИ временно сдерживают наступление рецессии.",
+        "Цены на жилье не падают, потому что предложение сильно не растет.",
+        "Рост доходности корпоративных облигаций при росте акций говорит о том, что рынок считает инвестиции рискованными.",
+        "Текущий уровень маржинального кредита достиг исторического пика (~1,4 триллиона долларов).",
+        "Хедж-фонды видят риски в своих моделях и начинают сокращать позиции."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "rb6SVJbi6OU",
+      "type": "video",
+      "label": "Как разрабатывать пользовательские интерфейсы на C++ // «C++-разработчик. Продвинутый уровень»",
+      "author": "OTUS IT Онлайн - образование",
+      "topic": "Вебинар по разработке пользовательских интерфейсов (GUI) на C++, охватывающий сравнение низкоуровневых API (WinAPI, X11), графических библиотек (SFML, OpenGL, Vulkan, Cute Creator) и архитектурных подходов.",
+      "macro_theme": "Технологии",
+      "url": "https://www.youtube.com/watch?v=rb6SVJbi6OU",
+      "views": 362,
+      "ideas": [
+        "Вебинар посвящен разработке GUI на C++ с акцентом на сравнение инструментов: WinAPI, X11, OpenGL, Vulkan, SFML, Cute Creator.",
+        "Низкоуровневые API (WinAPI, X11) требуют ручной отрисовки и имеют минимальные зависимости, но не поддерживают сложные элементы по умолчанию.",
+        "OpenGL проще в освоении, чем Vulkan, но требует дополнительных решений для работы с текстом.",
+        "SFML рекомендуется как простой кроссплатформенный вариант на базе OpenGL.",
+        "Cute Creator упрощает создание интерфейсов визуально, но создает проблемы с зависимостями и архитектурой (сигналы/слоты).",
+        "При ручном создании GUI необходимо реализовывать логику обработки событий мыши и клавиатуры самостоятельно."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "urs4za4psGo",
+      "type": "video",
+      "label": "День Рождения Украины - 4 августа 1917 г. / История украинской государственности. Часть 3",
+      "author": "Mark Solonin",
+      "topic": "Анализ легитимности и исторического контекста создания Украинской Центральной Рады в 1917 году, включая её отношения с Временным правительством и большевиками.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=urs4za4psGo",
+      "views": 63261,
+      "ideas": [
+        "На карте Боплана (1600 г.) слово «Украина» обозначало пустынные равнины, а не государство.",
+        "4 марта 1917 года в Киеве была создана Украинская Центральная Рада.",
+        "6 апреля состоялся Всеукраинский национальный конгресс с участием около 700 делегатов.",
+        "Михаил Грушевский был избран председателем правительства с результатом 588 голосов.",
+        "Центральная Рада действовала часто без соблюдения кворума на протяжении всего существования.",
+        "4 августа 1917 года Временное правительство признало существование Украины как политико-правовой единицы.",
+        "Генеральный секретариат не имел ни одного солдата, налогов и денег.",
+        "Июльское наступление Керенского закончилось полным провалом из-за дезертирства армии."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "v0OGH1ZOZCo",
+      "type": "video",
+      "label": "Продакт без идеальных данных: как принимать решения, когда аналитики мало, данных нет",
+      "author": "OTUS IT Онлайн - образование",
+      "topic": "Стратегии принятия решений продуктовым менеджером при отсутствии полных данных и использовании нейросетей для верификации гипотез.",
+      "macro_theme": "AI",
+      "url": "https://www.youtube.com/watch?v=v0OGH1ZOZCo",
+      "views": 197,
+      "ideas": [
+        "Принятие решений в продукте часто приходится делать при отсутствии полных данных или большой выборки.",
+        "Данные всегда показывают следствие, но никогда не показывают причину изменения поведения пользователей.",
+        "Запуск пилотной программы дешевле и быстрее, чем проведение полноценного исследования рынка.",
+        "Нейросети полезны для структурирования информации, но не являются источником истины или субъектом ответственности.",
+        "При падении конверсии первым шагом анализа должна быть проверка корректности сбора событий в аналитике."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "z0pI0rWthbY",
+      "type": "video",
+      "label": "ДЕНЬ 1647. ВЗРЫВ В ПИТЕРЕ/ БЕЗУМИЕ ГЕРАСИМОВА/ ЦРУ: РОССИЮ ЖДЕТ КАТАСТРОФА/ БУНТЫ В ПЕНЗЕ",
+      "author": "Майкл Наки",
+      "topic": "Анализ текущей ситуации на фронте, экономической стабильности России и внутренней политики, включая вопросы мобилизации и атак по гражданским объектам.",
+      "macro_theme": "Геополитика",
+      "url": "https://www.youtube.com/watch?v=z0pI0rWthbY",
+      "views": 953104,
+      "ideas": [
+        "Директор ЦРУ Джон Редклиф предупредил Александра Бортникова о необходимости переговоров до ухудшения экономической ситуации России.",
+        "В Санкт-Петербурге взорвался автомобиль военнослужащего, что спикер интерпретирует как ликвидацию военного преступника.",
+        "Украинские дроны нанесли удары по нефтеперерабатывающим заводам в Ярославле и Башкортостане.",
+        "В Пензе полиция подтвердила наличие бунтов жителей против мобилизации.",
+        "Уфимский нефтеперерабатывающий комплекс имеет совокупную мощность 23,5 млн тонн сырья в год.",
+        "Генштаб ВСУ подтвердил нанесение ракетных ударов по командным пунктам противника в Донецке 26 и 27 августа.",
+        "Россия использует удары по гражданским объектам как тактику террора.",
+        "До восточных окраин Славянска осталось 4 км согласно заявлениям Герасимова, но реально расстояние от зоны уверенного контроля до жилой застройки составляет минимум 15 км."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "zQ3yvDz_UAQ",
+      "type": "video",
+      "label": "Военкоры, телеведущие и медиаменеджеры: как устроен заработок пропагандистов",
+      "author": "Живой Гвоздь",
+      "topic": "Анализ структуры доходов российских пропагандистов (военкоры, телеведущие, медиаменеджеры) на основе данных из Пенсионного фонда и утечек.",
+      "macro_theme": "Разное",
+      "url": "https://www.youtube.com/watch?v=zQ3yvDz_UAQ",
+      "views": 9678,
+      "ideas": [
+        "Спецпроект «Бюджетники» основан на верифицированном массиве данных из Пенсионного фонда России.",
+        "Доля населения, доверяющего ТВ-пропаганде, упала до исторического минимума в 36%.",
+        "Официальные зарплаты пропагандистов часто занижены за счет перехода на статус ИП или самозанятости.",
+        "Медиаменеджеры и телеведущие имеют значительные пассивные доходы от депозитов (миллиарды рублей).",
+        "Американский ведущий Дмитрий Саймс получает аномально высокую зарплату из-за невозможности найти работу за рубежом.",
+        "Блогер Рожин зарабатывает более 2,5 млн рублей в месяц через фирму Teleпрофиль.",
+        "Кирилл Ковальчук получает около 628 млн руб. в год от НМГ."
+      ],
+      "degree": 2
+    },
+    {
+      "id": "Fk_tJZShLrU",
+      "type": "video",
+      "label": "Одна. Ольга Журавлёва / 29.08.2026",
+      "author": "Живой Гвоздь",
+      "topic": "Разное",
+      "macro_theme": "Разное",
+      "url": "https://www.youtube.com/watch?v=Fk_tJZShLrU",
+      "views": 0,
+      "ideas": [],
+      "degree": 2
+    },
+    {
+      "id": "T9-_wuGD4EA",
+      "type": "video",
+      "label": "Алексей Венедиктов* и Сергей Бунтман. Будем Наблюдать / 29.08.26",
+      "author": "Живой Гвоздь",
+      "topic": "Разное",
+      "macro_theme": "Разное",
+      "url": "https://www.youtube.com/watch?v=T9-_wuGD4EA",
+      "views": 0,
+      "ideas": [],
+      "degree": 2
+    },
+    {
+      "id": "aWZQmIkAjoo",
+      "type": "video",
+      "label": "Что обсудят Путин и Си Цзиньпин? Яблоко снимают в регионах. OZON спасается в ПВЗ. Пастухов",
+      "author": "Живой Гвоздь",
+      "topic": "Разное",
+      "macro_theme": "Разное",
+      "url": "https://www.youtube.com/watch?v=aWZQmIkAjoo",
+      "views": 0,
       "ideas": [],
       "degree": 2
     }
@@ -144917,7 +146174,7 @@
     },
     {
       "source": "O2jtHHZld98",
-      "target": "theme:Разное",
+      "target": "theme:Финансы",
       "type": "hub_theme",
       "weight": 1.0
     },
@@ -145409,7 +146666,7 @@
     },
     {
       "source": "b6FNI9fTpXg",
-      "target": "theme:Разное",
+      "target": "theme:Геополитика",
       "type": "hub_theme",
       "weight": 1.0
     },
@@ -145502,6 +146759,774 @@
       "target": "author:Ассоциация Профессионалов Фитнеса",
       "type": "hub_author",
       "weight": 1.0
+    },
+    {
+      "source": "4MWK13PWgWY",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "4MWK13PWgWY",
+      "target": "author:CS50",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "6IkkfiwlUCQ",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "6IkkfiwlUCQ",
+      "target": "author:Aleksandr Nevzorov",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "6QtLeRWDHBk",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "6QtLeRWDHBk",
+      "target": "author:SiliconValleyVoice",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "6QwEZwO5g0Y",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "6QwEZwO5g0Y",
+      "target": "author:Андрей Пионтковский",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "7_-T8KNfENA",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "7_-T8KNfENA",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "C8yCdvyeKBI",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "C8yCdvyeKBI",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "HuX70EhFaEg",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "HuX70EhFaEg",
+      "target": "author:Клубный сервис",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "NUfOwJC5cas",
+      "target": "theme:Бизнес",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "NUfOwJC5cas",
+      "target": "author:Михаил Гребенюк",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "O82hZ9gQuo4",
+      "target": "theme:AI",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "O82hZ9gQuo4",
+      "target": "author:OTUS IT Онлайн - образование",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "QTB69fkUAnI",
+      "target": "theme:AI",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "QTB69fkUAnI",
+      "target": "author:Data Tutorials",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "SEtI_0ZTlm8",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "SEtI_0ZTlm8",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "UlU-PDRiMQg",
+      "target": "theme:Разное",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "UlU-PDRiMQg",
+      "target": "author:Дилетант",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "V2Du8tGH1CY",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "V2Du8tGH1CY",
+      "target": "author:SiliconValleyVoice",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "VSYWq92WjtE",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "VSYWq92WjtE",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "WLeS6ixH-mM",
+      "target": "theme:AI",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "WLeS6ixH-mM",
+      "target": "author:Rush Agency",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "Z67fHluI4xk",
+      "target": "theme:Разное",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "Z67fHluI4xk",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "_jJckjAW3Kw",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "_jJckjAW3Kw",
+      "target": "author:Yuriy Romanenko",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "aIoZcm_d1fw",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "aIoZcm_d1fw",
+      "target": "author:Yulia Latynina",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "b81fFgC4FjI",
+      "target": "theme:Психология",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "b81fFgC4FjI",
+      "target": "author:Ирина Якутенко",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "egyI8WQW37U",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "egyI8WQW37U",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "gQef3d3erOs",
+      "target": "theme:AI",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "gQef3d3erOs",
+      "target": "author:Nate Herk | AI Automation",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "iva4CWogV-A",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "iva4CWogV-A",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "m36xRjF77fo",
+      "target": "theme:AI",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "m36xRjF77fo",
+      "target": "author:Judge Napolitano - Judging Freedom",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "m722fDFydkM",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "m722fDFydkM",
+      "target": "author:Romanenko Shorts",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "mhkNbTm-5hU",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "mhkNbTm-5hU",
+      "target": "author:Ходорковский LIVE",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "nVImVgKpoOY",
+      "target": "theme:AI",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "nVImVgKpoOY",
+      "target": "author:IBM Technology",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "p5rJmsPzfno",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "p5rJmsPzfno",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "v545BRfLtHM",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "v545BRfLtHM",
+      "target": "author:Майкл Наки",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "y5v9Ifeh8lQ",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "y5v9Ifeh8lQ",
+      "target": "author:Wall Street с Андреем Михайлец",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "y7K5dWPaUt4",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "y7K5dWPaUt4",
+      "target": "author:Eurodollar University",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "yXsqaEDAx4o",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "yXsqaEDAx4o",
+      "target": "author:Майкл Наки",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "z7JwvvkJh34",
+      "target": "theme:Разное",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "z7JwvvkJh34",
+      "target": "author:Ассоциация Профессионалов Фитнеса",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "-YXmNNuWjek",
+      "target": "theme:Разное",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "-YXmNNuWjek",
+      "target": "author:Дилетант",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "YSGAwKE4SLY",
+      "target": "theme:Разное",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "YSGAwKE4SLY",
+      "target": "author:Семинары по истории Александра Макарова",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "VXJcJ1LxGo4",
+      "target": "theme:Разное",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "VXJcJ1LxGo4",
+      "target": "author:Центр Архэ",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "4eiQNRcoaWc",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "4eiQNRcoaWc",
+      "target": "author:На пенсию в 35 лет!",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "606J0GmupbI",
+      "target": "theme:Психология",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "606J0GmupbI",
+      "target": "author:OTUS IT Онлайн - образование",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "CCJV2zU8LG4",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "CCJV2zU8LG4",
+      "target": "author:Judge Napolitano - Judging Freedom",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "GsgSq0LhHJI",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "GsgSq0LhHJI",
+      "target": "author:Майкл Наки",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "JFtRL2fwZro",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "JFtRL2fwZro",
+      "target": "author:SiliconValleyVoice",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "PYjbeY8sGLs",
+      "target": "theme:AI",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "PYjbeY8sGLs",
+      "target": "author:Nate Herk | AI Automation",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "QcFdzfmcG4U",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "QcFdzfmcG4U",
+      "target": "author:Judge Napolitano - Judging Freedom",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "QxVS86cDpho",
+      "target": "theme:AI",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "QxVS86cDpho",
+      "target": "author:IBM Technology",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "Sa1qlbXkcsA",
+      "target": "theme:AI",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "Sa1qlbXkcsA",
+      "target": "author:OTUS IT Онлайн - образование",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "UztNYbqim4Q",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "UztNYbqim4Q",
+      "target": "author:Ходорковский LIVE",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "X5ZJQV_hyfk",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "X5ZJQV_hyfk",
+      "target": "author:Дилетант",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "Zx1Ec8LWFeM",
+      "target": "theme:AI",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "Zx1Ec8LWFeM",
+      "target": "author:a16z",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "bHrwOfkdAHo",
+      "target": "theme:Разное",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "bHrwOfkdAHo",
+      "target": "author:Relax Yoga Оксана Рогова",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "cLRDsM807XU",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "cLRDsM807XU",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "cj2BJCYGO-U",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "cj2BJCYGO-U",
+      "target": "author:Romanenko Shorts",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "dQYm0M90zhA",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "dQYm0M90zhA",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "iN0c17cKuKM",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "iN0c17cKuKM",
+      "target": "author:Ходорковский LIVE",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "jpweQ7xpn4s",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "jpweQ7xpn4s",
+      "target": "author:SiliconValleyVoice",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "nA3LAkPlVao",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "nA3LAkPlVao",
+      "target": "author:OTUS IT Онлайн - образование",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "p0-axpwB4_E",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "p0-axpwB4_E",
+      "target": "author:ИГОРЬ ЛИПСИЦ",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "qS-BaL9lFto",
+      "target": "theme:Финансы",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "qS-BaL9lFto",
+      "target": "author:Dmitry Solodin",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "rb6SVJbi6OU",
+      "target": "theme:Технологии",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "rb6SVJbi6OU",
+      "target": "author:OTUS IT Онлайн - образование",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "urs4za4psGo",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "urs4za4psGo",
+      "target": "author:Mark Solonin",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "v0OGH1ZOZCo",
+      "target": "theme:AI",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "v0OGH1ZOZCo",
+      "target": "author:OTUS IT Онлайн - образование",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "z0pI0rWthbY",
+      "target": "theme:Геополитика",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "z0pI0rWthbY",
+      "target": "author:Майкл Наки",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "zQ3yvDz_UAQ",
+      "target": "theme:Разное",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "zQ3yvDz_UAQ",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "Fk_tJZShLrU",
+      "target": "theme:Разное",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "Fk_tJZShLrU",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "T9-_wuGD4EA",
+      "target": "theme:Разное",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "T9-_wuGD4EA",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
+    },
+    {
+      "source": "aWZQmIkAjoo",
+      "target": "theme:Разное",
+      "type": "hub_theme",
+      "weight": 1.0
+    },
+    {
+      "source": "aWZQmIkAjoo",
+      "target": "author:Живой Гвоздь",
+      "type": "hub_author",
+      "weight": 1.0
     }
   ],
   "macro_themes": [
@@ -145516,7 +147541,7 @@
     "Технологии"
   ],
   "stats": {
-    "nodes": 5056,
-    "edges": 9780
+    "nodes": 5120,
+    "edges": 9908
   }
 }
