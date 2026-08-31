@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "date": "2026-06-11",
   "source_folder": "reports/youtube-daily/2026-06-11",
-  "total_videos": 38,
+  "total_videos": 49,
   "completed_videos": 20,
-  "failed_videos": 18,
+  "failed_videos": 29,
   "model_used_for_preprocessing": "qwen3.5:9b",
   "videos": [
     {
@@ -3026,10 +3026,10 @@
       "url": "https://www.youtube.com/watch?v=w-ejJe_S6yY",
       "title": "Константин Пахалюк*. 2026 / 12.06.26",
       "channel": "Живой Гвоздь",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for w-ejJe_S6yY: ERROR: [youtube] w-ejJe_S6yY: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for w-ejJe_S6yY: ERROR: [youtube] w-ejJe_S6yY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3037,10 +3037,10 @@
       "url": "https://www.youtube.com/watch?v=uFkJ3aEHGWQ",
       "title": "История непростой иммиграции - в гостях у Руслана Хусниярова",
       "channel": "SiliconValleyVoice",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for uFkJ3aEHGWQ: ERROR: [youtube] uFkJ3aEHGWQ: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for uFkJ3aEHGWQ: ERROR: [youtube] uFkJ3aEHGWQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3048,10 +3048,10 @@
       "url": "https://www.youtube.com/watch?v=azCkSuNkLnw",
       "title": "Борис Бондарев*: Персонально ваш / 12.06.26",
       "channel": "Живой Гвоздь",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for azCkSuNkLnw: ERROR: [youtube] azCkSuNkLnw: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for azCkSuNkLnw: ERROR: [youtube] azCkSuNkLnw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3059,10 +3059,10 @@
       "url": "https://www.youtube.com/watch?v=rz7EXk2MamU",
       "title": "Борис Пастухов. Без посредников / 12.06.26",
       "channel": "Живой Гвоздь",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for rz7EXk2MamU: ERROR: [youtube] rz7EXk2MamU: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for rz7EXk2MamU: ERROR: [youtube] rz7EXk2MamU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3070,10 +3070,10 @@
       "url": "https://www.youtube.com/watch?v=Iyccbh2Tp2E",
       "title": "Европа хочет больше коммуникации с Россией. Дмитрий Спивак, Юрий Романенко",
       "channel": "Yuriy Romanenko",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for Iyccbh2Tp2E: ERROR: [youtube] Iyccbh2Tp2E: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for Iyccbh2Tp2E: ERROR: [youtube] Iyccbh2Tp2E: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3081,10 +3081,10 @@
       "url": "https://www.youtube.com/watch?v=b6BvKtskpy0",
       "title": "Арестович: Изоляция Крыма и активизация Европы.",
       "channel": "Alexey Arestovych",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for b6BvKtskpy0: ERROR: [youtube] b6BvKtskpy0: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for b6BvKtskpy0: ERROR: [youtube] b6BvKtskpy0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3092,10 +3092,10 @@
       "url": "https://www.youtube.com/watch?v=T0p0TIBvTIQ",
       "title": "Алексей Водовозов: Сага об антибиотиках",
       "channel": "Центр Архэ",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for T0p0TIBvTIQ: ERROR: [youtube] T0p0TIBvTIQ: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for T0p0TIBvTIQ: ERROR: [youtube] T0p0TIBvTIQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3103,10 +3103,10 @@
       "url": "https://www.youtube.com/watch?v=SsjjjXr7X00",
       "title": "Рекордный месяц по экспорту нефти. Военные займы РФ. Роль Набиуллиной. Венедиктов* и Иноземцев*",
       "channel": "Живой Гвоздь",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for SsjjjXr7X00: ERROR: [youtube] SsjjjXr7X00: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for SsjjjXr7X00: ERROR: [youtube] SsjjjXr7X00: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3114,10 +3114,10 @@
       "url": "https://www.youtube.com/watch?v=fswkKvt1Ncc",
       "title": "Утренний разворот с Марфой Смирновой и Василием Полонским. Венедиктов*, Вьюгин, Лукомский, Брицкая",
       "channel": "Живой Гвоздь",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for fswkKvt1Ncc: ERROR: [youtube] fswkKvt1Ncc: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for fswkKvt1Ncc: ERROR: [youtube] fswkKvt1Ncc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3125,10 +3125,10 @@
       "url": "https://www.youtube.com/watch?v=vGwrYsbtmUE",
       "title": "Владимир Пастухов* и Алексей Венедиктов*. Пастуховские четверги / 11.06.26",
       "channel": "Живой Гвоздь",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for vGwrYsbtmUE: ERROR: [youtube] vGwrYsbtmUE: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for vGwrYsbtmUE: ERROR: [youtube] vGwrYsbtmUE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3136,21 +3136,21 @@
       "url": "https://www.youtube.com/watch?v=kTYo7o3-U0U",
       "title": "Хирургия, стоматология и аптекарское дело в Средние века.",
       "channel": "Семинары по истории Александра Макарова",
-      "stage": "Transcription — permanent",
-      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for kTYo7o3-U0U: ERROR: [youtube] kTYo7o3-U0U: This live ",
-      "retry_count": 1,
-      "retryable": false,
-      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for kTYo7o3-U0U: ERROR: [youtube] kTYo7o3-U0U: This live event will begin in 62 minutes."
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for kTYo7o3-U0U: ERROR: [youtube] kTYo7o3-U0U: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for kTYo7o3-U0U: ERROR: [youtube] kTYo7o3-U0U: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
       "video_id": "0qNpuJ_vQh4",
       "url": "https://www.youtube.com/watch?v=0qNpuJ_vQh4",
       "title": "COL. Lawrence Wilkerson  :  Isreal’s Collapsing Strategy",
       "channel": "Judge Napolitano - Judging Freedom",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 0qNpuJ_vQh4: ERROR: [youtube] 0qNpuJ_vQh4: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 0qNpuJ_vQh4: ERROR: [youtube] 0qNpuJ_vQh4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3158,10 +3158,10 @@
       "url": "https://www.youtube.com/watch?v=yEvKJ-PMo3o",
       "title": "ALERT: Gold Is Getting Liquidated, Here’s What You Must Know",
       "channel": "Eurodollar University",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for yEvKJ-PMo3o: ERROR: [youtube] yEvKJ-PMo3o: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for yEvKJ-PMo3o: ERROR: [youtube] yEvKJ-PMo3o: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3170,20 +3170,20 @@
       "title": "🔴 День 009. Один день. Один шаг вперёд.",
       "channel": "Мой путь к звёздам",
       "stage": "Transcription — permanent",
-      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for qbs36KcmNMc: ERROR: [youtube] qbs36KcmNMc: Sign in to",
-      "retry_count": 5,
+      "error_summary": "Private video",
+      "retry_count": 1,
       "retryable": false,
-      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for qbs36KcmNMc: ERROR: [youtube] qbs36KcmNMc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for qbs36KcmNMc: ERROR: [youtube] qbs36KcmNMc: Private video"
     },
     {
       "video_id": "CSQ5rwTv2p4",
       "url": "https://www.youtube.com/watch?v=CSQ5rwTv2p4",
       "title": "Max Blumenthal :  Israel Jeopardizes US Troops",
       "channel": "Judge Napolitano - Judging Freedom",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for CSQ5rwTv2p4: ERROR: [youtube] CSQ5rwTv2p4: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for CSQ5rwTv2p4: ERROR: [youtube] CSQ5rwTv2p4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3191,10 +3191,10 @@
       "url": "https://www.youtube.com/watch?v=ar9V-pip-_Q",
       "title": "COL. Douglas Macgregor  :  Trump’s Biggest Mistake",
       "channel": "Judge Napolitano - Judging Freedom",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for ar9V-pip-_Q: ERROR: [youtube] ar9V-pip-_Q: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for ar9V-pip-_Q: ERROR: [youtube] ar9V-pip-_Q: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3202,10 +3202,10 @@
       "url": "https://www.youtube.com/watch?v=7kGYens8VV4",
       "title": "ИИ отнимает мою ценность. Что делать?? Открытая IFS-сессия Олега Жумаханова",
       "channel": "Олег Жумаханов и #ЕстественныйБезос",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 7kGYens8VV4: ERROR: [youtube] 7kGYens8VV4: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 7kGYens8VV4: ERROR: [youtube] 7kGYens8VV4: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     },
     {
@@ -3213,12 +3213,133 @@
       "url": "https://www.youtube.com/watch?v=-84huLLKfVw",
       "title": "Как упал Афганистан: анатомия фиаско цивилизации. Сахра Карими, Юрий Романенко",
       "channel": "Yuriy Romanenko",
-      "stage": "Transcription — permanent",
+      "stage": "Transcription — retryable",
       "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for -84huLLKfVw: ERROR: [youtube] -84huLLKfVw: Sign in to",
-      "retry_count": 5,
-      "retryable": false,
+      "retry_count": 0,
+      "retryable": true,
       "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for -84huLLKfVw: ERROR: [youtube] -84huLLKfVw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "MLCSxoliIVQ",
+      "url": "https://www.youtube.com/watch?v=MLCSxoliIVQ",
+      "title": "Гражданство США - новым не давать, у старых забирать - новые тенденции",
+      "channel": "SiliconValleyVoice",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for MLCSxoliIVQ: ERROR: [youtube] MLCSxoliIVQ: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for MLCSxoliIVQ: ERROR: [youtube] MLCSxoliIVQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "2_QZJIcXkD8",
+      "url": "https://www.youtube.com/watch?v=2_QZJIcXkD8",
+      "title": "Спас нерукотворный — самая первая икона. Евгений Ройзман*. Коллекция",
+      "channel": "Живой Гвоздь",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 2_QZJIcXkD8: ERROR: [youtube] 2_QZJIcXkD8: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 2_QZJIcXkD8: ERROR: [youtube] 2_QZJIcXkD8: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "_q6Uq2vUcdA",
+      "url": "https://www.youtube.com/watch?v=_q6Uq2vUcdA",
+      "title": "ОФЗБЧ-10",
+      "channel": "Spectator",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for _q6Uq2vUcdA: ERROR: [youtube] _q6Uq2vUcdA: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for _q6Uq2vUcdA: ERROR: [youtube] _q6Uq2vUcdA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "UE_vuadQrJ0",
+      "url": "https://www.youtube.com/watch?v=UE_vuadQrJ0",
+      "title": "AI That’s Too Dangerous For You? What we learned from S.A.T.A.N",
+      "channel": "IBM Technology",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for UE_vuadQrJ0: ERROR: [youtube] UE_vuadQrJ0: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for UE_vuadQrJ0: ERROR: [youtube] UE_vuadQrJ0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "-msKaEMwrsc",
+      "url": "https://www.youtube.com/watch?v=-msKaEMwrsc",
+      "title": "ДЕНЬ 1569. БЕНЗОВОЗЫ В КРЫМ НЕ ПРИЕХАЛИ/ УДАРЫ ПО МОСТАМ/ БЛОКАДА КРЫМА/ КОНТРАТАКИ ВСУ/ ГОРЯТ НПЗ",
+      "channel": "Майкл Наки",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for -msKaEMwrsc: ERROR: [youtube] -msKaEMwrsc: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for -msKaEMwrsc: ERROR: [youtube] -msKaEMwrsc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "ORgmqtNvYsA",
+      "url": "https://www.youtube.com/watch?v=ORgmqtNvYsA",
+      "title": "It’s Actually Pretty Easy to Get Ahead of 99% of People with AI",
+      "channel": "Dan Martell",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for ORgmqtNvYsA: ERROR: [youtube] ORgmqtNvYsA: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for ORgmqtNvYsA: ERROR: [youtube] ORgmqtNvYsA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "cGZ03_IPk0A",
+      "url": "https://www.youtube.com/watch?v=cGZ03_IPk0A",
+      "title": "Аномалия в Москве. Атака на Россию. Удар по мосту в Крым. Набиуллина пропала. Блокировки VPN| ВОЗДУХ",
+      "channel": "Ходорковский LIVE",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for cGZ03_IPk0A: ERROR: [youtube] cGZ03_IPk0A: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for cGZ03_IPk0A: ERROR: [youtube] cGZ03_IPk0A: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "POrbQzJP1j0",
+      "url": "https://www.youtube.com/watch?v=POrbQzJP1j0",
+      "title": "I Tried Fabric (Again)...",
+      "channel": "Tool Finder",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for POrbQzJP1j0: ERROR: [youtube] POrbQzJP1j0: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for POrbQzJP1j0: ERROR: [youtube] POrbQzJP1j0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "QBRV9bx5PEg",
+      "url": "https://www.youtube.com/watch?v=QBRV9bx5PEg",
+      "title": "Бесплатный метод омоложение выиграл соревнование среди 41 участника. Самый дорогой - вызвал старение",
+      "channel": "doctorpetrik",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for QBRV9bx5PEg: ERROR: [youtube] QBRV9bx5PEg: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for QBRV9bx5PEg: ERROR: [youtube] QBRV9bx5PEg: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "agU64B9cblc",
+      "url": "https://www.youtube.com/watch?v=agU64B9cblc",
+      "title": "I Tested the Luna Ultra for 60 Days — Here's My Honest Take",
+      "channel": "Think Media",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for agU64B9cblc: ERROR: [youtube] agU64B9cblc: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for agU64B9cblc: ERROR: [youtube] agU64B9cblc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "1wj-FbmQzUA",
+      "url": "https://www.youtube.com/watch?v=1wj-FbmQzUA",
+      "title": "Судьба Ирака ждёт Россию: миллион штыков и соблазн ударить по слабому - Куса и Романенко",
+      "channel": "Yuriy Romanenko",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 1wj-FbmQzUA: ERROR: [youtube] 1wj-FbmQzUA: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 1wj-FbmQzUA: ERROR: [youtube] 1wj-FbmQzUA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     }
   ],
-  "created_at": "2026-06-13T17:03:27.915542"
+  "created_at": "2026-08-30T12:43:22.132853"
 }
