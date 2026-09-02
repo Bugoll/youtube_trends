@@ -2,11 +2,11 @@
 
 ## Processing summary
 
-- Total videos: 29
+- Total videos: 38
 - Completed: 28
-- Failed: 1
+- Failed: 10
 - Local model: qwen3.5:9b
-- Generated at: 2026-06-07T11:57:55.510389
+- Generated at: 2026-09-01T22:43:36.465553
 
 ## Videos
 
@@ -2084,9 +2084,18 @@
 
 ---
 
-## Failed / skipped videos (1 of 29)
+## Failed / skipped videos (10 of 38)
 
 | # | Title | Channel | URL | Stage | Reason | Retryable |
 |---|---|---|---|---|---|---|
-| 1 | Ian Proud  :  A Collapsing Government in London | Judge Napolitano - Judging Freedom | [link](https://www.youtube.com/watch?v=i0VKl9Ac96s) | Transcription — permanent | Removed by uploader | ✗ |
+| 1 | Ian Proud  :  A Collapsing Government in London | Judge Napolitano - Judging Freedom | [link](https://www.youtube.com/watch?v=i0VKl9Ac96s) | Transcription — permanent | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for i0VKl9Ac96s: ERROR: [youtube] i0VKl9Ac96s: This video | ✗ |
+| 2 | У нас голоса на выборах не крадут - крадут избирательные участки | SiliconValleyVoice | [link](https://www.youtube.com/watch?v=O6OnbcKGROk) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for O6OnbcKGROk: ERROR: [youtube] O6OnbcKGROk: Sign in to | ✓ |
+| 3 | Черноусов. Ответы на вопросы подписчиков | Proshloe исторический журнал | [link](https://www.youtube.com/watch?v=yFTW637Se4E) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for yFTW637Se4E: ERROR: [youtube] yFTW637Se4E: Sign in to | ✓ |
+| 4 | 5 AI CEOs Said the Same Thing About 2026 (Marketing Changes Forever) | Neil Patel | [link](https://www.youtube.com/watch?v=iKLNxU9RO_E) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for iKLNxU9RO_E: ERROR: [youtube] iKLNxU9RO_E: Sign in to | ✓ |
+| 5 | 25 лет искал способ управления состояние. А ответ был буквально под носом | yoga_method | [link](https://www.youtube.com/watch?v=olmL7_HbN4E) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for olmL7_HbN4E: ERROR: [youtube] olmL7_HbN4E: Sign in to | ✓ |
+| 6 | "Мы немножко охренели": Вовнянко об истории самолета "Мрія" и как выбрали название | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=QhxBWWpn5PQ) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for QhxBWWpn5PQ: ERROR: [youtube] QhxBWWpn5PQ: Sign in to | ✓ |
+| 7 | "Человек человеку скот" - почему Украина бедна и не дождётся экономического чуда. Юрий Романенко | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=XXPhVtIWYlI) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for XXPhVtIWYlI: ERROR: [youtube] XXPhVtIWYlI: Sign in to | ✓ |
+| 8 | Резерв по низколиквидным запасам: как рассчитывается | Алексей Леонтьев: Боевой ФинДир | [link](https://www.youtube.com/watch?v=pbkKXulQDmo) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for pbkKXulQDmo: ERROR: [youtube] pbkKXulQDmo: Sign in to | ✓ |
+| 9 | Атака на Крым. Пожар в Москве. Заморозка вкладов. Массовая драка. Поезд сошел с рельсов | ВОЗДУХ | Ходорковский LIVE | [link](https://www.youtube.com/watch?v=7C8IHyFVAGc) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 7C8IHyFVAGc: ERROR: [youtube] 7C8IHyFVAGc: Sign in to | ✓ |
+| 10 | О чем нынче говорят и о чем не говорят? | SiliconValleyVoice | [link](https://www.youtube.com/watch?v=7j8YjhaVWIw) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 7j8YjhaVWIw: ERROR: [youtube] 7j8YjhaVWIw: Sign in to | ✓ |
 

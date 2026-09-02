@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "date": "2026-05-27",
   "source_folder": "reports/youtube-daily/2026-05-27",
-  "total_videos": 38,
+  "total_videos": 43,
   "completed_videos": 37,
-  "failed_videos": 1,
+  "failed_videos": 6,
   "model_used_for_preprocessing": "qwen3.5:9b",
   "videos": [
     {
@@ -9009,8 +9009,63 @@
       "error_summary": "Private video",
       "retry_count": 1,
       "retryable": false,
-      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for jMRMH64i5iM: ERROR: [youtube] jMRMH64i5iM: Private video. Sign in if you've been granted access to this video. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for jMRMH64i5iM: ERROR: [youtube] jMRMH64i5iM: Private video"
+    },
+    {
+      "video_id": "t_X1vSgrenA",
+      "url": "https://www.youtube.com/watch?v=t_X1vSgrenA",
+      "title": "Texas and Florida Just Broke the Housing Market Narrative",
+      "channel": "Eurodollar University",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for t_X1vSgrenA: ERROR: [youtube] t_X1vSgrenA: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for t_X1vSgrenA: ERROR: [youtube] t_X1vSgrenA: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "Y_OBgsQupYk",
+      "url": "https://www.youtube.com/watch?v=Y_OBgsQupYk",
+      "title": "Смертельная схватка между республиканцами в Техасе",
+      "channel": "SiliconValleyVoice",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for Y_OBgsQupYk: ERROR: [youtube] Y_OBgsQupYk: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for Y_OBgsQupYk: ERROR: [youtube] Y_OBgsQupYk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "D2jcPJrioOw",
+      "url": "https://www.youtube.com/watch?v=D2jcPJrioOw",
+      "title": "Когда конец войны. Кремль испугался и продает победу. Что будет дальше с Россией | ТАК И ЖИВЕМ",
+      "channel": "Ходорковский LIVE",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for D2jcPJrioOw: ERROR: [youtube] D2jcPJrioOw: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for D2jcPJrioOw: ERROR: [youtube] D2jcPJrioOw: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "SxTuBggWU2w",
+      "url": "https://www.youtube.com/watch?v=SxTuBggWU2w",
+      "title": "5 Signs Your AI SEO Strategy Is About to Take Off",
+      "channel": "Neil Patel",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for SxTuBggWU2w: ERROR: [youtube] SxTuBggWU2w: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for SxTuBggWU2w: ERROR: [youtube] SxTuBggWU2w: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "f2VDIx3SPsc",
+      "url": "https://www.youtube.com/watch?v=f2VDIx3SPsc",
+      "title": "Спасите наши души - не пускают в страну лотерейщика и мы спешим на помощь",
+      "channel": "SiliconValleyVoice",
+      "stage": "Transcription — retryable",
+      "error_summary": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for f2VDIx3SPsc: ERROR: [youtube] f2VDIx3SPsc: Sign in to",
+      "retry_count": 0,
+      "retryable": true,
+      "raw_error": "ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for f2VDIx3SPsc: ERROR: [youtube] f2VDIx3SPsc: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
     }
   ],
-  "created_at": "2026-06-08T07:28:44.217535"
+  "created_at": "2026-09-01T22:31:33.608175"
 }

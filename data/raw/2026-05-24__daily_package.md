@@ -2,11 +2,11 @@
 
 ## Processing summary
 
-- Total videos: 16
+- Total videos: 22
 - Completed: 15
-- Failed: 1
+- Failed: 7
 - Local model: qwen3.5:9b
-- Generated at: 2026-06-08T09:08:10.894817
+- Generated at: 2026-09-01T22:33:41.705150
 
 ## Videos
 
@@ -1050,9 +1050,15 @@
 
 ---
 
-## Failed / skipped videos (1 of 16)
+## Failed / skipped videos (7 of 22)
 
 | # | Title | Channel | URL | Stage | Reason | Retryable |
 |---|---|---|---|---|---|---|
-| 1 | КОФЗБЧ-3Ф | Spectator | [link](https://www.youtube.com/watch?v=1U80vfELLNU) | Transcription — permanent | ERROR: Audio preparation failed. Reason: ffmpeg not found. Please install it: brew install ffmpeg | ✗ |
+| 1 | КОФЗБЧ-3Ф | Spectator | [link](https://www.youtube.com/watch?v=1U80vfELLNU) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 1U80vfELLNU: ERROR: [youtube] 1U80vfELLNU: Sign in to | ✓ |
+| 2 | Dollar Strength, Rate Crashes, and The Real Story Behind The Headlines | Eurodollar University | [link](https://www.youtube.com/watch?v=rkvdyDVvZEQ) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for rkvdyDVvZEQ: ERROR: [youtube] rkvdyDVvZEQ: Sign in to | ✓ |
+| 3 | Главные темы недели: россия ждет Китай, а Китай посылает путина, кто вызовет бригаду переговорщиков | Александр Невзоров | [link](https://www.youtube.com/watch?v=unmOpiR6lw8) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for unmOpiR6lw8: ERROR: [youtube] unmOpiR6lw8: Sign in to | ✓ |
+| 4 | След Киркорова. Молебен Шамана. Загадка Гогунского. Жалоба Михалкова. Эго Меньшикова | НЕ ТА ДВЕРЬ | Ходорковский LIVE | [link](https://www.youtube.com/watch?v=169YMqwVJUI) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 169YMqwVJUI: ERROR: [youtube] 169YMqwVJUI: Sign in to | ✓ |
+| 5 | Five AI Risks That Can Get You Fired—And How to Avoid Them | IBM Technology | [link](https://www.youtube.com/watch?v=1m55T8xST9s) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 1m55T8xST9s: ERROR: [youtube] 1m55T8xST9s: Sign in to | ✓ |
+| 6 | Удар по Старобельску. Чемоданы Путина в Китае. Разводящий Си. Война и озверение | Пастухов, Еловский | Ходорковский LIVE | [link](https://www.youtube.com/watch?v=V8_Ifesk5kQ) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for V8_Ifesk5kQ: ERROR: [youtube] V8_Ifesk5kQ: Sign in to | ✓ |
+| 7 | Чи можна українцям дозволити зброю? | ІБІС Зброя та Полювання | [link](https://www.youtube.com/watch?v=FzL26nsNPR4) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for FzL26nsNPR4: ERROR: [youtube] FzL26nsNPR4: Sign in to | ✓ |
 

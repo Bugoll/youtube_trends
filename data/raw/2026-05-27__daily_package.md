@@ -2,11 +2,11 @@
 
 ## Processing summary
 
-- Total videos: 38
+- Total videos: 43
 - Completed: 37
-- Failed: 1
+- Failed: 6
 - Local model: qwen3.5:9b
-- Generated at: 2026-06-08T07:28:44.217535
+- Generated at: 2026-09-01T22:31:33.608175
 
 ## Videos
 
@@ -2622,9 +2622,14 @@
 
 ---
 
-## Failed / skipped videos (1 of 38)
+## Failed / skipped videos (6 of 43)
 
 | # | Title | Channel | URL | Stage | Reason | Retryable |
 |---|---|---|---|---|---|---|
 | 1 | Как я заблуждалась | Yulia Latynina | [link](https://www.youtube.com/watch?v=jMRMH64i5iM) | Transcription — permanent | Private video | ✗ |
+| 2 | Texas and Florida Just Broke the Housing Market Narrative | Eurodollar University | [link](https://www.youtube.com/watch?v=t_X1vSgrenA) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for t_X1vSgrenA: ERROR: [youtube] t_X1vSgrenA: Sign in to | ✓ |
+| 3 | Смертельная схватка между республиканцами в Техасе | SiliconValleyVoice | [link](https://www.youtube.com/watch?v=Y_OBgsQupYk) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for Y_OBgsQupYk: ERROR: [youtube] Y_OBgsQupYk: Sign in to | ✓ |
+| 4 | Когда конец войны. Кремль испугался и продает победу. Что будет дальше с Россией | ТАК И ЖИВЕМ | Ходорковский LIVE | [link](https://www.youtube.com/watch?v=D2jcPJrioOw) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for D2jcPJrioOw: ERROR: [youtube] D2jcPJrioOw: Sign in to | ✓ |
+| 5 | 5 Signs Your AI SEO Strategy Is About to Take Off | Neil Patel | [link](https://www.youtube.com/watch?v=SxTuBggWU2w) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for SxTuBggWU2w: ERROR: [youtube] SxTuBggWU2w: Sign in to | ✓ |
+| 6 | Спасите наши души - не пускают в страну лотерейщика и мы спешим на помощь | SiliconValleyVoice | [link](https://www.youtube.com/watch?v=f2VDIx3SPsc) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for f2VDIx3SPsc: ERROR: [youtube] f2VDIx3SPsc: Sign in to | ✓ |
 

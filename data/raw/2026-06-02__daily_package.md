@@ -2,11 +2,11 @@
 
 ## Processing summary
 
-- Total videos: 47
+- Total videos: 59
 - Completed: 44
-- Failed: 3
+- Failed: 15
 - Local model: qwen3.5:9b
-- Generated at: 2026-06-08T03:50:30.460630
+- Generated at: 2026-09-01T22:30:01.239835
 
 ## Videos
 
@@ -2693,11 +2693,23 @@
 
 ---
 
-## Failed / skipped videos (3 of 47)
+## Failed / skipped videos (15 of 59)
 
 | # | Title | Channel | URL | Stage | Reason | Retryable |
 |---|---|---|---|---|---|---|
-| 1 | Vai stress iznīcina tavu redzi ātrāk nekā ekrāni? | Acu Klīnika | BlackBox Šovs | [link](https://www.youtube.com/watch?v=RY_EcQK-lrE) | Transcription — permanent | ERROR: Audio preparation failed. Reason: ffmpeg not found. Please install it: brew install ffmpeg | ✗ |
-| 2 | Тайный план порабощения Украины. Моноэфир Романенко | Romanenko Shorts | [link](https://www.youtube.com/watch?v=_u2YC86okXc) | Transcription — permanent | ERROR: Audio preparation failed. Reason: ffmpeg not found. Please install it: brew install ffmpeg | ✗ |
-| 3 | Тайный план порабощения Украины. Моноэфир Романенко | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=Fc2XL6EIpfg) | Transcription — permanent | ERROR: Audio preparation failed. Reason: ffmpeg not found. Please install it: brew install ffmpeg | ✗ |
+| 1 | Vai stress iznīcina tavu redzi ātrāk nekā ekrāni? | Acu Klīnika | BlackBox Šovs | [link](https://www.youtube.com/watch?v=RY_EcQK-lrE) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for RY_EcQK-lrE: ERROR: [youtube] RY_EcQK-lrE: Sign in to | ✓ |
+| 2 | Тайный план порабощения Украины. Моноэфир Романенко | Romanenko Shorts | [link](https://www.youtube.com/watch?v=_u2YC86okXc) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for _u2YC86okXc: ERROR: [youtube] _u2YC86okXc: Sign in to | ✓ |
+| 3 | Тайный план порабощения Украины. Моноэфир Романенко | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=Fc2XL6EIpfg) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for Fc2XL6EIpfg: ERROR: [youtube] Fc2XL6EIpfg: Sign in to | ✓ |
+| 4 | Выборы мэра LA и другие события | SiliconValleyVoice | [link](https://www.youtube.com/watch?v=JvXHdVMgMTA) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for JvXHdVMgMTA: ERROR: [youtube] JvXHdVMgMTA: Sign in to | ✓ |
+| 5 | 99% людей не знают: рак начинается не с мутации. А с трёх вещей, которые вы делаете каждый день | doctorpetrik | [link](https://www.youtube.com/watch?v=jX6agAEuoQo) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for jX6agAEuoQo: ERROR: [youtube] jX6agAEuoQo: Sign in to | ✓ |
+| 6 | NASDAQ акции золото серебро биткоин QE уже здесь но ни кто его не видит | EHOT ФИНАНС | [link](https://www.youtube.com/watch?v=w3Y6qjUZzIM) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for w3Y6qjUZzIM: ERROR: [youtube] w3Y6qjUZzIM: Sign in to | ✓ |
+| 7 | The Most Important Gates in Quantum Computing Explained | IBM Technology | [link](https://www.youtube.com/watch?v=aCOsqL-jIOo) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for aCOsqL-jIOo: ERROR: [youtube] aCOsqL-jIOo: Sign in to | ✓ |
+| 8 | ДЕНЬ 1560. АРМИЯ РФ ПОЧТИ ВСТАЛА/ КАТАСТРОФА В КРЫМУ/ УДАР ПО КИЕВУ/ ЛЮДИ НЕ ИДУТ В ВС РФ/ ДЕНЕГ НЕТ | Майкл Наки | [link](https://www.youtube.com/watch?v=btLWAaabUIU) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for btLWAaabUIU: ERROR: [youtube] btLWAaabUIU: Sign in to | ✓ |
+| 9 | 100 Years of Artificial Intelligence Explained | Nate Herk | AI Automation | [link](https://www.youtube.com/watch?v=NHFbAg2b54U) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for NHFbAg2b54U: ERROR: [youtube] NHFbAg2b54U: Sign in to | ✓ |
+| 10 | САВОСТЬЯНОВ: Путин для Трампа — лох и неудачник. Что знает ФСБ, чего не знаем мы. Когда мобилизация | Ходорковский LIVE | [link](https://www.youtube.com/watch?v=eS8OlGdnLrc) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for eS8OlGdnLrc: ERROR: [youtube] eS8OlGdnLrc: Sign in to | ✓ |
+| 11 | Сценарий России для Армении: Авакян рассказал, как Путин попытается удержать Ереван в орбите Кремля | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=_re0mywiBOQ) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for _re0mywiBOQ: ERROR: [youtube] _re0mywiBOQ: Sign in to | ✓ |
+| 12 | Названа дата мобилизации. Путину сказали: экономика рухнет из-за войны. Скандал в ФСБ. Дроны| ВОЗДУХ | Ходорковский LIVE | [link](https://www.youtube.com/watch?v=4w2fNA3vX8M) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 4w2fNA3vX8M: ERROR: [youtube] 4w2fNA3vX8M: Sign in to | ✓ |
+| 13 | Пошто в Америку парня не пускали супостаты? | SiliconValleyVoice | [link](https://www.youtube.com/watch?v=03uQxM-7H6c) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 03uQxM-7H6c: ERROR: [youtube] 03uQxM-7H6c: Sign in to | ✓ |
+| 14 | «ЭТО КАТАСТРОФА». ИСТЕРИКА военкоров из-за новой стратегии ВСУ | Майкл Наки | [link](https://www.youtube.com/watch?v=W6GtEVdMIMc) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for W6GtEVdMIMc: ERROR: [youtube] W6GtEVdMIMc: Sign in to | ✓ |
+| 15 | Cancer Detection using Deep Learning | Deep Learning Projects | DL Training | Edureka Live | edureka! | [link](https://www.youtube.com/watch?v=9z0o3FEzaFs) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 9z0o3FEzaFs: ERROR: [youtube] 9z0o3FEzaFs: Sign in to | ✓ |
 

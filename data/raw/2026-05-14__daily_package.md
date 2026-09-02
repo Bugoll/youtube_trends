@@ -2,11 +2,11 @@
 
 ## Processing summary
 
-- Total videos: 31
+- Total videos: 41
 - Completed: 30
-- Failed: 1
+- Failed: 11
 - Local model: qwen3.5:9b
-- Generated at: 2026-06-07T11:57:57.386666
+- Generated at: 2026-09-01T22:40:54.018988
 
 ## Videos
 
@@ -2395,9 +2395,19 @@
 
 ---
 
-## Failed / skipped videos (1 of 31)
+## Failed / skipped videos (11 of 41)
 
 | # | Title | Channel | URL | Stage | Reason | Retryable |
 |---|---|---|---|---|---|---|
-| 1 | Путин и отставки. Трамп в Китае. Новые пути дипломатии. Венедиктов* | Живой Гвоздь | [link](https://www.youtube.com/watch?v=4gl_Nwty_ZQ) | Transcription — permanent | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 4gl_Nwty_ZQ: ERROR: [youtube] 4gl_Nwty_ZQ: Sign in to | ✗ |
+| 1 | Путин и отставки. Трамп в Китае. Новые пути дипломатии. Венедиктов* | Живой Гвоздь | [link](https://www.youtube.com/watch?v=4gl_Nwty_ZQ) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 4gl_Nwty_ZQ: ERROR: [youtube] 4gl_Nwty_ZQ: Sign in to | ✓ |
+| 2 | The UK Has Fallen… | Eurodollar University | [link](https://www.youtube.com/watch?v=t6oY8eLfCYM) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for t6oY8eLfCYM: ERROR: [youtube] t6oY8eLfCYM: Sign in to | ✓ |
+| 3 | Как оплатить подписку? Что делать, когда не работают Apple ID и карты РФ | Так и живем | Ходорковский LIVE | [link](https://www.youtube.com/watch?v=K9iAYqyZ_ps) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for K9iAYqyZ_ps: ERROR: [youtube] K9iAYqyZ_ps: Sign in to | ✓ |
+| 4 | Воскресение и сошествие во Ад. Евгений Ройзман*. Коллекция | Живой Гвоздь | [link](https://www.youtube.com/watch?v=ys06CpCAevY) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for ys06CpCAevY: ERROR: [youtube] ys06CpCAevY: Sign in to | ✓ |
+| 5 | Why Agentic AI Fails: Infinite Loops, Planning Errors, and More | IBM Technology | [link](https://www.youtube.com/watch?v=D37Ijn2o5U0) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for D37Ijn2o5U0: ERROR: [youtube] D37Ijn2o5U0: Sign in to | ✓ |
+| 6 | ДЕНЬ 1541. «МОБИЛИЗАЦИЯ» В БЕЛАРУСИ/ ПУТИН ВЕРИТ В ПОБЕДУ/ГАДАЛКА ЕРМАКА/ МАССОВЫЙ НАЛЕТ НА УКРАИНУ | Майкл Наки | [link](https://www.youtube.com/watch?v=K0rCovkWnRs) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for K0rCovkWnRs: ERROR: [youtube] K0rCovkWnRs: Sign in to | ✓ |
+| 7 | Романенко: почему "простая" украинская элита от Кучмы до Зеленского работает по одной модели | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=RqqciDP5vEo) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for RqqciDP5vEo: ERROR: [youtube] RqqciDP5vEo: Sign in to | ✓ |
+| 8 | Brutally Honest Advice For Someone Trying to Make Money with AI | Dan Martell | [link](https://www.youtube.com/watch?v=mydzICwDb6c) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for mydzICwDb6c: ERROR: [youtube] mydzICwDb6c: Sign in to | ✓ |
+| 9 | Удар возмездия. Москва перекрыта. Чубайс против репрессий. Трамп в Китае. Путин и Гладков | ВОЗДУХ | Ходорковский LIVE | [link](https://www.youtube.com/watch?v=z8LsA7X0wHU) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for z8LsA7X0wHU: ERROR: [youtube] z8LsA7X0wHU: Sign in to | ✓ |
+| 10 | ⚡️У Путина СРОЧНО ТРЕБУЮТ остановить ВОЙНУ! Китай ВСЕ ПЕРЕИГРАЛ, Москва В ЛОВУШКЕ. ПИОНТКОВСКИЙ | Андрей Пионтковский | [link](https://www.youtube.com/watch?v=b3B6rtnPToQ) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for b3B6rtnPToQ: ERROR: [youtube] b3B6rtnPToQ: Sign in to | ✓ |
+| 11 | ПУЛЬТ ОТ НЕРВНОЙ СИСТЕМЫ - дыхательная практика монахов тибетского монастыря | yoga_method | [link](https://www.youtube.com/watch?v=xO-F8JsGF9g) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for xO-F8JsGF9g: ERROR: [youtube] xO-F8JsGF9g: Sign in to | ✓ |
 

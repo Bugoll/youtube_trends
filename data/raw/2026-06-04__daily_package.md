@@ -6,7 +6,7 @@
 - Completed: 93
 - Failed: 1
 - Local model: qwen3.5:9b
-- Generated at: 2026-06-07T06:10:41.350421
+- Generated at: 2026-09-01T22:06:13.289029
 
 ## Videos
 
@@ -5173,5 +5173,5 @@ null
 
 | # | Title | Channel | URL | Stage | Reason | Retryable |
 |---|---|---|---|---|---|---|
-| 1 | Почему Милей не взлетит: монетарный урок из Афин. Уроки экономического чуда Греции и Кипра. | Romanenko Shorts | [link](https://www.youtube.com/watch?v=gJXNoYh4peQ) | Transcription — permanent | Removed by uploader | ✗ |
+| 1 | Почему Милей не взлетит: монетарный урок из Афин. Уроки экономического чуда Греции и Кипра. | Romanenko Shorts | [link](https://www.youtube.com/watch?v=gJXNoYh4peQ) | Transcription — permanent | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for gJXNoYh4peQ: ERROR: [youtube] gJXNoYh4peQ: This video | ✗ |
 

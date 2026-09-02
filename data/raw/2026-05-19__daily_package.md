@@ -2,11 +2,11 @@
 
 ## Processing summary
 
-- Total videos: 50
+- Total videos: 61
 - Completed: 49
-- Failed: 1
+- Failed: 12
 - Local model: qwen3.5:9b
-- Generated at: 2026-06-07T13:37:20.856505
+- Generated at: 2026-09-01T22:37:28.475723
 
 ## Videos
 
@@ -3411,9 +3411,20 @@
 
 ---
 
-## Failed / skipped videos (1 of 50)
+## Failed / skipped videos (12 of 61)
 
 | # | Title | Channel | URL | Stage | Reason | Retryable |
 |---|---|---|---|---|---|---|
 | 1 | Поговорим про AI, гаджеты и всё остальное | Sergiy Petrenko | [link](https://www.youtube.com/watch?v=tsH-b8WRMLI) | Transcription — permanent | Private video | ✗ |
+| 2 | "ВОНИ ПРИВІТАЛИСЯ — І ЧЕРЕЗ СЕКУНДИ ДВОХ ВЖЕ НЕ БУЛО" - ФЛОРИСТ 92 ОШБР | Бутусов Плюс | [link](https://www.youtube.com/watch?v=2RLDNOhOhpA) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 2RLDNOhOhpA: ERROR: [youtube] 2RLDNOhOhpA: Sign in to | ✓ |
+| 3 | This Mic Is Built for Creators! (Insta360 Mic Pro) | Think Media | [link](https://www.youtube.com/watch?v=Glsy4NrfuxM) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for Glsy4NrfuxM: ERROR: [youtube] Glsy4NrfuxM: Sign in to | ✓ |
+| 4 | КОЛЕСНИКОВ: Когда Путин начнет войну с НАТО. Лукашенко на привязи. Они сами не понимают, чего хотят | Ходорковский LIVE | [link](https://www.youtube.com/watch?v=eIOr-XiPXBE) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for eIOr-XiPXBE: ERROR: [youtube] eIOr-XiPXBE: Sign in to | ✓ |
+| 5 | Путинское уравнение сломано: как удары Украины лишили Кремль последнего мифа о силе. Юрий Романенко | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=9-rm2UZavVY) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for 9-rm2UZavVY: ERROR: [youtube] 9-rm2UZavVY: Sign in to | ✓ |
+| 6 | Украина стерла "Красные линии" Запада и готовится заморозить РФ: Романенко о переговорной позиции | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=i--brBhWn30) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for i--brBhWn30: ERROR: [youtube] i--brBhWn30: Sign in to | ✓ |
+| 7 | Is Defense the Next Trillion-Dollar Category? | a16z American Dynamism Summit | a16z | [link](https://www.youtube.com/watch?v=pddFfZy4nZU) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for pddFfZy4nZU: ERROR: [youtube] pddFfZy4nZU: Sign in to | ✓ |
+| 8 | Жара в Москве. Путин едет на поклон в Китай. Черное море в мазуте. Дроны бьют по России | ВОЗДУХ | Ходорковский LIVE | [link](https://www.youtube.com/watch?v=yZB1kO18rUs) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for yZB1kO18rUs: ERROR: [youtube] yZB1kO18rUs: Sign in to | ✓ |
+| 9 | Романенко: Украина готовит удары возмездия по энергетике России - тысячи дронов сломают планы Кремля | Yuriy Romanenko | [link](https://www.youtube.com/watch?v=a-Lg6zgwy9Y) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for a-Lg6zgwy9Y: ERROR: [youtube] a-Lg6zgwy9Y: Sign in to | ✓ |
+| 10 | You're using /goal wrong (this way will make more money) | Leveling Up with Eric Siu | [link](https://www.youtube.com/watch?v=S5hSuzxjPHg) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for S5hSuzxjPHg: ERROR: [youtube] S5hSuzxjPHg: Sign in to | ✓ |
+| 11 | Новые смерти и необычные симптомы | Ирина Якутенко | [link](https://www.youtube.com/watch?v=XMjACLRUYsA) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for XMjACLRUYsA: ERROR: [youtube] XMjACLRUYsA: Sign in to | ✓ |
+| 12 | Рекорды партийной зачистки - сегодня выборы в пяти штатах | SiliconValleyVoice | [link](https://www.youtube.com/watch?v=-SALlW3BNiY) | Transcription — retryable | ERROR: Cannot fetch metadata. Reason: Failed to fetch metadata for -SALlW3BNiY: ERROR: [youtube] -SALlW3BNiY: Sign in to | ✓ |
 
